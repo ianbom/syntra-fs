@@ -3,7 +3,7 @@ import { LoginPage } from '../pages/auth';
 import { DashboardPage, DocumentsPage, UsersPage } from '../pages/admin';
 import { UploadDocumentPage } from '../pages/admin/documents';
 import { AdminLayout } from '../components/layouts';
-import { GuestGuard } from '../middleware';
+import { GuestGuard, AdminGuard } from '../middleware';
 
 export const router = createBrowserRouter([
     // Auth Routes (Guest only)
@@ -19,7 +19,11 @@ export const router = createBrowserRouter([
     // Admin Routes
     {
         path: '/admin',
-        element: <AdminLayout />,
+        element:(
+            <AdminGuard> 
+                <AdminLayout />
+            </AdminGuard>
+        ),
         children: [
             {
                 index: true,

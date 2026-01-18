@@ -15,7 +15,7 @@ def login_user(db: Session, email: str, password: str) -> Token | None:
         return None
     
     # Create tokens
-    token_data = {"sub": str(user.id), "email": user.email}
+    token_data = {"sub": str(user.id), "email": user.email, "role": user.role.value}
     access_token = create_access_token(token_data)
     refresh_token = create_refresh_token(token_data)
     
@@ -51,7 +51,7 @@ def refresh_access_token(db: Session, refresh_token: str) -> Token | None:
         return None
     
     # Create new tokens
-    token_data = {"sub": str(user.id), "email": user.email}
+    token_data = {"sub": str(user.id), "email": user.email, "role": user.role.value}
     new_access_token = create_access_token(token_data)
     new_refresh_token = create_refresh_token(token_data)
     

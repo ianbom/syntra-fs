@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
-import { Input, Button, Checkbox, Divider } from '../../../components/ui';
-import { SocialLoginButton } from './SocialLoginButton';
+import { Input, Button, Checkbox } from '../../../components/ui';
 
 interface LoginFormProps {
     onSubmit: (email: string, password: string, rememberMe: boolean) => void;
-    onGoogleLogin?: () => void;
     onForgotPassword?: () => void;
     isLoading?: boolean;
 }
 
 export const LoginForm: React.FC<LoginFormProps> = ({
     onSubmit,
-    onGoogleLogin,
     onForgotPassword,
     isLoading = false,
 }) => {
@@ -76,15 +73,6 @@ export const LoginForm: React.FC<LoginFormProps> = ({
                 Sign In
             </Button>
 
-            {/* Divider */}
-            {/* <Divider text="Or" /> */}
-
-            {/* Google Button */}
-            {/* <SocialLoginButton
-                provider="google"
-                onClick={onGoogleLogin}
-                isLoading={isLoading}
-            /> */}
         </form>
     );
 };

@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useMutation } from '@tanstack/react-query';
 import { AdminHeader } from '../../../features/admin/components';
 import { Button, Checkbox } from '../../../components/ui';
+import { DocumentService } from '../../../services/documentService';
 
 interface UploadFormData {
     file: File | null;
@@ -27,7 +29,6 @@ const UploadDocumentPage: React.FC = () => {
         isPrivate: false,
     });
     const [isDragging, setIsDragging] = useState(false);
-    const [isUploading, setIsUploading] = useState(false);
 
     const handleFileSelect = (file: File | null) => {
         if (file) {
@@ -52,24 +53,33 @@ const UploadDocumentPage: React.FC = () => {
         handleFileSelect(file);
     };
 
+    const [error, setError] = useState<string | null>(null);
+
+    const uploadMutation = useMutation({
+        mutationFn: DocumentService.uploadDocument,
+        onSuccess: () => {
+            navigate('/admin/documents');
+        },
+        onError: (err: any) => {
+            console.error('Upload failed', err);
+            setError(err.response?.data?.detail || 'Upload failed. Please try again.');
+        },
+    });
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setError(null);
 
         if (!formData.file || !formData.type) {
             alert('Please select a file and document type');
             return;
         }
 
-        setIsUploading(true);
-
-        // TODO: Implement actual upload with TanStack Query mutation
-        console.log('Uploading:', formData);
-
-        // Simulate upload delay
-        setTimeout(() => {
-            setIsUploading(false);
-            navigate('/admin/documents');
-        }, 2000);
+        uploadMutation.mutate({
+            file: formData.file,
+            type: formData.type,
+            isPrivate: formData.isPrivate,
+        });
     };
 
     const formatFileSize = (bytes: number): string => {
@@ -88,6 +98,11 @@ const UploadDocumentPage: React.FC = () => {
             />
 
             <div className="max-w-2xl">
+                {error && (
+                    <div className="mb-4 p-3 rounded-lg bg-red-500/10 border border-red-500/20 text-red-200 text-sm">
+                        {error}
+                    </div>
+                )}
                 <form onSubmit={handleSubmit} className="space-y-6">
                     {/* File Upload Area */}
                     <div className="space-y-2">
@@ -232,10 +247,10 @@ const UploadDocumentPage: React.FC = () => {
                             variant="primary"
                             icon="upload"
                             iconPosition="left"
-                            isLoading={isUploading}
+                            isLoading={uploadMutation.isPending}
                             className="flex-1"
                         >
-                            {isUploading ? 'Uploading...' : 'Upload Document'}
+                            {uploadMutation.isPending ? 'Uploading...' : 'Upload Document'}
                         </Button>
                     </div>
                 </form>

@@ -1,11 +1,11 @@
 export interface User {
-    id: string;
+    id: number;
     email: string;
-    name: string;
+    username: string;
     role: 'admin' | 'user';
-    avatar?: string;
-    createdAt: string;
-    updatedAt: string;
+    is_active: boolean;
+    created_at: string;
+    updated_at: string;
 }
 
 export interface LoginCredentials {
