@@ -20,5 +20,15 @@ export const DocumentService = {
         });
 
         return response.data;
+    },
+
+    async deleteDocument(id: number) {
+        const response = await apiClient.delete(`/documents/${id}`);
+        return response.data;
+    },
+
+    async getDownloadUrl(id: number) {
+        const response = await apiClient.get<{ download_url: string; filename: string }>(`/documents/${id}/download`);
+        return response.data;
     }
 };

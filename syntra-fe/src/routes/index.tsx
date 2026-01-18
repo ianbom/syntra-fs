@@ -2,8 +2,10 @@ import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { LoginPage } from '../pages/auth';
 import { DashboardPage, DocumentsPage, UsersPage } from '../pages/admin';
 import { UploadDocumentPage } from '../pages/admin/documents';
+import ChatPage from '../pages/chat/ChatPage';
+import ChatDetailPage from '../pages/chat/ChatDetailPage';
 import { AdminLayout } from '../components/layouts';
-import { GuestGuard, AdminGuard } from '../middleware';
+import { GuestGuard, AdminGuard, AuthGuard } from '../middleware';
 
 export const router = createBrowserRouter([
     // Auth Routes (Guest only)
@@ -19,8 +21,8 @@ export const router = createBrowserRouter([
     // Admin Routes
     {
         path: '/admin',
-        element:(
-            <AdminGuard> 
+        element: (
+            <AdminGuard>
                 <AdminLayout />
             </AdminGuard>
         ),
@@ -46,6 +48,24 @@ export const router = createBrowserRouter([
                 element: <UsersPage />,
             },
         ],
+    },
+
+    // Chat Routes
+    {
+        path: '/chat',
+        element: (
+            <AuthGuard>
+                <ChatPage />
+            </AuthGuard>
+        ),
+    },
+    {
+        path: '/chat/:id',
+        element: (
+            <AuthGuard>
+                <ChatDetailPage />
+            </AuthGuard>
+        ),
     },
 
     // Default redirect

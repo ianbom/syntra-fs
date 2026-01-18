@@ -10,12 +10,14 @@ class ChatReferenceResponse(BaseModel):
     quote: str
     page_number: Optional[int]
     document_title: str
+    file_path: Optional[str] = None
 
     class Config:
         from_attributes = True
 
 class ChatResponse(BaseModel):
     id: int
+    conversation_id: int
     role: Literal["user", "bot"]
     message: str
     created_at: datetime

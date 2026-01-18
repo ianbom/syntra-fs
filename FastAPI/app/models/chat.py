@@ -57,3 +57,7 @@ class ChatReference(Base):
     @property
     def document_title(self):
         return self.document.title if self.document else "Unknown Document"
+
+    @property
+    def file_path(self):
+        return self.document.file_path if self.document else None

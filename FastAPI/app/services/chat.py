@@ -106,4 +106,11 @@ class ChatService:
         self.db.commit()
         self.db.refresh(bot_chat)
 
-        return bot_chat
+        return ChatResponse(
+            id=bot_chat.id,
+            conversation_id=conversation.id,
+            role=bot_chat.role,
+            message=bot_chat.message,
+            created_at=bot_chat.created_at,
+            references=[] # We can add references if we want to return them immediately, need to be converted to Pydantic models
+        )
