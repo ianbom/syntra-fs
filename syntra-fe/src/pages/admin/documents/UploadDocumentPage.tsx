@@ -1,9 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMutation } from '@tanstack/react-query';
 import { AdminHeader } from '../../../features/admin/components';
 import { Button, Checkbox } from '../../../components/ui';
 import { DocumentService } from '../../../services/documentService';
+import type { UploadDocumentParams } from '../../../types/document.types';
 
 interface UploadFormData {
     file: File | null;
@@ -54,9 +55,35 @@ const UploadDocumentPage: React.FC = () => {
     };
 
     const [error, setError] = useState<string | null>(null);
+    const [uploadProgress, setUploadProgress] = useState(0);
+    const [progressMessage, setProgressMessage] = useState<string>('');
+    const [clientId] = useState(() => crypto.randomUUID());
+
+    useEffect(() => {
+        const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const wsUrl = `${wsProtocol}//${window.location.hostname}:8000/documents/ws/${clientId}`;
+        const ws = new WebSocket(wsUrl);
+
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            if (data.status === 'processing' || data.status === 'complete') {
+                setUploadProgress(data.progress);
+                if (data.message) {
+                    setProgressMessage(data.message);
+                }
+            }
+        };
+
+        return () => {
+            ws.close();
+        };
+    }, [clientId]);
 
     const uploadMutation = useMutation({
-        mutationFn: DocumentService.uploadDocument,
+        mutationFn: (params: UploadDocumentParams) => DocumentService.uploadDocument({
+            ...params,
+            clientId
+        }),
         onSuccess: () => {
             navigate('/admin/documents');
         },
@@ -69,6 +96,8 @@ const UploadDocumentPage: React.FC = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setError(null);
+        setUploadProgress(0);
+        setProgressMessage('Starting upload...');
 
         if (!formData.file || !formData.type) {
             alert('Please select a file and document type');
@@ -253,6 +282,22 @@ const UploadDocumentPage: React.FC = () => {
                             {uploadMutation.isPending ? 'Uploading...' : 'Upload Document'}
                         </Button>
                     </div>
+
+                    {/* Progress Bar */}
+                    {uploadMutation.isPending && (
+                        <div className="space-y-2">
+                            <div className="flex justify-between text-xs text-white/50">
+                                <span>{progressMessage || 'Uploading...'}</span>
+                                <span>{uploadProgress}%</span>
+                            </div>
+                            <div className="h-2 w-full overflow-hidden rounded-full bg-white/10">
+                                <div
+                                    className="h-full bg-green-500 transition-all duration-300 ease-out"
+                                    style={{ width: `${uploadProgress}%` }}
+                                />
+                            </div>
+                        </div>
+                    )}
                 </form>
             </div>
         </div>

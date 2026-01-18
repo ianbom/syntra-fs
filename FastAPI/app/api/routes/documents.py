@@ -20,6 +20,8 @@ from app.services.document import (
     get_document_download_url,
     delete_document_file
 )
+from app.websockets import manager
+from fastapi import WebSocket
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
 
@@ -55,11 +57,22 @@ def _build_document_response(document: Document, chunk_count: int) -> DocumentRe
     )
 
 
+@router.websocket("/ws/{client_id}")
+async def websocket_endpoint(websocket: WebSocket, client_id: str):
+    await manager.connect(websocket, client_id)
+    try:
+        while True:
+            await websocket.receive_text()
+    except Exception:
+        manager.disconnect(client_id)
+
+
 @router.post("/upload", response_model=DocumentResponse)
 async def upload_document(
     file: UploadFile = File(...),
     type: DocumentTypeEnum = Query(default=DocumentTypeEnum.JOURNAL),
     is_private: bool = Query(default=False),
+    client_id: Optional[str] = Query(None),
     db: Session = Depends(get_db)
 ):
     """
@@ -73,12 +86,26 @@ async def upload_document(
     # Map schema enum to model enum
     doc_type = DocumentType(type.value)
     
+    async def progress_callback(progress: int, message: str):
+        if client_id:
+            await manager.send_personal_message(
+                {"status": "processing", "progress": progress, "message": message},
+                client_id
+            )
+    
     document = await process_document(
         file=file,
         db=db,
         document_type=doc_type,
-        is_private=is_private
+        is_private=is_private,
+        progress_callback=progress_callback
     )
+    
+    if client_id:
+        await manager.send_personal_message(
+            {"status": "complete", "progress": 100, "message": "Done"},
+            client_id
+        )
     
     # Get chunk count
     chunk_count = db.query(func.count(DocumentChunk.id)).filter(

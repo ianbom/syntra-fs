@@ -93,7 +93,8 @@ async def process_document(
     file: UploadFile,
     db: Session,
     document_type: DocumentType = DocumentType.JOURNAL,
-    is_private: bool = False
+    is_private: bool = False,
+    progress_callback: Optional[callable] = None
 ) -> Document:
     """
     Full document processing pipeline:
@@ -119,10 +120,15 @@ async def process_document(
         )
     
     # Upload to MinIO
+    if progress_callback:
+        await progress_callback(10, "Uploading document to storage...")
+    
     file_path = await upload_pdf_to_minio(file_content, file.filename)
     
     try:
         # Extract metadata via GROBID
+        if progress_callback:
+            await progress_callback(30, "Extracting metadata with AI...")
         header_metadata = extract_header(file_content)
         references = extract_references(file_content)
         fulltext = extract_fulltext(file_content)
@@ -156,6 +162,9 @@ async def process_document(
         db.add(document)
         db.flush()  # Get document ID before creating chunks
         
+        if progress_callback:
+            await progress_callback(60, "Processing content chunks...")
+        
         # Create chunks from fulltext
         text_chunks = chunk_text(fulltext)
         
@@ -186,7 +195,12 @@ async def process_document(
                 chunk["chunk_index"] = i
         
         # Create chunk records with embeddings
-        for chunk_data in text_chunks:
+        total_chunks = len(text_chunks)
+        for i, chunk_data in enumerate(text_chunks):
+            if progress_callback and i % 5 == 0:  # Update every 5 chunks to avoid spamming
+                percent = 60 + int((i / total_chunks) * 30)  # Map 0-100% of chunks to 60-90% of total progress
+                await progress_callback(percent, f"Generating embeddings for chunk {i+1}/{total_chunks}...")
+            
             embedding = generate_embedding(chunk_data["content"])
             
             chunk = DocumentChunk(
@@ -201,6 +215,9 @@ async def process_document(
         
         db.commit()
         db.refresh(document)
+        
+        if progress_callback:
+            await progress_callback(100, "Document processing complete!")
         
         return document
         

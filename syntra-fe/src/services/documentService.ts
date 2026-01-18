@@ -2,7 +2,9 @@ import apiClient from '../lib/axios';
 import type { Document, UploadDocumentParams } from '../types/document.types';
 
 export const DocumentService = {
-    async uploadDocument(params: UploadDocumentParams): Promise<Document> {
+    async uploadDocument(
+        params: UploadDocumentParams & { clientId?: string }
+    ): Promise<Document> {
         const formData = new FormData();
         formData.append('file', params.file);
 
@@ -13,6 +15,7 @@ export const DocumentService = {
             params: {
                 type: params.type,
                 is_private: params.isPrivate,
+                client_id: params.clientId,
             }
         });
 
