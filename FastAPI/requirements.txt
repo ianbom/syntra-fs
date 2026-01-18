@@ -1,0 +1,19 @@
+# FastAPI Backend Dependencies
+fastapi[standard]
+sqlalchemy
+psycopg2-binary
+alembic
+python-jose[cryptography]
+bcrypt
+minio
+python-multipart
+pydantic-settings
+pytest
+pytest-asyncio
+httpx
+
+# Document Processing
+pgvector
+lxml
+requests
+pypdf
