@@ -28,10 +28,16 @@ class Settings(BaseSettings):
     # Ollama
     OLLAMA_BASE_URL: str = "http://localhost:11434"
     OLLAMA_EMBEDDING_MODEL: str = "nomic-embed-text"
-    
+
+    # Google Gemini
+    GOOGLE_API_KEY: str | None = None
+    GEMINI_API_KEY: str | None = None
+    GOOGLE_EMBEDDING_MODEL: str = "models/text-embedding-004"
+    GOOGLE_GENERATION_MODEL: str = "models/gemini-2.5-flash"
     class Config:
         env_file = ".env"
         case_sensitive = True
+        extra = "ignore"
 
 
 @lru_cache()

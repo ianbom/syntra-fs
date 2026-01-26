@@ -17,3 +17,5 @@ pgvector
 lxml
 requests
 pypdf
+google-generativeai
+

@@ -1,13 +1,14 @@
 """Embedding service using Ollama with nomic-embed-text model."""
 import requests
 import time
+import google.generativeai as genai
 from typing import Optional
 from app.config import get_settings
 
 settings = get_settings()
 
 
-def generate_embedding(text: str, max_retries: int = 3) -> Optional[list[float]]:
+def generate_embedding_test(text: str, max_retries: int = 3) -> Optional[list[float]]:
     """
     Generate embedding for text using Ollama nomic-embed-text model.
     Returns 768-dimensional embedding vector or None if failed.
@@ -73,3 +74,37 @@ def generate_embeddings_batch(texts: list[str]) -> list[Optional[list[float]]]:
     Returns list of embeddings (some may be None if failed).
     """
     return [generate_embedding(text) for text in texts]
+
+
+def generate_embedding(text: str) -> Optional[list[float]]:
+    """
+    Generate embedding for text using Google Generative AI (Gemini).
+    Returns 768-dimensional embedding vector or None if failed.
+    """
+    api_key = settings.GOOGLE_API_KEY or settings.GEMINI_API_KEY
+    if not api_key:
+        print("GOOGLE_API_KEY or GEMINI_API_KEY not set")
+        return None
+
+    if not text or not text.strip():
+        return None
+
+    try:
+        genai.configure(api_key=api_key)
+        
+        result = genai.embed_content(
+            model=settings.GOOGLE_EMBEDDING_MODEL,
+            content=text,
+            task_type="retrieval_document",
+            title=None
+        )
+        
+        embedding = result.get('embedding')
+        if embedding:
+            return embedding
+        return None
+        
+    except Exception as e:
+        print(f"Google embedding error: {str(e)}")
+        return None
+

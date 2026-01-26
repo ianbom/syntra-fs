@@ -1,6 +1,6 @@
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from sqlalchemy import desc
+from sqlalchemy import desc, func
 from fastapi import HTTPException
 
 from app.models.chat import Conversation, Chat, ChatReference, ChatRole
@@ -51,15 +51,22 @@ class ChatService:
         self.db.add(user_chat)
         self.db.commit()
 
-        # 3. RAG: Retrieve Context
+        # 3. RAG: Retrieve Context with distance calculation
         query_embedding = generate_embedding(request.message)
         
-        # Search for similar chunks (top 5) using cosine distance (l2_distance for normalized vectors is fine)
-        # Assuming pgvector is set up.
-        # Note: distance <-> similarity. Lower L2 distance is better.
-        chunks = self.db.query(DocumentChunk).order_by(
-            DocumentChunk.embedding.l2_distance(query_embedding)
-        ).limit(5).all()
+        # Query chunks with distance calculation
+        # Use label to get the distance value
+        chunks_with_distance = self.db.query(
+            DocumentChunk,
+            DocumentChunk.embedding.l2_distance(query_embedding).label('distance')
+        ).order_by('distance').limit(5).all()
+
+        # Extract chunks and their distances
+        chunks = []
+        distances = []
+        for chunk, distance in chunks_with_distance:
+            chunks.append(chunk)
+            distances.append(distance)
 
         context_text = "\n\n".join([c.content for c in chunks])
         
@@ -70,7 +77,7 @@ class ChatService:
             "If the answer is not in the context, say you don't know."
         )
         full_prompt = f"{system_prompt}\n\nContext:\n{context_text}\n\nUser: {request.message}\nAssistant:"
-
+        print(full_prompt)
         # 5. Generate Response
         answer = await generate_response(full_prompt)
 
@@ -84,21 +91,17 @@ class ChatService:
         self.db.commit()
         self.db.refresh(bot_chat)
 
-        # 7. Save References
-        for chunk in chunks:
-            # Calculate a relevance score (simple inverse distance or just placeholder)
-            # l2_distance returns distance, so similarity ~ 1/(1+dist) or just store distance
-            # For now, we'll iterate and manually calculate or just link them.
-            # Since we can't easily get the distance value from the ORM object without extra query fields,
-            # we'll skip score for now or do a separate query if needed. 
-            # We will just link them.
+        # 7. Save References with calculated relevance scores
+        for i, chunk in enumerate(chunks):
+            distance = distances[i]
+            relevance_score = 1 / (1 + distance)
             
             reference = ChatReference(
                 chat_id=bot_chat.id,
                 document_id=chunk.document_id,
                 chunk_id=chunk.id,
-                relevance_score=0.9, # Placeholder or need advanced query to get actual distance
-                quote=chunk.content[:200], # Store preview
+                relevance_score=float(relevance_score),  # Ensure it's a float
+                quote=chunk.content[:200],  # Store preview
                 page_number=chunk.page_number
             )
             self.db.add(reference)
@@ -112,5 +115,5 @@ class ChatService:
             role=bot_chat.role,
             message=bot_chat.message,
             created_at=bot_chat.created_at,
-            references=[] # We can add references if we want to return them immediately, need to be converted to Pydantic models
+            references=[]  # Can be populated if needed
         )
