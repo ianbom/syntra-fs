@@ -277,6 +277,17 @@ Mohon beritahu user bahwa tidak ada dokumen yang relevan ditemukan dan sarankan 
         # 5. Generate Response
         answer = await generate_response(full_prompt)
 
+        # Print RAGAS evaluation data
+        retrieved_docs = [chunk.content for chunk in chunks]
+        ragas_data = {
+            "query": [request.message],
+            "generated_response": [answer],
+            "retrieved_documents": [retrieved_docs]
+        }
+        print("========== RAGAS EVALUATION DATA ==========")
+        print(ragas_data)
+        print("============================================")
+
         # 6. Save Bot Message
         bot_chat = self._save_chat_message(conversation.id, ChatRole.BOT, answer)
 

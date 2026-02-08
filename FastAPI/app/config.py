@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     
     # Ollama
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    OLLAMA_EMBEDDING_MODEL: str = "nomic-embed-text"
+    OLLAMA_EMBEDDING_MODEL: str = "embeddinggemma:latest"
     OLLAMA_GENERATION_MODEL: str = "gemma3:1b"
 
     # Google Gemini
