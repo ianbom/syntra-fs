@@ -1,5 +1,5 @@
 """API routes for document management."""
-from typing import Optional
+from typing import Optional, List
 from fastapi import APIRouter, Depends, File, UploadFile, Query, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import func
@@ -264,4 +264,91 @@ async def download_document(
     }
 
 
+
+@router.post("/upload-bulk")
+async def upload_documents_bulk(
+    files: List[UploadFile] = File(...),
+    type: DocumentTypeEnum = Query(default=DocumentTypeEnum.JOURNAL),
+    is_private: bool = Query(default=False),
+    client_id: Optional[str] = Query(None),
+    db: Session = Depends(get_db)
+):
+    """
+    Upload and process multiple PDF documents at once.
+    
+    Each document will be:
+    1. Stored in MinIO
+    2. Processed by GROBID for metadata extraction
+    3. Split into chunks with embeddings for semantic search
+    
+    Returns a list of results for each uploaded document.
+    """
+    doc_type = DocumentType(type.value)
+    results = []
+    total_files = len(files)
+    
+    for index, file in enumerate(files):
+        file_result = {
+            "filename": file.filename,
+            "status": "pending",
+            "document": None,
+            "error": None
+        }
+        
+        try:
+            async def progress_callback(progress: int, message: str):
+                if client_id:
+                    overall_progress = int(((index + (progress / 100)) / total_files) * 100)
+                    await manager.send_personal_message(
+                        {
+                            "status": "processing",
+                            "current_file": file.filename,
+                            "file_index": index + 1,
+                            "total_files": total_files,
+                            "file_progress": progress,
+                            "overall_progress": overall_progress,
+                            "message": message
+                        },
+                        client_id
+                    )
+            
+            document = await process_document(
+                file=file,
+                db=db,
+                document_type=doc_type,
+                is_private=is_private,
+                progress_callback=progress_callback
+            )
+            
+            chunk_count = db.query(func.count(DocumentChunk.id)).filter(
+                DocumentChunk.document_id == document.id
+            ).scalar() or 0
+            
+            file_result["status"] = "success"
+            file_result["document"] = _build_document_response(document, chunk_count)
+            
+        except Exception as e:
+            file_result["status"] = "error"
+            file_result["error"] = str(e)
+        
+        results.append(file_result)
+    
+    if client_id:
+        await manager.send_personal_message(
+            {
+                "status": "complete",
+                "overall_progress": 100,
+                "message": f"Completed processing {total_files} files",
+                "success_count": sum(1 for r in results if r["status"] == "success"),
+                "error_count": sum(1 for r in results if r["status"] == "error")
+            },
+            client_id
+        )
+    
+    return {
+        "total": total_files,
+        "success_count": sum(1 for r in results if r["status"] == "success"),
+        "error_count": sum(1 for r in results if r["status"] == "error"),
+        "results": results
+    }
 

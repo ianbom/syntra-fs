@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     # Google Gemini
     GOOGLE_API_KEY: str | None = None
     GEMINI_API_KEY: str | None = None
-    GOOGLE_EMBEDDING_MODEL: str = "models/text-embedding-004"
+    GOOGLE_EMBEDDING_MODEL: str = "models/gemini-embedding-001"
     GOOGLE_GENERATION_MODEL: str = "models/gemini-2.5-flash"
     class Config:
         env_file = ".env"

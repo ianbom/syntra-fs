@@ -8,6 +8,7 @@ from app.config import get_settings
 settings = get_settings()
 
 
+
 def generate_embedding_test(text: str, max_retries: int = 3) -> Optional[list[float]]:
     """
     Generate embedding for text using Ollama nomic-embed-text model.
@@ -96,7 +97,8 @@ def generate_embedding(text: str) -> Optional[list[float]]:
             model=settings.GOOGLE_EMBEDDING_MODEL,
             content=text,
             task_type="retrieval_document",
-            title=None
+            title=None,
+            output_dimensionality=768
         )
         
         embedding = result.get('embedding')

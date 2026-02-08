@@ -56,15 +56,67 @@ class ChatService:
         self.db.refresh(chat_msg)
         return chat_msg
 
-    def _retrieve_relevant_chunks(self, query: str, limit: int = 5, threshold: float = 0.3) -> tuple[List[DocumentChunk], List[float]]:
-        """Retrieve relevant document chunks using embedding similarity."""
-        query_embedding = generate_embedding(query)
-        MIN_CONTENT_LENGTH = 50
+    def _extract_keywords(self, query: str) -> List[str]:
+        """Extract meaningful keywords from query."""
+        # Common Indonesian stopwords to filter out
+        stopwords = {
+            'di', 'dan', 'yang', 'untuk', 'dengan', 'dari', 'ke', 'ini', 'itu',
+            'adalah', 'pada', 'dalam', 'oleh', 'akan', 'atau', 'juga', 'sudah',
+            'ada', 'bisa', 'dapat', 'saya', 'apa', 'bagaimana', 'mengapa', 'kapan',
+            'tentang', 'mengenai', 'terkait', 'seputar', 'informasi', 'jelaskan'
+        }
         
-        # Query chunks with cosine distance calculation
+        # Tokenize and filter
+        words = query.lower().split()
+        keywords = [w for w in words if w not in stopwords and len(w) > 2]
+        return keywords
+
+    def _calculate_keyword_score(self, content: str, title: str, keywords: List[str]) -> float:
+        """Calculate keyword matching score (0.0 to 1.0)."""
+        if not keywords:
+            return 0.0
+        
+        content_lower = content.lower()
+        title_lower = title.lower() if title else ""
+        
+        matches = 0
+        for keyword in keywords:
+            # Title match is worth more (2 points)
+            if keyword in title_lower:
+                matches += 2
+            # Content match (1 point)
+            elif keyword in content_lower:
+                matches += 1
+        
+        # Normalize to 0-1 scale (max possible = keywords * 2)
+        max_score = len(keywords) * 2
+        return min(matches / max_score, 1.0) if max_score > 0 else 0.0
+
+    def _retrieve_relevant_chunks(self, query: str, limit: int = 5, threshold: float = 0.4) -> tuple[List[DocumentChunk], List[float]]:
+        """
+        Retrieve relevant document chunks using hybrid search:
+        1. Semantic similarity (embedding cosine distance)
+        2. Keyword matching boost
+        3. Document diversification (max chunks per document)
+        """
+        query_embedding = generate_embedding(query)
+        
+        # Return empty if embedding generation failed
+        if query_embedding is None:
+            print("Warning: Failed to generate query embedding")
+            return [], []
+        
+        MIN_CONTENT_LENGTH = 100  # Increased for better content quality
+        MAX_CHUNKS_PER_DOCUMENT = 2  # Limit chunks per document for diversity
+        
+        # Extract keywords for hybrid scoring
+        keywords = self._extract_keywords(query)
+        
+        # Query more chunks for filtering and re-ranking
         chunks_with_distance = self.db.query(
             DocumentChunk,
-            (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('similarity')
+            Document,
+            (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('semantic_score')
         ).join(
             Document, DocumentChunk.document_id == Document.id
         ).filter(
@@ -79,17 +131,61 @@ class ChatService:
             func.length(DocumentChunk.content) >= MIN_CONTENT_LENGTH,
             DocumentChunk.embedding.isnot(None)
         ).order_by(
-            desc('similarity')
-        ).limit(limit * 2).all()  # Fetch more to filter
-
+            desc('semantic_score')
+        ).limit(limit * 4).all()  # Fetch more for re-ranking
+        
+        # Re-rank with hybrid scoring
+        scored_chunks = []
+        for chunk, doc, semantic_score in chunks_with_distance:
+            # Skip if semantic_score is None
+            if semantic_score is None:
+                continue
+            
+            # Calculate keyword boost
+            keyword_score = self._calculate_keyword_score(
+                chunk.content, 
+                doc.title, 
+                keywords
+            )
+            
+            # Hybrid score: 70% semantic + 30% keyword
+            hybrid_score = (semantic_score * 0.7) + (keyword_score * 0.3)
+            
+            scored_chunks.append({
+                'chunk': chunk,
+                'document_id': doc.id,
+                'document_title': doc.title,
+                'semantic_score': semantic_score,
+                'keyword_score': keyword_score,
+                'hybrid_score': hybrid_score
+            })
+        
+        # Sort by hybrid score
+        scored_chunks.sort(key=lambda x: x['hybrid_score'], reverse=True)
+        
+        # Apply document diversification and threshold
         chunks = []
         similarities = []
-        for chunk, similarity in chunks_with_distance:
-            if similarity >= threshold:
-                chunks.append(chunk)
-                similarities.append(similarity)
-                if len(chunks) >= limit:
-                    break
+        doc_chunk_count = {}  # Track chunks per document
+        
+        for item in scored_chunks:
+            doc_id = item['document_id']
+            hybrid_score = item['hybrid_score']
+            
+            # Check threshold
+            if hybrid_score < threshold:
+                continue
+            
+            # Check document limit
+            if doc_chunk_count.get(doc_id, 0) >= MAX_CHUNKS_PER_DOCUMENT:
+                continue
+            
+            chunks.append(item['chunk'])
+            similarities.append(hybrid_score)
+            doc_chunk_count[doc_id] = doc_chunk_count.get(doc_id, 0) + 1
+            
+            if len(chunks) >= limit:
+                break
         
         return chunks, similarities
 
@@ -154,7 +250,7 @@ Mohon beritahu user bahwa tidak ada dokumen yang relevan ditemukan dan sarankan 
     async def process_chat(self, user_id: int, request: ChatRequest) -> ChatResponse:
         # 1. Handle Conversation
         conversation = self._handle_conversation(user_id, request)
-
+        
         # 2. Save User Message
         self._save_chat_message(conversation.id, ChatRole.USER, request.message)
 
