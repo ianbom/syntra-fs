@@ -13,6 +13,11 @@ from app.models.document_chunk import DocumentChunk, ChunkType
 from app.services.grobid import extract_header, extract_fulltext, extract_references, format_for_database
 from app.services.embedding import generate_embedding
 from app.services.minio import get_minio_client
+from app.services.metadata_extractor import (
+    extract_metadata_with_llm,
+    is_metadata_incomplete,
+    merge_metadata
+)
 
 settings = get_settings()
 
@@ -364,9 +369,9 @@ class DocumentService:
         try:
             # Step 3: Extract metadata
             if progress_callback:
-                await progress_callback(30, "Extracting metadata with AI...")
+                await progress_callback(30, "Extracting metadata with GROBID...")
             
-            metadata = self._extract_metadata(file_content)
+            metadata = await self._extract_metadata(file_content, progress_callback)
             
             # Step 4: Create document record
             document = DocumentBuilder.build_from_metadata(
@@ -398,14 +403,33 @@ class DocumentService:
             self.storage.delete_file(file_path)
             raise HTTPException(status_code=500, detail=f"Document processing failed: {str(e)}")
     
-    def _extract_metadata(self, file_content: bytes) -> Dict[str, Any]:
-        """Extract and format metadata from PDF."""
+    async def _extract_metadata(self, file_content: bytes, progress_callback: Optional[Callable] = None) -> Dict[str, Any]:
+        """Extract and format metadata from PDF using GROBID + LLM fallback."""
+        # Step 1: Extract with GROBID
         header = extract_header(file_content)
         references = extract_references(file_content)
         fulltext = extract_fulltext(file_content)
         
         metadata = format_for_database(header, references)
+        # print('metadata grobid')
+        # print(metadata)
         metadata["fulltext"] = fulltext
+        
+        # Step 2: Check if metadata is incomplete and use LLM fallback
+        # if is_metadata_incomplete(metadata):
+        #     print("Metadata incomplete from GROBID, using LLM fallback...")
+        #     if progress_callback:
+        #         await progress_callback(45, "Extracting metadata with LLM (GROBID incomplete)...")
+            
+        #     try:
+        #         llm_metadata = await extract_metadata_with_llm(fulltext, metadata)
+        #         if llm_metadata:
+        #             metadata = merge_metadata(metadata, llm_metadata)
+        #             print("LLM metadata merge complete")
+        #     except Exception as e:
+        #         print(f"LLM metadata extraction failed: {str(e)}")
+        #         # Continue with GROBID metadata only
+        
         return metadata
     
     def _prepare_chunks(self, metadata: Dict[str, Any]) -> List[Dict[str, Any]]:

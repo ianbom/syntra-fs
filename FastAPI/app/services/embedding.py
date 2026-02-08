@@ -25,7 +25,8 @@ def generate_embedding_test(text: str, max_retries: int = 3) -> Optional[list[fl
     url = f"{settings.OLLAMA_BASE_URL}/api/embeddings"
     payload = {
         "model": settings.OLLAMA_EMBEDDING_MODEL,
-        "prompt": text
+        "prompt": text,
+        "output_dimensionality": 768
     }
     
     for attempt in range(max_retries):

@@ -111,6 +111,9 @@ class ChatService:
         
         # Extract keywords for hybrid scoring
         keywords = self._extract_keywords(query)
+        print('===keywords====')
+        print(keywords)
+        print('=============keywords=================')
         
         # Query more chunks for filtering and re-ranking
         chunks_with_distance = self.db.query(
@@ -256,11 +259,20 @@ Mohon beritahu user bahwa tidak ada dokumen yang relevan ditemukan dan sarankan 
 
         # 3. RAG: Retrieve Context
         chunks, similarities = self._retrieve_relevant_chunks(request.message)
+        print('===chunk====')
+        print(chunks)
+        print('=============chunk=================')
+        print('===similarities====')
+        print(similarities)
+        print('===========similarities===================')
         context_text = self._construct_context_text(chunks)
+        print('===context text================')
+        print(context_text)
+        print('====context text=================')
         
         # 4. Construct Prompt
         full_prompt = self._construct_rag_prompt(request.message, context_text)
-        print(full_prompt)
+        # print(full_prompt)
 
         # 5. Generate Response
         answer = await generate_response(full_prompt)

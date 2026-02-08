@@ -5,8 +5,9 @@ from app.config import get_settings
 settings = get_settings()
 
 OLLAMA_BASE_URL = "http://localhost:11434"  # Default Ollama URL
+GENERATION_MODEL = settings.OLLAMA_GENERATION_MODEL
 
-async def generate_response_test(prompt: str, model: str = "gemma3:1b") -> str:
+async def generate_response(prompt: str, model: str = GENERATION_MODEL) -> str:
     """
     Generate a response from the LLM using Ollama.
     """
@@ -29,7 +30,7 @@ async def generate_response_test(prompt: str, model: str = "gemma3:1b") -> str:
         return "I apologize, but I encountered an error processing your request."
 
 
-async def generate_response(prompt: str) -> str:
+async def generate_response_test(prompt: str) -> str:
     """
     Generate a response from the LLM using Google Gemini.
     """

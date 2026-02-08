@@ -51,9 +51,36 @@ def extract_header(file_bytes: bytes) -> dict:
     
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
     
-    # Extract title
-    title_nodes = root.xpath("//tei:titleStmt/tei:title/text()", namespaces=ns)
-    title = title_nodes[0] if title_nodes else None
+    # Extract title - try multiple XPath locations
+    title = None
+    title_xpaths = [
+        "//tei:titleStmt/tei:title[@type='main']/text()",  # Main title
+        "//tei:titleStmt/tei:title[not(@type)]/text()",    # Title without type
+        "//tei:titleStmt/tei:title/text()",                 # Any title in titleStmt
+        "//tei:sourceDesc//tei:title[@level='a']/text()",   # Article title
+        "//tei:analytic/tei:title/text()",                  # Analytic title
+        "//tei:head/text()",                                 # Header text (first one)
+    ]
+    
+    for xpath in title_xpaths:
+        title_nodes = root.xpath(xpath, namespaces=ns)
+        if title_nodes:
+            # Get the first non-empty title
+            for t in title_nodes:
+                cleaned = t.strip() if t else ""
+                if cleaned and len(cleaned) > 3:  # Minimum 4 chars
+                    title = cleaned
+                    print(f"GROBID: Found title via {xpath}: {title[:50]}...")
+                    break
+            if title:
+                break
+    
+    # If still no title, try to extract from first paragraph or heading
+    if not title:
+        first_head = root.xpath("//tei:body//tei:head[1]/text()", namespaces=ns)
+        if first_head and first_head[0].strip():
+            title = first_head[0].strip()
+            print(f"GROBID: Using first heading as title: {title[:50]}...")
     
     # Extract authors
     authors_xml = root.xpath("//tei:author/tei:persName", namespaces=ns)
@@ -74,6 +101,8 @@ def extract_header(file_bytes: bytes) -> dict:
     journal_nodes = root.xpath("//tei:sourceDesc//tei:title[@level='j']/text()", namespaces=ns)
     abstract_nodes = root.xpath("//tei:profileDesc/tei:abstract//text()", namespaces=ns)
     keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
+    
+    print(f"GROBID: Extracted title = '{title}'")
     
     return {
         "title": title,
@@ -176,9 +205,16 @@ def format_for_database(metadata: dict, references: list[str] = None) -> dict:
                 break
             except ValueError:
                 continue
+    # Get title - don't provide default here, let LLM fallback handle it if needed
+    title = metadata.get("title")
+    if title:
+        title = title.strip()
+        # Clean up common issues
+        if title.lower() in ["untitled", "title", "untitled document", ""]:
+            title = None
     
     return {
-        "title": metadata.get("title") or "Untitled Document",
+        "title": title or 'Untitled',
         "creator": creator,
         "keywords": ", ".join(keywords) if keywords else None,
         "description": metadata.get("abstract"),
@@ -189,7 +225,7 @@ def format_for_database(metadata: dict, references: list[str] = None) -> dict:
         "identifier": metadata.get("doi"),
         "source": metadata.get("journal"),
         "language": "en",
-        "relation": ", ".join(references[:10]) if references else None,  # First 10 references
+        "relation": ", ".join(references[:10]) if references else None,
         "doi": metadata.get("doi"),
         "abstract": metadata.get("abstract"),
         "citation_count": len(references)
