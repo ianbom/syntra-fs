@@ -12,7 +12,10 @@ async def generate_response(prompt: str, model: str = GENERATION_MODEL) -> str:
     Generate a response from the LLM using Ollama.
     """
     try:
-        async with httpx.AsyncClient(timeout=60.0) as client:
+        # Timeout lebih lama untuk model yang lebih besar (5 menit)
+        timeout = httpx.Timeout(300.0, connect=30.0)
+        async with httpx.AsyncClient(timeout=timeout) as client:
+            print(f"🔄 Calling Ollama with model: {model}")
             response = await client.post(
                 f"{OLLAMA_BASE_URL}/api/generate",
                 json={
@@ -23,9 +26,16 @@ async def generate_response(prompt: str, model: str = GENERATION_MODEL) -> str:
             )
             response.raise_for_status()
             data = response.json()
+            print(f"✅ LLM response received successfully")
             return data.get("response", "")
+    except httpx.TimeoutException as e:
+        print(f"⏱️ Timeout error calling LLM ({model}): {str(e)}")
+        return "Maaf, request timeout. Model mungkin membutuhkan waktu lebih lama untuk memproses."
+    except httpx.HTTPStatusError as e:
+        print(f"❌ HTTP error calling LLM ({model}): {e.response.status_code} - {e.response.text}")
+        return f"I apologize, but I encountered an HTTP error: {e.response.status_code}"
     except Exception as e:
-        print(f"Error calling LLM: {str(e)}")
+        print(f"❌ Error calling LLM ({model}): {type(e).__name__} - {str(e)}")
         # Fallback or re-raise
         return "I apologize, but I encountered an error processing your request."
 
