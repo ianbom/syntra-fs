@@ -409,27 +409,147 @@ class DocumentService:
         header = extract_header(file_content)
         references = extract_references(file_content)
         fulltext = extract_fulltext(file_content)
+        print('================================fulltext dari grobid================================')
+        print(fulltext)
+        print('=====================================')
         
         metadata = format_for_database(header, references)
-        # print('metadata grobid')
-        # print(metadata)
-        metadata["fulltext"] = fulltext
+        metadata["fulltext"] = fulltext or ""
         
-        # Step 2: Check if metadata is incomplete and use LLM fallback
-        # if is_metadata_incomplete(metadata):
-        #     print("Metadata incomplete from GROBID, using LLM fallback...")
-        #     if progress_callback:
-        #         await progress_callback(45, "Extracting metadata with LLM (GROBID incomplete)...")
+        # Step 2: Extract raw PDF text for LLM (includes title page)
+        raw_pdf_text = self._extract_raw_pdf_text(file_content)
+        
+        # Step 3: Check if metadata is incomplete and use LLM fallback
+        if is_metadata_incomplete(metadata):
+            print("Metadata incomplete from GROBID, using LLM fallback...")
+            if progress_callback:
+                await progress_callback(45, "Extracting metadata with LLM (GROBID incomplete)...")
             
-        #     try:
-        #         llm_metadata = await extract_metadata_with_llm(fulltext, metadata)
-        #         if llm_metadata:
-        #             metadata = merge_metadata(metadata, llm_metadata)
-        #             print("LLM metadata merge complete")
-        #     except Exception as e:
-        #         print(f"LLM metadata extraction failed: {str(e)}")
-        #         # Continue with GROBID metadata only
+            # Use raw PDF text for LLM (not GROBID fulltext) to ensure title page is included
+            llm_input_text = raw_pdf_text if raw_pdf_text else (fulltext or "")
+            # print('=============llm_input_text============')
+            # print(llm_input_text)
+            # print('====================================')
+            # print('=============fulltext============')
+            # print(fulltext)
+            # print('=============raw_pdf_text============')
+            # print(raw_pdf_text)
+            try:
+                llm_metadata = await extract_metadata_with_llm(llm_input_text, metadata)
+                print('=============llm_metadata============')
+                print(llm_metadata)
+                print('=============metadata============')
+                print(metadata)
+                if llm_metadata:
+                    metadata = merge_metadata(metadata, llm_metadata)
+                    print("LLM metadata merge complete")
+            except Exception as e:
+                print(f"LLM metadata extraction failed: {str(e)}")
+                # Continue with GROBID metadata only
         
+        # Step 4: Final validation - ensure critical fields are never empty
+        raw_text_for_fallback = raw_pdf_text if raw_pdf_text else (fulltext or "")
+        metadata = self._validate_metadata(metadata, raw_text_for_fallback)
+        
+        return metadata
+    
+    def _extract_raw_pdf_text(self, file_content: bytes) -> str:
+        """
+        Extract raw text from PDF using PyMuPDF.
+        Returns ALL pages as plain text, preserving page order.
+        This ensures the title page (page 1) is always included.
+        """
+        # Try both import names (pymupdf for v1.25+, fitz for older)
+        pymupdf = None
+        try:
+            import pymupdf as pymupdf
+        except ImportError:
+            try:
+                import fitz as pymupdf
+            except ImportError:
+                raise HTTPException(
+                    status_code=500,
+                    detail="PyMuPDF is not installed. Run: pip install PyMuPDF"
+                )
+        
+        try:
+            doc = pymupdf.open(stream=file_content, filetype="pdf")
+            pages_text = []
+            
+            for page_num in range(len(doc)):
+                page = doc[page_num]
+                text = page.get_text("text")
+                if text and text.strip():
+                    pages_text.append(text.strip())
+            
+            doc.close()
+            
+            raw_text = "\n\n".join(pages_text)
+            print(f"  PyMuPDF: Extracted {len(raw_text)} chars from {len(pages_text)} pages")
+            print(f"  PyMuPDF first 200 chars: {raw_text[:200]}")
+            return raw_text
+            
+        except HTTPException:
+            raise
+        except Exception as e:
+            raise HTTPException(
+                status_code=500,
+                detail=f"PDF text extraction failed: {str(e)}"
+            )
+    
+    def _validate_metadata(self, metadata: Dict[str, Any], fulltext: str) -> Dict[str, Any]:
+        """
+        Final validation: ensure no critical field is empty.
+        Generates fallback values if GROBID + LLM both failed.
+        """
+        # Title: MUST exist
+        title = metadata.get("title")
+        if not title or title.strip() == "" or title.strip().lower() in ["untitled", "untitled document"]:
+            # Last resort: derive from first line of fulltext
+            if fulltext:
+                first_line = fulltext.strip().split('\n')[0][:150].strip()
+                if first_line and len(first_line) > 10:
+                    metadata["title"] = first_line
+                    print(f"  Fallback title from first line: {first_line[:80]}")
+                else:
+                    metadata["title"] = f"Document-{hash(fulltext[:500]) % 100000}"
+                    print(f"  Fallback title from hash: {metadata['title']}")
+            else:
+                metadata["title"] = "Document tanpa judul"
+        
+        # Keywords: should exist
+        if not metadata.get("keywords"):
+            # Extract from title
+            title_words = metadata["title"].split()
+            keywords = [w for w in title_words if len(w) > 3][:5]
+            if keywords:
+                metadata["keywords"] = ", ".join(keywords)
+                print(f"  Fallback keywords from title: {metadata['keywords']}")
+        
+        # Language: default to Indonesian if empty
+        if not metadata.get("language"):
+            metadata["language"] = "id"
+            print("  Fallback language: id")
+        
+        # Description: generate from abstract or content
+        if not metadata.get("description") and metadata.get("abstract"):
+            metadata["description"] = metadata["abstract"][:200]
+            print("  Fallback description from abstract")
+        
+        # Parse date string from LLM if it's a string
+        if isinstance(metadata.get("date"), str):
+            from datetime import datetime
+            date_str = metadata["date"]
+            parsed = None
+            for fmt in ["%Y-%m-%d", "%Y-%m", "%Y", "%d %B %Y", "%B %Y"]:
+                try:
+                    parsed = datetime.strptime(date_str, fmt).date()
+                    break
+                except ValueError:
+                    continue
+            metadata["date"] = parsed
+        
+        print(f"  Final metadata validation complete. Title: {str(metadata.get('title', ''))[:80]}")
         return metadata
     
     def _prepare_chunks(self, metadata: Dict[str, Any]) -> List[Dict[str, Any]]:

@@ -27,7 +27,10 @@ async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, 
     if not fulltext or len(fulltext.strip()) < 100:
         print("Warning: Fulltext too short for LLM metadata extraction")
         return {}
-    
+    # print('================================fulltext================================')
+    # print(fulltext)
+    # print('=====================================')
+
     # Truncate fulltext if too long (keep first 8000 chars for context)
     text_sample = fulltext[:8000] if len(fulltext) > 8000 else fulltext
     
@@ -54,27 +57,31 @@ async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, 
 def _build_extraction_prompt(text_sample: str, existing_metadata: Dict[str, Any] = None) -> str:
     """Build the prompt for metadata extraction."""
     
+    all_fields = [
+        "title", "abstract", "keywords", "creator", "contributor",
+        "publisher", "language", "description", "date", "source", "coverage"
+    ]
+    
     missing_fields = []
     if existing_metadata:
-        field_checks = [
-            ("title", existing_metadata.get("title") in [None, "", "Untitled Document"]),
-            ("abstract", not existing_metadata.get("abstract")),
-            ("keywords", not existing_metadata.get("keywords")),
-            ("creator", not existing_metadata.get("creator")),
-            ("publisher", not existing_metadata.get("publisher")),
-            ("language", not existing_metadata.get("language")),
-            ("description", not existing_metadata.get("description")),
-        ]
-        missing_fields = [field for field, is_missing in field_checks if is_missing]
+        for field in all_fields:
+            value = existing_metadata.get(field)
+            if field == "title":
+                if not value or value.strip() == "" or "untitled" in str(value).lower():
+                    missing_fields.append(field)
+            elif not value or (isinstance(value, str) and value.strip() == ""):
+                missing_fields.append(field)
     else:
-        missing_fields = ["title", "abstract", "keywords", "creator", "publisher", "language", "description"]
-    print('===========missing field========')
-    print(missing_fields)
+        missing_fields = all_fields
+    
+    print(f'  Missing fields for LLM: {missing_fields}')
+    
     if not missing_fields:
         return ""
     
     fields_instruction = ", ".join(missing_fields)
-    
+    print('================================text sample================================')
+    print(text_sample)
     prompt = f"""Anda adalah asisten yang mengekstrak metadata dari dokumen akademik/ilmiah.
 
 TEKS DOKUMEN:
@@ -85,29 +92,41 @@ TEKS DOKUMEN:
 TUGAS:
 Ekstrak metadata berikut dari dokumen di atas: {fields_instruction}
 
-INSTRUKSI:
-1. Untuk "title": Ekstrak judul lengkap dokumen (biasanya di awal dokumen)
-2. Untuk "abstract": Ekstrak ringkasan/abstrak dokumen (biasanya setelah judul)
-3. Untuk "keywords": Ekstrak kata kunci utama, pisahkan dengan koma
-4. Untuk "creator": Ekstrak nama penulis utama (author pertama)
-5. Untuk "publisher": Ekstrak nama penerbit atau jurnal
-6. Untuk "language": Tentukan bahasa dokumen (contoh: "en", "id")
-7. Untuk "description": Buat ringkasan singkat 1-2 kalimat tentang dokumen
+INSTRUKSI WAJIB:
+1. Untuk "title": WAJIB ditemukan. Judul biasanya ada di awal dokumen, sebelum abstrak. 
+   Jika tidak jelas tertulis, buatlah judul deskriptif berdasarkan topik utama dokumen.
+   JANGAN pernah mengembalikan null atau kosong untuk title.
+2. Untuk "abstract": Ekstrak ringkasan/abstrak dokumen
+3. Untuk "keywords": Ekstrak kata kunci utama, pisahkan dengan koma. 
+   Jika tidak ada, buat 3-5 kata kunci berdasarkan topik dokumen.
+4. Untuk "creator": Nama penulis utama (author pertama)
+5. Untuk "contributor": Nama penulis lain selain penulis utama, pisahkan dengan koma
+6. Untuk "publisher": Nama penerbit, jurnal, atau institusi yang menerbitkan
+7. Untuk "language": Bahasa utama dokumen ("id" untuk Indonesia, "en" untuk Inggris)
+8. Untuk "description": Buat ringkasan 1-2 kalimat tentang isi dokumen
+9. Untuk "date": Tanggal publikasi dalam format YYYY-MM-DD atau YYYY
+10. Untuk "source": Nama jurnal, konferensi, atau sumber publikasi
+11. Untuk "coverage": Cakupan geografis/temporal penelitian jika disebutkan
 
-PENTING:
+ATURAN PENTING:
 - Jawab HANYA dalam format JSON yang valid
-- Jika tidak bisa menemukan informasi untuk suatu field, gunakan null
-- Jangan mengarang informasi yang tidak ada dalam dokumen
+- Untuk field "title" dan "keywords": WAJIB diisi, TIDAK BOLEH null
+- Untuk field lain: jika tidak ditemukan, gunakan null
+- Jangan mengarang informasi yang tidak ada, KECUALI untuk title dan keywords
 
 FORMAT RESPONSE (JSON ONLY):
 {{
-    "title": "...",
+    "title": "judul dokumen (WAJIB ADA)",
     "abstract": "...",
-    "keywords": "...",
+    "keywords": "keyword1, keyword2, keyword3 (WAJIB ADA)",
     "creator": "...",
+    "contributor": "...",
     "publisher": "...",
     "language": "...",
-    "description": "..."
+    "description": "...",
+    "date": "...",
+    "source": "...",
+    "coverage": "..."
 }}"""
 
     return prompt
@@ -148,13 +167,24 @@ def is_metadata_incomplete(metadata: Dict[str, Any]) -> bool:
     for field in critical_fields:
         value = metadata.get(field)
         if field == "title":
-            # Title is considered missing if None, empty, or contains "Untitled"
-            if not value or value.strip() == "" or "untitled" in str(value).lower():
+            if not value or value.strip() == "" or value.strip().lower() in ["untitled", "untitled document"]:
                 print(f"  Field '{field}' is missing or default: {value}")
                 return True
         elif not value or (isinstance(value, str) and value.strip() == ""):
             print(f"  Field '{field}' is missing: {value}")
             return True
+    
+    # Also check important secondary fields
+    secondary_fields = ["description", "publisher", "language"]
+    missing_secondary = 0
+    for field in secondary_fields:
+        value = metadata.get(field)
+        if not value or (isinstance(value, str) and value.strip() == ""):
+            missing_secondary += 1
+    
+    if missing_secondary >= 2:
+        print(f"  {missing_secondary} secondary fields missing, triggering LLM fallback")
+        return True
     
     return False
 
@@ -172,7 +202,6 @@ def merge_metadata(grobid_metadata: Dict[str, Any], llm_metadata: Dict[str, Any]
             
         existing_value = merged.get(key)
         
-        # Check if existing value is empty/null/default
         is_empty = (
             existing_value is None or
             (isinstance(existing_value, str) and existing_value.strip() == "")
@@ -181,11 +210,11 @@ def merge_metadata(grobid_metadata: Dict[str, Any], llm_metadata: Dict[str, Any]
         is_default_title = (
             key == "title" and 
             existing_value and 
-            "untitled" in str(existing_value).lower()
+            str(existing_value).strip().lower() in ["untitled", "untitled document"]
         )
         
         if is_empty or is_default_title:
             merged[key] = llm_value
-            print(f"  LLM filled missing field '{key}': {llm_value[:50] if len(str(llm_value)) > 50 else llm_value}")
+            print(f"  LLM filled missing field '{key}': {str(llm_value)[:80]}")
     
     return merged

@@ -9,7 +9,7 @@ settings = get_settings()
 
 
 
-def generate_embedding_test(text: str, max_retries: int = 3) -> Optional[list[float]]:
+def generate_embedding(text: str, max_retries: int = 3) -> Optional[list[float]]:
     """
     Generate embedding for text using Ollama nomic-embed-text model.
     Returns 768-dimensional embedding vector or None if failed.
@@ -78,7 +78,7 @@ def generate_embeddings_batch(texts: list[str]) -> list[Optional[list[float]]]:
     return [generate_embedding(text) for text in texts]
 
 
-def generate_embedding(text: str) -> Optional[list[float]]:
+def generate_embedding_test(text: str) -> Optional[list[float]]:
     """
     Generate embedding for text using Google Generative AI (Gemini).
     Returns 768-dimensional embedding vector or None if failed.

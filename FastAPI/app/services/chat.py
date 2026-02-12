@@ -618,9 +618,9 @@ Jawab dengan: {no_context_msg}"""
             "generated_response": [answer],
             "retrieved_documents": [retrieved_docs]
         }
-        # print("========== RAGAS EVALUATION DATA ==========")
-        # print(ragas_data)
-        # print("============================================")
+        print("========== RAGAS EVALUATION DATA ==========")
+        print(ragas_data)
+        print("============================================")
 
         # 8. Save Bot Message
         bot_chat = self._save_chat_message(conversation.id, ChatRole.BOT, answer)

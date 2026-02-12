@@ -15,7 +15,7 @@ def extract_header(file_bytes: bytes) -> dict:
     Returns Dublin Core compatible metadata.
     """
     url = f"{settings.GROBID_URL}/api/processHeaderDocument"
-    
+
     try:
         response = requests.post(
             url,
@@ -103,6 +103,10 @@ def extract_header(file_bytes: bytes) -> dict:
     keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
     
     print(f"GROBID: Extracted title = '{title}'")
+
+    print('==response header grobid')
+    print(response.text)
+    print('=====================================')
     
     return {
         "title": title,
@@ -130,6 +134,10 @@ def extract_fulltext(file_bytes: bytes) -> str:
             headers={'Accept': 'application/xml'},
             timeout=120
         )
+
+        print('==response fulltect grobid')
+        print(response.text)
+        print('=====================================')
     except requests.exceptions.ConnectionError:
         raise HTTPException(
             status_code=503,
@@ -148,10 +156,79 @@ def extract_fulltext(file_bytes: bytes) -> str:
         root = etree.fromstring(response.text.encode("utf-8"))
         ns = {"tei": "http://www.tei-c.org/ns/1.0"}
         
-        # Extract all paragraph text
-        paragraphs = root.xpath("//tei:body//tei:p/text()", namespaces=ns)
-        return "\n\n".join(paragraphs)
-    except Exception:
+        parts = []
+        
+        # 1. Extract header content (title page / page 1)
+        # Title - try multiple XPath locations (same as extract_header)
+        title_xpaths = [
+            "//tei:titleStmt/tei:title[@type='main']",
+            "//tei:titleStmt/tei:title[not(@type)]",
+            "//tei:titleStmt/tei:title",
+            "//tei:sourceDesc//tei:title[@level='a']",
+            "//tei:analytic/tei:title",
+        ]
+        title_text = None
+        for xpath in title_xpaths:
+            title_nodes = root.xpath(xpath, namespaces=ns)
+            for node in title_nodes:
+                # Use itertext() to get ALL text including nested elements
+                text = "".join(node.itertext()).strip()
+                if text and len(text) > 3:
+                    title_text = text
+                    break
+            if title_text:
+                break
+        
+        if title_text:
+            parts.append(title_text)
+            print(f"GROBID fulltext: Title included: {title_text[:80]}")
+        else:
+            print("GROBID fulltext: WARNING - No title found in fulltext XML")
+        
+        # Authors
+        authors_xml = root.xpath("//tei:author/tei:persName", namespaces=ns)
+        author_names = []
+        for author in authors_xml:
+            forename = "".join(author.xpath("tei:forename/text()", namespaces=ns)) or ""
+            surname = "".join(author.xpath("tei:surname/text()", namespaces=ns)) or ""
+            full_name = f"{forename} {surname}".strip()
+            if full_name:
+                author_names.append(full_name)
+        if author_names:
+            parts.append("Authors: " + ", ".join(author_names))
+        
+        # Publisher / Journal
+        publisher_nodes = root.xpath("//tei:publicationStmt/tei:publisher/text()", namespaces=ns)
+        journal_nodes = root.xpath("//tei:sourceDesc//tei:title[@level='j']/text()", namespaces=ns)
+        if publisher_nodes and publisher_nodes[0].strip():
+            parts.append("Publisher: " + publisher_nodes[0].strip())
+        if journal_nodes and journal_nodes[0].strip():
+            parts.append("Journal: " + journal_nodes[0].strip())
+        
+        # Abstract
+        abstract_nodes = root.xpath("//tei:profileDesc/tei:abstract//text()", namespaces=ns)
+        if abstract_nodes:
+            abstract_text = " ".join(t.strip() for t in abstract_nodes if t.strip())
+            if abstract_text:
+                parts.append("Abstract: " + abstract_text)
+        
+        # Keywords
+        keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
+        if keyword_nodes:
+            parts.append("Keywords: " + ", ".join(k.strip() for k in keyword_nodes if k.strip()))
+        
+        # 2. Extract body content (paragraphs + section headings)
+        body_elements = root.xpath("//tei:body//tei:head | //tei:body//tei:p", namespaces=ns)
+        for elem in body_elements:
+            text = "".join(elem.itertext()).strip()
+            if text:
+                parts.append(text)
+        
+        fulltext = "\n\n".join(parts)
+        print(f"GROBID fulltext: {len(fulltext)} chars (header + body)")
+        return fulltext
+    except Exception as e:
+        print(f"GROBID fulltext extraction error: {e}")
         return ""
 
 
