@@ -452,6 +452,7 @@ class ChatService:
             # Bonus if document matched metadata filters
             if has_metadata_filters:
                 hybrid_score *= 1.1  # 10% boost for metadata-matched docs
+
             
             scored_chunks.append({
                 'chunk': chunk,
@@ -508,17 +509,15 @@ class ChatService:
     def _construct_rag_prompt(self, message: str, context_text: str) -> str:
         """Construct the prompt for the LLM."""
         if context_text:
-            system_prompt = """Anda adalah asisten AI yang HANYA menjawab berdasarkan dokumen knowledge base.
+            system_prompt = """Anda adalah asisten AI yang menjawab pertanyaan berdasarkan dokumen knowledge base.
 
-ATURAN KETAT (WAJIB DIPATUHI):
-1. Jawab HANYA dan EKSKLUSIF berdasarkan informasi yang ada di KONTEKS di bawah.
-2. DILARANG KERAS menambahkan informasi dari pengetahuan umum Anda.
-3. DILARANG KERAS mengarang, mengira-ngira, atau berasumsi informasi yang TIDAK ADA dalam konteks.
-4. Jika konteks TIDAK MEMBAHAS atau TIDAK RELEVAN dengan pertanyaan user, Anda WAJIB menjawab:
-   "Maaf, saya tidak menemukan informasi yang relevan dengan pertanyaan Anda dalam dokumen yang tersedia. Silakan upload dokumen yang sesuai atau ajukan pertanyaan lain."
-5. Jangan pernah menjawab pertanyaan di luar topik konteks walaupun Anda tahu jawabannya.
-6. Selalu sebutkan sumber dokumen ([Source: ...]) dalam jawaban.
-7. Gunakan bahasa yang sama dengan pertanyaan user."""
+INSTRUKSI:
+1. Gunakan informasi dari KONTEKS di bawah untuk menjawab pertanyaan user.
+2. Jawab dengan lengkap dan informatif menggunakan data yang ada di konteks.
+3. Jika konteks membahas topik yang relevan, berikan jawaban terbaik berdasarkan informasi tersebut.
+4. Sebutkan sumber dokumen ([Source: ...]) dalam jawaban Anda.
+5. Gunakan bahasa yang sama dengan pertanyaan user.
+6. Jika konteks benar-benar TIDAK MEMBAHAS topik pertanyaan sama sekali, katakan bahwa informasi tidak ditemukan."""
 
             return f"""{system_prompt}
 
@@ -529,7 +528,7 @@ KONTEKS DARI DOKUMEN:
 
 PERTANYAAN USER: {message}
 
-JAWABAN (ingat: HANYA berdasarkan konteks di atas, jika tidak relevan katakan tidak ditemukan):"""
+JAWABAN (berdasarkan konteks di atas):"""
         else:
             no_context_msg = "Maaf, saya tidak menemukan informasi yang relevan dengan pertanyaan Anda dalam dokumen yang tersedia."
             return f"""Anda adalah asisten AI berbasis dokumen knowledge base.
@@ -605,9 +604,9 @@ Jawab dengan: {no_context_msg}"""
         
         # 6. Construct Prompt
         full_prompt = self._construct_rag_prompt(request.message, context_text)
-        # print("========== FULL PROMPT ==========")
-        # print(full_prompt)
-        # print("============================================")
+        print("========== FULL PROMPT ==========")
+        print(full_prompt[:2000])
+        print("============================================")
         # 7. Generate Response
         answer = await generate_response(full_prompt)
 

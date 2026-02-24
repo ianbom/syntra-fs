@@ -5,17 +5,19 @@ from datetime import datetime
 from typing import Optional
 from fastapi import HTTPException
 from app.config import get_settings
-
+import sys
+from app.services.llm import generate_response
 settings = get_settings()
 
 
-def extract_header(file_bytes: bytes) -> dict:
+
+async def extract_header(file_bytes: bytes) -> dict:
     """
     Extract header/metadata from PDF using GROBID processHeaderDocument endpoint.
     Returns Dublin Core compatible metadata.
     """
     url = f"{settings.GROBID_URL}/api/processHeaderDocument"
-
+    
     try:
         response = requests.post(
             url,
@@ -24,6 +26,23 @@ def extract_header(file_bytes: bytes) -> dict:
             headers={'Accept': 'application/xml'},
             timeout=60
         )
+
+#         build_context = """
+# Dari informasi dibawah ini, extract semua metadatanya, terutama dublin core metadata
+# """
+#         llm_response = await generate_response(build_context + '\n\n' + response.text)
+
+#         with open("llm_response.txt", "w", encoding="utf-8") as f:
+#             f.write("==respinse \n")
+#             f.write(llm_response + "\n")
+#             f.write("=====================================\n")
+
+#         print('==reponse llm grobid')
+#         print(llm_response)
+#         print('=====================================')
+#         print(build_context + '\n\n' + response.text)
+#         return
+
     except requests.exceptions.ConnectionError:
         raise HTTPException(
             status_code=503,
@@ -103,10 +122,6 @@ def extract_header(file_bytes: bytes) -> dict:
     keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
     
     print(f"GROBID: Extracted title = '{title}'")
-
-    print('==response header grobid')
-    print(response.text)
-    print('=====================================')
     
     return {
         "title": title,
@@ -135,9 +150,12 @@ def extract_fulltext(file_bytes: bytes) -> str:
             timeout=120
         )
 
-        print('==response fulltect grobid')
-        print(response.text)
-        print('=====================================')
+        with open("full_text_grobid.txt", "w", encoding="utf-8") as f:
+            f.write(response.text + "\n")
+            f.write("=====================================\n")
+
+
+
     except requests.exceptions.ConnectionError:
         raise HTTPException(
             status_code=503,
@@ -223,8 +241,12 @@ def extract_fulltext(file_bytes: bytes) -> str:
             text = "".join(elem.itertext()).strip()
             if text:
                 parts.append(text)
-        
+
         fulltext = "\n\n".join(parts)
+        with open("fullbgtt.txt", "w", encoding="utf-8") as f:
+            f.write(fulltext + "\n")
+            f.write("=====================================\n")
+
         print(f"GROBID fulltext: {len(fulltext)} chars (header + body)")
         return fulltext
     except Exception as e:

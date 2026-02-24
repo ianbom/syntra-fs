@@ -406,12 +406,12 @@ class DocumentService:
     async def _extract_metadata(self, file_content: bytes, progress_callback: Optional[Callable] = None) -> Dict[str, Any]:
         """Extract and format metadata from PDF using GROBID + LLM fallback."""
         # Step 1: Extract with GROBID
-        header = extract_header(file_content)
+        header = await extract_header(file_content)
         references = extract_references(file_content)
         fulltext = extract_fulltext(file_content)
-        print('================================fulltext dari grobid================================')
-        print(fulltext)
-        print('=====================================')
+        # print('================================fulltext dari grobid================================')
+        # print(fulltext)
+        # print('=====================================')
         
         metadata = format_for_database(header, references)
         metadata["fulltext"] = fulltext or ""
@@ -436,10 +436,6 @@ class DocumentService:
             # print(raw_pdf_text)
             try:
                 llm_metadata = await extract_metadata_with_llm(llm_input_text, metadata)
-                print('=============llm_metadata============')
-                print(llm_metadata)
-                print('=============metadata============')
-                print(metadata)
                 if llm_metadata:
                     metadata = merge_metadata(metadata, llm_metadata)
                     print("LLM metadata merge complete")

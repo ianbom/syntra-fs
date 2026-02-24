@@ -27,9 +27,6 @@ async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, 
     if not fulltext or len(fulltext.strip()) < 100:
         print("Warning: Fulltext too short for LLM metadata extraction")
         return {}
-    # print('================================fulltext================================')
-    # print(fulltext)
-    # print('=====================================')
 
     # Truncate fulltext if too long (keep first 8000 chars for context)
     text_sample = fulltext[:8000] if len(fulltext) > 8000 else fulltext
@@ -80,8 +77,6 @@ def _build_extraction_prompt(text_sample: str, existing_metadata: Dict[str, Any]
         return ""
     
     fields_instruction = ", ".join(missing_fields)
-    print('================================text sample================================')
-    print(text_sample)
     prompt = f"""Anda adalah asisten yang mengekstrak metadata dari dokumen akademik/ilmiah.
 
 TEKS DOKUMEN:

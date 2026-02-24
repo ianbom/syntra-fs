@@ -22,6 +22,7 @@ from app.services.document import (
 )
 from app.websockets import manager
 from fastapi import WebSocket
+from app.services.grobid import extract_header, extract_fulltext, extract_references
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
 
@@ -352,3 +353,68 @@ async def upload_documents_bulk(
         "results": results
     }
 
+@router.post("/test-grobid-header")
+async def test_grobid_header(file: UploadFile = File(...)):
+    file_bytes = await file.read()
+    header = extract_header(file_bytes)
+    print(header)
+    return {"header": header}
+
+@router.post("/test-grobid-full")
+async def test_grobid_full(file: UploadFile = File(...)):
+    file_bytes = await file.read()
+    fulltext = extract_fulltext(file_bytes)
+    with open("grobid_fulltext_response.txt", "w", encoding="utf-8") as f:
+        f.write("==grobid_fulltext_response \n")
+        f.write(fulltext + "\n")
+        f.write("=====================================\n")
+    return { 
+        "length": len(fulltext),
+        "fulltext": fulltext}
+
+@router.post("/test-grobid-references")
+async def test_grobid_references(file: UploadFile = File(...)):
+    file_bytes = await file.read()
+    references = extract_references(file_bytes)
+    print(references)
+    return {"references": references}
+
+@router.post("/test-pymupdf")
+async def test_pymupdf(file: UploadFile = File(...)):
+    file_bytes = await file.read()
+
+    try:
+        import pymupdf
+    except ImportError:
+        try:
+            import fitz as pymupdf
+        except ImportError:
+            raise HTTPException(status_code=500, detail="PyMuPDF not installed")
+
+    doc = pymupdf.open(stream=file_bytes, filetype="pdf")
+    pages = []
+    for page_num in range(len(doc)):
+        page = doc[page_num]
+        text = page.get_text("text")
+        if text and text.strip():
+            pages.append({
+                "page": page_num + 1,
+                "text": text.strip()
+            })
+    doc.close()
+
+    full_text = "\n\n".join([p["text"] for p in pages])
+    print(f"PyMuPDF: {len(full_text)} chars from {len(pages)} pages")
+
+
+    with open("pymupdf_response.txt", "w", encoding="utf-8") as f:
+        f.write("==pymupdf_response \n")
+        f.write(full_text + "\n")
+        f.write("=====================================\n")
+
+    return {
+        "total_pages": len(pages),
+        "total_chars": len(full_text),
+        "full_text": full_text,
+        "per_page": pages
+    }
