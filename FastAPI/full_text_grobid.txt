@@ -3,7 +3,7 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-	<teiHeader xml:lang="id">
+	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main"></title>
@@ -16,76 +16,58 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 				<biblStruct>
 					<analytic>
 						<author>
-							<persName><forename type="first">Jurnal</forename><surname>Pendidikan</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">Fakultas Ilmu Komputer</orgName>
-								<orgName type="laboratory">ANALISIS REGRESI LINIER BERGANDA DALAM ESTIMASI PRODUKTIVITAS TANAMAN PADI DI KABUPATEN KARAWANG</orgName>
-								<orgName type="institution" key="instit1">Program Studi Teknik Informatika</orgName>
-								<orgName type="institution" key="instit2">Universitas Singaperbangsa Karawang</orgName>
-								<orgName type="institution" key="instit3">Jl. H.S. Ronggowaluyo</orgName>
-								<orgName type="institution" key="instit4">Telukjambe Timur</orgName>
+							<persName><forename type="first">Nunung</forename><surname>Kusnadi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor</orgName>
 								<address>
-									<postCode>41361</postCode>
-									<settlement>Karawang</settlement>
+									<addrLine>Jl. Raya Darmaga Kampus IPB Darmaga Bogor 16680 2 Pusat Sosial Ekonomi dan Kebijakan Pertanian Jl. A. Yani No. 70</addrLine>
+									<postCode>16161</postCode>
+									<settlement>Bogor</settlement>
 								</address>
 							</affiliation>
 						</author>
 						<author>
-							<persName><forename type="first">Matematika</forename><surname>Dan Matematika</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">Fakultas Ilmu Komputer</orgName>
-								<orgName type="laboratory">ANALISIS REGRESI LINIER BERGANDA DALAM ESTIMASI PRODUKTIVITAS TANAMAN PADI DI KABUPATEN KARAWANG</orgName>
-								<orgName type="institution" key="instit1">Program Studi Teknik Informatika</orgName>
-								<orgName type="institution" key="instit2">Universitas Singaperbangsa Karawang</orgName>
-								<orgName type="institution" key="instit3">Jl. H.S. Ronggowaluyo</orgName>
-								<orgName type="institution" key="instit4">Telukjambe Timur</orgName>
+							<persName><forename type="first">Netti</forename><surname>Tinaprilla</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor</orgName>
 								<address>
-									<postCode>41361</postCode>
-									<settlement>Karawang</settlement>
+									<addrLine>Jl. Raya Darmaga Kampus IPB Darmaga Bogor 16680 2 Pusat Sosial Ekonomi dan Kebijakan Pertanian Jl. A. Yani No. 70</addrLine>
+									<postCode>16161</postCode>
+									<settlement>Bogor</settlement>
 								</address>
 							</affiliation>
 						</author>
 						<author>
-							<persName><forename type="first">Tesa</forename><forename type="middle">Nur</forename><surname>Padilah</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">Fakultas Ilmu Komputer</orgName>
-								<orgName type="laboratory">ANALISIS REGRESI LINIER BERGANDA DALAM ESTIMASI PRODUKTIVITAS TANAMAN PADI DI KABUPATEN KARAWANG</orgName>
-								<orgName type="institution" key="instit1">Program Studi Teknik Informatika</orgName>
-								<orgName type="institution" key="instit2">Universitas Singaperbangsa Karawang</orgName>
-								<orgName type="institution" key="instit3">Jl. H.S. Ronggowaluyo</orgName>
-								<orgName type="institution" key="instit4">Telukjambe Timur</orgName>
-								<address>
-									<postCode>41361</postCode>
-									<settlement>Karawang</settlement>
-								</address>
-							</affiliation>
+							<persName><forename type="first">Sri</forename><forename type="middle">Hery</forename><surname>Susilowati</surname></persName>
 						</author>
 						<author>
-							<persName><forename type="first">Riza</forename><forename type="middle">Ibnu</forename><surname>Adam</surname></persName>
+							<persName><forename type="first">Dan</forename><forename type="middle">Adreng</forename><surname>Purwoto</surname></persName>
+						</author>
+						<author>
 							<affiliation key="aff0">
-								<orgName type="department">Fakultas Ilmu Komputer</orgName>
-								<orgName type="laboratory">ANALISIS REGRESI LINIER BERGANDA DALAM ESTIMASI PRODUKTIVITAS TANAMAN PADI DI KABUPATEN KARAWANG</orgName>
-								<orgName type="institution" key="instit1">Program Studi Teknik Informatika</orgName>
-								<orgName type="institution" key="instit2">Universitas Singaperbangsa Karawang</orgName>
-								<orgName type="institution" key="instit3">Jl. H.S. Ronggowaluyo</orgName>
-								<orgName type="institution" key="instit4">Telukjambe Timur</orgName>
+								<orgName type="department">SENTRA PRODUKSI PADI DI INDONESIA Nunung Kusnadi</orgName>
+								<orgName type="laboratory">ANALISIS EFISIENSI USAHATANI PADI DI BEBERAPA</orgName>
+								<orgName type="institution" key="instit1">Netti Tinaprilla</orgName>
+								<orgName type="institution" key="instit2">Sri Hery Susilowati</orgName>
+								<orgName type="institution" key="instit3">dan Adreng Purwoto ANALISIS</orgName>
 								<address>
-									<postCode>41361</postCode>
-									<settlement>Karawang</settlement>
+									<postBox>EFISIENSI USAHATANI PADI DI BEBERAPA SENTRA PRODUKSI PADI DI INDONESIA</postBox>
 								</address>
 							</affiliation>
 						</author>
 					</analytic>
 					<monogr>
-						<idno type="ISSN">2460 -7797</idno>
+						<imprint>
+							<date/>
+						</imprint>
 					</monogr>
-					<idno type="MD5">93A044E028D827684622C09A4D9368AF</idno>
+					<idno type="MD5">FF37C24A0E4720306A334460EB2329F1</idno>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.2" ident="GROBID" when="2026-02-24T19:17+0000">
+				<application version="0.8.2" ident="GROBID" when="2026-02-25T19:36+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<label type="revision">a91ee48</label>
 					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
@@ -94,356 +76,422 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			</appInfo>
 		</encodingDesc>
 		<profileDesc>
-			<abstract/>
+			<textClass>
+				<keywords>
+					<term>rice farming</term>
+					<term>technical efficiency</term>
+					<term>Indonesia usahatani padi</term>
+					<term>efisiensi teknis</term>
+					<term>Indonesia</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Production efficiency improvement to increase national rice production becomes an important alternative at present since the farm areal extension alternatives seems to be more difficult to conduct. Land availability for rice farming is limited and land conversion from agriculture to non agriculture purposes is increasing because of many reasons. This paper aims to analyze the level of technical production efficiency in riceproducing provinces and to analyze factors influencing its technical efficiency. The results indicated that rice farming in five provinces is efficient with an average of technical efficiency of 91.86 percent. Factors influencing production efficiency are farmers' ages and education levels, dummy variables of season, farmers group, land owner status, rice farming location, and number of parcel of land ownership.</p></div>
+			</abstract>
 		</profileDesc>
 	</teiHeader>
-	<text xml:lang="id">
+	<text xml:lang="en">
 		<body>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>PENDAHULUAN</head><p>Kabupaten Karawang mempunyai potensi besar dalam subsektor pertanian khususnya tanaman pangan baik ditinjau dari aspek sumber daya alam maupun sumber daya manusia. Sumber daya petani sangat menunjang keberhasilan pembangunan pertanian di Kabupaten Karawang, dimana 61,9% penduduk bergerak di bidang usaha pertanian dengan persentase buruh tani sekitar 59,43% (Dinas Pertanian Kehutanan Perkebunan dan Peternakan Kabupaten <ref type="bibr" target="#b6">Karawang, 2014)</ref>. Menurut <ref type="bibr" target="#b9">Makarim &amp; Suhartatik (2009)</ref>, Karawang merupakan salah satu pusat penanaman padi di Pulau Jawa. Dengan luas areal pertanian lahan basah mencapai 97.000 hektar, Kabupaten Karawang mampu memproduksi padi sekitar 1,4 juta ton GKP per tahun. Dengan jumlah produksi padi sebesar itu, Karawang memberikan kontribusi beras hingga 9% dari produksi beras yang dihasilkan provinsi Jawa Barat. Sebagai pusat penanaman padi, sudah seharusnya produktivitas padi dari tahun ke tahun mengalami peningkatan.</p><p>Namun, produktivitas padi ternyata tidak konsisten, pada tahun 2015 diketahui produktivitas mengalami kenaikan dari 76,05 kw/ha menjadi 79,99 kw/ha, sedangkan pada tahun 2016, produktivitas mengalami penurunan menjadi 75,38 kw/ha. Kenaikan dan penurunan ini dapat disebabkan oleh beberapa faktor seperti rata-rata curah hujan, luas tanam, produksi, luas panen, dan rata-rata hari hujan (Dinas Pertanian Kehutanan Perkebunan dan Peternakan Kabupaten Karawang, 2016). Hal tersebut dapat menimbulkan kekhawatiran jika suatu saat produktivitas mengalami penurunan secara terus menerus. Oleh karena itu, produktivitas padi perlu diestimasi agar dapat diperkirakan seberapa besar produktivitas padi selanjutnya.</p><p>Beberapa algoritma yang dapat digunakan untuk mengestimasi hubungan antar variabel diantaranya regresi linier, fuzzy, dan jaringan syaraf tiruan. Regresi linier terbagi menjadi regresi linier sederhana dan regresi linier berganda. Regresi linier berganda merupakan suatu algoritma yang digunakan untuk menelusuri pola hubungan antara variabel terikat dengan dua atau lebih variabel bebas <ref type="bibr" target="#b15">(Uyanik &amp; Guler, 2013)</ref>. Pada penelitian <ref type="bibr" target="#b17">Wati, Sebayang, &amp; Sitepu (2013)</ref> tentang peramalan jumlah produksi, regresi linier berganda lebih baik jika dibandingkan dengan fuzzy. Hal ini dapat dilihat dari nilai rata-rata kesalahan relatif regresi linier berganda sebesar 9,383% yang lebih kecil daripada nilai rata-rata kesalahan relatif fuzzy sebesar 20.748%. Selanjutnya, Nurmahaludin (2014) membandingkan algoritma Particle Swarm Optimization (PSO) pada jaringan syaraf tiruan dengan regresi linier berganda pada prakiraan cuaca. Hasil pengujian menunjukkan bahwa pada prakiraan temperatur udara minimum, penggunaan algoritma PSO memberikan tingkat kesalahan paling minimum dengan ratarata kesalahan sebesar 2,597%, sedangkan pada regresi linier berganda sebesar 2,675%. Akan tetapi, pada prakiraan temperatur udara maksimum, metode regresi linear berganda memberikan hasil yang lebih baik dengan rata-rata kesalahan sebesar 4.911%, sedangkan pada jaringan syaraf tiruan sebesar 5,930%.</p><p>Analisis regresi linier berganda telah digunakan dalam estimasi produktivitas padi di Kabupaten Demak oleh <ref type="bibr" target="#b4">Aziz, Prasetyo, &amp; Sukmono (2018)</ref>. Selain itu, pendugaan produktivitas padi dengan analisis regresi linier berganda juga telah</p><p>Tesa Nur Padilah dan Riza Ibnu Adam: Analisis Regresi Linier Berganda Dalam Estimasi Produktivitas Tanaman Padi di Kabupaten Karawang. FIBONACCI : Jurnal Pendidikan Matematika dan Matematika. Vol. 5 (2), pp: 117 -128. 119 dilakukan oleh Kurnianto, Ariffin, &amp; Azizah (2018) berdasarkan curah hujan di Kabupaten Malang. Oleh karena itu, pada penelitian ini digunakan regresi linier berganda untuk mengestimasi produktivitas padi di Kabupaten Karawang.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>METODE PENELITIAN</head><p>Tahapan penelitian ini adalah sebagai berikut:</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identifikasi Variabel</head><p>Identifikasi variabel merupakan tahapan penentuan variabel terikat dan variabel-variabel bebas berdasarkan data yang diperoleh dari Dinas Pertanian Kehutanan Perkebunan dan Peternakan Kabupaten Karawang.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analisis Data</head><p>Pada tahap ini dilakukan pengujian asumsi klasik dan pengujian hipotesis <ref type="bibr" target="#b10">(Mona, Kekenusa, &amp; Prang, 2015)</ref>. Pengujian dilakukan dengan bantuan tools Minitab 18 dan SPSS 16. 1. Pengujian Asumsi Klasik Pengujian ini terdiri dari uji normalitas, uji multikolinieritas, uji heteroskedastisitas, dan uji autokorelasi. Syarat untuk mendapatkan model regresi yang baik adalah distribusi datanya normal atau mendekati normal. Jika data tidak berdistribusi normal, maka perlu dilakukan transformasi data terlebih dahulu. Selanjutnya, model regresi yang baik adalah model regresi yang tidak terjadi multikolinieritas, heteroskedastisitas, dan autokorelasi (Ndruru, Situmorang, &amp; Tarigan, 2014). 2. Pengujian Hipotesis Setelah semua syarat untuk ditelitinya suatu model regresi terpenuhi semua, maka langkah selanjutnya untuk mengetahui diterima atau tidaknya hipotesis yang diajukan yaitu dengan melakukan uji simultan (uji F) dan uji signifikansi (uji T). Uji F dilakukan untuk mengetahui apakah semua variabel bebas berpengaruh secara signifikan terhadap variabel terikat. Sedangkan uji T dilakukan untuk mengetahui apakah dalam model regresi, variabel bebas secara parsial berpengaruh signifikan terhadap variabel terikat (Sulistyono &amp; Sulistiyowati, 2017).</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Penentuan Model Regresi Linier Berganda</head><p>Tahap selanjutnya adalah penentuan koefisien atau parameter-parameter regresi dengan metode kuadrat terkecil <ref type="bibr" target="#b16">(Walpole, Myers, Myers, &amp; Ye, 2011)</ref>. Pada metode kuadrat terkecil akan diperoleh suatu sistem persamaan linier yang dapat dibentuk ke dalam perkalian matriks. Perhitungan nilai koefisien regresi dilakukan dengan menyelesaikan solusi sistem. Solusi sistem tersebut dapat dicari dengan menggunakan eliminasi Gauss <ref type="bibr">(Anton &amp; Rorres, 2005)</ref>. Perhitungan dilakukan dengan bantuan tools Matlab 2016b.</p><p>Selanjutnya hasil tersebut dibandingkan dengan nilai yang diperoleh dengan perhitungan menggunakan tools Minitab 18. Setelah itu, kebaikan model regresi dapat diukur dari nilai koefisien determinasi (R 2 ) <ref type="bibr">(Widiyawati &amp; Setiawan, 2015)</ref>. Nilai koefisien determinasi berkisar antara 0 sampai 1. Jika nilainya mendekati 1, maka dapat dikatakan pengaruh variabel bebas terhadap variabel terikat adalah besar. Artinya model yang digunakan baik untuk menjelaskan pengaruh variabel tersebut <ref type="bibr" target="#b11">(Ndruru et al., 2014)</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluasi</head><p>Evaluasi dilakukan dengan menghitung nilai rata-rata kesalahan relatif (error) <ref type="bibr" target="#b17">(Wati et al., 2013)</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Penarikan Kesimpulan</head><p>Dari hasil analisis yang didapatkan maka tahap terakhir yang dilakukan pada penelitian ini adalah penarikan kesimpulan.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>HASIL DAN PEMBAHASAN Identifikasi Variabel</head><p>Data yang digunakan adalah data perbulan yang berjumlah 57 data. Variabel terikat pada penelitian ini adalah produktivitas padi (kw/ha). Data produktivitas padi dihasilkan dari dua data utama yaitu data produksi dibagi dengan luas panen <ref type="bibr">(Damiri &amp; Ishak, n.d.)</ref>. Sedangkan variabel-variabel bebasnya yaitu produksi, luas panen, luas tanam, rata-rata curah hujan, dan rata-rata hari hujan</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analisis Data Pengujian Asumsi Klasik 1. Uji Normalitas</head><p>Uji normalitas menggunakan uji Kolmogorov-Smirnov (K-S) dengan bantuan tools Minitab 18. Hasil uji normalitas untuk data produksi dapat dilihat pada gambar berikut.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gambar 1. Uji normalitas data produksi</head><p>Hasil uji normalitas untuk data luas panen dapat dilihat pada gambar berikut.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gambar 2. Uji normalitas data luas panen</head><p>Hasil uji normalitas untuk data luas tanam dapat dilihat pada gambar berikut.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gambar 3. Uji normalitas data luas tanam</head><p>Hasil uji normalitas untuk data ratarata curah hujan dapat dilihat pada gambar berikut. Tesa Nur Padilah dan Riza Ibnu Adam: Analisis Regresi Linier Berganda Dalam Estimasi Produktivitas Tanaman Padi di Kabupaten Karawang. FIBONACCI : Jurnal Pendidikan Matematika dan Matematika. Vol. 5 (2), pp: 117 -128.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>121</head><p>Hasil uji normalitas untuk data ratarata hari hujan dapat dilihat pada gambar berikut.</p><p>Gambar 5. Uji normalitas data ratarata hari hujan Berdasarkan Gambar 1, 2, 3, 4, dan 5, nilai P-Value untuk data produksi, luas panen, luas tanam, ratarata curah hujan, dan rata-rata hari hujan masing-masing adalah &gt;0,150; 0,110; &gt;0,150; &lt;0,010; dan 0,035. Data berdistribusi normal jika nilai P-Value lebih dari 0,05. Ini berarti variabel produksi, luas panen, dan luas tanam berdistribusi normal, sedangkan variabel rata-rata curah hujan dan ratarata hari hujan tidak berdistribusi normal.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pada</head><p>data yang tidak berdistribusi normal dilakukan transformasi Box-Cox. Kemudian pada data hasil transformasi tersebut dilakukan uji normalitas, hasilnya sebagai berikut. Gambar 6. Uji normalitas data hasil transformasi Berdasarkan Gambar 6, P-Value untuk data transformasi curah hujan dan transformasi hari hujan keduanya bernilai &gt;0,150. Ini berarti kedua variabel tersebut berdistribusi normal. Dengan demikian, data yang akan digunakan selanjutnya adalah variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan. 2. Uji Multikolinieritas Pengujian ada tidaknya multikolinieritas dilakukan dengan melihat nilai VIF menggunakan tools Minitab 18 pada gambar berikut. Gambar 7. Nilai coefficients Berdasarkan Gambar 7 terlihat bahwa semua variabel bebas mempunyai nilai VIF kurang dari 10, artinya tidak terjadi kasus multikolinieritas. 3. Uji Heteroskedastisitas Pengujian heteroskedastisitas dilakukan dengan uji Glejser menggunakan tools SPSS 16 sebagai berikut. Gambar 8. Hasil uji glejser Berdasarkan Gambar 8, diperoleh nilai signifikansi untuk variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan masing-masing 0,029; 0,015; 0,404; 0,394; dan 0,266. Nilai-nilai tersebut lebih dari 0,01 sehingga tidak terdapat heteroskedastisitas dalam model. Ini berarti semua variabel bebas dalam model ini memiliki sebaran varian yang sama (homogen). 4. Uji Autokorelasi Pengujian autokorelasi dilakukan dengan uji Durbin Watson (DW) menggunakan tools Minitab 18. Nilai statistik uji Durbin Watson diperoleh . Berdasarkan tabel Durbin Watson dengan derajat kepercayaan , banyaknya sampel , dan banyaknya variabel bebas diperoleh nilai Durbin Lower dan Durbin Upper . Oleh karena nilai lebih besar daripada dan lebih kecil daripada , atau maka tidak terdapat autokorelasi positif dan negatif dalam model. Pengujian Hipotesis 1. Uji Simultan (Uji F) Hasil pengolahan data untuk uji F dengan tools SPSS 16 disajikan dalam tabel berikut. Tabel 1. Uji simultan (uji f) Model Sum of Squares df Mean Square F Sig. 1 Regre ssion 13364.2 57 5 2672.851 41. 990 .000 a Resid ual 3246.37 4 51 63.654 Total 16610.6 31 56 Tesa Nur Padilah dan Riza Ibnu Adam: Analisis Regresi Linier Berganda Dalam Estimasi Produktivitas Tanaman Padi di Kabupaten Karawang. FIBONACCI : Jurnal Pendidikan Matematika dan Matematika. Vol. 5 (2), pp: 117 -128.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>123</head><p>Hipotesis awal dan hipotesis alternatif pada uji F adalah: H 0 : variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan tidak mempunyai pengaruh yang signifikan secara bersama-sama terhadap variabel produktivitas.</p><p>H 1 : variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan mempunyai pengaruh yang signifikan secara bersama-sama terhadap variabel produktivitas.</p><p>Berdasarkan Tabel 1, dapat diketahui bahwa nilai F hitung adalah 2672.851 dan F tabel dengan derajat kebebasan , untuk dan dan derajat kepercayaan adalah 2,40. Dengan demikian, F hitung &gt; F tabel sehingga H 0 ditolak, artinya variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan secara bersama-sama mempunyai pengaruh yang signifikan terhadap variabel produktivitas.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Uji Signifikansi (Uji T)</head><p>Hasil pengolahan data untuk uji T dengan tools Minitab 18 dapat dilihat dari nilai T-Value pada Gambar 7. Hipotesis awal dan hipotesis alternatif pada uji T adalah: H 0 : secara parsial tidak ada pengaruh signifikan variabel produksi, luas panen, luas tanam, transformasi curah hujan, atau transformasi hari hujan terhadap variabel produktivitas. Persamaan regresi pada Gambar 9 dapat diartikan sebagai berikut: 1. Nilai koefisien untuk variabel produksi bernilai positif sebesar 0,000504. Hal ini menunjukkan bahwa dengan mengasumsikan diabaikannya variabel bebas lainnya, jika variabel produksi meningkat sebesar 1% maka dapat mempengaruhi peningkatan jumlah produktivitas sebesar 0,000504. 2. Nilai koefisien untuk variabel luas panen bernilai negatif sebesar -0,004074. Hal ini menunjukkan bahwa dengan mengasumsikan diabaikannya variabel bebas lainnya, jika variabel luas panen meningkat sebesar 1% maka dapat mempengaruhi penurunan jumlah produktivitas sebesar 0,004074. 3. Nilai koefisien untuk variabel luas tanam bernilai negatif sebesar -0,000084. Hal ini menunjukkan bahwa dengan mengasumsikan diabaikannya variabel bebas lainnya, jika variabel luas tanam meningkat sebesar 1% maka dapat mempengaruhi penurunan jumlah produktivitas sebesar 0,000084. 4. Nilai koefisien untuk variabel transformasi curah hujan bernilai positif sebesar 1,11. Hal ini menunjukkan bahwa dengan mengasumsikan diabaikannya variabel bebas lainnya, jika variabel transformasi curah hujan meningkat sebesar 1% maka dapat mempengaruhi peningkatan jumlah produktivitas sebesar 1,11. 5. Nilai koefisien untuk variabel transformasi hari hujan bernilai negatif sebesar -2,21. Hal ini menunjukkan bahwa dengan mengasumsikan diabaikannya variabel bebas lainnya, jika variabel transformasi hari hujan meningkat sebesar 1% maka dapat mempengaruhi penurunan jumlah produktivitas sebesar 2,21.</p><p>Dengan demikian, variabel-variabel yang mempengaruhi peningkatan jumlah produktivitas yaitu variabel produksi dan curah hujan, sedangkan variabel-variabel yang mempengaruhi penurunan jumlah produktivitas yaitu variabel luas panen, luas tanam, dan hari hujan.</p><p>Nilai koefisien determinasi (R 2 ) dari persamaan regresi pada Gambar 5 dapat dilihat pada gambar berikut.</p><p>Gambar 10. Nilai koefisien determinasi Berdasarkan Gambar 10, diperoleh nilai koefisien determinasi adalah 80,46%, artinya sebesar 80,46% faktor-faktor produktivitas padi dapat dijelaskan oleh produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan. Sedangkan sisanya 19,54% dapat dijelaskan oleh faktor-faktor lain yang tidak diteliti dalam penelitian ini.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluasi</head><p>Jika masing-masing variabel produksi, luas panen, luas tanam, transformasi curah hujan, dan transformasi hari hujan dimasukkan ke dalam persamaan pada Gambar 9, maka diperoleh estimasi produktivitas padi pada tabel berikut.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Gambar 4 .</head><label>4</label><figDesc>Gambar 4. Uji normalitas data rata-rata curah hujan</figDesc><graphic coords="4,321.02,595.74,197.25,131.74" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Gambar 9. Model regresi linier berganda</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,118.77,148.66,357.72,181.35" type="bitmap" /></figure>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Widiyawati &amp; Setiawan. 2015. "Analisis faktor-faktor yang mempengaruhi tingkat produksi padi dan jagung di kabupaten lamongan". Jurnal Sains dan Seni ITS. Vol. 4 (1), pp: 103-108.</p></note>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PENDAHULUAN</head><p>Sampai saat ini hampir seluruh masyarakat Indonesia masih menjadikan beras sebagai makanan pokok. Penempatan beras sebagai makanan pokok berimplikasi luas pada kebijakan komoditas lainnya seperti gula, kedelai, daging, dan sebagainya dalam berbagai aspek baik aspek ekonomi, aspek sosial, dan aspek politik. Secara politis pemerintah menempatkan beras sebagai komoditas strategis dalam pembangunan ekonomi dan swasembada beras menjadi target pembangunan. Untuk itu telah banyak program-program nasional yang berkaitan dengan upaya peningkatan produksi beras (padi), seperti Bimas dan Inmas (Bimbingan/intensifikasi Masyarakat Tani), INSUS (Intensifikasi Khusus), SUPRA INSUS, PHT (Pengendalian Hama Terpadu), Tabela (Tanam Benih Langsung). SUTPA (Sistim Usaha Terpadu), IP 300, pengembangan padi hibrida, PTT (Pengelolaan Tanaman Terpadu), IP-400 dan lain-lain. Kondisi masyarakat yang menjadikan beras sebagai makanan pokok, berdampak pada kebijakan pemerintah yang setidaknya perlu untuk memperhatikan komoditas padi dengan berbagai program-programnya.</p><p>Hasil dari berbagai program pengembangan komoditas beras dapat dilihat dari perkembangan luas areal panen, produksi, dan produktivitas padi nasional seperti diperlihatkan pada Gambar 1.</p><p>Sumber : <ref type="bibr">FAOSTAT, 2010 (diolah)</ref> Gambar 1. Perkembangan Produksi, Luas Areal, dan Produktivitas Padi Sawah <ref type="bibr">Tahun 1970</ref><ref type="bibr">Tahun -2009 (1970=100%) (1970=100%)</ref> Produksi padi sawah pada tahun 2009 meningkat hampir empat kali lipat dibandingkan dengan produksi padi pada sawah pada pada tahun 1970 Produksi Produktivitas Luas areal sebagai tahun-tahun awal pengembangan produksi padi. Namun demikian, perkembangan luas areal panen dan produktivitas dalam kurun waktu tersebut tampak tidak banyak mengalami perubahan. Tampak bahwa perkembangan produktivitas sedikit lebih cepat dibandingkan dengan perkembangan luas areal, walaupun perkembangan produktivitas cenderung mendatar. Artinya, perkembangan produksi total lebih banyak disebabkan oleh perkembangan produktivitas. Menurut <ref type="bibr">Sawit (2001)</ref> dan <ref type="bibr">BAPPENAS_USAID (2000)</ref>, dalam <ref type="bibr">Sumaryanto dkk. (2003)</ref>, bahwa dalam beberapa tahun ke depan produktivitas usahatani padi tidak stabil dan mengalami kemandegan atau stagnan (levelingoff), seperti ditunjukkan pada Gambar 1. Rendah dan tidak stabilnya pertumbuhan produksi padi diperkirakan masih akan berlanjut. Hal ini disebabkan antara lain oleh lambatnya pertambahan luas areal tanam baru (ekstensifikasi) sebagai akibat terbatasnya angggaran untuk pembangunan lahan sawah baru dan rehabilitasi jaringan irigasi, serta gejala melambatnya pertumbuhan produktivitas masih belum berhasil dipecahkan <ref type="bibr">(Kasryno et al., 2001</ref><ref type="bibr">dalam Sumaryanto dkk., 2003)</ref>.</p><p>Perkembangan produktivitas padi sawah per hektar yang melambat menunjukkan bahwa produktivitas marjinal lahan sawah hampir maksimum mendekati leveling off.</p><p>Pada Tabel 1 dapat dilihat bahwa peningkatan produktivitas dari tahun ke tahun tidak stabil bahkan cenderung berfluktuasi. Kondisi produktivitas seperti ini dapat ditingkatkan melalui upaya intensifikasi atau perbaikan teknologi. Upaya ini lebih memungkinkan mengingat peningkatan produksi melalui ekstensifikasi atau perluasan lahan sawah semakin tidak efisien. Keterbatasan anggaran pemerintah untuk pembukaan lahan irigasi dan tingginya kompetisi penggunaan lahan untuk kegiatan nonpertanian, berdampak pada peningkatan produksi padi melalui perluasan lahan sawah menjadi semakin mahal. Alternatif yang perlu dipikirkan adalah meningkatkan produktivitas lahan melalui efisiensi.</p><p>Jika masyarakat terus menjadikan beras sebagai makanan pokok yang sulit didiversifikasi, maka akan berimplikasi pada sisi permintaan. Demand yang tinggi setidaknya menuntut pemerintah menerapkan kebijakan harga beras murah. Harga beras nasional dikendalikan untuk melindungi konsumen beras, khususnya masyarakat berpendapatan rendah. Kebijakan harga beras murah memang menguntungkan konsumen, namun merugikan bagi petani produsen padi. Pada gilirannya, harga beras murah akan menekan bahkan menghilangkan insentif ekonomi bagi petani produsen padi dan tidak menutup kemungkinan bagi petani untuk beralih ke nonpadi.</p><p>Di sisi lain, konsumsi beras secara nasional sampai saat ini masih cukup tinggi, bahkan cenderung meningkat. Dari data BPS, pada tahun 2002 rata-rata konsumsi beras yang mencakup konsumsi langsung rumah tangga, konsumsi industri makanan, kebutuhan benih, susut, dan kegunaan lain mencapai 115,5 kilogram per kapita per tahun. Pada tahun 2003 turun menjadi 109,7 kilogram per kapita per tahun tetapi tahun 2004 rata-rata konsumsi beras naik drastis menjadi 138,81 kilogram per kapita per tahun, tahun 2005 naik menjadi 139,15 kilogram per kapita per tahun dan tahun 2009 naik menjadi 140 kilogram per kapita per tahun. Konsumsi beras nasional dinilai sangat tinggi dibandingkan negara lain di Asia seperti Jepang yang memiliki rata-rata konsumsi beras 60 kilogram per kapita per tahun dan Malaysia 80 kilogram per kapita per tahun. Dengan jumlah penduduk yang terus meningkat yaitu 1,35 persen per tahun (BPS, 2010), kebutuhan beras nasional akan terus meningkat pula. Tekanan permintaan beras akan terus meningkat jika tidak dilakukan upaya menurunkan konsumsi per kapita. Penurunan konsumsi beras per kapita dapat dilakukan melalui penurunan jumlah penduduk misalnya dengan keberhasilan program KB, namun upaya yang lebih mungkin dilakukan yaitu dengan cara diversifikasi konsumsi pangan. Yang menjadi persoalan adalah bahwa diversifikasi konsumsi pangan akan berbenturan dengan budaya masyarakat yang sudah lama menempatkan beras sebagai makanan pokok.</p><p>Tabel 1. Perkembangan Produksi, Luas Panen, dan Produktivitas Padi Sawah Tahun 1970-2009 Tahun Luas Panen (ha) Produksi (ton) Produktivitas (ton/ha) % Peningkatan produktivitas 1970 7.898.250,00 18.693.649,00 2,367 --1975 8.495.096,00 22.339.455,00 2,630 -0,45 1980 9.005.065,00 29.651.905,00 3,293 10,29 1985 9.902.293,00 39.032.945,00 3,942 0,92 1990 10.502.357,00 45.178.751,00 4,302 1,29 1995 11.438.764,00 49.744.140,00 4,349 0,08 2000 11.793.475,00 51.898.852,00 4,401 3,50 2005 11.839.060,00 54.151.097,00 4,574 0,83 2006 11.786.430,00 54.454.937,00 4,620 1,01 2007 12.147.637,00 57.157.435,00 4,705 1,84 2008 12.327.425,00 60.325.925,00 4,894 4,00 2009 12.883.576,00 64.398.890,00 4,999 2,14 Sumber : FAOSTAT, 2010.</p><p>Berdasarkan uraian di atas, peningkatan produktivitas melalui efisiensi teknis menjadi penting untuk diperhatikan. Upaya-upaya peningkatan produksi beras nasional melalui jalur ekstensifikasi tampaknya semakin sulit karena terbatasnya penyediaan lahan pertanian produktif dan konversi lahan dari pertanian ke nonpertanian sulit dibendung karena berbagai alasan. Upaya peningkatan produksi beras melalui efisiensi teknis menjadi pilihan yang tepat. Efisiensi teknis usahatani padi di Indonesia diduga masih dapat ditingkatkan karena tingkat efisiensi teknis usahatani padi menurut penelitian sebelumnya berada pada kisaran 50-90 persen. Penelitian <ref type="bibr" target="#b19">Sumaryanto et al. (2001)</ref> menunjukkan bahwa tingkat efisiensi teknis usahatani padi bervariasi antar wilayah, dengan kisaran 0,64-0,80. Penelitiannya mendukung penelitian Sumaryanto dkk. ( <ref type="formula">2003</ref>) bahwa rata-rata tingkat efisiensi teknis usahatani padi adalah 0,76. <ref type="bibr" target="#b9">Daryanto (2000)</ref> juga menunjukkan nilai inefisiensi teknis usahatani padi berada pada kisaran 59 persen hingga 87 persen.</p><p>Peningkatan produktivitas juga dapat dicapai melalui terobosan teknologi. Terobosan teknologi berkontribusi terhadap pertumbuhan Produktivitas Faktor Total (TFP). Penelitian Swastika (2007) menunjukkan bahwa perubahan teknologi padi sawah irigasi dari tahun 1980 sampai 1988 sebesar 42,72 persen. Kenaikan produktivitas faktor total dari tahun 1980-1988 diduga disebabkan oleh perbaikan tingkat penerapan teknologi dari awal Insus sampai Supra Insus. Setelah Supra Insus, tidak ada lagi terobosan teknologi baru, baik dari segi kultur teknis maupun varietas baru yang berpotensi hasil melebihi varietas-varietas sebelumnya. Selain stagnasi teknologi, juga disebabkan penurunan genetik varietas-varietas yang ada, penurunan kualitas dan kesuburan tanah, dan serangan hama. Perubahan teknologi cenderung bias ke arah pengurangan benih dan tenaga kerja serta peningkatan pemakaian pupuk, pestisida, dan traktor. Untuk itulah peningkatan produktivitas melalui efisiensi teknis dan terobosan teknologi menjadi sangat penting untuk dikaji. Persoalan yang perlu dianalisis adalah apakah masih ada peluang untuk meningkatkan produksi padi nasional dengan upaya meningkatkan efisiensi teknis dan teknologi? Lebih jauh, perlu juga dipelajari faktor-faktor apa yang mempengaruhi efisiensi teknis tersebut? Penelitian ini bertujuan menjelaskan secara singkat tingkat efisiensi teknis produksi padi di beberapa provinsi yang menjadi sentra produksi padi nasional, dan mempelajari faktor-faktor yang mempengaruhi efisiensi teknis tersebut.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METODOLOGI Kerangka Pemikiran Teoritis</head><p>Konsep efisiensi yang digunakan dalam penelitian ini mengacu kepada efisiensi yang dikemukakan oleh <ref type="bibr" target="#b13">Farrell (1957)</ref> dan <ref type="bibr" target="#b8">Coelli et al. (1998)</ref>. Efisiensi digolongkan menjadi tiga yaitu efisiensi teknis, efisiensi alokatif, dan efisiensi ekonomi. Efisiensi teknis memperlihatkan kemampuan relatif dari perusahaan (usahatani) untuk memperoleh output tertentu dengan menggunakan jumlah input tertentu pada tingkat teknologi tertentu. Efisiensi alokatif memperlihatkan kemampuan relatif dari usahatani untuk menggunakan input untuk menghasilkan output pada kondisi biaya minimal atau keuntungan maksimal pada tingkat teknologi tertentu. Efisiensi alokatif bisa diperoleh pada kondisi usahatani yang efisien secara teknis. Jika efisiensi alokatif diperoleh pada kondisi efisien secara teknis usahatani tersebut berada pada kondisi efisisensi ekonomi.</p><p>Farrel dalam <ref type="bibr" target="#b8">Coelli et al. (1998)</ref> menjelaskan bahwa efisiensi terdiri dari dua komponen yaitu efisiensi teknis dan efisiepsi alokatif. Efisiensi teknis memperlihatkan kemampuan dari usahatani memperoleh output maksimal dari jumlah input tertentu. Sedangkan efisiensi alokatif memperlihatkan kemampuan dari usahatani untuk menggunakan proporsi input optimal sesuai dengan harganya dan teknologi produksi yang dimilikinya. Penggabungan keduanya akan menjadi efisiensi ekonomi. Dalam perhitungan efisiensi menurut Farrel ada dua pendekatan yaitu dengan pendekatan input dan pendekatan ouput. Pendekatan input dijelaskan melalui kurva isocost yang ditunjukkan oleh kurva AA' dan isoquant yang ditunjukkan oleh kurva BB'.</p><p>Sumber <ref type="bibr" target="#b13">: Farrell, 1957</ref><ref type="bibr">dalam Coelli, Rao, Battese, 1998.</ref> Gambar 2. Efisiensi Teknis dan Alokalif Misalkan usahatani yang diuji efisiensinya berada di titik P. Jarak antara SP menunjukkan adanya inefisiensi teknis yang merupakan jumlah input yang dapat dikurangi tanpa mengurangi jumlah output. Pengurangan input ini biasanya dipersentasekan dengan rasio SP/OP untuk mencapai produksi yang efisien secara teknis. Efisiensi teknis dapat dihitung dengan rasio dari OS / OP. Titik S merupakan titik yang efisien secara teknis karena berada di kurva isoquant.</p><p>Efisiensi alokatif menggunakan kriteria biaya minimum untuk menghasilkan sejumlah output tertentu pada isoquant. Karena itu diperlukan informasi rasio harga input sebagai kemiringan garis isocost. Jika rasio harga input ditunjukkan oleh kurva isocost AA', efisiensi alokatif dapat dihitung. Untuk efisiensi secara alokatif dihitung berdasarkan rasio OR/OS. Jarak RS menunjukkan pengurangan biaya yang dapat dilakukan guna mencapai efisiensi secara alokatif. Pada akhirnya titik yang efisien secara alokatif dan teknis atau dengan kata lain efisiensi secara ekonomis adalah di titik S'. Efisiensi ekonomi merupakan perkalian antara efisiensi teknis dengan efisiensi alokatif.</p><p>Dari uraian di atas menunjukkan bahwa efisiensi produksi merupakan ukuran relatif kemampuan perusahaan di dalam menggunakan input untuk menghasilkan output tertentu pada tingkat teknologi tertentu. Di sini diperlukan suatu patokan sebagai rujukan (bench mark) untuk mengukur efisiensi, yaitu kemampuan maksimum menghasilkan output pada penggunaan input tertentu pada teknologi tertentu. Karena itu, efisiensi teknis menjadi syarat keharusan untuk mengukur efisiensi alokatif dan efisiensi ekonomi. Konsep ini terkait dengan metode pengukuran efisiensi yang akan digunakan pada penelitian ini, yaitu fungsi produksi frontier (batas). Efisiensi teknis akan dinyatakan dengan seberapa jauh penyimpangan suatu usahatani beroperasi dari fungsi produksi frontier pada tingkat teknologi tertentu.</p><p>Fungsi produksi didefinisikan sebagai hubungan fungsional yang memperlihatkan jumlah output maksimum yang dapat dihasilkan dengan menggunakan dua input atau lebih <ref type="bibr" target="#b10">(Debertin, 1986)</ref>. Jika demikian maka secara teoritik suatu fungsi produksi sebenarnya harus memperlihatkan jumlah output yang paling mungkin diproduksi dengan sejumlah input atau kombinasi input tertentu. Dengan kata lain, fungsi produksi menggambarkan tingkat produksi terluar yang dapat dihasilkan oleh penggunaan input tertentu, yang disebut dengan frontier. Namun demikian, dalam upaya mempelajari fungsi produksi, pada prakteknya tidak selalu menghasilkan fungsi produksi yang ideal sesuai dengan definisi tersebut. Pendugaan fungsi produksi yang menggunakan metode OLS (ordinary least squares) tentunya tidak mungkin menghasilkan fungsi produksi yang ideal tersebut. Oleh karena itu, upaya-upaya untuk mempelajari efisiensi produksi dengan metode OLS tidak akan memperoleh hasil yang maksimal. Seperti telah disinggung di atas, bahwa untuk mengukur efisiensi produksi perlu diketahui patokan tingkat produksi maksimum pada tingkat teknologi tertentu.</p><p>Untuk mengatasi persoalan di atas, maka perlu dicari metode yang dapat menduga fungsi produksi yang mendekati fungsi produksi ideal sesuai dengan teori, yaitu menduga fungsi produksi frontier. Fungsi produksi frontier, dengan demikian, bukan konsep fungsi produksi baru, tetapi merupakan penyempurnaan metode pendugaan fungsi produksi. <ref type="bibr" target="#b8">Coelli et al. (1998)</ref> menyatakan bahwa fungsi produksi frontier adalah fungsi produksi yang menggambarkan output maksimum yang dapat dicapai dari setiap tingkat penggunaan input. Apabila suatu usahatani berada pada titik di fungsi produksi frontier artinya usahatani tersebut efisiensi secara teknis. Jika fungsi produksi frontier diketahui maka dapat diestimasi inefisiensi teknis melalui perbandingan posisi aktual relative terhadap frontiernya. <ref type="bibr" target="#b0">Aigner et al. (1977)</ref> serta <ref type="bibr">Meeusen dan Van Den Broeck (1977)</ref> dalam <ref type="bibr" target="#b8">Coelli et al. (1998)</ref> mengemukakan fungsi stochastic frontier merupakan perluasan dari model asli deterministik untuk mengukur efek-efek yang tidak terduga (stochastic frontier) di dalam batas produksi. Dalam fungsi produksi ini ditambahkan random error, v i , ke dalam variabel acak nonnegatif (non-negative random variable), u i , seperti dinyatakan dalam persamaan seperti berikut :</p><formula xml:id="formula_0">Y = X i .β + (v i -u i ) ; dimana i = 1,2,3....N</formula><p>Random error, v i , berguna untuk menghitung ukuran kesalahan dan faktor acak lainnya seperti cuaca, dan lain-lain, bersama-sama dengan efek kombinasi dari variabel input yang tidak terdefinisi di fungsi produksi. Variabel v i merupakan variabel acak yang bebas dan secara identik terdistribusi normal (independent-identically distributed atau i.i.d) dengan rataan bernilai nol dan ragamnya konstan, v 2 atau N(0, v 2</p><p>). Variabel u i diasumsikan i. i.d. eksponensial atau variabel acak setengah normal (half-normal variables). Variabel u i , berfungsi untuk menangkap efek inefisiensi teknis.</p><p>Model yang dinyatakan daIam persamaan di atas disebut sebagai fungsi produksi stochastic frontier karena nilai output dibatasi oleh variabel acak (stochastic) yaitu nilai harapan dari x i β+v i atau exp(x i β+v i ). Random error bisa bernilai positif dan negatif dan begitu juga ouput stochastic frontier bervariasi sekitar bagian tertentu dari model deterministic frontier, exp(x i β). Komponen deterministik dari model frontier, Y = exp(xiβ), mengasumsikan bahwa berlaku hukum diminishing return to scale. Jika terdapat petani yang menghasilkan output aktual di bawah produksi deterministik frontier, namun output stochastic frontiernya melampaui dari output deterministiknya, maka hal ini dapat terjadi karena aktivitas produksi petani tersebut dipengaruhi oleh kondisi yang menguntungkan dimana variabel v i bernilai positif. Sementara jika terdapat petani yang menghasilkan output aktual di bawah produksi deterministik frontier, dan demikian pula output stochastic frontiernya berada di bawah output deterministiknya, maka hal ini dapat terjadi karena aktivitas produksi petani tersebut dipengaruhi dipengaruhi oleh kondisi yang tidak menguntungkan dimana v j bernilai negatif.</p><p>Output stochastic frontier tidak dapat diamati karena nilai random error tidak teramati. Bagian deterministik dari model stochastic frontier terlihat di antara output stochastic frontier. Output yang diamati dapat menjadi lebih besar dari bagian deterministik dari frontier apabila random error yang sesuai lebih besar dari efek inefisiensinya (misalnya y i &gt;exp(x i β) jika v j &gt; ui) <ref type="bibr" target="#b8">(Coelli et al., 1998)</ref>.</p><p>Model stochastic frontier juga memiliki kelemahan. Kritikan utama terhadap model ini adalah secara umum tidak ada sebuah pengakuan terhadap bentuk penyebaran yang pasti dari variabel-variabel u i . Bentuk distribusi setengah normal dan eksponesial adalah bentuk ditribusi yang selama ini dipilih. Akan tetapi menurut <ref type="bibr" target="#b8">Coelli et al. (1998)</ref> kedua bentuk distribusi ini cenderung bernilai nol sehingga kemungkinan besar efek efisiensi yang dicari juga mendekati nol.</p><p>Sejumlah peneliti menanggapi kritikan ini dengan membuat bentuk penyebaran yang lebih umum seperti terpotong normal (truncated-normal) <ref type="bibr" target="#b18">(Stevenson, 1980)</ref> dan dua parameter gamma untuk menangkap efek inefisiensi teknis <ref type="bibr" target="#b14">(Greene, 1990)</ref>. Kedua distribusi tersebut memiliki bentuk distribusi yang lebih luas.</p><p>Model pemotongan terhadap penyebaran normal lebih mudah dibandingkan model gamma. Penyebaran pemotongan normal adalah generalisasi dari penyebaran setengah normal. Penyebaran ini diperoleh dari pemotongan pada nilai nol dari penyebaran normal dengan nilai harapan variansnya adalah μ dan 2 . Jika nilai μ adalah nol maka distribusinya adalah setengah normal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode Penelitian</head><p>Penelitian ini dilaksanakan pada lima provinsi di Indonesia yaitu Sumatera Utara, Jawa Barat, Jawa Tengah, Jawa Timur, dan Sulawesi Selatan. Pemilihan lokasi ini berdasarkan pertimbangan bahwa kelima provinsi ini merupakan sentra produksi padi di Indonesia. Data yang digunakan sebanyak 802 data responden petani padi yang dipilih secara acak, dari penelitian PATANAS tahun 2010 dimana pada tahun 2010, penelitian PATANAS ditujukan untuk komoditas berbasis padi. Sumber data yang digunakan adalah data primer (primary data sources) dan data sekunder (secondary data sources). Data dikumpulkan melalui survei PATANAS dengan mewawancarai langsung petani dengan bantuan kuesioner yang telah dipersiapkan sebelumnya. Data yang diambil adalah data usahatani padi (produksi, input, biaya produksi, penerimaan, harga, dan sebagainya) yang dilakukan resposden selama 3 (tiga) musim tanam yaitu MH (musim tanam November 2009-Pebruari 2010), MK2 (musim tanam Juli-Oktober 2009) dan MK1 (musim tanam Maret-Juni 2009). Selain data primer penelitian ini juga menggunakan data sekunder berupa hasil penelitian dan tulisan yang relevan dikumpulkan dari lembaga-lembaga terkait seperti BPS, Kementerian Pertanian, dan Pusat Sosial Ekonomi dan Kebijakan Pertanian Bogor.</p><p>Efisiensi produksi pada peneliitan ini menggunakan fungsi produksi stochastic frontier karena dianggap lebih baik dari deterministic frontier. Metode stochastic frontier mensyaratkan sampel yang harus banyak dibandingkan deterministic frontier. Pada penelitian ini sampel yang diambil memenuhi syarat stochastic frontier. Analisis ini digunakan untuk mengukur efisiensi teknis dari usahatani padi dari sisi output dan faktor-faktor yang mempengaruhi efisiensi teknis. Bentuk fungsi produksi yang digunakan adalah Stochastic Frontier Cobb Douglas. Pilihan terhadap bentuk fungsi produksi ini diambil berdasarkan alasan sebagai berikut <ref type="bibr" target="#b10">(Debertin, 1986)</ref>: (1) bersifat homogen sehingga dapat digunakan untuk menurunkan fungsi biaya dual dari fungsi produksi, (2) bentuknya lebih sederhana, (3) dapat dibuat dalam bentuk linear additif, dan (4) jarang menimbulkan masalah Selain itu, fungsi produksi stochastic frontier Cobb Douglas telah digunakan secara luas dan teruji untuk mengkaji efisiensi produksi baik di negara-negara maju maupun di negara-negara berkembang. Fungsi produksi Cobb Douglas adalah suatu fungsi atau persamaan yang melibatkan dua atau lebih variabel, terdiri atas variabel terikat atau yang dijelaskan yaitu jumlah output padi (Y) dan variabel bebas atau yang menjelaskan yaitu input (X). Fungsi produksi Cobb Douglas mempunyai beberapa keunggulan dalam studi empiris, selain mudah digunakan karena bisa ditransformasi ke dalam bentuk linear, fungsi ini juga sangat mudah diinterpretasikan hasilnya. Selain itu terdapat beberapa keunggulan praktis lainnya yaitu <ref type="bibr">(Debertin,1986)</ref>: (1) Nilai dari produk marjinal tergantung dari jumlah input yang digunakan dalam proses produksi. Hal ini sesuai dengan praktek dalam kehidupan sehari-hari dimana produksi marjinal adalah turunan pertama dari produksi total. (2) Parameter estimasi secara berturut-turut menggambarkan elastisitas produksi (e p ) dari masing-masing input dan jumlah dari eksponen-eksponen tersebut merupakan return to scale. Jika e p = 1 berarti kegiatan produksi dalam keadaan constant return to scale. Jika e p &gt; 1 berarti kegiatan produksi dalam keadaan increasing return to scale dan Jika e p = 1 &lt; 1 berarti kegiatan produksi dalam keadaan decreasing return to scale. (3) Fungsi produksi Cobb Douglas dapat diestimasi dengan menggunakan analisis regresi linear dengan mengubahnya menjadi bentuk linear double log. (4) Fungsi produksi Cobb Douglas dapat dengan mudah digunakan dalam suatu fungsi dengan menambahkan lebih banyak atau lebih dari dua variable bebas. Namun, akibat dari penyelesaian fungsi produksi Cobb Douglas selalu dilogaritmakan dan diubah bentuk fungsinya menjadi fungsi linear, maka terdapat asumsi dan syarat-syarat yang harus dipenuhi sebelum digunakan, yaitu: (1) Tidak ada nilai pengamatan yang bernilai nol karena logaritma dari nol adalah suatu bilangan yang besarnya tidak diketahui.</p><p>(2) Terdapat asumsi bahwa tidak ada perbedaan teknologi pada setiap pengamatan dalam fungsi produksi, maksudnya, jika fungsi produksi Cobb Douglas yang dipakai sebagai model dalam suatu pengamatan dan bila diperlukan analisis yang memerlukan lebih dari satu model, maka perbedaan model tersebut terletak pada intersep dan bukan pada kemiringan garis (slope) model tersebut. (3) Setiap variabel bebas adalah perfect competition. (4) Perbedaan lokasi (pada fungsi produksi) seperti iklim sudah tercakup pada factor kesalahan (error term).</p><p>Selain kelebihan-kelebihan yang telah dijelaskan, terdapat juga beberapa kelemahan dari fungsi Cobb Douglas yang perlu diperhatikan, yaitu:</p><p>(1) asumsi bahwa teknologi dianggap netral, padahal belum tentu teknologi di daerah penelitian adalah sama; (2) sampel dianggap price takers, petani menerima harga yang ditentukan di pasar, padahal untuk sampel petani yang subsisten, mungkin tidak terlalu seperti itu; (3) tidak ada produksi (Y) maksimum, artinya sepanjang kombinasi input (X) dinaikkan, maka produksi (Y) akan terus naik sepanjang expansion path-nya; (4) elastisitas produksi tetap; (5) kelemahan ini membuat fungsi produksi Cobb Douglas tidak bisa menggambarkan fungsi produksi neoklasik.</p><p>Dalam fungsi produksi, faktor-faktor yang diduga mempengaruhi produksi adalah lahan, bibit, pupuk, dan tenaga kerja. Variabel ini merupakan input yang selalu digunakan oleh petani dalam produksi padi. Pupuk sebelumnya dinilai dengan berat fisik (urea, SP36, NPK, TSP, dan KCL). Namun demikian mengingat banyak petani yang tidak menggunakan pupuk secara lengkap, maka jenis pupuk dikelompokkan berdasarkan zat aktif yang mengandung Nitrogen (N), Phospor (P), dan Kalium (K). Demikian juga dengan tenaga kerja, tidak seluruh tenaga menggunakan satuan hari kerja (HOK) yang merupakan penjumlahan dari HOK tenaga kerja dalam keluarga dengan HOK tenaga kerja luar keluarga. Dengan memasukkan sebanyak 6 variabel yang paling relevan ke dalam persamaan frontier maka model persamaan penduga fungsi produksi frontier dari usahatani padi dapat ditulis sebagai berikut : Dasar penentuan memilih variabel ini karena : (1) Variabel yang mempengaruhi inefisiensi teknis haruslah variabel karakteristik atau sosial ekonomi petani yang secara tidak langsung mempengaruhi produksi. (2) Variabel yang mempengaruhi inefisiensi teknis tidak boleh menggunakan variabel input atau faktor produksi. (3) Variabel yang mempengaruhi inefisiensi teknis tidak boleh ada pada persamaan fungsi produksi. (4) Variabel umur, pendidikan, kelompok tani, dan status lahan telah banyak diuji oleh penelitipeneliti sebelumnya baik dalam maupun di luar negeri. (5) Variabel dummy musim dipakai untuk menguji dampak ketersediaan air dan kesesuaian iklim terhadap efisiensi teknis. Musim dalam penelitian dibagi dua, yaitu musim hujan dan musim kemarau (gabungan MK1 dan MK2). ( <ref type="formula">6</ref>) Variabel jumlah persil dipakai untuk menjawab isu fragmentasi lahan terhadap efisiensi teknis. ( <ref type="formula">7</ref>) Variabel dummy status pulau dipakai untuk menjawab isu kondisi fasilitas dan infrastruktur terhadap efisiensi teknis.</p><p>Hasil pengolahan program FRONTIER 4.1 menurut <ref type="bibr" target="#b0">Aigner et al. (1977)</ref>, <ref type="bibr" target="#b16">Jondrow et al. (1982)</ref>, <ref type="bibr" target="#b15">Greene (1993)</ref>, dan <ref type="bibr">Coelli (1996a)</ref>, akan memberikan nilai perkiraan varians dalam bentuk parameterisasi sebagai berikut :</p><p>Parameter dari varians ini dapat mencari nilai , oleh karena itu 0 1. Nilai parameter merupakan kontribusi dari efisiensi teknis di dalam efek residual total.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HASIL DAN PEMBAHASAN</head><p>Produksi padi nasional didukung oleh produksi sentra-sentra padi seperti Jawa Barat, Jawa Tengah, Jawa Timur, Sumatera Utara, dan Sulawesi Selatan. Kelima provinsi ini menyumbang peranan yang besar dalam perberasan nasional. Produktivitas padi di kelima provinsi ini hampir menyamai produktivitas nasional. Produktivitas padi sawah per hektar secara nasional adalah 57,6 kuintal. Satu-satunya provinsi lokasi penelitian yang memiliki ratarata produktivitas padi per hektar lebih tinggi dibandingkan dengan rata-rata produktivitas padi per hektar secara nasional adalah Jawa Barat yang mencapai 63,8 kuintal. Di antara 5 provinsi lokasi penelitian yang memiliki rata-rata produktivitas padi per hektar paling rendah adalah Sulawesi Selatan yang hanya mencapai 52,8 kuintal (Tabel 2).</p><p>Tabel 2. Produksi dan Penggunaan/Pengeluaran Input per Hektar Usahatani Padi Secara Nasional dan di Provinsi-Provinsi Lokasi Penelitian, 2010 Uraian Nasional Sumatera Utara Jawa Barat Jawa Tengah Jawa Timur Sulawesi Selatan 1. Produktivitas (kuintal gkp) 57,6 56,5 63,8 55,8 56,0 52,8 2. Input 2.1. Benih (kg) 50,0 42,0 39,0 54,0 51,0 54,0 2.2. Pupuk Anorganik (kg) a. Urea 278 236 251 276 317 286 b. Za 51 61 56 53 46 38 c. SP36 97 88 93 98 59 142 d. NPK 96 117 119 98 90 88 e. KCL 8 6 5 8 7 12 2.3. Pengeluaran untuk pestisida (Rp 000) 541 648 684 537 438 458 2.4. Pengeluaran untuk tenaga kerja luar keluarga (Rp 000) 1) 3.111 3.480 3.404 3.055 3.111 2.885 Keterangan: 1)Terdiri dari upah harian, borongan, dan bawon (upah panen)</p><p>Produksi padi ditentukan oleh penggunaan input-inputnya baik lahan, bibit, pupuk, dan tenaga kerja. Analisis fungsi produksi menggambarkan hubungan produksi dengan input-inputnya dimana dalam penelitian ini menggunakan fungsi produksi model stochastic frontier Cobb Douglas. Analisis fungsi produksi dilakukan untuk melihat faktor-faktor yang mempengaruhi produksi padi di lokasi penelitian. Pada fungsi produksi awal diduga dengan delapan variabel yaitu lahan, bibit, pupuk, obat, input lain, tenaga kerja, persil garapan milik, dan luas garapan milik. Analisis OLS dilakukan terlebih dahulu untuk menguji apakah terdapat pelanggaran asumsi atau tidak (multikolinearity, autokorelasi, dan heteroskeasticity). Selain itu dengan OLS terlebih dahulu, ditemukan beberapa variabel yang memiliki nilai koefisien yang negatif. Keberadaan nilai yang negatif ini sebaiknya dihindari. Agar relevan dengan analisis ekonomi maka nilai koefisien fungsi produksi haruslah positif.</p><p>Tabel 3 memperlihatkan hasil pendugaan stochastic frontier dengan menggunakan 6 (enam) variabel penjelas. Hasil pendugaan menggambarkan kinerja terbaik (best practice) dari petani responden pada tingkat teknologi yang ada. Pendugaan dilakukan dengan metode MLE. Seluruh variabel yang diduga menghasilkan koefisien yang bernilai positif (kecuali pupuk kalium hampir mendekati nol, namun tidak signifikan) sehingga sesuai dengan asumsi fungsi produksi Cobb Douglas. Dari enam variabel yang diduga relevan, variabelvariabel yang nyata berpengaruh terhadap produksi batas (frontier) petani responden adalah : lahan, bibit, pupuk N, pupuk P, dan tenaga kerja. Kelima variabel ini berpengaruh nyata pada taraf nyata =10 persen. Variabel-variabel ini masih dapat ditingkatkan untuk meningkatkan produksi. Sedangkan variabel pupuk K tidak berpengaruh nyata terhadap produksi padi.</p><p>Tabel 3. Pendugaan Fungsi Produksi dengan Metode MLE Parameter Variabel Koefisien standarderror t-rasio P&gt;|t| beta 0 Konstanta 3,59038630 0,04471050 80,30297800 0,00000 beta 1 Lahan 0,92271151 0,02256814 40,88559000 0,00000 beta 2 Bibit 0,03501284 0,01902497 1,84036190 0,05927 beta 3 Pupuk nitrogen 0,01531483 0,00586212 2,61250880 0,00961 beta 4 Pupuk phosphor 0,00447100 0,00225790 1,98016070 0,05836 beta 5 Pupuk kalium -0,00021786 0,00165914 -0,13130691 0,87165 beta 6 HOK tenaga kerja 0,06783652 0,01611398 4,20979240 0,00281</p><p>Parameter dugaan pada fungsi produksi stochastic frontier menunjukkan nilai elastisitas produksi frontier dari input-input yang digunakan. Koefisien dalam fungsi produksi yang merupakan pangkat fungsi Cobb-Douglas merupakan elastisitas produksi masing-masing input yang digunakan. Jumlah koefisien fungsi ini merupakan kondisi return to scale dan untuk Tabel 3 hasilnya adalah 1,045. Hal ini menunjukkan bahwa fungsi produksi Cobb-Douglas dengan metode MLE ini berada dalam kondisi Constant Return To Scale (sesuai dengan asumsi fungsi produksi Cobb Douglas). Sama halnya dengan total koefisien fungsi produksi dengan metode OLS, menghasilkan angka 1,034 yang berarti Constant Return To Scale.</p><p>Hasil pendugaan pada Tabel 3 menunjukkan bahwa elastisitas produksi frontier dari variabel lahan ditemukan berpengaruh nyata terhadap produksi padi pada taraf =10 persen, dengan nilai sebesar 0,92. Angka ini menunjukkan bahwa penambahan sebesar 1 persen lahan (dimana input lainnya tetap), masih dapat meningkatkan produksi padi dengan tambahan produksi sebesar 0,92 persen. Variabel lahan paling responsif dibandingkan dengan variabel lain karena memiliki koefisien yang paling besar. Implikasinya adalah jika pemerintah hendak meningkatkan produksi, maka variabel lahan lah yang seharusnys menjadi perhatian utama. Input lain selain lahan tidak elastis yang artinya peningkatan input masing-masing hanya mampu meningkatkan produksi dalam jumlah yang kecil.</p><p>Sementara elastisitas produksi frontier dari variabel bibit, pupuk N, pupuk P, dan tenaga kerja ditemukan berpengaruh nyata terhadap produksi padi dengan nilai elastisitas produksi masing-masing sebesar 0,0350 untuk bibit, 0,0153 untuk pupuk N, 0,0045 untuk pupuk P, dan 0,0678 untuk tenaga kerja. Angka-angka ini menunjukkan bahwa penambahan jumlah bibit, pupuk N, pupuk P, dan tenaga kerja masing-masing sebesar 1 persen (dengan asumsi input lain tetap), masih dapat meningkatkan produksi padi dengan penambahan produksi sebesar 0,0350, 0,0153, 0,0045, dan 0,0678 persen. Untuk variabel pupuk K, ditemukan tidak berpengaruh nyata terhadap produksi padi.</p><p>Tabel 4. Pendugaan Fungsi Inefisiensi Teknis dengan Frontier Variabel Koefisien standard-error t-ratio P&gt;|t| delta 0 Konstanta -2,50865040 1,01099460 -2,48136880 0,00842 delta 1 umur KK 0,01845711 0,00654471 2,82015660 0,00286 delta 2 pendidikan KK -0,04097791 0,01652340 -2,47999290 0,01695 delta 3 d musim -0,39221918 0,13494917 -2,90642160 0,00250 delta 4 d kelp tani 0,31984055 0,12063242 2,65136480 0,00385 delta 5 d status lahan -0,21089534 0,08338528 -2,52916750 0,00494 delta 6 jumlah persil -0,04464941 0,01722791 -2,59169130 0,01293 delta 7 d pulau 0,47540648 0,17983191 2,64361580 0,00490 sigmasquared 0,1654928 0,05702806 2,90195410 0,00228 gamma 0,9702944 0,01096348 88,50239800 0,00000 log likelihood function 660,15898000 LR test of the one-sided error 156,11467000 mean efficiency 0,91861506</p><p>Nilai log likelihood dengan metode MLE (660,159) adalah lebih besar dari nilai log likelihood dengan metode OLS yang berarti fungsi produksi dengan metode MLE ini adalah baik dan sesuai dengan kondisi di lapangan. Nilai menunjukkan distribusi dari error term inefisiensi ( ) dan nilai 0,165 adalah cukup kecil sehingga terdistribusi secara normal. Nilai yang mendekati 1 yaitu 0,970 menunjukkan bahwa error term hanya berasal dari akibat inefisiensi ( ) dan bukan berasal dari noise ( ). Model ini sangat baik karena nilai yang mendekati 1. Sedangkan jika mendekati nol diinterpretasikan bahwa seluruh error term adalah sebagai akibat dari noise ( ) seperti cuaca, hama, dan sebagainya dan bukan akibat dari inefisiensi. Jika terjadi demikian, maka parameter koefisien inefisiensi menjadi tidak berarti.</p><p>Secara keseluruhan variabel yang diduga mempengaruhi inefisensi, signifikan berpengaruh nyata terhadap inefisiensi pada taraf =10 persen. Efisiensi teknis dianalisis dengan menggunakan model fungsi produksi frontier. Pendugaan inefisiensi teknis dari model yang digunakan dapat dilihat pada Tabel 4. Nilai indeks efisiensi teknis hasil analisis dikategorikan efisien karena menghasilkan nilai yang lebih dari 0,70 sebagai batas efisien <ref type="bibr">(Coelli,1998)</ref>. Hal ini dikarenakan kelima provinsi tersebut merupakan sentra produksi padi sehingga menghasilkan efisiensi rata-rata 91,86 persen. Selain itu usahatani padi di Indonesia dikatakan sudah efisien dan mendekati frontier-nya karena berbagai upaya dan program pemerintah tertuju kepada padi. Sebagai implikasinya yaitu untuk meningkatkan efisiensi usahatani padi lebih jauh lagi harus melalui terobosan baru atau teknologi yang dapat mendongkrak produksi frontier ke atas lagi.</p><p>Variabel umur berpengaruh nyata dalam inefisiensi. Dengan koefisien yang bertanda positif (0,018) menyatakan bahwa makin tua umur petani, maka inefisiensi akan semakin meningkat. Hal ini membuktikan bahwa petani yang berumur lebih muda ( 60 tahun), akan menghasilkan usahatani yang lebih efisien (Tabel 5). Kondisi di lapangan membuktikan bahwa petani berada pada usia tua dan hal ini ternyata dapat menurunkan efisiensi. Untuk itu perlu ke depan adanya regenerasi dari orang tua petani kepada anak atau keluarganya yang lebih muda. Yang menjadi permasalahan adalah banyak anak petani yang enggan meneruskan usahatani ayahnya atau ayahnya sendiri tidak mendukung anaknya untuk berusahatani. Mereka lebih suka anaknya sekolah di luar desa bahkan lebih jauh, untuk tujuan menuntut ilmu yang lebih tinggi dan setelah itu bekerja tidak dibidang usahatani. Implikasinya adalah perlunya pemerintah melakukan promosi, menanamkan brand image pertanian, dan insentif kepada sektor pertanian terutama usahatani agar lebih diminati oleh generasi muda. Selama usahatani memberikan insentif yang tidak kalah dengan sektor lain, dalam artian profitable, dan didukung oleh prestise sektor pertanian, maka secara otomatis akan banyak generasi muda yang berminat bergerak dalam usahatani.</p><p>Tabel 5. Sebaran Petani Menurut Tingkat Efisiensi Usahatani dan Umur Petani Tahun 2010. Umur (tahun) Tingkat Efisiensi 0 41-49 50-59 Total persen &lt; 0,5 0 1 1 0 2 0,25 0,50-0,69 0 1 5 6 12 1,50 0,70-0,90 13 67 59 42 181 22,57 &gt;0,9 92 201 217 97 607 75,69 105 270 282 145</p><p>Jika dilihat dari variabel pendidikan KK, maka variabel tersebut signifikan berpengaruh nyata dengan koefisien bertanda negatif (-0,041) yang artinya makin tinggi pendidikan, maka inefisiensi akan makin turun. Hal ini menyatakan bahwa pendidikan merupakan variabel penting yang dapat meningkatkan efisiensi. Kondisi di lapangan membuktikan bahwa pendidikan petani masih rendah, sehingga menjadi masalah dalam efisiensi dan hal ini dapat menjadi landasan kebijakan pemerintah untuk meningkatkan pendidikan dan keterampilan manajerial petani. Petani dengan pendidikan SMA, seluruhnya efisien (tidak ada yang efisiensi &lt;0,7), sementara petani dengan pendidikan di bawah SMA, masih ada yang efisiensinya &lt;0,7, dalam artian tidak efisien. Petani dengan pendidikan yang lebih tinggi, akan lebih terbuka dalam menerima informasi dan lebih mudah adopsi atau menerima perubahan teknologi sehingga hal ini akan meningkatkan efisiensi. Pendidikan petani dapat merupakan kombinasi antara pendidikan formal dan atau informal seperti keterampilan teknis atau peningkatan softskill melalui pelatihan atau training.</p><p>Variabel dummy musim pada fungsi inefisiensi berpengaruh nyata dan memiliki koefisien negatif (-0,392) yang artinya pada saat musim hujan akan menurunkan inefisiensi (musim hujan lebih efisien daripada saat musim kemarau). Saat musim hujan ketersediaan air lebih banyak dan usahatani padi lebih memerlukan air yang banyak dibandingkan komoditas lainnya. Pada saat musim kemarau usahatani padi menjadi tidak efisien karena kurangnya air. Hal ini berarti ketersediaan air sangat penting dalam usahatani padi sehingga kebijakan pemerintah dapat diarahkan untuk meningkatkan kondisi fasilitas irigasi atau pembangunan irigasi yang baru sehingga dapat meningkatkan efisiensi usahatani padi. Alternatif lain petani dapat mengalihkan usahanya pada komoditas lain di saat musim kemarau. Pada Tabel 6 terlihat saat musim kemarau terdapat 11 petani yang tidak efisien sedangkan pada saat musim hujan hanya 3 orang petani.</p><p>Tabel 6. Sebaran Efisiensi Petani Berdasarkan Musim, 2010 Musim Efisiensi 1 0 Total Persen &lt; 0,5 0 2 2 0.25 0,50-0,69 3 9 12 1.50 0,70-0,90 73 108 181 22.57 &gt;0,9 292 315 607 75.69 Total 368 434 802 100</p><p>Jika dilihat dari keanggotaan kelompok tani, maka variabel tersebut signifikan berpengaruh nyata dengan koefisien positif (0,319) yang menunjukkan bahwa keanggotaan kelompok tani malah akan meningkatkan inefisiensi. Hal ini bertentangan dengan hipotesis di awal bahwa akses ke lembaga kelompok tani diduga akan semakin meningkatkan efisiensi teknis usahatani padi yang dikelolanya. Kondisi di lapangan memang menunjukkan bahwa banyak petani yang bukan anggota kelompok tani. Kondisi inefisiensi pada anggota kelompok tani disebabkan oleh para petani tersebut tidak ikut serta dalam kegiatan kelompok tani secara aktif. Mereka membutuhkan keanggotaan kelompok tani hanya untuk kepentingan menerima bantuan sehingga merasa perlu menjadi anggota. Namun, mereka tidak secara aktif ikut serta dalam setiap kegiatan yang diadakan kelompok tani. Hal ini berdampak bahwa keanggotaan kelompok tani tidak meningkatkan efisiensi usahatani. Pada Tabel 7 dapat dilihat bahwa petani yang merupakan anggota kelompok tani dan tidak efisien ada 10 orang, sedangkan yang bukan anggota dan tidak efisien hanya 4 orang. Jika dilihat dari status lahan, maka variabel dummy ini signifikan berpengaruh nyata dengan koefisien negatif (-0.21) yang artinya status lahan 'pemilik' akan menurunkan inefisiensi dibandingkan status lahan nonpemilik, atau dengan kata lain kepemilikan lahan akan meningkatkan efisiensi usahatani padi (Tabel 8). Implikasinya adalah perlunya kebijakan pemerintah untuk mengelola/membenahi tanah absentee dan pemberian kesempatan serta fasilitas kepada petani untuk pembelian lahan. Hal ini wajar terjadi karena dengan kepemilikan lahan yang digarap, terdapat sense of belonging sehingga petani akan memanfaatkan lahan tersebut sebaik-baiknya dan menghasilkan efisiensi yang lebih tinggi. Selain itu, khusus untuk komoditas padi, kepemilikan lahan yang semakin luas akan meningkatkan status petani kaya di daerah tersebut, dalam artian semakin luas lahan sawah yang dimilikinya, maka petani tersebut adalah sebagai petani kaya. Lahan milik sebagai investasi dan capital accumulation pada komoditi padi. Hal ini berbeda dengan petani sayuran, misalnya, bahwa petani kaya tidak berarti yang memiliki lahan yang luas. Sebagai contoh pada komoditas kentang, menurut <ref type="bibr" target="#b12">Fariyanti (2008)</ref>, petani kaya adalah petani yang memiliki investasi rumah bagus, mobil mewah, dan aset lain yang bukan aset usahatani. Lahan yang digarap sebagian besar bukanlah hak milik. Petani inilah yang disebut petani kaya.</p><p>Tabel 8. Sebaran Petani Menurut Tingkat Efisiensi Usahatani dan Status Lahan Tahun 2010 Status Lahan Tingkat Efisiensi 1 (milik) 0 (non milik) &lt; 0,5 2 0 0,50-0,69 9 3 0,70-0,90 152 29 &gt;0,9 512 95 Total 675 127</p><p>Jika dilihat dari jumlah persil, maka variabel ini signifikan berpengaruh nyata dengan koefisien negatif (-0,045) yang artinya semakin banyak persil yang dimiliki maka akan menurunkan inefisiensi, atau dengan kata lain semakin banyak persil maka akan semakin efisien. Dengan responden yang diambil, belum bisa menyimpulkan isu bahwa fragmentasi akan menyulitkan pengelolaan usahatani sehingga akan menurunkan efisiensi teknis. Hal ini bertentangan dengan hipotesis atau menolak hipotesis bahwa semakin banyak persil maka tidak akan efisien karena lahan terfragmentasi dan pengelolaan menjadi lebih sulit. Kondisi di lapangan ternyata menunjukkan bahwa banyaknya persil malah meningkatkan efisiensi karena walaupun persilnya banyak, tetapi tetap masih dalam satu hamparan dalam satu desa sehingga masih dalam kontrol pengawasan yang baik. Peningkatan jumlah persil masih selaras dengan perluasan lahan sehingga semakin banyak persil yang berarti semakin luas lahan yang dikelola, maka akan meningkatkan efisiensi. Semakin sedikit persil (dengan asumsi luasan yang sempit) malah akan semakin tidak efisien. Pada kepemilikan maksimum 2 persil, terdapat 11 petani yang tidak efisien, sedangkan pada kepemilikan persil yang lebih banyak, hanya 2 orang petani yang tidak efisisen (Tabel 9). Dengan demikian efek jumlah persil lebih terkait dengan perluasan lahan daripada isu fragmentasi lahan.</p><p>Tabel 9. Sebaran Petani Menurut Tingkat Efisiensi Usahatani dan Jumlah Persil Tahun 2010 Jumlah persil Tingkat Efisiensi 1 sd 2 3 sd 4 &gt;5 &lt; 0,5 2 0 0 0,50-0,69 9 2 1 0,70-0,90 139 37 5 &gt;0,9 456 115 36 Total 606 154 42</p><p>Jika dilihat sebaran petani menurut provinsi Jawa dan Luar Jawa, maka dapat disimpulkan bahwa di Jawa relatif kurang efisien jika dibandingkan dengan luar Jawa, Hal ini dibuktikan oleh variabel dummy pulau pada fungsi inefisiensi yang positif (0.475) dan berpengaruh nyata. Pada Tabel 10 dapat dilihat bahwa di Pulau Jawa lebih banyak petani yang tidak efisien dibandingkan di luar Jawa. Hal ini karena sampel di Jawa jauh lebih banyak. Dengan demikian, peningkatan produksi melalui efisiensi di luar Jawa lebih memungkinkan untuk dilakukan. Salah satunya dikarenakan kondisi lahan subur (kesesuaian lahan untuk komoditi padi sawah) di Jawa semakin terbatas. Program ekstensifikasi untuk perluasan lahan dapat dilakukan sepanjang pemilihan diarahkan kepada lahan yang subur dengan sarana dan infrastruktur yang baik. Di Jawa, efisiensi masih dapat ditingkatkan namun itu pun sangat terbatas karena kondisinya memang telah efisien (rata-rata efisiensi 0,92), kecuali melalui terobosan dan teknologi baru.</p><p>Perluasan lahan menjadi penting karena sesuai dengan pengaruh variabel lahan terhadap produksi yang paling responsif (0,92) dan pengaruh peningkatan jumlah persil terhadap penurunan inefisiensi (-0,045), sehingga kebijakan ekstensifikasi masih relevan untuk dilakukan ke luar Jawa.</p><p>Tabel 10. Sebaran Petani Menurut Tingkat Efisiensi Usahatani dan Lokasi Pulau Tahun 2010 Pulau Tingkat Efisiensi (Jawa) 0 (luar jawa) &lt; 0,5 1 1 0,50-0,69 12 0 0,70-0,90 170 11 &gt;0,9 518 89 Total 701 101 KESIMPULAN DAN IMPLIKASI KEBIJAKAN</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kesimpulan</head><p>Dari enam variabel yang diduga relevan, seluruhnya memiliki koefisien yang positif sesuai dengan asumsi fungsi produksi Cobb Douglas (kecuali pupuk K yang mendekati nol). Variabel-variabel yang nyata berpengaruh terhadap produksi batas (frontier) petani responden adalah : lahan, bibit, pupuk N, pupuk P, dan tenaga kerja. Kelima variabel ini berpengaruh nyata pada taraf nyata =10%. Variabel yang paling responsif yaitu lahan. Artinya masih ada peluang untuk meningkatkan produksi beras nasional dengan upaya peningkatan lahan (ekstensifikasi).</p><p>Berdasarkan hasil dan pembahasan maka dapat disimpulkan bahwa usahatani padi di lima provinsi sentra di Indonesia telah efisien dengan rata-rata efisiensi 91.86 persen. Seluruh variabel yang diduga mempengaruhi inefisiensi berpengaruh nyata terhadap inefisiensi yaitu umur, pendidikan, dummy musim, dummy kelompok tani, dummy status kepemilikan lahan, jumlah persil, dan dummy lokasi Jawa dan luar Jawa. .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implikasi Kebijakan</head><p>Efisiensi masih dapat ditingkatkan untuk mencapai frontier tetapi dalam peningkatan yang tidak begitu berarti (kurang dari 10%). Peningkatan efisiensi akan memberikan hasil lebih baik jika diarahkan ke luar Jawa melalui perbaikan fasilitas dan sarana irigasi, pemberian kesempatan dan fasilitas kepada petani untuk pemilikan lahan lahan serta peningkatan program-program usahatani melalui terobosan teknologi baru seperti varietas unggul.</p><p>Lahan menjadi faktor penting dan paling responsif dalam upaya peningkatan produksi. Kementerian Pertanian perlu melakukan upaya</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>padi dalam bentuk Gabah Kering Panen (kg) efek inefisiensi teknis dalam model Fungsi produksi Cobb-Douglas hanya mampu menjelaskan daerah produksi I dan II, dan tidak bisa menjelaskan daerah III<ref type="bibr" target="#b3">(Beattie and Taylor, 1985)</ref>. Oleh karena itu nilai koefisien yang diharapkan : &gt; 0. Nilai koefisien positif berarti dengan meningkatnya input berupa lahan, benih, pupuk, dan tenaga kerja diharapkan akan meningkatkan produksi padi.Analisis efisiensi teknis dapat diukur dengan menggunakan rumus berikut :Pada persamaan di atas, adalah efisisensi teknis petani ke-i, exp(efisiensi teknis tersebut berhubungan terbalik dengan nilai efek inefisiensi teknis. Metode efisiensi teknis yang digunakan dalam penelitian ini mengacu kepada model efek inefisiensi teknis yang dikembangkan oleh Battese dan<ref type="bibr" target="#b6">Coelli (1995)</ref>. Variabel yang digunakan untuk mengukur efek inefisiensi teknis, diasumsikan bebas dan distribusinya terpotong normal dengan N(. Untuk menentukan nilai parameter distribusi ( efek inefisiensi teknis pada penelitian ini digunakan rumus sebagai berikut.Dimana :Nilai koefisien parameter yang diharapkan adalah :</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Tabel 7 .</head><label>7</label><figDesc>Sebaran Petani Menurut Tingkat Efisiensi Usahatani dan Keanggotaan di Kelompok</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,56.03,308.53,354.08,170.65" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Jurnal Agro Ekonomi, Volume 29No.1, Mei 2011 : 25 -48   </p></note>
 		</body>
 		<back>
-			<div type="annex">
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>SIMPULAN</head><p>Berdasarkan model regresi yang didapat, sebesar 80,46% faktor-faktor produktivitas padi dapat dijelaskan oleh produksi, luas panen, luas tanam, curah hujan, dan hari hujan. Sedangkan sisanya 19,54% dapat dijelaskan oleh faktor-faktor lain yang tidak diteliti dalam penelitian ini. Variabel-variabel yang mempengaruhi peningkatan jumlah produktivitas padi yaitu variabel produksi dan curah hujan, sedangkan variabel-variabel yang mempengaruhi penurunan jumlah produktivitas yaitu variabel luas panen, luas tanam, dan hari hujan. Rata-rata </p></div>			</div>
 			<div type="references">
 
 				<listBibl>
 
 <biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Formulation and Estimation of Stochastic Frontier Production Function Models</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Aigner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
 	<monogr>
-		<title level="m" type="main">Estimasi produktivitas padi Produktivitas (kw/ha) Estimasi Produktivitas</title>
-		<imprint/>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="21" to="37" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
 	</monogr>
-	<note>kw/ha</note>
 </biblStruct>
 
 <biblStruct xml:id="b1">
 	<analytic>
-		<title/>
+		<title level="a" type="main">Statistik Indonesia Tahun</title>
 	</analytic>
 	<monogr>
-		<title level="j">Kesalahan Relatif</title>
+		<title level="j">BPS</title>
 		<imprint>
-			<biblScope unit="volume">60</biblScope>
-			<date>45454545 76,67245907 0,26826624 61,16564968 68,93625235 0,127041938 68,69033413 65,69505135 0,043605593 116,2621284 139,5700058 0,200476954 47,34344565 40,66201206 0,141126897 140,1493931 101,6925244 0,27439911 71,33149226 75,9759457 0,065110841 61,82746099 62,05998478 0,00376085 0 10,35852338</date>
+			<date type="published" when="2009">2010. 2009</date>
+			<publisher>Badan Pusat Statistik (BPS)</publisher>
+			<pubPlace>Jakarta</pubPlace>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b2">
 	<analytic>
-		<title/>
+		<title level="a" type="main">A Model for Technical Inefficiency Effects in a Stochastic Frontier Production Function for Panel Data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Battese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coelli</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Kesalahan Relatif</title>
+		<title level="j">Empirical Economics</title>
 		<imprint>
-			<biblScope unit="volume">75</biblScope>
-			<biblScope unit="page">64588948</biblScope>
-			<date>48187322 71,27566172 0,05572479 77,03693495 78,28622568 0,016216776 76,79296346 80,26774954 0,045248756 114,7587393 109,9638655 0,04178221 80,04011768 82,12019434 0,025987926 81,9900295 84,11745927 0,02594742 80,97911833 82,42906923 0,017905244 62,26787182 67,70460636 0,087312034 78,78838174 78,11248054 0,008578691 76,40870617 78,47077485 0,026987353 76,00047136 76,31715479 0,004166861 77,09120013 76,38781955 0,009124006 76,54638755 75,00880613 0,020086923 75,14425361 70,95420143 0,055760115 74,58220797 76,27300776 0,022670283 75</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="325" to="332" />
+			<date type="published" when="1995">1995</date>
 		</imprint>
 	</monogr>
-	<note>00818087 72,54490382 0,032840112 76,12150453 73,55476976 0,033718918 Jumlah 2</note>
 </biblStruct>
 
 <biblStruct xml:id="b3">
 	<monogr>
-		<title level="m" type="main">Berdasarkan Tabel 2 diperoleh ratarata kesalahan relatif regresi yaitu atau</title>
-		<imprint/>
+		<title level="m" type="main">The Economics of Production</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Beattie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b4">
-	<analytic>
-		<title level="a" type="main">Analisis regresi linier terhadap pola histogram spektral algoritma ndvi, evi, dan lswi untuk mengestimasi tingkat produktivitas padi (studi kasus: kabupaten demak, jawa tengah)</title>
-		<author>
-			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Aziz</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Y</forename><surname>Prasetyo</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">D</forename><surname>Sukmono</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="j">Jurnal Geodesi Undip</title>
+		<title level="m" type="main">A Guide to FRONTIER Version 4.1: A Computer Program for Frontier Production Function Estimatio</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coelli</surname></persName>
+		</author>
+		<idno>96/07</idno>
 		<imprint>
-			<biblScope unit="volume">7</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="172" to="181" />
-			<date type="published" when="2018">2018</date>
+			<pubPlace>Armidale</pubPlace>
 		</imprint>
+		<respStmt>
+			<orgName>Department of Econometrics, University of New England</orgName>
+		</respStmt>
 	</monogr>
+	<note type="report_type">CEPA Working Paper</note>
 </biblStruct>
 
 <biblStruct xml:id="b5">
 	<monogr>
+		<title level="m" type="main">A Guide to DEAP Version 2.1: A Data Envelopment Analysis (Computer) Program</title>
 		<author>
-			<persName><forename type="first">A</forename><surname>Damiri</surname></persName>
+			<persName><forename type="first">T</forename><forename type="middle">1</forename><surname>Coelli</surname></persName>
 		</author>
-		<author>
-			<persName><surname>Ishak</surname></persName>
-		</author>
-		<ptr target="http://bengkulu.litbang.pertanian.go.id/ind/images/dokumen/publikasi/Makalah_Ubinan.pdf" />
-		<title level="m">Perbandingan Produktivitas Padi Sawah dengan Beberapa Model Plot Ubinan pada Sistem Tanam Legowo</title>
+		<idno>96/08</idno>
 		<imprint>
-			<date type="published" when="2018">21 Agustus 2018</date>
-			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="1996">1996</date>
+			<pubPlace>Armidale</pubPlace>
 		</imprint>
+		<respStmt>
+			<orgName>Department of Econometrics, University of New England</orgName>
+		</respStmt>
 	</monogr>
+	<note type="report_type">CEPA Working Paper</note>
 </biblStruct>
 
 <biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Estimators and Hypothesis Tests for a Stochastic Frontier Function: A Monte Carlo Analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coelli</surname></persName>
+		</author>
+	</analytic>
 	<monogr>
-		<title level="m" type="main">Laporan tahunan tahun</title>
-		<author>
-			<persName><forename type="first">Dinas</forename><surname>Pertanian</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Kehutanan</forename><surname>Perkebunan Dan Peternakan</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Kabupaten</forename><surname>Karawang</surname></persName>
-		</author>
+		<title level="j">Journal of Productivity Analysis</title>
 		<imprint>
-			<date type="published" when="2014">2014. 2014</date>
-			<publisher>Penulis</publisher>
-			<pubPlace>Karawang</pubPlace>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="247" to="268" />
+			<date type="published" when="1995">1995</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b7">
-	<monogr>
-		<title level="m" type="main">Laporan tahunan tahun</title>
+	<analytic>
+		<title level="a" type="main">A Computer Program for Frontier Production Function Estimation: FRONTIER, Version 2.0</title>
 		<author>
-			<persName><surname>_____________</surname></persName>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coelli</surname></persName>
 		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics Letters</title>
 		<imprint>
-			<date type="published" when="2016">2016. 2016</date>
-			<publisher>Penulis</publisher>
-			<pubPlace>Karawang</pubPlace>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="29" to="32" />
+			<date type="published" when="1992">1992</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b8">
-	<analytic>
-		<title level="a" type="main">Pendugaan produktivitas padi (oryza sativa) berdasarkan curah hujan di kabupaten malang</title>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kurnianto</surname></persName>
-		</author>
-		<author>
-			<persName><surname>Ariffin</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">N</forename><surname>Azizah</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="j">Jurnal Produksi Tanaman</title>
+		<title level="m" type="main">An Introduction to Efficiency and Productivity Analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Coelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S P</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Battese</surname></persName>
+		</author>
 		<imprint>
-			<biblScope unit="volume">6</biblScope>
-			<biblScope unit="issue">8</biblScope>
-			<biblScope unit="page" from="1859" to="1867" />
-			<date type="published" when="2018">2018</date>
+			<date type="published" when="1998">1998</date>
+			<publisher>Kluwer Academic Publisher</publisher>
+			<pubPlace>Boston</pubPlace>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b9">
 	<monogr>
+		<title level="m" type="main">Analysis of The Technical Efficiency of Rice Production in West Java Province, Indonesia; A Stochastic Frontier Production Function Approach</title>
 		<author>
-			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Makarim</surname></persName>
+			<persName><forename type="first">H</forename><forename type="middle">K S</forename><surname>Daryanto</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">E</forename><surname>Suhartatik</surname></persName>
-		</author>
-		<ptr target="http://www.litbang.pertanian.go.id/special/padi/bbpadi_2009_itkp_11.pdf" />
-		<title level="m">Morfologi dan Fisiologi Tanaman Padi</title>
 		<imprint>
-			<date type="published" when="2009-09-21">2009. 21 September 2018</date>
+			<date type="published" when="2000">2000</date>
 		</imprint>
+		<respStmt>
+			<orgName>University of New England. Armidale. Australia</orgName>
+		</respStmt>
 	</monogr>
+	<note type="report_type">PhD Thesis</note>
 </biblStruct>
 
 <biblStruct xml:id="b10">
-	<analytic>
-		<title level="a" type="main">Penggunaan regresi linear berganda untuk menganalisis pendapatan petani kelapa, studi kasus: petani kelapa di desa beo, kecamatan beo, kabupaten talaud</title>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Mona</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kekenusa</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Prang</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="j">JdC</title>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Debertin</surname></persName>
+		</author>
 		<imprint>
-			<biblScope unit="volume">4</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="196" to="203" />
-			<date type="published" when="2015">2015</date>
+			<date type="published" when="1986">1986</date>
+			<publisher>Agricultutal Production Economics. Mac Millan Pub.Co</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b11">
 	<analytic>
-		<title level="a" type="main">Analisa faktor-faktor yang mempengaruhi hasil produksi padi di deli serdang</title>
+		<title level="a" type="main">Statistical Databases (pertanian dan nutrisi)</title>
 		<author>
-			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ndruru</surname></persName>
+			<persName><surname>Faostat</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">M</forename><surname>Situmorang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">G</forename><surname>Tarigan</surname></persName>
-		</author>
+		<ptr target="http://www.fao.org" />
 	</analytic>
 	<monogr>
-		<title level="j">Saintia Matematika</title>
+		<title level="j">FAO Statistics</title>
 		<imprint>
-			<biblScope unit="volume">2</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="71" to="83" />
-			<date type="published" when="2014">2014</date>
+			<date type="published" when="2010">2010</date>
 		</imprint>
 	</monogr>
+	<note>Tanggal Akses Februari 2010</note>
 </biblStruct>
 
 <biblStruct xml:id="b12">
-	<monogr>
-		<title level="m" type="main">Analisis perbandingan metode jaringan syaraf tiruan dan regresi linear berganda pada prakiraan cuaca</title>
+	<analytic>
+		<title level="a" type="main">Perilaku Ekonomi Rumahtangga Petani Sayuran Dalam Menghadapi Risiko Produksi dan Harga Produk di Kecamatan Pangalengan Kabupaten Bandung</title>
 		<author>
-			<persName><surname>Nurmahaludin</surname></persName>
+			<persName><forename type="first">A</forename><surname>Fariyanti</surname></persName>
 		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Disertasi. Institut Pertanian Bogor</title>
 		<imprint>
-			<date type="published" when="2014">2014</date>
+			<date type="published" when="2008">2008</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b13">
-	<monogr>
-		<title/>
+	<analytic>
+		<title level="a" type="main">The Measurement of Productive Efficiency</title>
 		<author>
-			<persName><surname>Intekna</surname></persName>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Farrell</surname></persName>
 		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society. Series A. CXX. Part</title>
 		<imprint>
-			<biblScope unit="volume">14</biblScope>
-			<biblScope unit="page" from="102" to="109" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="253" to="290" />
+			<date type="published" when="1957">1957</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b14">
-	<analytic>
-		<title level="a" type="main">Peramalan produksi dengan metode regresi linier berganda</title>
-		<author>
-			<persName><forename type="first">W</forename><surname>Sulistyono &amp; Sulistiyowati</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="j">Prozima</title>
+		<title level="m" type="main">A Gamma-distributed Econometrics</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
+		</author>
 		<imprint>
-			<biblScope unit="volume">1</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="82" to="89" />
-			<date type="published" when="2017">2017</date>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="141" to="164" />
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b15">
 	<analytic>
-		<title level="a" type="main">A study on multiple linear regression analysis</title>
+		<title level="a" type="main">The Econometric Approach to Efficiency Analysis</title>
 		<author>
-			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Uyanik</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">N</forename><surname>Guler</surname></persName>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Procedia-Social and Behavioral Science</title>
+		<title level="m">The Measurement of Productive Efficiency: Techniques and Applications</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">O</forename><surname>Fried</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">A K</forename><surname>Lovell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Schmidt</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
 		<imprint>
-			<biblScope unit="volume">106</biblScope>
-			<biblScope unit="page" from="234" to="240" />
-			<date type="published" when="2013">2013</date>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1993">1993</date>
+			<biblScope unit="page" from="68" to="119" />
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b16">
 	<analytic>
-		<title/>
+		<title level="a" type="main">On Estimation of Technical Inefficiency in the Stochastic Frontier Production Function Model</title>
 		<author>
-			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Walpole</surname></persName>
+			<persName><forename type="first">J</forename><surname>Jondrow</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Myers</surname></persName>
+			<persName><forename type="first">C</forename><forename type="middle">A K</forename><surname>Lovell</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Myers</surname></persName>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Materov</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">K</forename><surname>Ye</surname></persName>
+			<persName><forename type="first">P</forename><surname>Schmidt</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Probability &amp; Statistics for Engineers &amp; Scientists</title>
+		<title level="j">Journal of Econometrics</title>
 		<imprint>
-			<biblScope unit="issue">9</biblScope>
-			<date type="published" when="2011">2011</date>
-			<publisher>Prentice Hall</publisher>
-			<pubPlace>USA</pubPlace>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="1982">1982</date>
 		</imprint>
 	</monogr>
-	<note>th ed.</note>
 </biblStruct>
 
 <biblStruct xml:id="b17">
 	<analytic>
-		<title level="a" type="main">Perbandingan metode fuzzy dengan regresi linier berganda dalam peramalan jumlah produksi</title>
+		<title level="a" type="main">Efficiency Estimation From Cobb-Douglas Production Function With Composed Error</title>
 		<author>
-			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wati</surname></persName>
+			<persName><forename type="first">W</forename><surname>Meeusen</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">D</forename><surname>Sebayang</surname></persName>
+			<persName><forename type="first">J</forename><surname>Van Den</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">R</forename><surname>Sitepu</surname></persName>
+			<persName><forename type="first">J</forename><surname>Broek</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Saintia Matematika</title>
+		<title level="j">International Economic Review</title>
 		<imprint>
-			<biblScope unit="volume">1</biblScope>
-			<biblScope unit="issue">3</biblScope>
-			<biblScope unit="page" from="273" to="284" />
-			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="435" to="444" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Likelihood Functions For Generalized Stochastic Frontier Estimation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Stevenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="57" to="66" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Estimasi Tingkat Efisiensi Usahatani Padi Dengan Fungsi Produksi Frontier Stokastik</title>
+		<author>
+			<persName><surname>Sumaryanto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jurnal Agro Ekonomi</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="84" />
+			<date type="published" when="2001">2001. 2001</date>
+			<pubPlace>Mei</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Determinan Efisiensi Teknis Usahatani Padi di Lahan irigasi</title>
+		<author>
+			<persName><forename type="first">Wahida</forename><surname>Sumaryanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Siregar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jurnal Agro Ekonomi</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="72" to="96" />
+			<date type="published" when="2003">2003. 2003</date>
+			<pubPlace>Mei</pubPlace>
 		</imprint>
 	</monogr>
 </biblStruct>

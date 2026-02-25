@@ -26,6 +26,14 @@ async def extract_header(file_bytes: bytes) -> dict:
             headers={'Accept': 'application/xml'},
             timeout=60
         )
+        
+        with open("grobid_header_response.txt", "w", encoding="utf-8") as f:
+            f.write("==grobid header \n")
+            f.write(response.text + "\n")
+            f.write("=====================================\n")
+        return { 
+            "length": len(response.text),
+            "header": response.text}
 
 #         build_context = """
 # Dari informasi dibawah ini, extract semua metadatanya, terutama dublin core metadata

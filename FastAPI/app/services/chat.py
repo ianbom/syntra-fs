@@ -1,6 +1,6 @@
 from typing import List, Optional, Dict, Any, Tuple
 from sqlalchemy.orm import Session
-from sqlalchemy import desc, func, extract, or_
+from sqlalchemy import desc, func, extract, or_, case, literal
 from fastapi import HTTPException
 import re
 
@@ -379,11 +379,21 @@ class ChatService:
         
         keywords = self._extract_keywords(query)
         
-        # Build base query
+        # Build base query with both content embedding and question embedding scores
+        content_sim = (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('semantic_score')
+        
+        # Question embedding similarity: use CASE to handle NULLs
+        question_sim = case(
+            (DocumentChunk.possibly_question_embedding.isnot(None),
+             1 - DocumentChunk.possibly_question_embedding.cosine_distance(query_embedding)),
+            else_=literal(0.0)
+        ).label('question_score')
+        
         base_query = self.db.query(
             DocumentChunk,
             Document,
-            (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('semantic_score')
+            content_sim,
+            question_sim
         ).join(
             Document, DocumentChunk.document_id == Document.id
         ).filter(
@@ -431,9 +441,9 @@ class ChatService:
                 desc('semantic_score')
             ).limit(limit * 4).all()
         
-        # Re-rank with hybrid scoring
+        # Re-rank with hybrid scoring (content + question + keyword)
         scored_chunks = []
-        for chunk, doc, semantic_score in chunks_with_distance:
+        for chunk, doc, semantic_score, question_score in chunks_with_distance:
             if semantic_score is None:
                 continue
             
@@ -443,22 +453,35 @@ class ChatService:
                 keywords
             )
             
-            # Hybrid score: 70% semantic + 30% keyword
+            # Combined semantic score: best of content embedding and question embedding
+            # question_score is 0.0 when possibly_question_embedding is NULL
+            q_score = float(question_score) if question_score else 0.0
+            combined_semantic = max(float(semantic_score), q_score)
+            
+            # Hybrid score: 70% combined semantic + 30% keyword
             if has_metadata_filters:
-                hybrid_score = (semantic_score * 0.85) + (keyword_score * 0.15)
+                hybrid_score = combined_semantic
             else:
-                hybrid_score = (semantic_score * 0.7) + (keyword_score * 0.3)
+                hybrid_score = combined_semantic
+                
+            # if has_metadata_filters:
+            #     hybrid_score = (combined_semantic * 0.85) + (keyword_score * 0.15)
+            # else:
+            #     hybrid_score = (combined_semantic * 0.7) + (keyword_score * 0.3)
             
             # Bonus if document matched metadata filters
             if has_metadata_filters:
                 hybrid_score *= 1.1  # 10% boost for metadata-matched docs
 
+            print(f"  Chunk {chunk.id}: content_sim={float(semantic_score):.4f}, question_sim={q_score:.4f}, combined={combined_semantic:.4f}, keyword={keyword_score:.4f}, hybrid={hybrid_score:.4f}")
             
             scored_chunks.append({
                 'chunk': chunk,
                 'document_id': doc.id,
                 'document_title': doc.title,
-                'semantic_score': semantic_score,
+                'semantic_score': float(semantic_score),
+                'question_score': q_score,
+                'combined_semantic': combined_semantic,
                 'keyword_score': keyword_score,
                 'hybrid_score': hybrid_score
             })

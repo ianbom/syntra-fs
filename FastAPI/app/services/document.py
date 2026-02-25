@@ -13,6 +13,7 @@ from app.models.document_chunk import DocumentChunk, ChunkType
 from app.services.grobid import extract_header, extract_fulltext, extract_references, format_for_database, extract_structured_fulltext
 from app.services.embedding import generate_embedding
 from app.services.minio import get_minio_client
+from app.services.question_generator import generate_possibly_questions
 from app.services.metadata_extractor import (
     extract_metadata_with_llm,
     is_metadata_incomplete,
@@ -712,29 +713,52 @@ class ChunkProcessor:
         chunks: List[Dict[str, Any]],
         progress_callback: Optional[Callable] = None
     ) -> None:
-        """Generate embeddings and save chunks to database."""
+        """Generate embeddings, hypothetical questions, and save chunks to database."""
         total_chunks = len(chunks)
         
         for i, chunk_data in enumerate(chunks):
             # Progress update
             if progress_callback and i % 5 == 0:
                 percent = 60 + int((i / total_chunks) * 30)
-                await progress_callback(percent, f"Generating embeddings for chunk {i+1}/{total_chunks}...")
+                await progress_callback(percent, f"Processing chunk {i+1}/{total_chunks} (embedding + questions)...")
             
-            # Generate embedding
-            embedding = generate_embedding(chunk_data["content"])
+            content = chunk_data["content"]
+            
+            # Generate content embedding
+            embedding = generate_embedding(content)
+            
+            # Generate hypothetical questions from chunk content
+            possibly_questions = None
+            possibly_question_embedding = None
+            try:
+                section_title = chunk_data.get("section_title")
+                doc_title = chunk_data.get("chunk_metadata", {}).get("source_document")
+                questions = await generate_possibly_questions(
+                    chunk_content=content,
+                    section_title=section_title,
+                    document_title=doc_title,
+                )
+                if questions:
+                    possibly_questions = questions
+                    # Combine questions into a single text and generate embedding
+                    combined_questions = " ".join(questions)
+                    possibly_question_embedding = generate_embedding(combined_questions)
+            except Exception as e:
+                print(f"  Warning: question generation failed for chunk {i}: {e}")
             
             # Create chunk record
             chunk = DocumentChunk(
                 document_id=document.id,
                 chunk_index=chunk_data["chunk_index"],
-                content=chunk_data["content"],
+                content=content,
                 token_count=chunk_data["token_count"],
                 embedding=embedding,
                 chunk_type=chunk_data["chunk_type"],
                 page_number=chunk_data.get("page_number"),
                 section_title=chunk_data.get("section_title"),
-                chunk_metadata=chunk_data.get("chunk_metadata")
+                chunk_metadata=chunk_data.get("chunk_metadata"),
+                possibly_questions=possibly_questions,
+                possibly_question_embedding=possibly_question_embedding,
             )
             self.db.add(chunk)
 

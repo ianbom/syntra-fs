@@ -356,7 +356,7 @@ async def upload_documents_bulk(
 @router.post("/test-grobid-header")
 async def test_grobid_header(file: UploadFile = File(...)):
     file_bytes = await file.read()
-    header = extract_header(file_bytes)
+    header = await extract_header(file_bytes)
     print(header)
     return {"header": header}
 

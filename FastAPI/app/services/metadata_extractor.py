@@ -2,10 +2,7 @@
 import json
 import re
 from typing import Dict, Any, Optional
-import google.generativeai as genai
-from app.config import get_settings
-
-settings = get_settings()
+from app.services.llm import generate_response
 
 
 async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, Any] = None) -> Dict[str, Any]:
@@ -19,11 +16,6 @@ async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, 
     Returns:
         Dictionary with extracted metadata fields
     """
-    api_key = settings.GOOGLE_API_KEY or settings.GEMINI_API_KEY
-    if not api_key:
-        print("Warning: Google API key not configured for LLM metadata extraction")
-        return {}
-    
     if not fulltext or len(fulltext.strip()) < 100:
         print("Warning: Fulltext too short for LLM metadata extraction")
         return {}
@@ -35,13 +27,10 @@ async def extract_metadata_with_llm(fulltext: str, existing_metadata: Dict[str, 
     prompt = _build_extraction_prompt(text_sample, existing_metadata)
     
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(settings.GOOGLE_GENERATION_MODEL)
-        
-        response = await model.generate_content_async(prompt)
+        response_text = await generate_response(prompt)
         
         # Parse JSON from response
-        extracted = _parse_llm_response(response.text)
+        extracted = _parse_llm_response(response_text)
         
         print(f"LLM extracted metadata: {list(extracted.keys())}")
         return extracted
