@@ -1,0 +1,96 @@
+==grobid header 
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nunung</forename><surname>Kusnadi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor</orgName>
+								<address>
+									<addrLine>Jl. Raya Darmaga Kampus IPB Darmaga Bogor 16680 2 Pusat Sosial Ekonomi dan Kebijakan Pertanian Jl. A. Yani No. 70</addrLine>
+									<postCode>16161</postCode>
+									<settlement>Bogor</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Netti</forename><surname>Tinaprilla</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor</orgName>
+								<address>
+									<addrLine>Jl. Raya Darmaga Kampus IPB Darmaga Bogor 16680 2 Pusat Sosial Ekonomi dan Kebijakan Pertanian Jl. A. Yani No. 70</addrLine>
+									<postCode>16161</postCode>
+									<settlement>Bogor</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sri</forename><forename type="middle">Hery</forename><surname>Susilowati</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dan</forename><forename type="middle">Adreng</forename><surname>Purwoto</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">SENTRA PRODUKSI PADI DI INDONESIA Nunung Kusnadi</orgName>
+								<orgName type="laboratory">ANALISIS EFISIENSI USAHATANI PADI DI BEBERAPA</orgName>
+								<orgName type="institution" key="instit1">Netti Tinaprilla</orgName>
+								<orgName type="institution" key="instit2">Sri Hery Susilowati</orgName>
+								<orgName type="institution" key="instit3">dan Adreng Purwoto ANALISIS</orgName>
+								<address>
+									<postBox>EFISIENSI USAHATANI PADI DI BEBERAPA SENTRA PRODUKSI PADI DI INDONESIA</postBox>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FF37C24A0E4720306A334460EB2329F1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-02-25T19:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=0, endPage=2, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>rice farming</term>
+					<term>technical efficiency</term>
+					<term>Indonesia</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Production efficiency improvement to increase national rice production becomes an important alternative at present since the farm areal extension alternatives seems to be more difficult to conduct. Land availability for rice farming is limited and land conversion from agriculture to non agriculture purposes is increasing because of many reasons. This paper aims to analyze the level of technical production efficiency in riceproducing provinces and to analyze factors influencing its technical efficiency. The results indicated that rice farming in five provinces is efficient with an average of technical efficiency of 91.86 percent. Factors influencing production efficiency are farmers&apos; ages and education levels, dummy variables of season, farmers group, land owner status, rice farming location, and number of parcel of land ownership.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
+
+=====================================

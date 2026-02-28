@@ -1,6 +1,6 @@
 from typing import List, Optional, Dict, Any, Tuple
 from sqlalchemy.orm import Session
-from sqlalchemy import desc, func, extract, or_
+from sqlalchemy import desc, func, extract, or_, case, literal
 from fastapi import HTTPException
 import re
 
@@ -379,11 +379,21 @@ class ChatService:
         
         keywords = self._extract_keywords(query)
         
-        # Build base query
+        # Build base query with both content embedding and question embedding scores
+        content_sim = (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('semantic_score')
+        
+        # Question embedding similarity: use CASE to handle NULLs
+        question_sim = case(
+            (DocumentChunk.possibly_question_embedding.isnot(None),
+             1 - DocumentChunk.possibly_question_embedding.cosine_distance(query_embedding)),
+            else_=literal(0.0)
+        ).label('question_score')
+        
         base_query = self.db.query(
             DocumentChunk,
             Document,
-            (1 - DocumentChunk.embedding.cosine_distance(query_embedding)).label('semantic_score')
+            content_sim,
+            question_sim
         ).join(
             Document, DocumentChunk.document_id == Document.id
         ).filter(
@@ -431,9 +441,9 @@ class ChatService:
                 desc('semantic_score')
             ).limit(limit * 4).all()
         
-        # Re-rank with hybrid scoring
+        # Re-rank with hybrid scoring (content + question + keyword)
         scored_chunks = []
-        for chunk, doc, semantic_score in chunks_with_distance:
+        for chunk, doc, semantic_score, question_score in chunks_with_distance:
             if semantic_score is None:
                 continue
             
@@ -443,21 +453,35 @@ class ChatService:
                 keywords
             )
             
-            # Hybrid score: 70% semantic + 30% keyword
+            # Combined semantic score: best of content embedding and question embedding
+            # question_score is 0.0 when possibly_question_embedding is NULL
+            q_score = float(question_score) if question_score else 0.0
+            combined_semantic = max(float(semantic_score), q_score)
+            
+            # Hybrid score: 70% combined semantic + 30% keyword
             if has_metadata_filters:
-                hybrid_score = (semantic_score * 0.85) + (keyword_score * 0.15)
+                hybrid_score = combined_semantic
             else:
-                hybrid_score = (semantic_score * 0.7) + (keyword_score * 0.3)
+                hybrid_score = combined_semantic
+                
+            # if has_metadata_filters:
+            #     hybrid_score = (combined_semantic * 0.85) + (keyword_score * 0.15)
+            # else:
+            #     hybrid_score = (combined_semantic * 0.7) + (keyword_score * 0.3)
             
             # Bonus if document matched metadata filters
             if has_metadata_filters:
                 hybrid_score *= 1.1  # 10% boost for metadata-matched docs
+
+            print(f"  Chunk {chunk.id}: content_sim={float(semantic_score):.4f}, question_sim={q_score:.4f}, combined={combined_semantic:.4f}, keyword={keyword_score:.4f}, hybrid={hybrid_score:.4f}")
             
             scored_chunks.append({
                 'chunk': chunk,
                 'document_id': doc.id,
                 'document_title': doc.title,
-                'semantic_score': semantic_score,
+                'semantic_score': float(semantic_score),
+                'question_score': q_score,
+                'combined_semantic': combined_semantic,
                 'keyword_score': keyword_score,
                 'hybrid_score': hybrid_score
             })
@@ -508,17 +532,15 @@ class ChatService:
     def _construct_rag_prompt(self, message: str, context_text: str) -> str:
         """Construct the prompt for the LLM."""
         if context_text:
-            system_prompt = """Anda adalah asisten AI yang HANYA menjawab berdasarkan dokumen knowledge base.
+            system_prompt = """Anda adalah asisten AI yang menjawab pertanyaan berdasarkan dokumen knowledge base.
 
-ATURAN KETAT (WAJIB DIPATUHI):
-1. Jawab HANYA dan EKSKLUSIF berdasarkan informasi yang ada di KONTEKS di bawah.
-2. DILARANG KERAS menambahkan informasi dari pengetahuan umum Anda.
-3. DILARANG KERAS mengarang, mengira-ngira, atau berasumsi informasi yang TIDAK ADA dalam konteks.
-4. Jika konteks TIDAK MEMBAHAS atau TIDAK RELEVAN dengan pertanyaan user, Anda WAJIB menjawab:
-   "Maaf, saya tidak menemukan informasi yang relevan dengan pertanyaan Anda dalam dokumen yang tersedia. Silakan upload dokumen yang sesuai atau ajukan pertanyaan lain."
-5. Jangan pernah menjawab pertanyaan di luar topik konteks walaupun Anda tahu jawabannya.
-6. Selalu sebutkan sumber dokumen ([Source: ...]) dalam jawaban.
-7. Gunakan bahasa yang sama dengan pertanyaan user."""
+INSTRUKSI:
+1. Gunakan informasi dari KONTEKS di bawah untuk menjawab pertanyaan user.
+2. Jawab dengan lengkap dan informatif menggunakan data yang ada di konteks.
+3. Jika konteks membahas topik yang relevan, berikan jawaban terbaik berdasarkan informasi tersebut.
+4. Sebutkan sumber dokumen ([Source: ...]) dalam jawaban Anda.
+5. Gunakan bahasa yang sama dengan pertanyaan user.
+6. Jika konteks benar-benar TIDAK MEMBAHAS topik pertanyaan sama sekali, katakan bahwa informasi tidak ditemukan."""
 
             return f"""{system_prompt}
 
@@ -529,7 +551,7 @@ KONTEKS DARI DOKUMEN:
 
 PERTANYAAN USER: {message}
 
-JAWABAN (ingat: HANYA berdasarkan konteks di atas, jika tidak relevan katakan tidak ditemukan):"""
+JAWABAN (berdasarkan konteks di atas):"""
         else:
             no_context_msg = "Maaf, saya tidak menemukan informasi yang relevan dengan pertanyaan Anda dalam dokumen yang tersedia."
             return f"""Anda adalah asisten AI berbasis dokumen knowledge base.
@@ -605,9 +627,9 @@ Jawab dengan: {no_context_msg}"""
         
         # 6. Construct Prompt
         full_prompt = self._construct_rag_prompt(request.message, context_text)
-        # print("========== FULL PROMPT ==========")
-        # print(full_prompt)
-        # print("============================================")
+        print("========== FULL PROMPT ==========")
+        print(full_prompt[:2000])
+        print("============================================")
         # 7. Generate Response
         answer = await generate_response(full_prompt)
 

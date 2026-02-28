@@ -24,7 +24,7 @@ class Document(Base):
     id = Column(Integer, primary_key=True, index=True)
     
     # Dublin Core Metadata Elements
-    title = Column(Text, nullable=False, index=True)
+    title = Column(Text, nullable=False, index=True) 
     creator = Column(Text)  # Authors (comma-separated)
     keywords = Column(Text)  # Subject/Keywords
     description = Column(Text)  # Short description
@@ -33,7 +33,7 @@ class Document(Base):
     date = Column(Date)  # Publication date
     type = Column(Enum(DocumentType), default=DocumentType.JOURNAL)
     format = Column(Text)  # MIME type or file format
-    identifier = Column(Text)  # Unique identifier
+    identifier = Column(Text)  # Unique identifier / DOI
     source = Column(Text)  # Journal/Conference name
     language = Column(String(50))  # e.g., "en", "id"
     relation = Column(Text)  # Related resources

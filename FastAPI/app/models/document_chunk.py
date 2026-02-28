@@ -39,6 +39,10 @@ class DocumentChunk(Base):
     # Vector embedding (nomic-embed-text dimension: 768)
     embedding = Column(Vector(768))
     
+    # Hypothetical questions generated from chunk content
+    possibly_questions = Column(JSONB)  # e.g. ["What is X?", "How does Y work?"]
+    possibly_question_embedding = Column(Vector(768))  # Combined embedding of the questions
+    
     # Additional metadata
     chunk_metadata = Column(JSONB)  # Flexible metadata storage
     page_number = Column(Integer)  # Source page number

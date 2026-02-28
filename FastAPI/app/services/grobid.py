@@ -2,20 +2,22 @@
 import requests
 from lxml import etree
 from datetime import datetime
-from typing import Optional
+from typing import Optional, List, Dict, Any
 from fastapi import HTTPException
 from app.config import get_settings
-
+import sys
+from app.services.llm import generate_response
 settings = get_settings()
 
 
-def extract_header(file_bytes: bytes) -> dict:
+
+async def extract_header(file_bytes: bytes) -> dict:
     """
     Extract header/metadata from PDF using GROBID processHeaderDocument endpoint.
     Returns Dublin Core compatible metadata.
     """
     url = f"{settings.GROBID_URL}/api/processHeaderDocument"
-
+    
     try:
         response = requests.post(
             url,
@@ -24,6 +26,31 @@ def extract_header(file_bytes: bytes) -> dict:
             headers={'Accept': 'application/xml'},
             timeout=60
         )
+        
+        with open("grobid_header_response.txt", "w", encoding="utf-8") as f:
+            f.write("==grobid header \n")
+            f.write(response.text + "\n")
+            f.write("=====================================\n")
+        return { 
+            "length": len(response.text),
+            "header": response.text}
+
+#         build_context = """
+# Dari informasi dibawah ini, extract semua metadatanya, terutama dublin core metadata
+# """
+#         llm_response = await generate_response(build_context + '\n\n' + response.text)
+
+#         with open("llm_response.txt", "w", encoding="utf-8") as f:
+#             f.write("==respinse \n")
+#             f.write(llm_response + "\n")
+#             f.write("=====================================\n")
+
+#         print('==reponse llm grobid')
+#         print(llm_response)
+#         print('=====================================')
+#         print(build_context + '\n\n' + response.text)
+#         return
+
     except requests.exceptions.ConnectionError:
         raise HTTPException(
             status_code=503,
@@ -103,10 +130,6 @@ def extract_header(file_bytes: bytes) -> dict:
     keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
     
     print(f"GROBID: Extracted title = '{title}'")
-
-    print('==response header grobid')
-    print(response.text)
-    print('=====================================')
     
     return {
         "title": title,
@@ -135,9 +158,12 @@ def extract_fulltext(file_bytes: bytes) -> str:
             timeout=120
         )
 
-        print('==response fulltect grobid')
-        print(response.text)
-        print('=====================================')
+        with open("full_text_grobid.txt", "w", encoding="utf-8") as f:
+            f.write(response.text + "\n")
+            f.write("=====================================\n")
+
+
+
     except requests.exceptions.ConnectionError:
         raise HTTPException(
             status_code=503,
@@ -223,8 +249,12 @@ def extract_fulltext(file_bytes: bytes) -> str:
             text = "".join(elem.itertext()).strip()
             if text:
                 parts.append(text)
-        
+
         fulltext = "\n\n".join(parts)
+        with open("fullbgtt.txt", "w", encoding="utf-8") as f:
+            f.write(fulltext + "\n")
+            f.write("=====================================\n")
+
         print(f"GROBID fulltext: {len(fulltext)} chars (header + body)")
         return fulltext
     except Exception as e:
@@ -307,3 +337,267 @@ def format_for_database(metadata: dict, references: list[str] = None) -> dict:
         "abstract": metadata.get("abstract"),
         "citation_count": len(references)
     }
+
+
+def extract_structured_fulltext(file_bytes: bytes) -> List[Dict[str, Any]]:
+    """
+    Extract structured full text from PDF using GROBID.
+    Returns a list of structured sections preserving document structure.
+    
+    Each section dict has:
+        - type: "title" | "authors" | "abstract" | "keywords" | "section" | "reference"
+        - title: section heading (if applicable)
+        - content: text content (for single-content sections)
+        - paragraphs: list of paragraph strings (for body sections)
+    
+    This preserves ALL text from the document for smart chunking.
+    """
+    url = f"{settings.GROBID_URL}/api/processFulltextDocument"
+    
+    try:
+        response = requests.post(
+            url,
+            files={'input': ("document.pdf", file_bytes)},
+            headers={'Accept': 'application/xml'},
+            timeout=120
+        )
+    except requests.exceptions.ConnectionError:
+        raise HTTPException(
+            status_code=503,
+            detail="GROBID service is not available."
+        )
+    except requests.exceptions.Timeout:
+        raise HTTPException(
+            status_code=504,
+            detail="GROBID fulltext extraction timed out."
+        )
+    
+    if response.status_code != 200:
+        return []
+    
+    try:
+        root = etree.fromstring(response.text.encode("utf-8"))
+        ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+        sections = []
+        
+        # === 1. TITLE ===
+        title_xpaths = [
+            "//tei:titleStmt/tei:title[@type='main']",
+            "//tei:titleStmt/tei:title[not(@type)]",
+            "//tei:titleStmt/tei:title",
+            "//tei:sourceDesc//tei:title[@level='a']",
+            "//tei:analytic/tei:title",
+        ]
+        title_text = None
+        for xpath in title_xpaths:
+            title_nodes = root.xpath(xpath, namespaces=ns)
+            for node in title_nodes:
+                text = "".join(node.itertext()).strip()
+                if text and len(text) > 3:
+                    title_text = text
+                    break
+            if title_text:
+                break
+        
+        if title_text:
+            sections.append({
+                "type": "title",
+                "title": "Title",
+                "content": title_text,
+                "paragraphs": [title_text]
+            })
+        
+        # === 2. AUTHORS ===
+        authors_xml = root.xpath("//tei:author/tei:persName", namespaces=ns)
+        author_names = []
+        for author in authors_xml:
+            forename = "".join(author.xpath("tei:forename/text()", namespaces=ns)) or ""
+            surname = "".join(author.xpath("tei:surname/text()", namespaces=ns)) or ""
+            full_name = f"{forename} {surname}".strip()
+            if full_name:
+                author_names.append(full_name)
+        if author_names:
+            authors_text = "Authors: " + ", ".join(author_names)
+            sections.append({
+                "type": "authors",
+                "title": "Authors",
+                "content": authors_text,
+                "paragraphs": [authors_text]
+            })
+        
+        # === 3. PUBLISHER / JOURNAL ===
+        publisher_nodes = root.xpath("//tei:publicationStmt/tei:publisher/text()", namespaces=ns)
+        journal_nodes = root.xpath("//tei:sourceDesc//tei:title[@level='j']/text()", namespaces=ns)
+        pub_parts = []
+        if publisher_nodes and publisher_nodes[0].strip():
+            pub_parts.append("Publisher: " + publisher_nodes[0].strip())
+        if journal_nodes and journal_nodes[0].strip():
+            pub_parts.append("Journal: " + journal_nodes[0].strip())
+        if pub_parts:
+            pub_text = ". ".join(pub_parts)
+            sections.append({
+                "type": "section",
+                "title": "Publication Info",
+                "content": pub_text,
+                "paragraphs": [pub_text]
+            })
+        
+        # === 4. ABSTRACT ===
+        abstract_nodes = root.xpath("//tei:profileDesc/tei:abstract//text()", namespaces=ns)
+        if abstract_nodes:
+            abstract_text = " ".join(t.strip() for t in abstract_nodes if t.strip())
+            if abstract_text:
+                sections.append({
+                    "type": "abstract",
+                    "title": "Abstract",
+                    "content": abstract_text,
+                    "paragraphs": [abstract_text]
+                })
+        
+        # === 5. KEYWORDS ===
+        keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
+        if keyword_nodes:
+            keywords_text = "Keywords: " + ", ".join(k.strip() for k in keyword_nodes if k.strip())
+            sections.append({
+                "type": "keywords",
+                "title": "Keywords",
+                "content": keywords_text,
+                "paragraphs": [keywords_text]
+            })
+        
+        # === 6. BODY SECTIONS (structured by <div> with <head>) ===
+        body = root.xpath("//tei:body", namespaces=ns)
+        if body:
+            body_elem = body[0]
+            # Get top-level divs (sections)
+            divs = body_elem.xpath("tei:div", namespaces=ns)
+            
+            if divs:
+                for div in divs:
+                    # Get section heading
+                    head_nodes = div.xpath("tei:head", namespaces=ns)
+                    section_title = None
+                    if head_nodes:
+                        section_title = "".join(head_nodes[0].itertext()).strip()
+                    
+                    # Get all paragraphs in this section
+                    paragraphs = []
+                    for p in div.xpath("tei:p", namespaces=ns):
+                        text = "".join(p.itertext()).strip()
+                        if text:
+                            paragraphs.append(text)
+                    
+                    # Also check for nested divs (subsections)
+                    for sub_div in div.xpath("tei:div", namespaces=ns):
+                        sub_head_nodes = sub_div.xpath("tei:head", namespaces=ns)
+                        sub_title = None
+                        if sub_head_nodes:
+                            sub_title = "".join(sub_head_nodes[0].itertext()).strip()
+                        
+                        sub_paragraphs = []
+                        for p in sub_div.xpath("tei:p", namespaces=ns):
+                            text = "".join(p.itertext()).strip()
+                            if text:
+                                sub_paragraphs.append(text)
+                        
+                        if sub_paragraphs:
+                            # Add subsection heading as context prefix
+                            if sub_title:
+                                sub_paragraphs[0] = f"[{sub_title}] {sub_paragraphs[0]}"
+                            paragraphs.extend(sub_paragraphs)
+                    
+                    if paragraphs:
+                        sections.append({
+                            "type": "section",
+                            "title": section_title or "Untitled Section",
+                            "content": "\n\n".join(paragraphs),
+                            "paragraphs": paragraphs
+                        })
+                    elif section_title:
+                        # Section with heading but no body paragraphs — 
+                        # could have direct text or figures
+                        direct_text = "".join(div.itertext()).strip()
+                        # Remove the heading text from direct_text
+                        if section_title and direct_text.startswith(section_title):
+                            direct_text = direct_text[len(section_title):].strip()
+                        if direct_text:
+                            sections.append({
+                                "type": "section",
+                                "title": section_title,
+                                "content": direct_text,
+                                "paragraphs": [direct_text]
+                            })
+            else:
+                # No divs — fallback: get all paragraphs and headings directly
+                paragraphs = []
+                current_heading = None
+                for elem in body_elem.xpath("tei:head | tei:p", namespaces=ns):
+                    tag = etree.QName(elem.tag).localname
+                    text = "".join(elem.itertext()).strip()
+                    if not text:
+                        continue
+                    if tag == "head":
+                        current_heading = text
+                    else:
+                        if current_heading:
+                            text = f"[{current_heading}] {text}"
+                            current_heading = None
+                        paragraphs.append(text)
+                
+                if paragraphs:
+                    sections.append({
+                        "type": "section",
+                        "title": "Body",
+                        "content": "\n\n".join(paragraphs),
+                        "paragraphs": paragraphs
+                    })
+        
+        # === 7. REFERENCES ===
+        ref_titles = root.xpath("//tei:listBibl//tei:biblStruct", namespaces=ns)
+        if ref_titles:
+            ref_texts = []
+            for i, bib in enumerate(ref_titles):
+                # Get the full text of each reference
+                ref_parts = []
+                # Authors
+                ref_authors = bib.xpath(".//tei:author/tei:persName", namespaces=ns)
+                author_strs = []
+                for a in ref_authors:
+                    fn = "".join(a.xpath("tei:forename/text()", namespaces=ns)) or ""
+                    sn = "".join(a.xpath("tei:surname/text()", namespaces=ns)) or ""
+                    name = f"{fn} {sn}".strip()
+                    if name:
+                        author_strs.append(name)
+                if author_strs:
+                    ref_parts.append(", ".join(author_strs))
+                # Title
+                ref_title = bib.xpath(".//tei:title/text()", namespaces=ns)
+                if ref_title:
+                    ref_parts.append(ref_title[0].strip())
+                # Date
+                ref_date = bib.xpath(".//tei:date/@when", namespaces=ns)
+                if ref_date:
+                    ref_parts.append(f"({ref_date[0]})")
+                
+                if ref_parts:
+                    ref_texts.append(f"[{i+1}] " + ". ".join(ref_parts))
+            
+            if ref_texts:
+                ref_content = "\n".join(ref_texts)
+                sections.append({
+                    "type": "reference",
+                    "title": "References",
+                    "content": ref_content,
+                    "paragraphs": ref_texts
+                })
+        
+        total_chars = sum(len(s.get("content", "")) for s in sections)
+        print(f"GROBID structured: {len(sections)} sections, {total_chars} total chars")
+        for s in sections:
+            print(f"  [{s['type']}] {s.get('title', 'N/A')}: {len(s.get('paragraphs', []))} paragraphs, {len(s.get('content', ''))} chars")
+        
+        return sections
+        
+    except Exception as e:
+        print(f"GROBID structured fulltext extraction error: {e}")
+        return []
