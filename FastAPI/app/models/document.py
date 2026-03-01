@@ -48,6 +48,10 @@ class Document(Base):
     # File storage
     file_path = Column(Text)  # MinIO object name
     
+    # Processing status (for background Celery tasks)
+    processing_status = Column(String(20), default="completed")  # uploading, processing, completed, failed
+    processing_error = Column(Text, nullable=True)  # Error message if processing failed
+    
     # Status flags
     is_private = Column(Boolean, default=False)
     is_metadata_complete = Column(Boolean, default=False)

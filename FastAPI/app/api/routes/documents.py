@@ -18,11 +18,14 @@ from app.schemas.document import (
 from app.services.document import (
     process_document,
     get_document_download_url,
-    delete_document_file
+    delete_document_file,
+    FileValidator,
+    MinIOStorage
 )
 from app.websockets import manager
 from fastapi import WebSocket
 from app.services.grobid import extract_header, extract_fulltext, extract_references
+from app.tasks.document_tasks import process_document_task
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
 
@@ -52,6 +55,8 @@ def _build_document_response(document: Document, chunk_count: int) -> DocumentRe
         file_path=document.file_path,
         is_private=document.is_private or False,
         is_metadata_complete=document.is_metadata_complete or False,
+        processing_status=document.processing_status or "completed",
+        processing_error=document.processing_error,
         created_at=document.created_at,
         updated_at=document.updated_at,
         chunk_count=chunk_count
@@ -80,40 +85,74 @@ async def upload_document(
     Upload and process a PDF document.
     
     The document will be:
-    1. Stored in MinIO
-    2. Processed by GROBID for metadata extraction
-    3. Split into chunks with embeddings for semantic search
+    1. Validated and stored in MinIO (instant)
+    2. Processed in background by Celery worker (GROBID, LLM, embeddings)
+    
+    Returns immediately with processing_status='processing'.
+    Use GET /documents/{id}/status to poll for completion.
     """
-    # Map schema enum to model enum
+    # Step 1: Validate file
+    FileValidator.validate_pdf(file)
+    file_content = await file.read()
+    FileValidator.validate_size(file_content)
+    
+    # Step 2: Upload to MinIO (fast)
+    storage = MinIOStorage()
+    file_path = storage.upload_file(file_content, file.filename)
+    
+    # Step 3: Create document record with status="processing"
     doc_type = DocumentType(type.value)
-    
-    async def progress_callback(progress: int, message: str):
-        if client_id:
-            await manager.send_personal_message(
-                {"status": "processing", "progress": progress, "message": message},
-                client_id
-            )
-    
-    document = await process_document(
-        file=file,
-        db=db,
-        document_type=doc_type,
+    document = Document(
+        title="Sedang diproses...",
+        file_path=file_path,
+        type=doc_type,
         is_private=is_private,
-        progress_callback=progress_callback
+        format="application/pdf",
+        processing_status="processing",
     )
+    db.add(document)
+    db.commit()
+    db.refresh(document)
     
+    # Step 4: Send processing task to Celery (non-blocking)
+    process_document_task.delay(document.id, file_path)
+    print(f"Celery task dispatched for document {document.id}")
+    
+    # Notify via WebSocket
     if client_id:
         await manager.send_personal_message(
-            {"status": "complete", "progress": 100, "message": "Done"},
+            {"status": "processing", "progress": 10, "message": "Document uploaded, processing started...", "document_id": document.id},
             client_id
         )
     
-    # Get chunk count
+    return _build_document_response(document, 0)
+
+
+@router.get("/{document_id}/status")
+async def get_document_status(
+    document_id: int,
+    db: Session = Depends(get_db)
+):
+    """
+    Get the processing status of a document.
+    Used by frontend to poll for completion after upload.
+    """
+    document = db.query(Document).filter(Document.id == document_id).first()
+    if not document:
+        raise HTTPException(status_code=404, detail="Document not found")
+    
     chunk_count = db.query(func.count(DocumentChunk.id)).filter(
         DocumentChunk.document_id == document.id
     ).scalar() or 0
     
-    return _build_document_response(document, chunk_count)
+    return {
+        "id": document.id,
+        "title": document.title,
+        "processing_status": document.processing_status,
+        "processing_error": document.processing_error,
+        "chunk_count": chunk_count,
+        "is_metadata_complete": document.is_metadata_complete or False
+    }
 
 
 @router.get("/", response_model=DocumentListResponse)

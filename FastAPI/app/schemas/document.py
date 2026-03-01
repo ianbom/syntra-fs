@@ -97,6 +97,8 @@ class DocumentResponse(BaseModel):
     file_path: Optional[str] = None
     is_private: bool = False
     is_metadata_complete: bool = False
+    processing_status: str = "completed"
+    processing_error: Optional[str] = None
     created_at: datetime
     updated_at: Optional[datetime] = None
     chunk_count: int = 0

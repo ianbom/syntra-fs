@@ -3,81 +3,88 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-	<teiHeader xml:lang="en">
+	<teiHeader xml:lang="id">
 		<fileDesc>
 			<titleStmt>
-				<title level="a" type="main">Design and Implementation of Hypothermia Symptoms Early Detection With Smart Jacket Based on Wireless Body Area Network M. UDIN HARUN AL RASYID , (Member, IEEE), SRITRUSTA SUKARIDHOTO, (Member, IEEE), AMANG SUDARSONO, AND AFDOLASH NUR KAFFAH</title>
-				<funder>
-					<orgName type="full">Ministry of Research and Technology of Indonesia, through scheme Higher Education Excellent Applied Research 2020</orgName>
-				</funder>
+				<title level="a" type="main">Respons fisiologis dan produktivitas padi (Oryza sativa L) pada kombinasi sistem olah tanah dan pemberian mikoriza Physiological response and productivity of rice (Oryza sativa L.) in a combination of tillage and mycorrhizal application</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher/>
-				<availability status="unknown"><licence/></availability>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-12-30">December 30, 2025</date>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
 						<author>
-							<persName><forename type="first">Politeknik</forename><surname>Elektronika</surname></persName>
+							<persName><forename type="first">Jurnal</forename><surname>Agrium</surname></persName>
 							<affiliation key="aff0">
-								<orgName type="department">PENS</orgName>
+								<orgName type="department">Program Studi Agroekoteknologi</orgName>
+								<orgName type="institution">Universitas Malikussaleh</orgName>
 								<address>
-									<postCode>60111</postCode>
-									<settlement>Surabaya</settlement>
-									<country key="ID">Indonesia</country>
+									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
+									<postCode>243355</postCode>
+									<settlement>Aceh</settlement>
+									<country>Indonesia Abstrak</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Laila</forename><surname>Nazirah</surname></persName>
+							<email>lailanazirah@unimal.ac.id</email>
+							<affiliation key="aff0">
+								<orgName type="department">Program Studi Agroekoteknologi</orgName>
+								<orgName type="institution">Universitas Malikussaleh</orgName>
+								<address>
+									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
+									<postCode>243355</postCode>
+									<settlement>Aceh</settlement>
+									<country>Indonesia Abstrak</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Program Studi Agroekoteknologi</orgName>
+								<orgName type="institution">Universitas Malikussaleh</orgName>
+								<address>
+									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
+									<postCode>243355</postCode>
+									<settlement>Aceh</settlement>
+									<country>Indonesia Abstrak</country>
 								</address>
 							</affiliation>
 						</author>
 						<author>
-							<persName><forename type="first">Negeri</forename><surname>Surabaya</surname></persName>
+							<persName><forename type="first">Aris</forename><surname>Pranata</surname></persName>
 							<affiliation key="aff0">
-								<orgName type="department">PENS</orgName>
+								<orgName type="department">Program Studi Agroekoteknologi</orgName>
+								<orgName type="institution">Universitas Malikussaleh</orgName>
 								<address>
-									<postCode>60111</postCode>
-									<settlement>Surabaya</settlement>
-									<country key="ID">Indonesia</country>
+									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
+									<postCode>243355</postCode>
+									<settlement>Aceh</settlement>
+									<country>Indonesia Abstrak</country>
 								</address>
 							</affiliation>
 						</author>
-						<author>
-							<persName><forename type="first">M</forename><surname>Udin</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">PENS</orgName>
-								<address>
-									<postCode>60111</postCode>
-									<settlement>Surabaya</settlement>
-									<country key="ID">Indonesia</country>
-								</address>
-							</affiliation>
-						</author>
-						<author>
-							<persName><forename type="first">Harun</forename><surname>Al Rasyid</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">PENS</orgName>
-								<address>
-									<postCode>60111</postCode>
-									<settlement>Surabaya</settlement>
-									<country key="ID">Indonesia</country>
-								</address>
-							</affiliation>
-						</author>
-						<title level="a" type="main">Design and Implementation of Hypothermia Symptoms Early Detection With Smart Jacket Based on Wireless Body Area Network M. UDIN HARUN AL RASYID , (Member, IEEE), SRITRUSTA SUKARIDHOTO, (Member, IEEE), AMANG SUDARSONO, AND AFDOLASH NUR KAFFAH</title>
+						<title level="a" type="main">Respons fisiologis dan produktivitas padi (Oryza sativa L) pada kombinasi sistem olah tanah dan pemberian mikoriza Physiological response and productivity of rice (Oryza sativa L.) in a combination of tillage and mycorrhizal application</title>
 					</analytic>
 					<monogr>
+						<idno type="ISSN">1829-9288</idno>
 						<imprint>
-							<date/>
+							<date type="published" when="2025-12-30">December 30, 2025</date>
 						</imprint>
 					</monogr>
-					<idno type="MD5">B118F214257DFF61EAB18FF9D86C3EA4</idno>
-					<idno type="DOI">10.1109/ACCESS.2020.3018793</idno>
-					<note type="submission">Received July 21, 2020, accepted August 13, 2020, date of publication August 24, 2020, date of current version September 3, 2020.</note>
+					<idno type="MD5">55B3A5242906BCFDE1E8C4FA331E07D5</idno>
+					<idno type="DOI">10.29103/agrium.v22i4.25773</idno>
+					<note type="submission">Received: October 10, 2025 Revised: November 17, 2025 Accepted: December 20, 2025</note>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.2" ident="GROBID" when="2026-03-01T13:43+0000">
+				<application version="0.8.2" ident="GROBID" when="2026-03-01T17:42+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<label type="revision">a91ee48</label>
 					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
@@ -86,963 +93,495 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			</appInfo>
 		</encodingDesc>
 		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Padi</term>
+					<term>fisiologi</term>
+					<term>olah tanah</term>
+					<term>mikoriza</term>
+					<term>kombinasi</term>
+					<term>pertumbuhan Rice</term>
+					<term>physiology</term>
+					<term>tillage</term>
+					<term>mycorrhizal</term>
+					<term>combination</term>
+					<term>growth</term>
+				</keywords>
+			</textClass>
 			<abstract>
-<div xmlns="http://www.tei-c.org/ns/1.0"><p>Hypothermia is a state where the body cannot balance the body heat due to excessive cold temperature pressure so that there will be loss of heat in the body. The result will be a quickly decreasing body temperature. A condition where a body temperature is less than 35 • C and that it is accompanied by a decrease in consciousness may cause a death threat. Hypothermia is more common when climbers perform activities in cold temperatures and strong winds, and when they wear wet clothes. It is not easy for a mountain climber to find out his own body temperature as well as that of his friends and to determine whether the body temperature is safe or affected by hypothermia symptoms. Therefore, this research formed a device to detect hypothermia. It consists of temperature sensor, pulse sensor, and accompanied by heating elements based on wireless body area network (WBAN). This device will connect to the user's smartphone by using Bluetooth, so the user can see the condition of his body, adjust the temperature of the heating element, and make a group of climbers. The experiment result shows that the device can detect hypothermia symptoms and inform these symptoms to the users and groups of mountaineers in WBAN area, and the climbers can be more vigilant in responding to hypothermia so that mortality cases caused by hypothermia can be minimized.</p><p>INDEX TERMS ehealth, heart rate, hypothermia, temperature, wireless body area network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Kebutuhan terhadap peningkatan produktivitas padi (Oryza sativa L) terus bertambah seiring dengan pertumbuhan penduduk, konversi lahan, dan dampak perubahan iklim. Upaya pengelolaan budidaya padi yang efisien dan berkelanjutan menjadi sangat penting, terutama melalui pengelolaan tanah dan pemupukan. Tujuan penelitian ini untuk menguji pengaruh sistem olah tanah dan pupuk hayati mikoriza serta kombinasi keduanya pada karakter fisiologi dan hasil padi. Penelitian ini di lakukan di Desa Paloh Lada, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh pada bulan Agustus-Desember 2024, menggunakan rancangan split plot design (rancangan petak terpisah) dengan dua faktor dengan 3 kali ulangan. Faktor pertama sebagai petak utama adalah olah tanah (T) yang terdiri dari 3 taraf perlakuan yaitu T0 (tanpa pengolahan Tanah), T1 (satu kali pengolahan), T2 (dua kali kali pengolahan). Faktor kedua sebagai anak petak adalah pemberian mikroriza (M) yaitu M0 (0g tanaman -1 ), M1 (10g tanaman -1 ), M2 (15g tanaman -1 ). Hasil penelitian sistem olah tanah memberikan pengaruh yang berbeda nyata pada laju asimilasi bersih, laju tumbuh relatif, berat gabah per plot, dan hasil gabah ton/hektar. Pemberian pupuk hayati mikoriza memberikan berbeda nyata terhadap jumlah klorofil daun, tingkat inveksi akar. Kombinasi perlakuan sistem olah tanah dan pupuk hayati mikoriza memberikan pengaruh berbeda sangat nyata terhadap jumlah klorofil daun. Kombinasi terbaik terdapat pada T1M2 (olah tanah dua kali dan mikoriza 15g tanaman -1 ).</p></div>
 			</abstract>
 		</profileDesc>
 	</teiHeader>
-	<text xml:lang="en">
+	<text xml:lang="id">
 		<body>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Hypothermia is a condition in which the body's mechanism for temperature regulation has difficulty coping with cold pressure. Hypothermia can also be defined as an internal temperature below 35 • C. The human body can regulate temperature in the thermo neutral zone, which is between 36.5-37.5 • C. Beyond that temperature, the body's response to regulating temperature will actively balance heat production and heat loss in the body. Hypothermia often occurs when climbers are in extreme environments, especially cold temperatures, and due to the health factor of climbers <ref type="bibr" target="#b0">[1]</ref>.</p><p>Extreme situations in climbing environments such as cold air pressure due to high mountains, strong winds blowing, wet clothes, and other extreme factors make hypothermia become a common disease in the climbing areas <ref type="bibr" target="#b1">[2]</ref>, <ref type="bibr" target="#b2">[3]</ref>.</p><p>The associate editor coordinating the review of this manuscript and approving it for publication was Thanh Ngoc Dinh . Knowledge of safety in climbing is a major factor to minimize the incidence of hypothermia. The problem is most climbers do not know the basics of salvation in climbing. There are still many climbers who do climbing because of hobbies or just having fun without being equipped with health and safety knowledge when climbing. This often results in mishandling of hypothermia victims. Inadequate treatment in victims of hypothermia can cause hypothermia more severe and result in loss of consciousness or fainting. It can even lead to death.</p><p>Therefore, to further suppress the incidence of hypothermia among climbers when in the mountains, we are motivated to utilize current technology with the health sector, especially safety in climbing. We develop a wearable device that can be used in climbing so that it does not disrupt the climbers during the move.</p><p>Based on the problem mentioned above, in this paper we propose a health monitoring device embedded into climbing jackets by utilizing Wireless Body Area Network (WBAN) technology. The device can be used by climbers during the climb without reducing the comfort and mobility of the climbers. The device used Arduino Nano as a sensor data processing center while the sensors used are temperature sensors and pulse sensors. The body temperature sensor used in the device is the MLX90615 which utilizes infrared technology so that for temperature measurements it can be done without having to make direct contact with the sensor. As for the heart sensor used is the sensor pulse XD-58C that will be placed on the fingertip of the climber to measure the number of heart beats per minute. This device is also accompanied by a heating element used TEC-12706 peltier. The peltier will connect to the motor driver that serves to regulate the temperature. The device is accompanied by Bluetooth which serves to transmit sensor data to the climber's Android smartphone. The Bluetooth used in this research is Bluetooth v4.0 which has been supported with low energy technology.</p><p>Through their Android smartphone, climbers can see the temperature and heartbeat conditions presented in the form of numbers along with their body status. In this Android app, climbers will be given information on how to handle based on current health conditions. In addition, climbers can create climber groups that will connect with other climbers in a group. Group creation uses Wi-Fi Direct technology that allows Android to connect to other Android over Wi-Fi networks. For Wi-Fi Direct usage, one member of a group of climbers must be willing to be the group leader who will become the bridge connecting all members. When climbers are connected to the climbing group, they can see the one another's position and body condition. When the condition of a climber's body worsens, other members will get a notification. The data of worsening body condition will be stored on SQLite Android as history.</p><p>The main contributions of this study are:</p><p>• Design and implementation of a wearable jacket prototype system for hypothermia detection and perform initial treatment with sensors and a heating element.</p><p>• Design and execution of a case study that proves the suitability and usability of wearable jacket sensors in climbing activity.</p><p>• The concept of real-time hypothermia feedback from system and information sharing of the body conditions to a group of climbers in the same network using Wi-Fi Direct technology without having to connect to an internet connection. This article is structured as follows. Section 2 describes previous related studies. Section 3 describes the system, the hardware, and the software architectures. Section 4 describes the methodology which contains experimental setup and algorithm to determine the health condition of the climber in detail. Section 5 describes the evaluation of experimental results. Finally, concluding remarks and plans for our future work are provided in Section 6.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. RELATED WORK</head><p>WBAN sensor nodes collect biological signal data from patients over a long period of time. The data is wirelessly sent to the server, stored on the server for further processing, and used as a reference to determine an important decision <ref type="bibr" target="#b3">[4]</ref>, <ref type="bibr" target="#b4">[5]</ref>. Sensor nodes require special communication methods to save energy to extend the network lifetime <ref type="bibr" target="#b5">[6]</ref>. Several classifications of routing protocols for WBAN were used to send data from sensor to server such as posturebased routing, temperature-based routing, cross layer routing, cluster-based routing, and QoS-based routing to gain energy efficient routing protocols for WBAN healthcare system <ref type="bibr" target="#b6">[7]</ref>, <ref type="bibr" target="#b7">[8]</ref>. The interference mitigation methods in WBAN such as power control approach, MAC approach, cognitive radio approach, ultra wideband (UWB) approach, and signal processing approach is important to increase data sending reliability <ref type="bibr" target="#b8">[9]</ref>. WBAN technology can be used in various fields of application such as health <ref type="bibr" target="#b9">[10]</ref>, <ref type="bibr" target="#b10">[11]</ref>, transportation <ref type="bibr" target="#b11">[12]</ref>, military <ref type="bibr" target="#b12">[13]</ref>, and sport <ref type="bibr" target="#b13">[14]</ref>- <ref type="bibr" target="#b16">[17]</ref>.</p><p>Many researchers have conducted research related to the use of WBAN and internet of things (IoT) <ref type="bibr" target="#b17">[18]</ref>- <ref type="bibr" target="#b20">[21]</ref> in various fields, especially in the health sector. Ghamari et al. <ref type="bibr" target="#b21">[22]</ref> provided a WBAN system for elderly and patients remote monitoring in residential environments. Wolgast et al. <ref type="bibr" target="#b22">[23]</ref> designed WBAN to detect heart attack using ECG sensor and send the data to smartphone through wireless Bluetooth. Kang et al. <ref type="bibr" target="#b23">[24]</ref> proposed a smart device to monitor vital signs such as heart rate, body temperature, and respiration rate. Venema et al. <ref type="bibr" target="#b24">[25]</ref> proposed a monitoring system during high altitude activities using in-ear pulse oximeter and Photoplethysmography (PPG) to monitor blood oxygen (SP02) and heart rate. Mahmood et al. <ref type="bibr" target="#b25">[26]</ref> proposed WBAN to monitor heart rate and fall detection using electrocardiography (ECG), temperature, and accelerometer sensors. Baba et al. <ref type="bibr" target="#b26">[27]</ref> proposed WBAN application for health remote monitoring to measure breathing, heart rate, ECG, and SPO2. Lin et al. <ref type="bibr" target="#b27">[28]</ref> proposed wearable heat stroke detection to evaluate and predict the occurrence of a heat stroke for a runner. Monton et al. <ref type="bibr" target="#b28">[29]</ref> proposed e-health prototype merging from five health sensors, i.e., ECG, EMG, Temperature, Airflow, and GSR. Fakhrulddin et al. <ref type="bibr" target="#b29">[30]</ref> proposed an advanced first aid system (AFAS) to monitor elderly persons from risk of falling using accelerometer sensor and heartbeat sensor. Jeon et al. <ref type="bibr" target="#b30">[31]</ref> developed wearable device called sleep care kit to measure real-time multiple bio-signals such as SPO2, body temperature, and respiration to determine sleep quality and calculate the risk of sleep apnea. Moreover, some researchers also pay attention to WBAN technology in terms of energy consumption <ref type="bibr" target="#b31">[32]</ref>, <ref type="bibr" target="#b32">[33]</ref>, security authentication <ref type="bibr" target="#b33">[34]</ref>, and signal transmission <ref type="bibr" target="#b34">[35]</ref>.</p><p>In this article, there are several innovations or uniqueness compared to the related researches mentioned above. This research focuses more on making jackets to be worn by mountain climbers. Some electric jackets are only designed to simply warm the body with certain intensity, but in this study, we make an electric jacket that is able to detect hypothermia based on body data such as heart and temperature, and a climber can see the condition of his body in a visual displayed on his smartphone of the climber. The jacket is designed to perform early detection of hypothermia symptoms so that the jacket will automatically be able to warm the body of the climber and send notification messages through the climber smartphone. Furthermore, the body data can be sent to a group of friends with the assumption that there is no internet connection at the case study site in the high mountain. Table <ref type="table">1</ref> shows the comparisons of the proposed system with related works in terms of application domain, sensor modules, wireless communication, monitoring device, and the benefits of the system.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. SYSTEM ARCHITECTURE</head><p>We built an initial detection and treatment system for climbers by utilizing WBAN technology to monitor the condition of the climber's body as shown in Fig. <ref type="figure" target="#fig_0">1</ref>. The system was designed to monitor climbers' body temperature and heart rate, and to do the initial handling such as warming the temperature of the jacket using a heat element. Several sensors and other components were used, namely the pulse sensor that was used to get climbers' heart rate data, the MLX90615 temperature sensor that was used to get the climber's body temperature, the DS18B20 temperature sensor that was used to get the temperature of the heater, and the peltier that was used for the jacket heater. The sensors and components were installed on an Arduino microcontroller device and the circuit was embedded in a jacket. The values of the climber's heart rate and body temperature were combined to get a correlation as a determination of the climber's condition. Delivery of values was done in 2 ways, namely idle mode and active mode. This was done for efficient use of resources. The data were sent directly to the end device and execute the action point. Action point is a device of hardware consisting of motor drivers and peltiers. This action point was used to regulate the high and low temperatures of the heating element. This circuit was directly connected to Arduino. Users could adjust the temperature of the heater by sending data to Arduino and the data would be forwarded to the action point.</p><p>The climbers could use an Android smartphone to access data sent by a microcontroller. Android application makes it easy for climbers to find out their body condition in terms of temperature and heart rate. The climber could regulate the temperature of the heating element on the jacket using the Android application. The climber could form a group of climbers and share the information of body conditions on the Android application. The climber and group members could connect each other using Wi-Fi Direct technology so that climbers could use this feature without having to connect to an internet connection.</p><p>In this research there are 2 architectural designs, namely hardware and software. The architectural design of the hardware will be applied to the climbing jacket, while the software architecture design will be applied to Android smartphones.  This study used data from temperature sensors and heart rate sensors as indicators for determining the condition of the climber's body. Data from the two sensors were processed to obtain an output value to get the climber health code. Data transmission was done wirelessly via a Bluetooth communication network.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. HARDWARE ARCHITECTURE</head><p>In regard to data transmission based on the available time, there are 2 modes of sending data on this device. Idle mode is a mode that is used to increase the efficiency of the data source used. This mode will be active when the climber closes</p><p>TABLE 1. Comparisons of the proposed system with related works.</p><p>the application. This mode will send data to Android with a time delay that is every 1 minute. Thus, the process of sending data will occur once every 1 minute and it can minimize the power for the sending process. Although data is sent once every 1 minute to Android, data from the sensor will still be retrieved at any time. This is to avoid delays in information about physical health while in active mode the data will be sent every 5 seconds. This mode will be active when the climber is using or opening the application. This mode allows climbers to see the condition of the body in more real-time.</p><p>The communication of action point with Arduino still used cable. Arduino would get data from both sensors; data from both sensors would be calculated and would have an output code. If the output code shows that the climber was in a less prime condition, Arduino would send a command to the action point to activate the heater. The action point would issue a voltage in accordance with the Arduino command, and then the voltage would be converted into heat using a peltier.</p><p>Through the Android application interface, climbers could access data directly from Arduino using a Bluetooth connection. Sensor data obtained would be displayed in the form of numbers with clear units along with a message or description of the climber's body condition. There was also some handling information related to early prevention of hypothermia patients. Users could measure temperature and heart rate more intensely in the Android application. In addition, users could form a group of climbers who could connect with existing climbers. With this feature, climbers could share the condition of their bodies with other climbers. In the case of hypothermia, body data would be stored in Android data storage and a notification would be displayed for climbers when the Android application were opened.</p><p>The proposed hardware device consists of:</p><p>1) ARDUINO NANO Arduino is an open source single-board micro controller designed to facilitate the use of electronics in various fields. Arduino Nano uses ATmega 328 microcontroller with AVR architecture. It requires 5V for power operation with 19mA power consumption. It has 32KB flash memory and 2GB SRAM with a clock speed of 16MHz. Arduino has 22 digital I/O pins, 6 of which are PWM pins. Each pin I/O has a current of 40mA. Arduino Nano size is 18 × 45mm with 7g weight.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) PULSE SENSOR</head><p>Pulse sensor was used to retrieve the heart rate data of climber's body. Heart rate data was used to determine whether the climber was experiencing tachycardia or bradycardia or normal condition. Pulse sensor has a diameter of about 16mm with a thickness of 3mm, working on voltage 3V to 5V with power consumption of about 4mA.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>3) TEMPERATURE SENSOR -MLX90615</head><p>Temperature sensor MLX90615 was used to obtain climbers' body temperature data. The data would determine whether the climber suffers from hypothermia. The temperature sensor MLX90615 can receive a voltage of 5V with an operating voltage of 3.6V. This sensor can measure 2 types of temperature i.e. object temperature and ambient temperature.</p><p>The measured temperature range of the MLX90615 sensor is -20 • C to 125 • C.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>4) TEMPERATURE SENSOR -DS18B20</head><p>Temperature sensor DS18B20 was used to determine the temperature of peltier. It allowed the climber to see the peltier temperature on the jacket. The DS18B20 sensor is a digital temperature sensor that uses the one-wire communication method. This sensor uses a voltage of 3V to 5V, and it can measure the temperature from -55 • C to 125 • C with an accuracy of about 0.5 • C.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>5) PELTIER</head><p>Peltier was used to increase the temperature in the jacket.</p><p>Peltier is a Thermo-Electric component. When this component has a voltage, it will move heat from one side to the other, so it can produce 40 • C to 70 • C heat. Peltier has dimensions of 40 × 40 × 4mm with 29g weight.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>6) MOTOR DRIVER -L298N</head><p>The motor driver was used to adjust the voltage to be supplied to the peltier so that the temperature on the peltier can be adjusted according to the climber's preference. This research used motor driver L298N with power supply 5V to 46V. It has a maximum power of 25W and a working temperature of about 25</p><p>• C to 130 • C. The dimensions of the L298N are 60 × 54mm with a weight of 48g. 7) BLUETOOTH v4.0 BLE Bluetooth was used to transmit climber health data obtained from previous sensors to the climbers' Android. This research used Bluetooth v4.0 with HM-10 type which comes with Low Energy technology. This Bluetooth works on a 24 GHz ISM Band frequency with GFSK modulation method. It has asynchronous and synchronous speed of 6K bytes and uses authentication and encryption security methods. This Bluetooth works on voltage + 3.3V 50mA.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>8) BATTERY</head><p>The jacket used Li-Po (Lithium Ion Polymer) type battery which has bigger capacity and is not easily depleted, making it suitable for climbing which takes at least 2 hours to reach the inter-point travel post.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. SOFTWARE ARCHITECTURE</head><p>It includes an Android, Bluetooth Gatt. Wi-Fi Direct, and SQLite.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) ANDROID</head><p>Android is a Linux-based operating system designed for touch-screen devices such as smartphones and tablets. In general, Android application programming uses Android Studio with Java programming language and Kotlin. In this research, the Android application was connected with hardware devices via Bluetooth which serves to display the results of data collection of temperature sensors and pulse sensors. In addition, the Android app could adjust the heat level of peltier, save history of accidents caused by hypothermia, and enable group creation to share health data.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) BLUETOOTH GATT</head><p>Bluetooth Gatt is an architecture built on the Attribute Protocol (ATT). Bluetooth Gatt was used to determine the way two low energy Bluetooth devices send and receive data, starting from searching Bluetooth connection until the process of exchanging data from Android applications with hardware devices. Unlike the use of non-low-energy Bluetooth, to connect Android hardware devices that use low-energy Bluetooth, the architecture of Bluetooth Gatt had to be used.</p><p>3) Wi-Fi DIRECT Wi-Fi Direct or Wi-Fi P2P (Peer to Peer) is a standard Wi-Fi that allows direct connection without access point. Thus, Wi-Fi Direct allows multiple devices to connect one another. Wi-Fi Direct has a concept like ad-hoc. The difference is Wi-Fi Direct using single radio hop communication whereas ad-hoc mode Wi-Fi uses communication of multiple radio hops. By using Wi-Fi Direct technology, communication between devices will be like using Bluetooth. The device can communicate with the typical speed of Wi-Fi. Wi-Fi Direct can connect devices even if the device comes from different manufacturers. To use Wi-Fi Direct technology, there must be at least one supported Wi-Fi device with Wi-Fi Direct, this is to enable peer-to-peer connections between devices.</p><p>In this research, Wi-Fi Direct was used to connect user climber app with the climbing group. Therefore, it was required that in one climber group be one group leader who would make Wi-Fi Direct network. Other member's data would be sent thoroughly to all members group using this Wi-Fi Direct technology.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>4) SQLite</head><p>SQLite is a relational database system that is ACID-compliant and has a relatively small code library size. SQLite is not a system that only communicates with the program, but also as part of an overall program. The API calling, or its use, is done directly by programming language. In the Android app, SQLite is considered as a local database, so the data storage is processed using Android programming language i.e. Java or Kotlin. Because of its direct use of the programming language, SQLite can reduce overhead, latency, and more. Some of the advantages of SQLite are easy to manage, very stable, expandable, very fast. Additionally, it uses the WAL (Write-Ahead Logging) mode that allows SQLite to read and write simultaneously.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. METHODOLOGY</head><p>Symptoms of hypothermia disease should be known by the climber so that handling is given more quickly and effectively. This research made a hardware and software device that aims to facilitate the detection and handling of hypothermia disease. The hardware devices would be put on a climbing jacket. The hardware device consisted of several sensors, microcontroller, Bluetooth, and heating elements. The sensors used were temperature sensors and pulse sensors. The temperature sensor were connected to Arduino by using SCL pin and SDA pin while the pulse sensor connected with Arduino using pin A0. Temperature sensors would be placed in the area near the armpits because in that area the body temperature measurement can be done more effectively. Temperature sensor would take the temperature of the object i.e. body temperature and sends it to the microcontroller. The pulse sensor would be placed on the fingertip of the climber because the pulse sensor was designed to more effectively read the signal on the palm area. The pulse sensor data would also be sent to the Arduino which would then be used as parameters to determine whether the climber is hypothermic or not. In Arduino there are 4 categories of health, namely ''healthy'', ''rest'', ''hypothermia'', and ''emergency''. The ''healthy'' category means the climber was in excellent shape to continue the activity. Category ''rest'' means the climber is in a less than excellent, it is advisable to rest first to avoid hypothermia. Category ''hypothermia'' means climbers are in a state of being hypothermia, immediately do the appropriate treatment. Finally, the category of ''emergency'' means climbers in a state of serious hypothermia, call on reinforcements and get to the nearest hospital. In addition, the automatic heater in the jacket would begin to heat up to warm the climber when climbers were in abnormal circumstances. There was also a temperature sensor that had a function to measure the temperature of the heater; this sensor was connected to the Arduino using pin D5. Sensor data would also be sent to the climber smartphone by using Bluetooth. The Bluetooth was connected to the Arduino using RX pin and TX pin.</p><p>Regarding the software, the system used Android operating system for smartphone application development. Android would receive sensor data from the device via Bluetooth in real time. The sensor data would then be displayed in the form of numbers and graphics on the user interface. There were also features to join or create a group of climbers using Wi-Fi Direct technology. With these features climbers could connect to other climbers in one group. Climbers could see each other's health and position. The last feature was health data storage. The stored health data is the health data of the climber when attacked by hypothermia.</p><p>Fig. <ref type="figure" target="#fig_3">3</ref> shows the experimental setup in which the overall components are connected to the Arduino board. Sensors, motor drivers, and Bluetooth were connected to Arduino pins while peltier and battery are connected to motor driver.</p><p>This research designed a simple algorithm to determine the health condition of the climber as shown in Fig. <ref type="figure" target="#fig_4">4</ref>. This algorithm serves to combine data from the sensor into an output value (condition code). It aims to facilitate the determination of conditions and information that will be given to climbers.</p><p>In one end device, there are two sensors (temperature and pulse sensors) to determine the state of the climbing body and one sensor (temperature sensor) to determine the condition  of the jacket. Combined sensor data only sensor data that serves to determine the condition of the climber's body. Sensor data will be processed using the condition determination algorithm. This data will be a parameter to enable the heating element on the jacket.</p><p>The temperature sensor of type MLX90615 was used to observe body temperature of climbers while the temperature sensor type DS18B20 was used to observe the state of the peltier temperature to adjust the jacket temperature. The body temperature sensor data would be divided into 4 categories, namely normal, mild hypothermia, moderate hypothermia, and severe hypothermia. Each category would be given a code to determine the next condition. The greater the code, the more severe the condition is. This is as shown in table <ref type="table">2</ref>. Heartbeat or pulse sensors of type XD-58C were used to observe heart rate or climber's pulse. Data from sensor pulses would be divided into 3 categories, namely normal, tachycardia, and bradycardia. Just like the previous sensor under any conditions, codes would be given for determination of the next condition. The greater the code the more severe the condition is. This is as shown in table <ref type="table">3</ref>.</p><p>TABLE 3. Heartbeat sensor code.</p><p>Where, Normal = 100 bpm -60 bpm, Tachycardia, the beat is more than the normal limit =&gt; 100 bpm, Bradycardia, and the beat is less than the normal limit = &lt; 60 bpm.</p><p>This code processes the input value of each variable (sensor value) as a parameter to issue a climber's health condition code. After all the sensor conditions get a code, the sensor code will be mutated with another sensor code. Subsequently, it generates some code in 2-digit numbers. This code will later be included in the algorithm in determining the health condition of the climber. The result of code in 2-digit numbers of the two sensors is shown in table <ref type="table">4</ref>. The permutation result shows the pattern of code for the determination of condition. Furthermore, the parameters are selected for the grouping of health conditions, namely healthy, rest, hypothermia, and emergency. This is the condition that will be used to determine the activation of the action point and the determination of message handling that will appear in the Android app. The number of possibilities formed from the permutation of the sensor code is 12 possibilities as shown in table <ref type="table">5</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE 5. Possible condition.</head><p>To increase the effectiveness data packets transmission on end devices, this study used an algorithm with 2 modes of delivery as shown in Fig. <ref type="figure" target="#fig_7">5</ref>. Idle mode allows the end device to send data when the Android climber application is in a closed state. The data will be sent once a minute to minimize power output. Whereas the active mode allows the end device to send data when the climber is actively using an Android application, or the application is open. Data in this mode will be sent every 5 seconds so that climbers can find out the condition of the body in real time. Although sending data from Arduino to Android has a delay, data retrieval from the sensor to Arduino is done at any time. The form of data sent is JSON String. This is to facilitate parsing on Android programming. The data transmitted are body temperature sensor data, heart rate data, peltier temperature sensor data, and condition codes. This JSON data will be sent during active mode.</p><p>Fig. <ref type="figure" target="#fig_8">6</ref> shows the workflow of the end device in the data retrieval and transmission. At the beginning of the microcontroller work, the first thing to be processed is the initialization of the existing header file and the specified variable, other variables, the setup function, and the loop function. In the setup function, the end device will read data from the installed sensor i.e. temperature sensor and heart sensor. If the sensor is successfully activated, it will read condition code; otherwise the program will return to the start of activate sensor step. The sensor data will be sent via Bluetooth. Access to the action point is also done on the function to set the temperature of peltier. Fig. <ref type="figure" target="#fig_9">7</ref> shows the workflow of action point. The action point is a series of components consisting of driver motor L298N and peltier. This circuit will be used to increase the temperature of the jacket so that the climber's body temperature is not lost due to the cold environmental temperature.</p><p>The action point communicates directly with the Arduino by connecting the input pin cable to the Arduino. By default, the condition of the action points is 0 or off. Users can set the output of the action point by changing the PWM pin value on the Arduino. In addition, the action point can change its value automatically when the health condition of the climber is hypothermia or emergency.</p><p>The database used in this study was SQLite database system as shown in code 1 (database sensor schema). SQLite provides quick and easy access, and it was programmed using Android programming language i.e. Java or Kotlin. The _id field is unique and different on each saved data. Field amb, obj, and heart are fields used to store sensor data while the field code will load the health code of the climber. There is also a latitude and longitude field to store the climber's position. In addition, there is timestamp column containing the time and date data, and they are stored in the database. The SQLite database was used on the Android, so the data to be stored must be sent first from Arduino to Android. On the Android, sensor data from Arduino will be sorted first to determine which data will be stored in the database. The data to be stored in the SQLite database provide the information about whether the climber is experiencing hypothermia. The data that show good health will not be stored in the database but will still be displayed on the climber's Android.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. EXPERIMENTAL RESULTS</head><p>The hardware device that has been set up will be placed on a black box to make it look neater, to minimize the lost data, and to avoid short-circuit between the components. Some components to be stored in the black box are Arduino, Driver Motor, Bluetooth, and all the other connectors like connector, battery, and peltier sensor as shown in Fig. <ref type="figure" target="#fig_11">8</ref>. Sensors, batteries, and peltiers will remain connected to Arduino using cables. The position of the sensor and other components can be seen in Fig. <ref type="figure" target="#fig_12">9</ref>. The MLX90615 temperature sensor will be placed around the armpit area because in that area the temperature is not affected by skin temperature or the temperature of the outside environment. In addition, the area is often used by doctors or nurses to determine the condition of the patient's body. The pulse sensor will be placed on the palm of the hand more precisely on one of the climbers' fingers. This is because the skin in the area is thinner than the outer skin of the hand, making it easy to read the heart rate of the body. The position of the peltier and the DS18B20 temperature sensor are put together, because the DS18B20 temperature sensor will be used to find out the amount of heat generated by the peltier. The peltier is positioned in the front of the body, between the chest and abdomen. Some other peltier be placed on the back of the body, i.e., the shoulder or back. The software development system was implemented in two parts. The first part was through a software algorithm to get data and to transmit them to Arduino. The second part was the features provided in the application, along with the technology used.</p><p>In the first section, to connect Android apps with enddevice hardware, the technology of Bluetooth GATT was required because it uses Low Energy. The Android app must enable approval for Bluetooth and Location in order to perform Bluetooth device's end-search devices. Bluetooth GATT already has a feature to detect whether the Bluetooth is connected, disconnected, and able to read the data sent via Bluetooth. By default, Android will accept all data displayed in serial Arduino on the end device as shown in Fig. <ref type="figure" target="#fig_13">10</ref>.</p><p>Fig. <ref type="figure" target="#fig_14">11</ref> shows the flow of data retrieval. The data will be processed and analyzed whether the climber is in a hypothermia state or not. The data will only appear as normal information data if not hypothermia. On the other hand, if hypothermia, the data will be entered into the SQLite database as hiking health history data. Furthermore, if the climber has a climber group that has been connected, the data will be broadcasted to all existing members. Additionally, if the climber minimizes the application, the climber will get notification about the circumstances of his body. In addition to receiving data from the end device, the app can send data to the end device. This allows the Android app to change the  state and set the temperature that will be released by the action point device.</p><p>The second section is in the Android app. There were 3 main features that could be used by climbers. The first feature was the climber's health monitoring of as shown in Fig. <ref type="figure" target="#fig_15">12</ref>. This feature allows climbers to see the state of the body such as heart rate that is shown in units of bpm, as well as the temperature that is shown in degrees Celsius. In addition, climbers could measure the temperature and the heartbeat presented in graph. In this feature, there are several messages for climbers about the condition of the climber, as well as further handling when the climber is in a state of hypothermia. Climbers could adjust the jacket temperature by regulating the peltier temperature through the features available in Android Apps.</p><p>The second feature was a feature to form or search for climbing groups. By utilizing Wi-Fi Direct technology, it can connect to each other using a wireless network. This feature does not require connection to the internet so there is no need to worry if there is no network signal on the climbing site. To form groups, climbers must first define the group leader; the chairperson must create a group so that other members can join the group. Members who have joined can exchange data of health and locations. A group member can see the position and state of health of other members. This feature is shown in Fig. <ref type="figure" target="#fig_16">13</ref>.</p><p>The third feature is the history storage feature of climber's health history. When the climber is detected as having hypothermia, the data of the condition will automatically be stored in the SQLite database. Climbers can see the history and details of their health data, such as when and where the data occurred, how to handle it, and how the current condition of the climber's body is. It can be seen in Fig. <ref type="figure" target="#fig_17">14</ref>.</p><p>There is a notification on the Android app that will appear when the climber is detected in an abnormal state. Notifications will only appear when the climber is minimizing the Android app as shown in Fig. <ref type="figure" target="#fig_18">15</ref>.</p><p>The first step of analysis was to test the algorithm of condition determination. This was done to determine whether the system works well in determining the condition of the climber's body. The test was conducted by taking 20 data samples from the body. The data was entered into the condition determination algorithm as shown in table 6. The data input variables are body temperature sensor data and heart rate sensor data. Furthermore, testing in normal conditions was done by taking data directly from the jacket worn by the people. Jackets that had been embedded with end devices and action points would be put on someone. Subsequently, all data from the pulse sensor, body temperature sensor, and peltier temperature sensor would be acquired. The result is shown in table 7. The data retrieved would also be displayed on the Android application.</p><p>TABLE 6. Result of data retrieval. TABLE 7. Sample of normal condition. TABLE 8. Results mean normal condition.</p><p>The obtained data would provide average results of normal condition as shown in table 8. Next, testing in severe hypothermia (emergency) condition was done directly at cold or air-conditioned room temperature. All data obtained from the pulse sensor, body temperature sensor, and peltier temperature sensor are shown in table <ref type="table">9</ref>.</p><p>The obtained data show average results of severe hypothermia (emergency) condition as shown in table <ref type="table">10</ref>.</p><p>Based on the results of the test data, it can be seen that the pattern of graphs changes in sensor values. Fig. <ref type="figure" target="#fig_10">16</ref> shows the results of testing changes in body temperature sensor values in two scenarios, normal and hypothermia.</p><p>TABLE 9. Sample of severe hypothermia (emergency) condition. TABLE 10. Results mean severe hypothermia (emergency) condition. FIGURE 16. Body temperature sensor in normal and hypothermia conditions. FIGURE 17. Peltier temperature sensor in normal and hypothermia conditions.</p><p>Furthermore, Fig. <ref type="figure" target="#fig_10">17</ref> shows the peltier temperature sensor value in normal and hypothermia conditions. In hypothermia condition, the temperature of peltier will rise to warm the jacket of the climber. TABLE 11. Comparison of body temperature sensor with digital thermometer.</p><p>Fig. <ref type="figure" target="#fig_19">18</ref> shows heart rate sensor value in normal and hypothermia conditions. In hypothermia condition, the heart rate becomes more unstable.</p><p>The results of data collected from the sensors were examined in order to determine whether the values were reliable. Thus, the data from each sensor would be compared to the data resulted from other tools. A comparable device was required to compare the data obtained by the sensor. Digital body thermometer was used to measure the difference of temperature value from body temperature sensor MLX90615. The body temperature sensor MLX90615 and digital thermometer were placed in the same position and would count</p><p>TABLE 12. Comparison of pulse sensor XD-58C with heart rate monitor application.</p><p>the temperature of the body simultaneously. The average temperature between the MLX90615 sensor and digital thermometer was very similar. This is shown in table <ref type="table">11</ref>.</p><p>Heart Rate Monitor, a smartphone application that uses cameras and flash lights on Android smartphones, was used to measure the difference of heart rate value from pulse sensor XD-58C. Data retrieval were done at the same place, that was at the fingertips. The average heart rate between the pulse sensor XD-58C and Heart Rate Monitor application was very similar as shown in table <ref type="table">12</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. CONCLUSION</head><p>This research designed architecture and implemented a prototype to detect hypothermia symptoms in the climber's body based on WBAN technology. The proposed device consists of body temperature sensor, pulse sensor, peltier temperature sensor, and peltier heating element. The data from body temperature and pulse sensors will be processed to get the climber health condition and transferred wirelessly via Bluetooth to Android smartphone. If the output condition shows that the climber is in hypothermia symptoms, the device will send a command to the action point to activate the peltier heating element to rise the temperature of the climber's jacket. The experiment results showed that the climber could use Android smartphone to monitor the body temperature value, heart rate value, and description of the body condition. The climber could connect to a group of climbers and connect each other. The Android application would notify the climber and share the notification to a group of climbers if hypothermia were detected.</p><p>In the case of hypothermia, this device can not completely cure hypothermia sufferers. This device is only used to detect symptoms of hypothermia so that early treatment can be initiated. This device can also provide an initial treatment such as the provision of heat to the body, but this is only to slow the severity of the patient's hypothermia. Further treatment can only be done by a doctor or hospital. Thus, it cannot be ascertained that if climbers use this device, climber will not get hypothermia. However, prevention is better than treatment. Because hypothermia is a disease that takes a relatively long time of healing, it is difficult to be done by non-medical people. For future work, we suggest expanding the coverage area of hypothermia detection, not only in a cluster of climbers also within the reach of the climbing area. In its development every climber's device can be connected to an access point or gateway associated with other access points and monitoring headquarters. Thus, the officers who are in the monitoring station will also get information about climbers who have hypothermia as well as the climber's location. Handling will be done much faster and can be done by someone who is an expert in the field.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 .</head><label>1</label><figDesc>FIGURE 1. System architecture.</figDesc><graphic coords="3,38.75,437.65,236.06,171.09" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 shows the hardware architecture which includes an Arduino Nano, Pulse Sensor, MLX9015 Temperature Sensor, DS18B20 Temperature Sensor, L298N Driver Motor, Peltier, Bluetooth, and Battery.</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 2 .</head><label>2</label><figDesc>FIGURE 2. Hardware architecture.</figDesc><graphic coords="3,299.65,382.42,236.06,201.65" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 3 .</head><label>3</label><figDesc>FIGURE 3. Experimental setup.</figDesc><graphic coords="7,73.85,66.30,165.84,133.44" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 4 .</head><label>4</label><figDesc>FIGURE 4. Determination of the health condition of the climber.</figDesc><graphic coords="7,39.29,237.45,234.96,380.28" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>TABLE 2 .</head><label>2</label><figDesc>Temperature sensor code. The categories of body temperature are Normal = 40 • C -35 • C, Mild Hypothermia = 35 • C -31 • C, Moderate Hypothermia = 31 • C -28 • C, and Severe Hypothermia =&lt; 28 • C.</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>TABLE 4 .</head><label>4</label><figDesc>Code in 2-digit numbers of the two sensors.VOLUME 8, 2020   </figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>FIGURE 5 .</head><label>5</label><figDesc>FIGURE 5. Modes of data packet transmission.</figDesc><graphic coords="8,38.51,519.01,236.53,194.01" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>FIGURE 6 .</head><label>6</label><figDesc>FIGURE 6. Data packets transmission of the end device.</figDesc><graphic coords="8,305.66,294.73,224.04,194.40" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>FIGURE 7 .</head><label>7</label><figDesc>FIGURE 7. Action point work.</figDesc><graphic coords="9,38.27,66.54,237.00,215.88" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Code 1 .</head><label>1</label><figDesc>Database sensor schema.</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>FIGURE 8 .</head><label>8</label><figDesc>FIGURE 8. The black box.</figDesc><graphic coords="9,359.00,66.06,117.36,146.04" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>FIGURE 9 .</head><label>9</label><figDesc>FIGURE 9. Hardware position.</figDesc><graphic coords="9,299.30,483.86,236.76,123.17" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>FIGURE 10 .</head><label>10</label><figDesc>FIGURE 10. JSON string data.</figDesc><graphic coords="10,38.15,66.06,237.24,149.16" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>FIGURE 11 .</head><label>11</label><figDesc>FIGURE 11. Flow of data retrieval.</figDesc><graphic coords="10,45.11,427.46,223.32,287.52" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>FIGURE 12 .</head><label>12</label><figDesc>FIGURE 12. Body monitor feature: (a) This feature shows the value from the sensors; This feature shows the value from sensor in a chart.</figDesc><graphic coords="10,348.38,432.97,144.00,255.24" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>FIGURE 13 .</head><label>13</label><figDesc>FIGURE 13. Group feature: (a) This feature shows who is the nearest person from user; (b) This feature shows the detail from the nearest person from user.</figDesc><graphic coords="11,84.77,291.05,144.00,233.64" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>FIGURE 14 .</head><label>14</label><figDesc>FIGURE 14. History feature: (a) This feature shows history from user; (b) This feature shows the detail of the history from user.</figDesc><graphic coords="11,340.70,332.69,152.88,240.00" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>FIGURE 15 .</head><label>15</label><figDesc>FIGURE 15. Notification.</figDesc><graphic coords="12,84.77,66.06,144.00,216.00" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>FIGURE 18 .</head><label>18</label><figDesc>FIGURE 18. Heart pulse sensor in normal and hypothermia conditions.</figDesc><graphic coords="13,299.42,66.53,236.53,135.88" type="bitmap" /></figure>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>VOLUME 8, 2020   </p></note>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="155262" xml:id="foot_1"><p>  VOLUME 8, 2020   </p></note>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="155264" xml:id="foot_2"><p>  VOLUME 8, 2020   </p></note>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="155268" xml:id="foot_3"><p>  VOLUME 8, 2020   </p></note>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="155270" xml:id="foot_4"><p>  VOLUME 8, 2020   </p></note>
-			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="155274" xml:id="foot_5"><p>  VOLUME 8, 2020   </p></note>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4</ref>. <ref type="bibr">25773</ref> Nazirah &amp; Pranata</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM Journal of Agricultural Research</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pendahuluan</head><p>Padi (Oryza sativa L.) adalah tanaman penghasil beras yang menjadi sumber karbohidrat utama bagi masyarakat Indonesia. Kebutuhan beras dari tahun ke tahun terus meningkat karena jumlah penduduk Indonesia yang terus bertambah, namun hal tersebut tidak diimbangi dengan produksi padi yang cukup <ref type="bibr">(Amiroh, 2018)</ref>. Hal tersebut yang menyebabkan saat ini Indonesia sulit untuk swasembada pangan sehingga diperlukan upaya peningkatan produksi padi secara nasional agar kebutuhan beras dalam negeri terpenuhi <ref type="bibr">(Petriella, 2016)</ref>. Menurut <ref type="bibr">Badan Pusat Statistik (2022)</ref>, Produksi padi nasional pada tahun 2022 mencapai sekitar 54,75 juta ton sedangkan untuk produksi padi tahun 2021 mencapai sekitar 54,42 juta ton yang menandakan terjadi kenaiakan produksi sebanyak 333,68 ribu ton atau 0,61 persen, namun untuk provinsi aceh produksi padi mencapai sekitar 1,53 juta ton atau mengalami penurunan sekitar 101,5 ribu ton (6,21%) di bandingkan dengan produksi padi pada tahun 2021 yang mencapai sekitar 1,63 juta ton. <ref type="bibr">Prasetia et al. (2018)</ref> menyatakan dalam hasil penelitian yang telah dilakukan bahwa sistem olah tanah (T) nyata mempengaruhi kadar air tanah pada titik layu permanen dan air tersedia pada kedalaman tanah 20-40 cm dan mampu meningkatkan porositas tanah, C-organik tanah dan air tersedia, sertamenurunkan kerapatan isi dan layu permanen. Sementara <ref type="bibr">Kusumastuti et al. (2018)</ref> menyatakan berdasrkan hasil penelitian disimpulkan bahwa sistem olah tanah konservasi jangka Panjang tahun ke-29 pada perlakuan tanpa olah tanah (TOT) berpengaruh terhadap sifat kimia tanah pada ketersediaan unsur hara P (10,173) dan K(1,77). <ref type="bibr" target="#b6">Nazirah (2018)</ref> menyatakan bahwa pemberian mikoriza terhadap tanaman padi mampu meningkatkan infeksiakar terhadap jamur mikoriza dibandingkan padi yang tidak diberi mikorizasehingga penyerapan hara lebih optimal dan pertumbuhan dan perkembangan tanaman menjadi lebih cepat. Fungi mikoriza pada umumnya dapat ditemukan pada sepesies tanaman tingkat tinggi yang tumbuh pada berbagai tipe habitat dan iklim. Dari uraian di atas penelitian dilakukan untuk melihat respons fisiologis dan produktivitas padi pada kombinasi sistem olah tanah dan mikoriza.</p><p>Respons fisiologis dan produktivitas padi (Oryza sativa L)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Agricultural Research</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode penelitian</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Waktu dan tempat</head><p>Penelitian dilaksanakan di Desa Paloh Lada, Kecamatan Muara Batu, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh, pada bulan Agustus sampai Desember 2024.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alat dan bahan</head><p>Bahan yang digunakan dalam penelitian ini adalah benih padi lokal Aceh galur Sigupai, pupuk hayati mikoriza, curater pupuk NPK, dan pupuk kandang sapi. Alat yang digunakan adalah cangkul, parang, meteran, karung, ember, timbangan digital, pengaris, selang, ember, kamera, klorofil meter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode</head><p>Penelitian ini dilakukan dalam percobaan di lapangan menggunakan rancangan split plot design (rancangan petak terpisah) terdiri dari 2 faktor yaitu: petak utama adalah olah tanah (T) terdiri T0: Tanpa pengolahan tanah. T1: Pengolahan satu kali, T2: Pengolahan dua kali faktor sebagai anak petak adalah mikroriza (M), M0: 0g tanaman -1 . M1: 10 g tanaman -1 , M2: 15 g tanaman -1 . Dengan demikian terdapat 9 kombinasi perlakuan. Setiap perlakuan terdiri dari 3 ulangan, sehingga di dapatkan 27 unit percobaan. Analasis data dilakukan dengan analisis variants yang kemudian dilanjutkan dengan uji lanjut taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pelaksanaan penelitian</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persiapan lahan</head><p>Dua minggu sebelum padi ditanam terlebih dahulu dilakukan pengolahan tanah sesuai dengan perlakuan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persiapan benih</head><p>Benih yang digunakan dalam penelitian ini adalah benih padi galur aceh, terlebih dahulu direndam dalam ember yang berisi air dan garam selama 5 menit, kemudian dicuci bersih lalu direndam dengan fungisida Antracol selama 30 menit. Selanjutnya dilakukan perendaman selama 24 jam. Selanjutnya benih dimasukkan kedalam karung diperam guna untuk proses perkecambah selama 2x24 jam hingga benih tumbuh.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemberian mikoriza</head><p>Pemberian mikoriza dilakukan bersamaan dengan penanaman. dengan menempatkan mikoriza langsung ke lubang tanam sedalam ±2-3 cm lalu taburkan mikoriza sesuai dengan perlakuan ke dasar lubang, kemudian letakkan benih padi di atasnya dan tutup dengan tanah gembur kembali.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Penanaman</head><p>Penanaman padi dilakukan langsung kelahan dengan ukuran plot 2 m x 1,5 m sebanyak 27 plot percobaan dengan jarak tanam 30 cm x 30 cm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemupukan</head><p>Pupuk kandang sapi diberikan 2 minggu sebelum tanam dengan dosis 10 t ha -1 pupuk majemuk phonska+urea, diberikan dengan dosis 300 kg ha -1 + urea 200 kg ha -1 (dosis anjuran standar). Pupuk phonska diberikan satu kali saat penanaman.</p><p><ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata JURNAL AGRIUM Journal of Agricultural Research</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemeliharaan</head><p>Penyiraman dilakukan pada pagi dan sore hari. menggunakan gembor, Jika hujan tidak dilakukan penyiraman. Pengedalian gulma dilakukan secara mekanik yaitu dengan pencabutan gulma diarea petak penelitian.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peubah pengamatan</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah klorofil daun</head><p>Pengamatan jumlah klorofil daun dilakukan pada fase generatif yaitu daun ketiga dari pucuk menggunakan alat chlorophyll meter .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju asimilasi bersih</head><p>Laju asimilasi bersih (net asimilation rate) atau laju asimilasi netto adalah laju peningkatan bobot kering tanaman pada saat tertentu (t) tiap satuan luas (l), yang dinyatakan secara sistematik: Keterangan: L1: Luas daun awal (cm), L2: Luas daun akhir (cm), W1: Berat berangkasan kering awal (g), W2: Berat berangkas kering akhir (g), T: Waktu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju tumbuh relatif</head><p>Laju tumbuh relatif (relative growth rate) menunjukkan peningkatan berat kering dalam suatu interval waktu dalam hubungannya dengan berat asal. dengan rumus: Keterangan: LTR: Laju pertumbuhan relatif (g/minggu), W1: Berat berangkasan kering awal (g), W2 : Berat berangkasan kering akhir (g), T: Waktu (minggu).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infeksi akar</head><p>Infeksi akar dilakukan pada umur 40 HST pengamatan dilaboratorium, dengan metode pewarnaan,pada akar (root staining). Segmen akar yang telah diwarnai kemudian diamati dibawah miskroskop pada pembesaran 400×.</p><p>Untuk menghitung infeksi fungi mikoriza arbuskula dapat dirumuskan sebagai berikut: Tingkat infeksi akar diklasifikasikan menurut the Institute of Mycorrhizal Research and Development, <ref type="bibr">USDA Forest Service, Athena, Georgia (Setiadi et al., 1992)</ref> sebagai berikut; tingkat infeksi akar dapat dikelompokkan ke dalam lima kelas, yaitu kelas 1 apabila persentase infeksi kisaran 0-5% (sangat rendah) kelas 2 infeksi 6-25% (rendah) Kelas 3 infeksi 26-50% (sedang). Kelas 4 infeksi 51-75% (tinggi) serta Kelas 5 mencapai 76-100% (sangat tinggi).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Respons fisiologis dan produktivitas padi (Oryza sativa L) JURNAL AGRIUM Journal of Agricultural Research</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Komponen hasil</head><p>Meliputi: 1000 butir gabah (g): Bobot per 1000 butir gabah tiap bedengan diperoleh dengan menimbang gabah bernas sebanyak 1000 biji.</p><p>1. Berat gabah per plot: Diambil dari gabah yang dipanen dari setiap petak dan diukur kadar air 14 %.</p><p>2. Hasil gabah (t ha -1 ): Berat gabah bernas/isi yang telah dibersihkan dan dijemur hingga kadar air 14 persen, (menggunakan alat moisture meter).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hasil dan pembahasan</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah klorofil daun</head><p>Hasil analisis ragam peubah jumlah klorofil daun menunjukan bahwa sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) berbeda nyata terhadap jumlah klorofil daun. Hasil uji lanjut terhadap jumlah klorofil daun padi di sajikan pada Tabel 1.</p><p>Berdasarkan Tabel 1 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap peubah jumlah klorofil. Hal ini diduga perlakuan olah tanah saja tidak dapat mempengaruhi peningkatan jumlah klorofil daun pada tanaman. <ref type="bibr" target="#b4">Muhiddin et al. (2023)</ref> menyatakan media tanam yang baik akan mempengaruhi kadar klorofil tanaman, semakin bagus media tanam maka pertumbuhan tanaman akan semakin efektif dan mampu menghasilkan zat klorofil yang maksimum. Selain itu peningkatan jumlah klorofil dapat juga dipengaruhi oleh kandungan nitrogen dalam tanah <ref type="bibr" target="#b10">(Rezki &amp; Nazirah, 2023)</ref>.</p><p>Perlakuan pupuk hayati mikoriza menunjukan berbeda nyata terhadap peubah jumlah klorofil daun yang dimana nilai tertinggi terdapat pada perlakuan mikoriza</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 1</head><p>Rata-rata jumlah klorofil daun pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%. cci (chlorophyl content index).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Jumlah klorofil daun (cci)</p><p>T0 (tanpa olah tanah) 23.200a T1 (olah tanah satu kali) 24.300a T2 (olah tanah dua kali) 25.144a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 23.111a M1 (mikoriza 10 g tanaman -1 ) 24.088ab M2 (mikoroza 15 g tanaman -1 ) 25.444a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM</head><p>Journal of Agricultural Research 15 g tanaman -1 (M2) yaitu 25,444 cci. Sedangkan jumlah klorofil terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 23.111 cci. Hal ini diduga mikoriza membantu akar tanaman dalam penyerapan unsur makro dan mikro, seperti unsur hara N, P, dan K <ref type="bibr" target="#b14">(Suwignya et al., 2023)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju asimilasi bersih (LAB)</head><p>Hasil analisis sidik ragam pada peubahlaju asimilasi bersih tanaman padi menunjukan pengaruh tunggal sistem olah tanahmenunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3 namun menunjukkan berbeda nyata pada LAB 4 dan pupuk hayati mikoriza menunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3, dan LAB 4. Hasil uji lajut terhadap laju asimilasi bersih telah disajikan pada Tabel 2.</p><p>Berdasarkan Tabel 2 terlihat bahwa peubah laju asimilasi bersihpada perlakuan sistem olah tanah (T) pada LAB 4 menunjukkan nilai tertinggi pada tanpa olah tanah (T0) yaitu 0,181 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 0,154. Laju asimilasi bersih merupakan ukuran kemapuan tanaman dalam melakukan fotosistesis dalam menghasilkan bahan kering tanamanan. Ulva et al. ( <ref type="formula">2019</ref>) menyatakan bahwa laju fotosintesis dapat dipengaruhi oleh luas daun, nilai ILD yang tinggi akan meningkatkan laju fotosintesis sehingga fotosintat yang tersedia juga meningkat, fotosintat digunakan tanaman untuk memenuhi nutrisi dan disalurkan ke bagian-bagian tanaman untuk melakukan pertumbuhan yang optimal. Sementara itu <ref type="bibr" target="#b5">Maisura et al. (2017)</ref> menyatakan bahwa terhambatnya perluasan daun dapat berdampak pada menurunya kapasistas daun untuk menyerap cahaya.</p><p>Pada perlakuan pupuk hayati mikoriza LAB 4 menunjukan nilai tertinggi pada mikoriza 0 g tanman -1 (M0) yaitu 0,178 dan nilai terendah terdapat pada mikoriza 10 g tanaman -1 (M1) yaitu 0,161. Hal ini diduga karena kondisi lahan penelitian lahan yang telah tersedia unsur hara fosfor (P) dalam jumlah cukup, sehingga tanaman tidak terlalu bergantung pada mikoriza, sehingga pengaruhnya terhadap LAB menjadi kecil. Begitu pula dengan air, saat kebutuhan air tanaman telah terpenuhi, peran mikoriza</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 2</head><p>Rata-rata laju asimilasi bersih pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T) Laju asimilasi bersih (LAB) g m⁻²</head><p>hari⁻¹ LAB 1 LAB 2 LAB 3 LAB 4 T0 (tanpa olah tanah) 0.275a 1.256a 0.392a 0.181a T1 (olah tanah satu kali) 0.261a 1.222a 0.439a 0.154b T2 (olah tanah dua kali) 0.286a 1.279a 0.409a 0.178a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 0.264a 1.246a 0.397a 0.178a M1 (mikoriza 10 g tanaman -1 ) 0.273a 1.253a 0.426a 0.161a M2 (mikoroza 15 g tanaman -1 ) 0.285a 1.257a 0.418a 0.174a Respons fisiologis dan produktivitas padi (Oryza sativa L)</p><note type="other">JURNAL AGRIUM Journal of Agricultural Research</note><p>dalam meningkatkan efisiensi penyerapan air tidak lagi signifikan terhadap peningkatan LAB. Ketersediaan fosfor sangat penting karena memiliki peran lebih besar dalam meningkatkan laju asimilasi bersih dibandingkan dengan unsur hara lainnya <ref type="bibr" target="#b0">(Afriani et al., 2021)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju tumbuh relatif (LTR)</head><p>Hasil analisis sidik ragam pada peubah laju tumbuh relatif tanaman padi menunjukan pengaruh tunggal sistem olah tanah menunjukan berbeda nyata pada LTR 1 namun tidak berbeda nyata pada LTR 2, LTR 3, dan LTR 4 dan pupuk hayati mikoriza menunjukkan tidak berbeda nyata pada LTR 1, LTR 2, LTR 3, dan LTR 4. Hasil uji lajut terhadap laju tumbuh relatif telah di sajikan pada Tabel 3.</p><p>Berdasarkan Tabel 3 telihat bahwa peubah laju tumbuh relative pada perlakuan sistem olah tanah (T) pada LTR 1 menunjukkan nilai tertinggi pada olah tanah dua kali (T2) yaitu 1,291 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 1,150, berdasarkan hasil dapat dilihat perlakuan olah tanah baik oalah tanah satu kali dan olah tanah dua kali terlihat memiliki nilai tertinggi di bandingkan perlakuan tanpa olah tanah. Hal ini diduga pelakuan olah tanah membuat tanah menjadi gembur sehingga membuat tanaman dapat tumbuh dengan baik. Sesuai dengan Tafonao et al. ( <ref type="formula">2022</ref>) menyatakan pengolahan tanah akan mengakibatkan perbaikan struktur tanah menjadi lebih gembur dan remah sehingga akar tanaman mudah menembus dan menyerap unsur hara yang berada didalam tanah sehingga mampu meningkatkan pertumbuhan tanaman.</p><p>Pada perlakuan pupuk hayati mikoriza (M) LTR 1 menunjukkan nilai tertinggi pada pemberian mikoriza 15 g tanaman -1 (M2) yaitu 1,278 dan nilai terendah terdapat pada mikoriza 0 g tanaman -1 (M0) yaitu 1,129. Dari hasil penelitian diketahuai bahwa perlakuan mikoriza cenderung memiliki nilai yang lebih tinggi terhadap laju tumbuh relative tanaman padi. Hal ini diduga pemberian mikoriza dapat meningkatkan kemampuan tanaman dalam menyerap unsur hara dan air serta mampu menyediakan unsur hara yang awalnya tidak tersedia menjadi tersedia bagi tanaman. Sejalan dengan</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 3</head><p>Rata-rata laju tumbuh relatif pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T) Laju tumbuh relatif (LTR) g H₂O m⁻²</head><p>jam⁻¹ LTR 1 LTR 2 LTR 3 LTR 4 T0 (tanpa olah tanah) 1.243ab 2.792a 2.792a 1.413a T1 (olah tanah satu kali) 1.150b 2.979a 2.979a 1.395a T2 (olah tanah dua kali) 1.291a 2.859a 2.831a 1.509a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1.129b 2.764a 2.764a 1.431a M1 (mikoriza 10 g tanaman -1 ) 1.217ab 2.938a 2.938a 1.451a M2 (mikoroza 15 g tanaman -1 ) 1.287a 2.929a 2.900a 1.436a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata JURNAL AGRIUM Journal of Agricultural Research Mahmudi et al. (2022) yang menyatakan kemampuan mikoriza dalam mendukung pertumbuhan tanaman dengan membantu penyerapan air hingga ke dalam partikel tanah.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Derajat inveksi akar</head><p>Hasil analisis ragam peubah tingkat inveksi akar menunjukkan bahwa interaksi antara sistem olah tanah (T) terhadap pupuk hayati mikoriza (M) tidak berbeda nyata,dan pada sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) menunjukkan sangat berbeda nyata terhadap tingkat inveksi akar tanaman. Hasil uji lanjut terhadap tingkat inveksi akar tanaman padi disajikan pada Table <ref type="table">4</ref>.</p><p>Berdasarkan Tabel 4 dapat dilihat bahwa perlakuan sistem olah tanah tidak berpengaruh nyata terhadap peubah tingkat inveksi akar dimana nilai tertinggi terdapat pada perlakuan tanpa olah tanah (T0) yaitu 62,222% sedangkan tingkat inveksi akar terendah terdapat pada perlakuan olah tanah satu kali (T1) yaitu 56,667%. Hal tersebut diduga karena pada lahan penelitian tanah nya tidak banyak mengandung sepora mikoriza, sehingga hanya dengan pengolahan tanah saja tidak banyak akar-akar tanaman yang terinveksi oleh jamur mikoriza, <ref type="bibr" target="#b9">Ratnawati et al. (2016)</ref> menyatakan kondisi lingkungan dan sifat-sifat tanah mempengaruhi perkembangan dan pertumbuhan MVA. Sementara itu menurut Nurhalima et al. ( <ref type="formula">2014</ref>) MVA akan berkembang pada kelembaban dan kadar air yang stabil, tidak terlalu tinggi dan tidak terlalu rendah. Namun pada kondisi kadar air berkisar antar 53,17-70,61% masih cukup untuk MVA menginfeksi akar tanaman padi gogo.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan berbeda sangat nyata terhadap peubah tingkat inveksi akar yang dimana nilai tertinggi terdapat pada perlakuan mikoriza 15 g tanaman -1 (M2) yaitu 90,000%. Sedangkan tingkat inveksi akar terendah terdapat pada perlakuan mikoriza 0 g/tanaman (M0) yaitu 8,889%. Hal ini diduga</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 4</head><p>Rata-rata tingkat inveksi akar pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Tingkat infeksi akar (%) </p><formula xml:id="formula_0">T0</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah malai padi</head><p>Hasil analisis ragam peubah jumlah malai padi menunjukan bahwa perlakuan sistem olah tanah (T) tidak berbeda nyata, dan pada pupuk hayati mikoriza (M) menunjukkan tidak berbeda nyata terhadap jumlah malai padi . Hasil uji lanjut terhadap jumlah malai padi di sajikan pada Tabel 5.</p><p>Berdasarkan Tabel 5 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap parameter jumlah malai padidimana nilai tertinggi terdapat pada perlakuan olah tanah satu kali (T1) yaitu 4,466 sedangkan jumlah malai padi terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3.988 . Hal tersebut diduga karena kemungkinan disebabkan oleh kurangnya ketersediaan unsur hara dalam tanah, sehingga tidak mampu mendorong peningkatan jumlah malai secara berarti. Sesuai hasil penelitian yang dilakukan oleh Fatimah et al. ( <ref type="formula">2024</ref>) budidaya tanaman padi gogo dengan cara pengolahan tanah sempurna menghasilkan rataan jumlah anakan tertinggi. Hal tersebut dipengaruhi oleh kondisi agregat dan struktur tanah yang sesuai untuk pertumbuhan tanaman.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap parameter jumlah malai padi yang dengan nilai tertinggi terdapat pada perlakuan mikoriza 15 g taanman -1 (M2) yaitu 4,311. Sedangkan jumlah malai padi terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 4,222. Namun jika dilihat dari hasil analisis sidik ragam perlakuan M1 dan M2 menunjukan nilai lebih tinggi dibandingkan M0. Hal ini diduga dosis yang diberikan belum cukup sehingga perbedaan nya hanya sedikit. Aswad et al. ( <ref type="formula">2023</ref>) menyatakan dalam hasil penelitianya dosis mikoriza sebanyak 30 g memberikan pengaruh terbaik terhadap jumlah</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 5</head><p>Rata-rata jumlah malai padi pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Jumlah malai padi</p><p>T0 (tanpa olah tanah) 3.988a T1 (olah tanah satu kali) 4.466a T2 (olah tanah dua kali) 4.366a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 4.222a M1 (mikoriza 10 g tanaman -1 ) 4.288a M2 (mikoroza 15 g tanaman -1 ) 4.311a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata</p><note type="other">JURNAL AGRIUM Journal of Agricultural Research</note><p>komponen Produksi jumlah malai, Jumlah gabah, gabah berisi dengan rata-rata yang lebih baik dibandingkan dengan tanaman yang tidak diberi perlakuan mikoriza dengan dosis 30 g tanaman -1 dapat membantu meningkatkan penyerapan hara dan memperbaiki struktur tanah sehingga pertumbuhan organ generatif cukup baik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Berat gabah per plot dan berat gabah ton/ ha</head><p>Hasil analisis ragam peubah berat gabah per plot dan berat gabah ton/ha menunjukan sistem olah tanah (T) berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) tidak berbeda nyata terhadap berat gabah per plot tanaman. Hasil uji lanjut terhadap berat gabah per plot di sajikan pada Tabel 6.</p><p>Berdasarkan Tabel 6 dapat dilihat bahwa perlakaun sistem olah tanah tidak berpengaruh nyata terhadap peubah berat gabah per plot dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 1279,40 gram, berat gabah per plot terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 988,53 gram. Perlakuan sistem olah tanah (T) menunjukan berbeda nyata terhadap peubah berat gabah ton/ha dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 4,234 t ha -1 . Berat gabah t ha -1 terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3,295 t ha -1 . Hal ini diduga karena pengolahan tanah yang gembur membuat penyerapan air dan unsur hara oleh akar menjadi optimal pada masa pengisian bulir padi, Fatimah et al. ( <ref type="formula">2024</ref>) menyatakan olah tanah maksimum memberikan hasil produksi yang baik. Pengolahan tanah yang dilakukan secara benar dan tepat dapat mempengaruhi pertumbuhan dan produksi tanaman, karena adanya pengolahan tanah yang diharapkan dapat membantu dan meningkatkan pertumbuhan dan produksi tanaman seperti aerasi yang baik, perakaran baik dan penyerapan unsur hara yang baik, sehingga pertumbuhan tanaman tidak terhambat dan produksi dapat meningkat <ref type="bibr" target="#b12">(Setyawati, 2017)</ref>.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap peubah berat gabah per plot yang dimana nilai tertinggi terdapat pada perlakuan</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 6</head><p>Rata-rata berat gabah per plot dan berat gabah pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Berat gabah plot -1 (g plot</p><p>-1 ) Berat gabah (t ha -1 ) T0 (tanpa olah tanah) 988.53b 3.295b T1 (olah tanah satu kali) 1129.05ab 3.763ab T2 (olah tanah dua kali) 1270.40a 4.234a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1110.0a 3.700a M1 (mikoriza 10 g tanaman -1 ) 1163.3a 3.877a M2 (mikoroza 15 g tanaman -1 ) 1114.7a 3.715a</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>tingkat inveksi akar berbanding lurus dengan dosis mikoriza, semakin banyak dosis mikoriza maka semakin tinggi akar tanaman terinveksi. Sejalan dengan hasil<ref type="bibr" target="#b3">Leovini et al. (2014)</ref> persentase infeksi akar tanaman tebu oleh JMA pada perlakuan takaran kompos 20 ton/ha lebih tinggi dibandingkan pada perlakuan takaran kompos 10 ton/ ha.</figDesc></figure>
 		</body>
 		<back>
-
-			<div type="funding">
-<div><p>This work was supported by the <rs type="funder">Ministry of Research and Technology of Indonesia, through scheme Higher Education Excellent Applied Research 2020</rs>.</p></div>
-			</div>
-			<listOrg type="funding">
-			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Respons fisiologis dan produktivitas padi (Oryza sativa L) JURNAL AGRIUM Journal of Agricultural Research mikoriza 10 g tanaman -1 (M1) yaitu 1163,3 gram. Sedangkan berat gabah per plot terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 1110 g. Begitupun juga perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap peubah berat gabah t ha -1 yang dimana nilai tertinggi terdapat pada perlakuan mikoriza 10 g tanaman -1 (M1) yaitu 3,877 t ha -1 , sedangkan berat berat gabah ton per hektar terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 3,700 t ha -1 . Hal ini mungkin karena tanah di lahan penelitian subur, ketersediaan unsur hara seperti nitrogen, fosfor, dan kalium sudah mencukupi untuk mendukung pertumbuhan tanaman. Mikoriza berperan dalam meningkatkan penyerapan hara, namun jika unsur hara sudah tersedia dalam jumlah yang cukup, aplikasi mikoriza tambahan tidak akan memberikan peningkatan hasil yang signifikan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kesimpulan</head><p>Perlakuan sistem olah tanah mampu menigkatkan luas daun pada umur 50 HST, shoot root ratio 40 dan 50 HST, LAB 4 (Panen -50 HST), LTR 1 (30 -20 HST), berat gabah per plot, dan hasil gabah ton/hektar mencapai 4,23 t ha -1 . Pemberian pupuk hayati mikoriza 15 gr/tanaman mampu meningkatkan jumlah klorfil daun tingkat inveksi akar, serta kombinasi antara sistem olah tanah dan pemberian pupuk hayati mikoriza memberikan pengaruh sangat baik pada peubah parameter jumlah kelorofil daun.</p></div>			</div>
 			<div type="references">
 
 				<listBibl>
 
 <biblStruct xml:id="b0">
 	<analytic>
-		<title level="a" type="main">A tale of two climbers: Hypothermia, death, and survival on mount everest</title>
+		<title level="a" type="main">Pengaruh Bakteri Pelarut Fosfat (BPF) dan pupuk fosfor terhadap pertumbuhan tanaman padi (Oryza sativa L.) yang ditanam secara SRI modifikasi</title>
 		<author>
-			<persName><forename type="first">G</forename><forename type="middle">W K</forename><surname>Moore</surname></persName>
+			<persName><forename type="first">M</forename><surname>Afriani</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Semple</surname></persName>
+			<persName><forename type="first">A</forename><surname>Effendi</surname></persName>
 		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Murniati</surname></persName>
+		</author>
+		<idno type="DOI">10.32528/agritrop.v19i2.5814</idno>
+		<ptr target="https://doi.org/10.32528/agritrop.v19i2.5814" />
 	</analytic>
 	<monogr>
-		<title level="j">High Altitude Med. Biol</title>
+		<title level="j">Jurnal Ilmu-Ilmu Pertanian</title>
 		<imprint>
-			<biblScope unit="volume">13</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="51" to="56" />
-			<date type="published" when="2012-03">Mar. 2012</date>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2021">2021</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b1">
 	<analytic>
-		<title level="a" type="main">Smart multi-level tool for remote patient monitoring based on a wireless sensor network and mobile augmented reality</title>
+		<title level="a" type="main">Karakter morfologi akar sebagai indikator kekurangan air pada tanaman</title>
 		<author>
-			<persName><forename type="first">F</forename><surname>González</surname></persName>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Ai</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">O</forename><surname>Villegas</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">D</forename><surname>Ramírez</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">V</forename><surname>Sánchez</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Domínguez</surname></persName>
+			<persName><forename type="first">P</forename><surname>Torey</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Sensors</title>
+		<title level="j">Jurnal Bios Logos</title>
 		<imprint>
-			<biblScope unit="volume">14</biblScope>
-			<biblScope unit="issue">9</biblScope>
-			<biblScope unit="page" from="17212" to="17234" />
-			<date type="published" when="2014-09">Sep. 2014</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="39" />
+			<date type="published" when="2013">2013</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b2">
-	<analytic>
-		<title level="a" type="main">Simulations of the effect of the cooling elements&apos; temperature on the hypothermia efficiency</title>
-		<author>
-			<persName><forename type="first">V</forename><surname>Cojocaru</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">D</forename><surname>Vrabii</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="m">Proc. EHB</title>
-		<meeting>EHB<address><addrLine>Sinaia, Romania</addrLine></address></meeting>
+		<title level="m" type="main">Luas panen dan produksi padi di Indonesia</title>
+		<author>
+			<persName><forename type="first">Badan</forename><surname>Pusat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Statistik</forename></persName>
+		</author>
+		<ptr target="https://www.bps.go.id/publication/2021/07/12/b21ea2ed9524b784187be1ed/luas-panen-dan-produksi-padi-di-indonesia-2020.html" />
 		<imprint>
-			<date type="published" when="2017-06">Jun. 2017</date>
-			<biblScope unit="page" from="13" to="16" />
+			<date type="published" when="2020">2021. 2020</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b3">
-	<analytic>
-		<title level="a" type="main">Cloud-based wireless body area networks</title>
-		<author>
-			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Abiodun</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Anisi</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Khan</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="j">IEEE Consum. Electron. Mag</title>
+		<title level="m" type="main">Pengaruh pemberian Jamur Mikoriza Arbuskular, jenis pupuk fosfat dan takaran kompos terhadap pertumbuhan bibit tebu (Saccharum officinarum L.) pada media pasir pantai</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leovini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kastono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Widada</surname></persName>
+		</author>
 		<imprint>
-			<biblScope unit="volume">8</biblScope>
-			<biblScope unit="issue">3</biblScope>
-			<biblScope unit="page" from="55" to="59" />
-			<date type="published" when="2019-05">May 2019</date>
+			<date type="published" when="2014">2014</date>
+			<publisher>Vegetalika</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="102" to="115" />
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b4">
 	<analytic>
-		<title level="a" type="main">A comprehensive survey on real-time applications of WSN</title>
+		<title level="a" type="main">Pengaruh media tanam organik dan anorganik terhadap pertumbuhan seledri (Apium graveolens L) dengan sistem hidroponik DFT</title>
 		<author>
-			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+			<persName><forename type="first">N</forename><surname>Muhiddin</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Y</forename><surname>Ming</surname></persName>
+			<persName><surname>Lahming</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+			<persName><forename type="first">N</forename><surname>Lestari</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">S</forename><surname>Iram</surname></persName>
-		</author>
+		<idno type="DOI">10.26858/jptp.v9i2.663</idno>
+		<ptr target="https://doi.org/10.26858/jptp.v9i2.663" />
 	</analytic>
 	<monogr>
-		<title level="j">Future Internet</title>
+		<title level="j">Jurnal Pendidikan Teknologi Pertanian</title>
 		<imprint>
 			<biblScope unit="volume">9</biblScope>
-			<biblScope unit="issue">77</biblScope>
-			<biblScope unit="page" from="1" to="22" />
-			<date type="published" when="2017-11">Nov. 2017</date>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="162" />
+			<date type="published" when="2023">2023</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b5">
 	<analytic>
-		<title level="a" type="main">Lightweight reinforcement learning for energy efficient communications in wireless sensor networks</title>
+		<title level="a" type="main">Laju asimilasi bersih dan laju tumbuh relatif varietas padi toleran kekeringan pada sistem sawah</title>
 		<author>
-			<persName><forename type="first">C</forename><surname>Savaglio</surname></persName>
+			<persName><forename type="first">M</forename><surname>Maisura</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">P</forename><surname>Pace</surname></persName>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Chozin</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">G</forename><surname>Aloi</surname></persName>
+			<persName><forename type="first">I</forename><surname>Lubis</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">A</forename><surname>Liotta</surname></persName>
+			<persName><forename type="first">A</forename><surname>Junaedi</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">G</forename><surname>Fortino</surname></persName>
+			<persName><forename type="first">H</forename><surname>Ehara</surname></persName>
 		</author>
+		<idno type="DOI">10.29103/agrium.v12i1.376</idno>
+		<ptr target="https://doi.org/10.29103/agrium.v12i1.376" />
 	</analytic>
 	<monogr>
-		<title level="j">IEEE Access</title>
+		<title level="j">Jurnal Agrium</title>
 		<imprint>
-			<biblScope unit="volume">7</biblScope>
-			<biblScope unit="page" from="29355" to="29364" />
-			<date type="published" when="2019-03">Mar. 2019</date>
+			<biblScope unit="page" from="12" to="13" />
+			<date type="published" when="2017">2017</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b6">
 	<analytic>
-		<title level="a" type="main">Body node coordinator placement algorithms for wireless body area networks</title>
+		<title level="a" type="main">Evaluasi plasma nutfah padi gogo (Upland rice) berdasarkan karakter perkembangan perakaran dan fisiologi tanaman</title>
 		<author>
-			<persName><forename type="first">M</forename><forename type="middle">T I</forename><surname>Ul Huque</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Munasinghe</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Jamalipour</surname></persName>
+			<persName><forename type="first">L</forename><surname>Nazirah</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">IEEE Internet Things J</title>
+		<title level="j">Jurnal Agrium</title>
 		<imprint>
-			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="volume">15</biblScope>
 			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="94" to="102" />
-			<date type="published" when="2015-02">Feb. 2015</date>
+			<biblScope unit="page" from="39" to="47" />
+			<date type="published" when="2018">2018</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b7">
 	<analytic>
-		<title level="a" type="main">A survey of routing protocols in WBAN for healthcare applications</title>
+		<title level="a" type="main">Eksplorasi Mikoriza Vascular Arbuscular (MVA) indigenous pada tanah Regosol di Pamekasan, Madura</title>
 		<author>
-			<persName><forename type="first">Y</forename><surname>Qu</surname></persName>
+			<persName><forename type="first">S</forename><surname>Nurhalimah</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">G</forename><surname>Zheng</surname></persName>
+			<persName><forename type="first">N</forename><surname>Sri</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+			<persName><forename type="first">M</forename><surname>Anton</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">B</forename><surname>Ji</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
-		</author>
+		<idno type="DOI">10.29103/agrium.v22i4.25773</idno>
+		<ptr target="https://doi.org/10.29103/agrium.v22i4.25773" />
 	</analytic>
 	<monogr>
-		<title level="j">Sensors</title>
+		<title level="j">Jurnal Sains dan Seni Pomits</title>
 		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">1638</biblScope>
-			<biblScope unit="page" from="1" to="24" />
-			<date type="published" when="2019-04">Apr. 2019</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="35" />
+			<date type="published" when="2014">2014</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b8">
 	<analytic>
-		<title level="a" type="main">Interference mitigation schemes for wireless body area sensor networks: A comparative survey</title>
+		<title level="a" type="main">Ini penyebab mengapa saat ini Indonesia sulit swasembada pangan</title>
 		<author>
-			<persName><forename type="first">T</forename><surname>Le</surname></persName>
+			<persName><forename type="first">&amp;</forename><surname>Nazirah</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Y.</orgName>
+			</affiliation>
 		</author>
 		<author>
-			<persName><forename type="first">S</forename><surname>Moh</surname></persName>
+			<persName><forename type="first">Jurnal</forename><surname>Pranata</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Y.</orgName>
+			</affiliation>
 		</author>
+		<author>
+			<persName><surname>Agrium</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Y.</orgName>
+			</affiliation>
+		</author>
+		<ptr target="http://kalimantan.bisnis.com/read/20180610/408/586674/ini-penyebab-mengapa-saat-ini-indonesiasulit-swasembada-pangan" />
 	</analytic>
 	<monogr>
-		<title level="j">Sensors</title>
+		<title level="j">Journal of Agricultural Research Petriella</title>
 		<imprint>
-			<biblScope unit="volume">15</biblScope>
-			<biblScope unit="issue">6</biblScope>
-			<biblScope unit="page" from="13805" to="13838" />
-			<date type="published" when="2015-06">Jun. 2015</date>
+			<date type="published" when="2016">2016, 10 Juni</date>
+			<pubPlace>Bisnis Kalimantan</pubPlace>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b9">
 	<analytic>
-		<title level="a" type="main">Implementation of blood glucose levels monitoring system based on wireless body area network</title>
+		<title level="a" type="main">Pengaruh sistem olah tanah dan pemupukan nitrogen jangka panjang terhadap jumlah spora Mikoriza Vesikular Arbuskular dan infeksi akar tanaman padi gogo varietas Inpago-8 pada musim tanam ke-46</title>
 		<author>
-			<persName><forename type="first">M</forename><forename type="middle">U H A</forename><surname>Rasyid</surname></persName>
+			<persName><forename type="first">L</forename><surname>Ratnawati</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Saputra</surname></persName>
+			<persName><forename type="first">S</forename><surname>Yusnaini</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">A</forename><surname>Christian</surname></persName>
+			<persName><forename type="first">M</forename><surname>Utomo</surname></persName>
 		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Niswati</surname></persName>
+		</author>
+		<idno type="DOI">10.23960/jat.v4i2.1867</idno>
+		<ptr target="https://doi.org/10.23960/jat" />
 	</analytic>
 	<monogr>
-		<title level="m">Proc. IEEE ICCE-TW</title>
-		<meeting>IEEE ICCE-TW<address><addrLine>Nantou, Taiwan</addrLine></address></meeting>
+		<title level="j">Jurnal Agrotek Tropika</title>
 		<imprint>
-			<date type="published" when="2016-05">May 2016</date>
-			<biblScope unit="page" from="240" to="241" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="164" to="171" />
+			<date type="published" when="1867">2016. 4i2.1867</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b10">
 	<analytic>
-		<title level="a" type="main">Portable electrocardiogram sensor monitoring system based on body area network</title>
+		<title level="a" type="main">Pengaruh pemberian kompos Azolla pinnata terhadap pertumbuhan dan hasil beberapa varietas terung (Solanum melongena L.)</title>
 		<author>
-			<persName><forename type="first">M</forename><forename type="middle">U H</forename><surname>Al Rasyid</surname></persName>
+			<persName><forename type="first">M</forename><surname>Rezki</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Pranata</surname></persName>
+			<persName><forename type="first">U</forename><surname>Usnawiyah</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">B.-H</forename><surname>Lee</surname></persName>
+			<persName><forename type="first">N</forename><surname>Nilahayati</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Saputra</surname></persName>
+			<persName><forename type="first">L</forename><surname>Nazirah</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">A</forename><surname>Sudarsono</surname></persName>
+			<persName><forename type="first">H</forename><surname>Hafifah</surname></persName>
 		</author>
+		<idno type="DOI">10.29103/jimatek.v2i1.12043</idno>
+		<ptr target="https://doi.org/10.29103/jimatek.v2i1.12043" />
 	</analytic>
 	<monogr>
-		<title level="m">Proc. IEEE ICCE-TW</title>
-		<meeting>IEEE ICCE-TW<address><addrLine>Nantou, Taiwan</addrLine></address></meeting>
+		<title level="j">Jurnal Ilmiah Mahasiswa Agroekoteknologi</title>
 		<imprint>
-			<date type="published" when="2016-05">May 2016</date>
-			<biblScope unit="page" from="242" to="243" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="28" />
+			<date type="published" when="2023">2023</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b11">
 	<analytic>
-		<title level="a" type="main">Modeling and characterization of capacitive coupling intrabody communication in an invehicle scenario</title>
+		<title level="a" type="main">Peningkatan kesuburan tanah dan produktivitas sebagai hasil pengolahan lahan di Dusun Ngadilegi</title>
 		<author>
-			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Rizki</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Wicaksono</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+			<persName><forename type="first">F</forename><surname>Wijayanti</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
-		</author>
+		<idno type="DOI">https://www.google.com/search?q=10.47681/jipm-nalanda.v2i1.732</idno>
+		<ptr target="https://doi.org/10.47681/jipm-nalanda.v2i1.732" />
 	</analytic>
 	<monogr>
-		<title level="j">Sensors</title>
+		<title level="j">Pandaan. JIPM: Jurnal Informasi Pengabdian Masyarakat</title>
 		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">4305</biblScope>
-			<biblScope unit="page" from="1" to="18" />
-			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2024">2024</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b12">
-	<analytic>
-		<title level="a" type="main">Role of body area network in battlefield of things</title>
-		<author>
-			<persName><forename type="first">V</forename><surname>Varghese</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Nene</surname></persName>
-		</author>
-	</analytic>
 	<monogr>
-		<title level="m">Proc. I2CT</title>
-		<meeting>I2CT<address><addrLine>Pune, India</addrLine></address></meeting>
+		<title level="m" type="main">Pengaruh sistem olah tanah dan gulma terhadap pertumbuhan dan hasil tanaman jagung hibrida</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Setyawati</surname></persName>
+		</author>
 		<imprint>
-			<date type="published" when="2018-04">Apr. 2018</date>
-			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2017">2017</date>
+			<publisher>Skripsi Universitas PGRI Yogyakarta</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b13">
 	<analytic>
-		<title level="a" type="main">Mobility model for Body Area Networks of soccer players</title>
+		<title level="a" type="main">Karakter agronomi beberapa padi lokal Aceh</title>
 		<author>
-			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Nardis</surname></persName>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Setyowati</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">D</forename><surname>Domenicali</surname></persName>
+			<persName><forename type="first">L</forename><surname>Irawan</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">M.-G</forename><forename type="middle">D</forename><surname>Benedetto</surname></persName>
+			<persName><surname>Marlina</surname></persName>
 		</author>
+		<idno type="DOI">10.35308/jal.v4i1.632</idno>
+		<ptr target="https://doi.org/10.35308/jal.v4i1.632" />
 	</analytic>
 	<monogr>
-		<title level="m">Proc. EWTC</title>
-		<meeting>EWTC<address><addrLine>Paris, France</addrLine></address></meeting>
+		<title level="j">Jurnal Agrotek Lestari</title>
 		<imprint>
-			<date type="published" when="2010">2010</date>
-			<biblScope unit="page" from="65" to="68" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="50" />
+			<date type="published" when="2018">2018</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b14">
 	<analytic>
-		<title level="a" type="main">Time multiplexing-star shape body sensor network for sports applications</title>
+		<title level="a" type="main">Eksplorasi dan identifikasi fungi mikoriza arbuskular pada perakaran tanaman pisang di Desa Pinabetengan</title>
 		<author>
-			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Sabti</surname></persName>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Suwignya</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Thiel</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Pelealu</surname></persName>
 		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Tallei</surname></persName>
+		</author>
+		<idno type="DOI">10.35799/jbl.v13i3.49247</idno>
+		<ptr target="https://doi.org/10.35799/jbl.v13i3.49247" />
 	</analytic>
 	<monogr>
-		<title level="m">Proc. IEEE APSURSI</title>
-		<meeting>IEEE APSURSI<address><addrLine>Memphis, TN, USA</addrLine></address></meeting>
+		<title level="j">Jurnal Bios Logos</title>
 		<imprint>
-			<date type="published" when="2014-07">Jul. 2014</date>
-			<biblScope unit="page" from="969" to="970" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="150" to="157" />
+			<date type="published" when="2023">2023</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b15">
 	<analytic>
-		<title level="a" type="main">Jog training coaching assistance based on vital signs evaluation</title>
+		<title level="a" type="main">Pengaruh inokulasi Jamur Mikoriza Arbuskular dan aplikasi fosfat terhadap pertumbuhan padi gogo</title>
 		<author>
-			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rusli</surname></persName>
+			<persName><forename type="first">B</forename><forename type="middle">P K</forename><surname>Yudha</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">S</forename><surname>Takayama</surname></persName>
+			<persName><forename type="first">B</forename><surname>Hermiyanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soedrajad</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="m">Proc. SICE</title>
-		<meeting>SICE<address><addrLine>Kanazawa, Japan</addrLine></address></meeting>
+		<title level="j">Berkala Ilmiah Pertanian</title>
 		<imprint>
-			<date type="published" when="2017-09">Sep. 2017</date>
-			<biblScope unit="page" from="1553" to="1558" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2015">2015</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b16">
 	<analytic>
-		<title level="a" type="main">Wearable sensor devices for prevention and rehabilitation in healthcare: Swimming exercise with real-time therapist feedback</title>
+		<title level="a" type="main">Pertumbuhan dan hasil beberapa kultivar tanaman padi gogo (Oryza sativa L.) pada beberapa sistem olah tanah</title>
 		<author>
-			<persName><forename type="first">A</forename><surname>Kos</surname></persName>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Zahra</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">A</forename><surname>Umek</surname></persName>
+			<persName><surname>Rosmaiti</surname></persName>
 		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Marnita</surname></persName>
+		</author>
+		<idno type="DOI">10.33059/jupas.v11i1.9264</idno>
+		<ptr target="https://doi.org/10.33059/jupas.v11i1.9264" />
 	</analytic>
 	<monogr>
-		<title level="j">IEEE Internet Things J</title>
+		<title level="j">Jurnal Penelitian Agrosamudra</title>
 		<imprint>
-			<biblScope unit="volume">6</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="1331" to="1341" />
-			<date type="published" when="2019-04">Apr. 2019</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2024">2024</date>
 		</imprint>
 	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b17">
-	<analytic>
-		<title level="a" type="main">An autonomous wireless body area network implementation towards IoT connected healthcare applications</title>
-		<author>
-			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">F</forename><surname>Wu</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J.-M</forename><surname>Redoute</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Yuce</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE Access</title>
-		<imprint>
-			<biblScope unit="volume">5</biblScope>
-			<biblScope unit="page" from="11413" to="11422" />
-			<date type="published" when="2017-06">Jun. 2017</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b18">
-	<analytic>
-		<title level="a" type="main">Integration of cloud computing with Internet of Things and wireless body area network for effective healthcare</title>
-		<author>
-			<persName><forename type="first">S</forename><surname>Ahmed</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><surname>Saqib</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><surname>Adil</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">T</forename><surname>Ali</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Ishtiaq</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="m">Proc. ISWSN</title>
-		<meeting>ISWSN<address><addrLine>Lahore, Pakistan</addrLine></address></meeting>
-		<imprint>
-			<date type="published" when="2017-11">Nov. 2017</date>
-			<biblScope unit="page" from="1" to="6" />
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b19">
-	<analytic>
-		<title level="a" type="main">Wearables meet IoT: Synergistic personal area networks (SPANs)</title>
-		<author>
-			<persName><forename type="first">E</forename><surname>Jovanov</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">4295</biblScope>
-			<biblScope unit="page" from="1" to="13" />
-			<date type="published" when="2019-10">Oct. 2019</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b20">
-	<analytic>
-		<title level="a" type="main">IoMT platform for pervasive healthcare data aggregation, processing, and sharing based on OneM2M and OpenEHR</title>
-		<author>
-			<persName><forename type="first">J</forename><forename type="middle">N S</forename><surname>Rubi</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">P</forename><forename type="middle">R L</forename><surname>Gondim</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">4283</biblScope>
-			<biblScope unit="page" from="1" to="25" />
-			<date type="published" when="2019-10">Oct. 2019</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b21">
-	<analytic>
-		<title level="a" type="main">A survey on wireless body area networks for eHealthcare systems in residential environments</title>
-		<author>
-			<persName><forename type="first">M</forename><surname>Ghamari</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">B</forename><surname>Janko</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sherratt</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">W</forename><surname>Harwin</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">R</forename><surname>Piechockic</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">C</forename><surname>Soltanpur</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">16</biblScope>
-			<biblScope unit="issue">831</biblScope>
-			<biblScope unit="page" from="1" to="33" />
-			<date type="published" when="2016-06">Jun. 2016</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b22">
-	<analytic>
-		<title level="a" type="main">Wireless body area network for heart attack detection</title>
-		<author>
-			<persName><forename type="first">G</forename><surname>Wolgast</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">C</forename><surname>Ehrenborg</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Israelsson</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J</forename><surname>Helander</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">E</forename><surname>Johansson</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Manefjord</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE Antennas Propag. Mag</title>
-		<imprint>
-			<biblScope unit="volume">58</biblScope>
-			<biblScope unit="page" from="84" to="92" />
-			<date type="published" when="2016-10">Oct. 2016</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b23">
-	<analytic>
-		<title level="a" type="main">Application of an emergency alarm system for physiological sensors utilizing smart devices</title>
-		<author>
-			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Larkin</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Technol</title>
-		<imprint>
-			<biblScope unit="volume">5</biblScope>
-			<biblScope unit="issue">26</biblScope>
-			<biblScope unit="page" from="1" to="23" />
-			<date type="published" when="2017-05">May 2017</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b24">
-	<analytic>
-		<title level="a" type="main">In-ear pulse oximetry in high altitude mountaineering</title>
-		<author>
-			<persName><forename type="first">B</forename><surname>Venema</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><surname>Leonhardt</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="m">Proc. IASTED BioMed</title>
-		<meeting>IASTED BioMed<address><addrLine>Innsbruck, Austria</addrLine></address></meeting>
-		<imprint>
-			<date type="published" when="2017">2017</date>
-			<biblScope unit="page" from="254" to="259" />
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b25">
-	<analytic>
-		<title level="a" type="main">Wireless body area network development for remote patient health observing,&apos;&apos; in Proc</title>
-		<author>
-			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Mahmood</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">E</forename><surname>Jafer</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><surname>Hussain</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">X</forename><surname>Fernando</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE IHTC</title>
-		<imprint>
-			<biblScope unit="page" from="26" to="31" />
-			<date type="published" when="2017-07">Jul. 2017</date>
-			<pubPlace>Toronto, ON, Canada</pubPlace>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b26">
-	<analytic>
-		<title level="a" type="main">A health remote monitoring application based on wireless body area networks</title>
-		<author>
-			<persName><forename type="first">E</forename><surname>Baba</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Jilbab</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Hammouch</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="m">Proc. ISCV</title>
-		<meeting>ISCV<address><addrLine>Fez, Morocco</addrLine></address></meeting>
-		<imprint>
-			<date type="published" when="2018-04">Apr. 2018</date>
-			<biblScope unit="page" from="1" to="4" />
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b27">
-	<analytic>
-		<title level="a" type="main">Data analytics of a wearable device for heat stroke detection</title>
-		<author>
-			<persName><forename type="first">S.-S</forename><surname>Lin</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">C.-W</forename><surname>Lan</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H.-Y</forename><surname>Hsu</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S.-T</forename><surname>Chen</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">18</biblScope>
-			<biblScope unit="issue">4347</biblScope>
-			<biblScope unit="page" from="1" to="14" />
-			<date type="published" when="2018-12">Dec. 2018</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b28">
-	<analytic>
-		<title level="a" type="main">Wearable sensors integrated with Internet of Things for advancing eHealth care</title>
-		<author>
-			<persName><forename type="first">J.-L</forename><surname>Bayo-Monton</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Bayo-Monton</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">W</forename><surname>Han</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">C</forename><surname>Fernandez-Llatas</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">V</forename><surname>Traver</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">18</biblScope>
-			<biblScope unit="issue">1851</biblScope>
-			<biblScope unit="page" from="1" to="18" />
-			<date type="published" when="2018">2018</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b29">
-	<analytic>
-		<title level="a" type="main">An advanced first aid system based on an unmanned aerial vehicles and a wireless body area sensor network for elderly persons in outdoor environments</title>
-		<author>
-			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Fakhrulddin</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gharghan</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Al-Naji</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J</forename><surname>Chahl</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Sensors</title>
-		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">2955</biblScope>
-			<biblScope unit="page" from="1" to="28" />
-			<date type="published" when="2019-07">Jul. 2019</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b30">
-	<analytic>
-		<title level="a" type="main">Wearable sleepcare kit: Analysis and prevention of sleep apnea symptoms in real-time</title>
-		<author>
-			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kang</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE Access</title>
-		<imprint>
-			<biblScope unit="volume">7</biblScope>
-			<biblScope unit="page" from="60634" to="60649" />
-			<date type="published" when="2019-04">Apr. 2019</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b31">
-	<analytic>
-		<title level="a" type="main">Achieving energy efficient transmission in wireless body area networks for the physiological monitoring of military soldiers</title>
-		<author>
-			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Egbogah</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Fapojuwo</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="m">Proc. IEEE MILCOM</title>
-		<meeting>IEEE MILCOM<address><addrLine>San Diego, CA, USA</addrLine></address></meeting>
-		<imprint>
-			<date type="published" when="2013-11">Nov. 2013</date>
-			<biblScope unit="page" from="1371" to="1376" />
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b32">
-	<analytic>
-		<title level="a" type="main">Wireless body area networks MAC protocol for energy efficiency and extending lifetime</title>
-		<author>
-			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE Sensors Lett</title>
-		<imprint>
-			<biblScope unit="volume">2</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="1" to="4" />
-			<date type="published" when="2018-03">Mar. 2018</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b33">
-	<analytic>
-		<title level="a" type="main">Biometric authentication and verification for medical cyber physical systems</title>
-		<author>
-			<persName><forename type="first">A</forename><surname>Alhayajneh</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Baccarini</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">T</forename><surname>Hayajneh</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Farajidavar</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">Electron</title>
-		<imprint>
-			<biblScope unit="volume">7</biblScope>
-			<biblScope unit="issue">436</biblScope>
-			<biblScope unit="page" from="1" to="17" />
-			<date type="published" when="2018-12">Dec. 2018</date>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b34">
-	<analytic>
-		<title level="a" type="main">Robust and high-efficiency wireless body area networks with spoof surface plasmons on clothing</title>
-		<author>
-			<persName><forename type="first">X</forename><surname>Tian</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ho</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="j">IEEE MTT-S Int. Microw. Symp. Dig</title>
-		<imprint>
-			<biblScope unit="page" from="1507" to="1510" />
-			<date type="published" when="2019-06">Jun. 2019</date>
-			<pubPlace>Boston, MA, USA</pubPlace>
-		</imprint>
-	</monogr>
-</biblStruct>
-
-<biblStruct xml:id="b35">
-	<analytic>
-		<title level="a" type="main">He is currently an Associate Professor with the Department of Informatics and Computer Engineering, Politeknik Elektronika Negeri Surabaya (PENS), Indonesia. He heads the research group of EEPIS Wireless Sensor Networks (EWSN) PENS. His research interests include wireless sensor networks (WSNs), wireless body area networks (WBANs), the Internet of Things (IoT), and Web technology</title>
-		<author>
-			<persName><forename type="first">M</forename><surname>Udin</surname></persName>
-		</author>
-		<author>
-			<persName><surname>Al Rasyid (member</surname></persName>
-		</author>
-		<author>
-			<persName><surname>Ieee</surname></persName>
-		</author>
-	</analytic>
-	<monogr>
-		<title level="m">His research interests include privacy-enhancing authentications (group signatures), network &amp; information security, and cryptography. AFDOLASH NUR KAFFAH received the A.Md. degree from the Department of Informatics Engineering, Politeknik Elektronika Negeri Surabaya (PENS)</title>
-		<meeting><address><addrLine>Japan; Japan; Indonesia, as a Lecturer; Indonesia</addrLine></address></meeting>
-		<imprint>
-			<date type="published" when="2002">2012. 2013. 2009. 2011. 2002. 2018</date>
-		</imprint>
-		<respStmt>
-			<orgName>Department of Informatics Engineering, Sepuluh Nopember Institute of Technology (ITS ; College of Electrical Engineering and Computer Science (CECS), National Taiwan University of Science and Technology (NTUST) ; Sepuluh Nopember Institute of Technology, Indonesia ; Department of Electrical Engineering, Politeknik Elektronika Negeri Surabaya (Electronics Engineering Polytechnic Institute of Surabaya)</orgName>
-		</respStmt>
-	</monogr>
-	<note>received the B.Sc. degree from the Taiwan SRITRUSTA SUKARIDHOTO (Member, IEEE) received the B.E. degree in electrical engineering Indonesia, in 2004, and the Ph.D. degree in computer and commu He joined at Politeknik Elektronika Negeri Surabaya, Indonesia, as a Lecturer 2002, and the Ph.D. degree in communication networks engineering from Okayama University He received several academic awards best paper awards AMANG SUDARSONO received the B.E. degree in electrical engineering, telecommunication and multimedia program from the Sepuluh Nopember Institute of Technology, Indonesia 2001, and the Ph.D. degree in communication network engineering from Okayama University From 1997 to 2002, he was with the Division of Network Engineering, Metro Cellular Nusantara, Ltd., Indonesia. He joined the Division of Telecommunication Engineering 2002, and he became an Assistant Professor in 2011, respectively. He stayed at Tohoku University, Japan, in 2004, as a Visiting Researcher. His research interests include computer networks, embedded systems, multimedia, and the Internet of Things He is currently an UI Designer with the Department of Engineering, IDN Media Company, Indonesia. His research interests include user interface and experience and Android development</note>
 </biblStruct>
 
 				</listBibl>

@@ -19,4 +19,5 @@ requests
 pypdf
 google-generativeai
 PyMuPDF
+celery
 

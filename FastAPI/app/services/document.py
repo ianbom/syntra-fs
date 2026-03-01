@@ -103,6 +103,105 @@ class FileValidator:
                 detail=f"File too large. Maximum size: {MAX_PDF_SIZE // (1024 * 1024)}MB"
             )
 
+# =============================================================================
+# Public utility functions (shared with Celery tasks)
+# =============================================================================
+
+def extract_raw_pdf_text(file_content: bytes):
+    """
+    Extract raw text from PDF using PyMuPDF.
+    Returns (raw_text: str, pages_data: list[dict]).
+    Each page_data has: { page_number: int, text: str }
+    """
+    pymupdf = None
+    try:
+        import pymupdf as pymupdf
+    except ImportError:
+        try:
+            import fitz as pymupdf
+        except ImportError:
+            print("PyMuPDF not installed")
+            return "", []
+    
+    try:
+        doc = pymupdf.open(stream=file_content, filetype="pdf")
+        pages_text = []
+        pages_data = []
+        
+        for page_num in range(len(doc)):
+            page = doc[page_num]
+            text = page.get_text("text")
+            if text and text.strip():
+                pages_text.append(text.strip())
+                pages_data.append({
+                    "page_number": page_num + 1,
+                    "text": text.strip()
+                })
+        
+        doc.close()
+        raw_text = "\n\n".join(pages_text)
+        print(f"  PyMuPDF: Extracted {len(raw_text)} chars from {len(pages_text)} pages")
+        return raw_text, pages_data
+        
+    except Exception as e:
+        print(f"PyMuPDF extraction error: {e}")
+        return "", []
+
+
+def validate_metadata(metadata: Dict[str, Any], fulltext: str) -> Dict[str, Any]:
+    """
+    Final validation: ensure no critical field is empty.
+    Generates fallback values if GROBID + LLM both failed.
+    """
+    from datetime import datetime as dt
+    
+    # Title: MUST exist
+    title = metadata.get("title")
+    if not title or title.strip() == "" or title.strip().lower() in ["untitled", "untitled document"]:
+        if fulltext:
+            first_line = fulltext.strip().split('\n')[0][:150].strip()
+            if first_line and len(first_line) > 10:
+                metadata["title"] = first_line
+                print(f"  Fallback title from first line: {first_line[:80]}")
+            else:
+                metadata["title"] = f"Document-{hash(fulltext[:500]) % 100000}"
+                print(f"  Fallback title from hash: {metadata['title']}")
+        else:
+            metadata["title"] = "Document tanpa judul"
+    
+    # Keywords: should exist
+    if not metadata.get("keywords"):
+        title_words = metadata["title"].split()
+        keywords = [w for w in title_words if len(w) > 3][:5]
+        if keywords:
+            metadata["keywords"] = ", ".join(keywords)
+            print(f"  Fallback keywords from title: {metadata['keywords']}")
+    
+    # Language: default to Indonesian if empty
+    if not metadata.get("language"):
+        metadata["language"] = "id"
+        print("  Fallback language: id")
+    
+    # Description: generate from abstract or content
+    if not metadata.get("description") and metadata.get("abstract"):
+        metadata["description"] = metadata["abstract"][:200]
+        print("  Fallback description from abstract")
+    
+    # Parse date string from LLM if it's a string
+    if isinstance(metadata.get("date"), str):
+        date_str = metadata["date"]
+        parsed = None
+        for fmt in ["%Y-%m-%d", "%Y-%m", "%Y", "%d %B %Y", "%B %Y"]:
+            try:
+                parsed = dt.strptime(date_str, fmt).date()
+                break
+            except ValueError:
+                continue
+        metadata["date"] = parsed
+    
+    print(f"  Final metadata validation complete. Title: {str(metadata.get('title', ''))[:80]}")
+    return metadata
+
 
 # =============================================================================
 # MinIO Storage Operations
@@ -160,6 +259,18 @@ class MinIOStorage:
             )
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Failed to get download URL: {str(e)}")
+    
+    def download_file(self, file_path: str) -> bytes:
+        """Download file content from MinIO. Returns file bytes."""
+        try:
+            response = self.client.get_object(self.bucket, file_path)
+            try:
+                return response.read()
+            finally:
+                response.close()
+                response.release_conn()
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Failed to download file: {str(e)}")
 
 
 # =============================================================================
@@ -900,107 +1011,16 @@ class DocumentService:
     def _extract_raw_pdf_text(self, file_content: bytes) -> str:
         """
         Extract raw text from PDF using PyMuPDF.
-        Returns ALL pages as plain text, preserving page order.
-        This ensures the title page (page 1) is always included.
+        Wrapper around the public extract_raw_pdf_text function.
         Also populates self._pages_data for page-number resolution.
         """
-        # Try both import names (pymupdf for v1.25+, fitz for older)
-        pymupdf = None
-        try:
-            import pymupdf as pymupdf
-        except ImportError:
-            try:
-                import fitz as pymupdf
-            except ImportError:
-                raise HTTPException(
-                    status_code=500,
-                    detail="PyMuPDF is not installed. Run: pip install PyMuPDF"
-                )
-        
-        try:
-            doc = pymupdf.open(stream=file_content, filetype="pdf")
-            pages_text = []
-            self._pages_data = []  # Per-page data for page-number resolution
-            
-            for page_num in range(len(doc)):
-                page = doc[page_num]
-                text = page.get_text("text")
-                if text and text.strip():
-                    pages_text.append(text.strip())
-                    self._pages_data.append({
-                        "page_number": page_num + 1,  # 1-based
-                        "text": text.strip()
-                    })
-            
-            doc.close()
-            
-            raw_text = "\n\n".join(pages_text)
-            print(f"  PyMuPDF: Extracted {len(raw_text)} chars from {len(pages_text)} pages")
-            print(f"  PyMuPDF first 200 chars: {raw_text[:200]}")
-            return raw_text
-            
-        except HTTPException:
-            raise
-        except Exception as e:
-            raise HTTPException(
-                status_code=500,
-                detail=f"PDF text extraction failed: {str(e)}"
-            )
+        raw_text, pages_data = extract_raw_pdf_text(file_content)
+        self._pages_data = pages_data
+        return raw_text
     
     def _validate_metadata(self, metadata: Dict[str, Any], fulltext: str) -> Dict[str, Any]:
-        """
-        Final validation: ensure no critical field is empty.
-        Generates fallback values if GROBID + LLM both failed.
-        """
-        # Title: MUST exist
-        title = metadata.get("title")
-        if not title or title.strip() == "" or title.strip().lower() in ["untitled", "untitled document"]:
-            # Last resort: derive from first line of fulltext
-            if fulltext:
-                first_line = fulltext.strip().split('\n')[0][:150].strip()
-                if first_line and len(first_line) > 10:
-                    metadata["title"] = first_line
-                    print(f"  Fallback title from first line: {first_line[:80]}")
-                else:
-                    metadata["title"] = f"Document-{hash(fulltext[:500]) % 100000}"
-                    print(f"  Fallback title from hash: {metadata['title']}")
-            else:
-                metadata["title"] = "Document tanpa judul"
-        
-        # Keywords: should exist
-        if not metadata.get("keywords"):
-            # Extract from title
-            title_words = metadata["title"].split()
-            keywords = [w for w in title_words if len(w) > 3][:5]
-            if keywords:
-                metadata["keywords"] = ", ".join(keywords)
-                print(f"  Fallback keywords from title: {metadata['keywords']}")
-        
-        # Language: default to Indonesian if empty
-        if not metadata.get("language"):
-            metadata["language"] = "id"
-            print("  Fallback language: id")
-        
-        # Description: generate from abstract or content
-        if not metadata.get("description") and metadata.get("abstract"):
-            metadata["description"] = metadata["abstract"][:200]
-            print("  Fallback description from abstract")
-        
-        # Parse date string from LLM if it's a string
-        if isinstance(metadata.get("date"), str):
-            from datetime import datetime
-            date_str = metadata["date"]
-            parsed = None
-            for fmt in ["%Y-%m-%d", "%Y-%m", "%Y", "%d %B %Y", "%B %Y"]:
-                try:
-                    parsed = datetime.strptime(date_str, fmt).date()
-                    break
-                except ValueError:
-                    continue
-            metadata["date"] = parsed
-        
-        print(f"  Final metadata validation complete. Title: {str(metadata.get('title', ''))[:80]}")
-        return metadata
+        """Wrapper around the public validate_metadata function."""
+        return validate_metadata(metadata, fulltext)
     
     def _prepare_chunks(self, metadata: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
