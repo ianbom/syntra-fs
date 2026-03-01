@@ -3,88 +3,47 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-	<teiHeader xml:lang="id">
+	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title level="a" type="main">Respons fisiologis dan produktivitas padi (Oryza sativa L) pada kombinasi sistem olah tanah dan pemberian mikoriza Physiological response and productivity of rice (Oryza sativa L.) in a combination of tillage and mycorrhizal application</title>
+				<title level="a" type="main">Degreening Buah Jeruk Siam (Citrus nobilis) pada Beberapa Konsentrasi dan Durasi Pemaparan Etilen Degreening Siam Tangerine Fruit (Citrus nobilis) in Ethylene Concentrations and Exposure Durations</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher/>
-				<availability  status="unknown">
-					<licence/>
-				</availability>
-				<date type="published" when="2025-12-30">December 30, 2025</date>
+				<availability status="unknown"><licence/></availability>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
 						<author>
-							<persName><forename type="first">Jurnal</forename><surname>Agrium</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">Program Studi Agroekoteknologi</orgName>
-								<orgName type="institution">Universitas Malikussaleh</orgName>
-								<address>
-									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
-									<postCode>243355</postCode>
-									<settlement>Aceh</settlement>
-									<country>Indonesia Abstrak</country>
-								</address>
-							</affiliation>
-						</author>
-						<author role="corresp">
-							<persName><forename type="first">Laila</forename><surname>Nazirah</surname></persName>
-							<email>lailanazirah@unimal.ac.id</email>
-							<affiliation key="aff0">
-								<orgName type="department">Program Studi Agroekoteknologi</orgName>
-								<orgName type="institution">Universitas Malikussaleh</orgName>
-								<address>
-									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
-									<postCode>243355</postCode>
-									<settlement>Aceh</settlement>
-									<country>Indonesia Abstrak</country>
-								</address>
-							</affiliation>
-							<affiliation key="aff0">
-								<orgName type="department">Program Studi Agroekoteknologi</orgName>
-								<orgName type="institution">Universitas Malikussaleh</orgName>
-								<address>
-									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
-									<postCode>243355</postCode>
-									<settlement>Aceh</settlement>
-									<country>Indonesia Abstrak</country>
-								</address>
-							</affiliation>
+							<persName><forename type="first">Nian</forename><forename type="middle">Rimayanti</forename><surname>Hasimi</surname></persName>
 						</author>
 						<author>
-							<persName><forename type="first">Aris</forename><surname>Pranata</surname></persName>
-							<affiliation key="aff0">
-								<orgName type="department">Program Studi Agroekoteknologi</orgName>
-								<orgName type="institution">Universitas Malikussaleh</orgName>
-								<address>
-									<addrLine>Fakultas Pertanian Aceh Utara</addrLine>
-									<postCode>243355</postCode>
-									<settlement>Aceh</settlement>
-									<country>Indonesia Abstrak</country>
-								</address>
-							</affiliation>
+							<persName><forename type="first">Roedhy</forename><surname>Poerwanto</surname></persName>
 						</author>
-						<title level="a" type="main">Respons fisiologis dan produktivitas padi (Oryza sativa L) pada kombinasi sistem olah tanah dan pemberian mikoriza Physiological response and productivity of rice (Oryza sativa L.) in a combination of tillage and mycorrhizal application</title>
+						<author>
+							<persName><forename type="first">Ketty</forename><surname>Suketi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Diterima</forename><surname>18 Maret</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">/</forename><surname>Disetujui</surname></persName>
+						</author>
+						<title level="a" type="main">Degreening Buah Jeruk Siam (Citrus nobilis) pada Beberapa Konsentrasi dan Durasi Pemaparan Etilen Degreening Siam Tangerine Fruit (Citrus nobilis) in Ethylene Concentrations and Exposure Durations</title>
 					</analytic>
 					<monogr>
-						<idno type="ISSN">1829-9288</idno>
 						<imprint>
-							<date type="published" when="2025-12-30">December 30, 2025</date>
+							<date/>
 						</imprint>
 					</monogr>
-					<idno type="MD5">55B3A5242906BCFDE1E8C4FA331E07D5</idno>
-					<idno type="DOI">10.29103/agrium.v22i4.25773</idno>
-					<note type="submission">Received: October 10, 2025 Revised: November 17, 2025 Accepted: December 20, 2025</note>
+					<idno type="MD5">C34D7464F45822399860C8B0F33A6020</idno>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.2" ident="GROBID" when="2026-03-01T17:42+0000">
+				<application version="0.8.2" ident="GROBID" when="2026-03-01T18:20+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<label type="revision">a91ee48</label>
 					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
@@ -95,491 +54,826 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<profileDesc>
 			<textClass>
 				<keywords>
-					<term>Padi</term>
-					<term>fisiologi</term>
-					<term>olah tanah</term>
-					<term>mikoriza</term>
-					<term>kombinasi</term>
-					<term>pertumbuhan Rice</term>
-					<term>physiology</term>
-					<term>tillage</term>
-					<term>mycorrhizal</term>
-					<term>combination</term>
-					<term>growth</term>
+					<term>carotenoid</term>
+					<term>chlorophyll</term>
+					<term>citrus color index</term>
+					<term>cooling chamber</term>
+					<term>tropical citrus</term>
 				</keywords>
 			</textClass>
 			<abstract>
-<div xmlns="http://www.tei-c.org/ns/1.0"><p>Kebutuhan terhadap peningkatan produktivitas padi (Oryza sativa L) terus bertambah seiring dengan pertumbuhan penduduk, konversi lahan, dan dampak perubahan iklim. Upaya pengelolaan budidaya padi yang efisien dan berkelanjutan menjadi sangat penting, terutama melalui pengelolaan tanah dan pemupukan. Tujuan penelitian ini untuk menguji pengaruh sistem olah tanah dan pupuk hayati mikoriza serta kombinasi keduanya pada karakter fisiologi dan hasil padi. Penelitian ini di lakukan di Desa Paloh Lada, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh pada bulan Agustus-Desember 2024, menggunakan rancangan split plot design (rancangan petak terpisah) dengan dua faktor dengan 3 kali ulangan. Faktor pertama sebagai petak utama adalah olah tanah (T) yang terdiri dari 3 taraf perlakuan yaitu T0 (tanpa pengolahan Tanah), T1 (satu kali pengolahan), T2 (dua kali kali pengolahan). Faktor kedua sebagai anak petak adalah pemberian mikroriza (M) yaitu M0 (0g tanaman -1 ), M1 (10g tanaman -1 ), M2 (15g tanaman -1 ). Hasil penelitian sistem olah tanah memberikan pengaruh yang berbeda nyata pada laju asimilasi bersih, laju tumbuh relatif, berat gabah per plot, dan hasil gabah ton/hektar. Pemberian pupuk hayati mikoriza memberikan berbeda nyata terhadap jumlah klorofil daun, tingkat inveksi akar. Kombinasi perlakuan sistem olah tanah dan pupuk hayati mikoriza memberikan pengaruh berbeda sangat nyata terhadap jumlah klorofil daun. Kombinasi terbaik terdapat pada T1M2 (olah tanah dua kali dan mikoriza 15g tanaman -1 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Siam tangerine peel is green when harvested. Degreening technology by ethylene can improve the citrus peel color becomes uniformly orange. Degreening is a process to break down green pigment (chlorophyll) on citrus peel chemically and form the orange color (carotene) without affecting internal quality of fruit. The purpose of this research was to determine the effect of ethylene concentration and ethylene exposure duration to bring out the color on Siam tangerine from Banyuwangi. Ethylene 0, 100, 200 ppm was injected into the box containing 2.8 kg citrus and was exposed to the cooling chamber with a temperature 18 0 C for 24 hours ethylene + 48 hours without ethylene, 48 hours ethylene + 24 hour without ethylene and 72 hours ethylene. Ethylene exposure was conducted using multiple shots method. After exposure, tangerines were put at room temperature condition. Observations were conducted every two days: (a) non-destructive observation conducted using color reader to determine the color changes; (b) destructive observations for measuring chlorophyll and carotenoids content and physico-chemical changes i.e. the hardness, soluble solid content, titratable acidity and vitamin C. The results showed that the best combination was 200 ppm ethylene concentration for 48 hours ethylene exposure. This degreening technique altered the Citrus Colour Index (CCI) value from -1.60 to be 6.50, changed the tangerines into a bright orange. Degreening did not give negative impact on internal quality.</p></div>
 			</abstract>
 		</profileDesc>
 	</teiHeader>
-	<text xml:lang="id">
+	<text xml:lang="en">
 		<body>
-<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4</ref>. <ref type="bibr">25773</ref> Nazirah &amp; Pranata</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM Journal of Agricultural Research</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pendahuluan</head><p>Padi (Oryza sativa L.) adalah tanaman penghasil beras yang menjadi sumber karbohidrat utama bagi masyarakat Indonesia. Kebutuhan beras dari tahun ke tahun terus meningkat karena jumlah penduduk Indonesia yang terus bertambah, namun hal tersebut tidak diimbangi dengan produksi padi yang cukup <ref type="bibr">(Amiroh, 2018)</ref>. Hal tersebut yang menyebabkan saat ini Indonesia sulit untuk swasembada pangan sehingga diperlukan upaya peningkatan produksi padi secara nasional agar kebutuhan beras dalam negeri terpenuhi <ref type="bibr">(Petriella, 2016)</ref>. Menurut <ref type="bibr">Badan Pusat Statistik (2022)</ref>, Produksi padi nasional pada tahun 2022 mencapai sekitar 54,75 juta ton sedangkan untuk produksi padi tahun 2021 mencapai sekitar 54,42 juta ton yang menandakan terjadi kenaiakan produksi sebanyak 333,68 ribu ton atau 0,61 persen, namun untuk provinsi aceh produksi padi mencapai sekitar 1,53 juta ton atau mengalami penurunan sekitar 101,5 ribu ton (6,21%) di bandingkan dengan produksi padi pada tahun 2021 yang mencapai sekitar 1,63 juta ton. <ref type="bibr">Prasetia et al. (2018)</ref> menyatakan dalam hasil penelitian yang telah dilakukan bahwa sistem olah tanah (T) nyata mempengaruhi kadar air tanah pada titik layu permanen dan air tersedia pada kedalaman tanah 20-40 cm dan mampu meningkatkan porositas tanah, C-organik tanah dan air tersedia, sertamenurunkan kerapatan isi dan layu permanen. Sementara <ref type="bibr">Kusumastuti et al. (2018)</ref> menyatakan berdasrkan hasil penelitian disimpulkan bahwa sistem olah tanah konservasi jangka Panjang tahun ke-29 pada perlakuan tanpa olah tanah (TOT) berpengaruh terhadap sifat kimia tanah pada ketersediaan unsur hara P (10,173) dan K(1,77). <ref type="bibr" target="#b6">Nazirah (2018)</ref> menyatakan bahwa pemberian mikoriza terhadap tanaman padi mampu meningkatkan infeksiakar terhadap jamur mikoriza dibandingkan padi yang tidak diberi mikorizasehingga penyerapan hara lebih optimal dan pertumbuhan dan perkembangan tanaman menjadi lebih cepat. Fungi mikoriza pada umumnya dapat ditemukan pada sepesies tanaman tingkat tinggi yang tumbuh pada berbagai tipe habitat dan iklim. Dari uraian di atas penelitian dilakukan untuk melihat respons fisiologis dan produktivitas padi pada kombinasi sistem olah tanah dan mikoriza.</p><p>Respons fisiologis dan produktivitas padi (Oryza sativa L)</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Agricultural Research</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode penelitian</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Waktu dan tempat</head><p>Penelitian dilaksanakan di Desa Paloh Lada, Kecamatan Muara Batu, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh, pada bulan Agustus sampai Desember 2024.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alat dan bahan</head><p>Bahan yang digunakan dalam penelitian ini adalah benih padi lokal Aceh galur Sigupai, pupuk hayati mikoriza, curater pupuk NPK, dan pupuk kandang sapi. Alat yang digunakan adalah cangkul, parang, meteran, karung, ember, timbangan digital, pengaris, selang, ember, kamera, klorofil meter.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode</head><p>Penelitian ini dilakukan dalam percobaan di lapangan menggunakan rancangan split plot design (rancangan petak terpisah) terdiri dari 2 faktor yaitu: petak utama adalah olah tanah (T) terdiri T0: Tanpa pengolahan tanah. T1: Pengolahan satu kali, T2: Pengolahan dua kali faktor sebagai anak petak adalah mikroriza (M), M0: 0g tanaman -1 . M1: 10 g tanaman -1 , M2: 15 g tanaman -1 . Dengan demikian terdapat 9 kombinasi perlakuan. Setiap perlakuan terdiri dari 3 ulangan, sehingga di dapatkan 27 unit percobaan. Analasis data dilakukan dengan analisis variants yang kemudian dilanjutkan dengan uji lanjut taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pelaksanaan penelitian</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persiapan lahan</head><p>Dua minggu sebelum padi ditanam terlebih dahulu dilakukan pengolahan tanah sesuai dengan perlakuan.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persiapan benih</head><p>Benih yang digunakan dalam penelitian ini adalah benih padi galur aceh, terlebih dahulu direndam dalam ember yang berisi air dan garam selama 5 menit, kemudian dicuci bersih lalu direndam dengan fungisida Antracol selama 30 menit. Selanjutnya dilakukan perendaman selama 24 jam. Selanjutnya benih dimasukkan kedalam karung diperam guna untuk proses perkecambah selama 2x24 jam hingga benih tumbuh.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemberian mikoriza</head><p>Pemberian mikoriza dilakukan bersamaan dengan penanaman. dengan menempatkan mikoriza langsung ke lubang tanam sedalam ±2-3 cm lalu taburkan mikoriza sesuai dengan perlakuan ke dasar lubang, kemudian letakkan benih padi di atasnya dan tutup dengan tanah gembur kembali.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Penanaman</head><p>Penanaman padi dilakukan langsung kelahan dengan ukuran plot 2 m x 1,5 m sebanyak 27 plot percobaan dengan jarak tanam 30 cm x 30 cm.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemupukan</head><p>Pupuk kandang sapi diberikan 2 minggu sebelum tanam dengan dosis 10 t ha -1 pupuk majemuk phonska+urea, diberikan dengan dosis 300 kg ha -1 + urea 200 kg ha -1 (dosis anjuran standar). Pupuk phonska diberikan satu kali saat penanaman.</p><p><ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata JURNAL AGRIUM Journal of Agricultural Research</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pemeliharaan</head><p>Penyiraman dilakukan pada pagi dan sore hari. menggunakan gembor, Jika hujan tidak dilakukan penyiraman. Pengedalian gulma dilakukan secara mekanik yaitu dengan pencabutan gulma diarea petak penelitian.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peubah pengamatan</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah klorofil daun</head><p>Pengamatan jumlah klorofil daun dilakukan pada fase generatif yaitu daun ketiga dari pucuk menggunakan alat chlorophyll meter .</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju asimilasi bersih</head><p>Laju asimilasi bersih (net asimilation rate) atau laju asimilasi netto adalah laju peningkatan bobot kering tanaman pada saat tertentu (t) tiap satuan luas (l), yang dinyatakan secara sistematik: Keterangan: L1: Luas daun awal (cm), L2: Luas daun akhir (cm), W1: Berat berangkasan kering awal (g), W2: Berat berangkas kering akhir (g), T: Waktu.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju tumbuh relatif</head><p>Laju tumbuh relatif (relative growth rate) menunjukkan peningkatan berat kering dalam suatu interval waktu dalam hubungannya dengan berat asal. dengan rumus: Keterangan: LTR: Laju pertumbuhan relatif (g/minggu), W1: Berat berangkasan kering awal (g), W2 : Berat berangkasan kering akhir (g), T: Waktu (minggu).</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infeksi akar</head><p>Infeksi akar dilakukan pada umur 40 HST pengamatan dilaboratorium, dengan metode pewarnaan,pada akar (root staining). Segmen akar yang telah diwarnai kemudian diamati dibawah miskroskop pada pembesaran 400×.</p><p>Untuk menghitung infeksi fungi mikoriza arbuskula dapat dirumuskan sebagai berikut: Tingkat infeksi akar diklasifikasikan menurut the Institute of Mycorrhizal Research and Development, <ref type="bibr">USDA Forest Service, Athena, Georgia (Setiadi et al., 1992)</ref> sebagai berikut; tingkat infeksi akar dapat dikelompokkan ke dalam lima kelas, yaitu kelas 1 apabila persentase infeksi kisaran 0-5% (sangat rendah) kelas 2 infeksi 6-25% (rendah) Kelas 3 infeksi 26-50% (sedang). Kelas 4 infeksi 51-75% (tinggi) serta Kelas 5 mencapai 76-100% (sangat tinggi).</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Respons fisiologis dan produktivitas padi (Oryza sativa L) JURNAL AGRIUM Journal of Agricultural Research</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Komponen hasil</head><p>Meliputi: 1000 butir gabah (g): Bobot per 1000 butir gabah tiap bedengan diperoleh dengan menimbang gabah bernas sebanyak 1000 biji.</p><p>1. Berat gabah per plot: Diambil dari gabah yang dipanen dari setiap petak dan diukur kadar air 14 %.</p><p>2. Hasil gabah (t ha -1 ): Berat gabah bernas/isi yang telah dibersihkan dan dijemur hingga kadar air 14 persen, (menggunakan alat moisture meter).</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hasil dan pembahasan</head></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah klorofil daun</head><p>Hasil analisis ragam peubah jumlah klorofil daun menunjukan bahwa sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) berbeda nyata terhadap jumlah klorofil daun. Hasil uji lanjut terhadap jumlah klorofil daun padi di sajikan pada Tabel 1.</p><p>Berdasarkan Tabel 1 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap peubah jumlah klorofil. Hal ini diduga perlakuan olah tanah saja tidak dapat mempengaruhi peningkatan jumlah klorofil daun pada tanaman. <ref type="bibr" target="#b4">Muhiddin et al. (2023)</ref> menyatakan media tanam yang baik akan mempengaruhi kadar klorofil tanaman, semakin bagus media tanam maka pertumbuhan tanaman akan semakin efektif dan mampu menghasilkan zat klorofil yang maksimum. Selain itu peningkatan jumlah klorofil dapat juga dipengaruhi oleh kandungan nitrogen dalam tanah <ref type="bibr" target="#b10">(Rezki &amp; Nazirah, 2023)</ref>.</p><p>Perlakuan pupuk hayati mikoriza menunjukan berbeda nyata terhadap peubah jumlah klorofil daun yang dimana nilai tertinggi terdapat pada perlakuan mikoriza</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 1</head><p>Rata-rata jumlah klorofil daun pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%. cci (chlorophyl content index).</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Jumlah klorofil daun (cci)</p><p>T0 (tanpa olah tanah) 23.200a T1 (olah tanah satu kali) 24.300a T2 (olah tanah dua kali) 25.144a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 23.111a M1 (mikoriza 10 g tanaman -1 ) 24.088ab M2 (mikoroza 15 g tanaman -1 ) 25.444a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>JURNAL AGRIUM</head><p>Journal of Agricultural Research 15 g tanaman -1 (M2) yaitu 25,444 cci. Sedangkan jumlah klorofil terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 23.111 cci. Hal ini diduga mikoriza membantu akar tanaman dalam penyerapan unsur makro dan mikro, seperti unsur hara N, P, dan K <ref type="bibr" target="#b14">(Suwignya et al., 2023)</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju asimilasi bersih (LAB)</head><p>Hasil analisis sidik ragam pada peubahlaju asimilasi bersih tanaman padi menunjukan pengaruh tunggal sistem olah tanahmenunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3 namun menunjukkan berbeda nyata pada LAB 4 dan pupuk hayati mikoriza menunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3, dan LAB 4. Hasil uji lajut terhadap laju asimilasi bersih telah disajikan pada Tabel 2.</p><p>Berdasarkan Tabel 2 terlihat bahwa peubah laju asimilasi bersihpada perlakuan sistem olah tanah (T) pada LAB 4 menunjukkan nilai tertinggi pada tanpa olah tanah (T0) yaitu 0,181 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 0,154. Laju asimilasi bersih merupakan ukuran kemapuan tanaman dalam melakukan fotosistesis dalam menghasilkan bahan kering tanamanan. Ulva et al. ( <ref type="formula">2019</ref>) menyatakan bahwa laju fotosintesis dapat dipengaruhi oleh luas daun, nilai ILD yang tinggi akan meningkatkan laju fotosintesis sehingga fotosintat yang tersedia juga meningkat, fotosintat digunakan tanaman untuk memenuhi nutrisi dan disalurkan ke bagian-bagian tanaman untuk melakukan pertumbuhan yang optimal. Sementara itu <ref type="bibr" target="#b5">Maisura et al. (2017)</ref> menyatakan bahwa terhambatnya perluasan daun dapat berdampak pada menurunya kapasistas daun untuk menyerap cahaya.</p><p>Pada perlakuan pupuk hayati mikoriza LAB 4 menunjukan nilai tertinggi pada mikoriza 0 g tanman -1 (M0) yaitu 0,178 dan nilai terendah terdapat pada mikoriza 10 g tanaman -1 (M1) yaitu 0,161. Hal ini diduga karena kondisi lahan penelitian lahan yang telah tersedia unsur hara fosfor (P) dalam jumlah cukup, sehingga tanaman tidak terlalu bergantung pada mikoriza, sehingga pengaruhnya terhadap LAB menjadi kecil. Begitu pula dengan air, saat kebutuhan air tanaman telah terpenuhi, peran mikoriza</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 2</head><p>Rata-rata laju asimilasi bersih pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T) Laju asimilasi bersih (LAB) g m⁻²</head><p>hari⁻¹ LAB 1 LAB 2 LAB 3 LAB 4 T0 (tanpa olah tanah) 0.275a 1.256a 0.392a 0.181a T1 (olah tanah satu kali) 0.261a 1.222a 0.439a 0.154b T2 (olah tanah dua kali) 0.286a 1.279a 0.409a 0.178a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 0.264a 1.246a 0.397a 0.178a M1 (mikoriza 10 g tanaman -1 ) 0.273a 1.253a 0.426a 0.161a M2 (mikoroza 15 g tanaman -1 ) 0.285a 1.257a 0.418a 0.174a Respons fisiologis dan produktivitas padi (Oryza sativa L)</p><note type="other">JURNAL AGRIUM Journal of Agricultural Research</note><p>dalam meningkatkan efisiensi penyerapan air tidak lagi signifikan terhadap peningkatan LAB. Ketersediaan fosfor sangat penting karena memiliki peran lebih besar dalam meningkatkan laju asimilasi bersih dibandingkan dengan unsur hara lainnya <ref type="bibr" target="#b0">(Afriani et al., 2021)</ref>.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laju tumbuh relatif (LTR)</head><p>Hasil analisis sidik ragam pada peubah laju tumbuh relatif tanaman padi menunjukan pengaruh tunggal sistem olah tanah menunjukan berbeda nyata pada LTR 1 namun tidak berbeda nyata pada LTR 2, LTR 3, dan LTR 4 dan pupuk hayati mikoriza menunjukkan tidak berbeda nyata pada LTR 1, LTR 2, LTR 3, dan LTR 4. Hasil uji lajut terhadap laju tumbuh relatif telah di sajikan pada Tabel 3.</p><p>Berdasarkan Tabel 3 telihat bahwa peubah laju tumbuh relative pada perlakuan sistem olah tanah (T) pada LTR 1 menunjukkan nilai tertinggi pada olah tanah dua kali (T2) yaitu 1,291 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 1,150, berdasarkan hasil dapat dilihat perlakuan olah tanah baik oalah tanah satu kali dan olah tanah dua kali terlihat memiliki nilai tertinggi di bandingkan perlakuan tanpa olah tanah. Hal ini diduga pelakuan olah tanah membuat tanah menjadi gembur sehingga membuat tanaman dapat tumbuh dengan baik. Sesuai dengan Tafonao et al. ( <ref type="formula">2022</ref>) menyatakan pengolahan tanah akan mengakibatkan perbaikan struktur tanah menjadi lebih gembur dan remah sehingga akar tanaman mudah menembus dan menyerap unsur hara yang berada didalam tanah sehingga mampu meningkatkan pertumbuhan tanaman.</p><p>Pada perlakuan pupuk hayati mikoriza (M) LTR 1 menunjukkan nilai tertinggi pada pemberian mikoriza 15 g tanaman -1 (M2) yaitu 1,278 dan nilai terendah terdapat pada mikoriza 0 g tanaman -1 (M0) yaitu 1,129. Dari hasil penelitian diketahuai bahwa perlakuan mikoriza cenderung memiliki nilai yang lebih tinggi terhadap laju tumbuh relative tanaman padi. Hal ini diduga pemberian mikoriza dapat meningkatkan kemampuan tanaman dalam menyerap unsur hara dan air serta mampu menyediakan unsur hara yang awalnya tidak tersedia menjadi tersedia bagi tanaman. Sejalan dengan</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 3</head><p>Rata-rata laju tumbuh relatif pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T) Laju tumbuh relatif (LTR) g H₂O m⁻²</head><p>jam⁻¹ LTR 1 LTR 2 LTR 3 LTR 4 T0 (tanpa olah tanah) 1.243ab 2.792a 2.792a 1.413a T1 (olah tanah satu kali) 1.150b 2.979a 2.979a 1.395a T2 (olah tanah dua kali) 1.291a 2.859a 2.831a 1.509a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1.129b 2.764a 2.764a 1.431a M1 (mikoriza 10 g tanaman -1 ) 1.217ab 2.938a 2.938a 1.451a M2 (mikoroza 15 g tanaman -1 ) 1.287a 2.929a 2.900a 1.436a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata JURNAL AGRIUM Journal of Agricultural Research Mahmudi et al. (2022) yang menyatakan kemampuan mikoriza dalam mendukung pertumbuhan tanaman dengan membantu penyerapan air hingga ke dalam partikel tanah.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Derajat inveksi akar</head><p>Hasil analisis ragam peubah tingkat inveksi akar menunjukkan bahwa interaksi antara sistem olah tanah (T) terhadap pupuk hayati mikoriza (M) tidak berbeda nyata,dan pada sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) menunjukkan sangat berbeda nyata terhadap tingkat inveksi akar tanaman. Hasil uji lanjut terhadap tingkat inveksi akar tanaman padi disajikan pada Table <ref type="table">4</ref>.</p><p>Berdasarkan Tabel 4 dapat dilihat bahwa perlakuan sistem olah tanah tidak berpengaruh nyata terhadap peubah tingkat inveksi akar dimana nilai tertinggi terdapat pada perlakuan tanpa olah tanah (T0) yaitu 62,222% sedangkan tingkat inveksi akar terendah terdapat pada perlakuan olah tanah satu kali (T1) yaitu 56,667%. Hal tersebut diduga karena pada lahan penelitian tanah nya tidak banyak mengandung sepora mikoriza, sehingga hanya dengan pengolahan tanah saja tidak banyak akar-akar tanaman yang terinveksi oleh jamur mikoriza, <ref type="bibr" target="#b9">Ratnawati et al. (2016)</ref> menyatakan kondisi lingkungan dan sifat-sifat tanah mempengaruhi perkembangan dan pertumbuhan MVA. Sementara itu menurut Nurhalima et al. ( <ref type="formula">2014</ref>) MVA akan berkembang pada kelembaban dan kadar air yang stabil, tidak terlalu tinggi dan tidak terlalu rendah. Namun pada kondisi kadar air berkisar antar 53,17-70,61% masih cukup untuk MVA menginfeksi akar tanaman padi gogo.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan berbeda sangat nyata terhadap peubah tingkat inveksi akar yang dimana nilai tertinggi terdapat pada perlakuan mikoriza 15 g tanaman -1 (M2) yaitu 90,000%. Sedangkan tingkat inveksi akar terendah terdapat pada perlakuan mikoriza 0 g/tanaman (M0) yaitu 8,889%. Hal ini diduga</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 4</head><p>Rata-rata tingkat inveksi akar pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Tingkat infeksi akar (%) </p><formula xml:id="formula_0">T0</formula></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Jumlah malai padi</head><p>Hasil analisis ragam peubah jumlah malai padi menunjukan bahwa perlakuan sistem olah tanah (T) tidak berbeda nyata, dan pada pupuk hayati mikoriza (M) menunjukkan tidak berbeda nyata terhadap jumlah malai padi . Hasil uji lanjut terhadap jumlah malai padi di sajikan pada Tabel 5.</p><p>Berdasarkan Tabel 5 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap parameter jumlah malai padidimana nilai tertinggi terdapat pada perlakuan olah tanah satu kali (T1) yaitu 4,466 sedangkan jumlah malai padi terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3.988 . Hal tersebut diduga karena kemungkinan disebabkan oleh kurangnya ketersediaan unsur hara dalam tanah, sehingga tidak mampu mendorong peningkatan jumlah malai secara berarti. Sesuai hasil penelitian yang dilakukan oleh Fatimah et al. ( <ref type="formula">2024</ref>) budidaya tanaman padi gogo dengan cara pengolahan tanah sempurna menghasilkan rataan jumlah anakan tertinggi. Hal tersebut dipengaruhi oleh kondisi agregat dan struktur tanah yang sesuai untuk pertumbuhan tanaman.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap parameter jumlah malai padi yang dengan nilai tertinggi terdapat pada perlakuan mikoriza 15 g taanman -1 (M2) yaitu 4,311. Sedangkan jumlah malai padi terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 4,222. Namun jika dilihat dari hasil analisis sidik ragam perlakuan M1 dan M2 menunjukan nilai lebih tinggi dibandingkan M0. Hal ini diduga dosis yang diberikan belum cukup sehingga perbedaan nya hanya sedikit. Aswad et al. ( <ref type="formula">2023</ref>) menyatakan dalam hasil penelitianya dosis mikoriza sebanyak 30 g memberikan pengaruh terbaik terhadap jumlah</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 5</head><p>Rata-rata jumlah malai padi pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Jumlah malai padi</p><p>T0 (tanpa olah tanah) 3.988a T1 (olah tanah satu kali) 4.466a T2 (olah tanah dua kali) 4.366a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 4.222a M1 (mikoriza 10 g tanaman -1 ) 4.288a M2 (mikoroza 15 g tanaman -1 ) 4.311a <ref type="url" target="https://doi.org/10.29103/agrium.v22i4.25773">https://doi.org/10.29103/agrium.v22i4.25773</ref> Nazirah &amp; Pranata</p><note type="other">JURNAL AGRIUM Journal of Agricultural Research</note><p>komponen Produksi jumlah malai, Jumlah gabah, gabah berisi dengan rata-rata yang lebih baik dibandingkan dengan tanaman yang tidak diberi perlakuan mikoriza dengan dosis 30 g tanaman -1 dapat membantu meningkatkan penyerapan hara dan memperbaiki struktur tanah sehingga pertumbuhan organ generatif cukup baik.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Berat gabah per plot dan berat gabah ton/ ha</head><p>Hasil analisis ragam peubah berat gabah per plot dan berat gabah ton/ha menunjukan sistem olah tanah (T) berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) tidak berbeda nyata terhadap berat gabah per plot tanaman. Hasil uji lanjut terhadap berat gabah per plot di sajikan pada Tabel 6.</p><p>Berdasarkan Tabel 6 dapat dilihat bahwa perlakaun sistem olah tanah tidak berpengaruh nyata terhadap peubah berat gabah per plot dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 1279,40 gram, berat gabah per plot terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 988,53 gram. Perlakuan sistem olah tanah (T) menunjukan berbeda nyata terhadap peubah berat gabah ton/ha dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 4,234 t ha -1 . Berat gabah t ha -1 terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3,295 t ha -1 . Hal ini diduga karena pengolahan tanah yang gembur membuat penyerapan air dan unsur hara oleh akar menjadi optimal pada masa pengisian bulir padi, Fatimah et al. ( <ref type="formula">2024</ref>) menyatakan olah tanah maksimum memberikan hasil produksi yang baik. Pengolahan tanah yang dilakukan secara benar dan tepat dapat mempengaruhi pertumbuhan dan produksi tanaman, karena adanya pengolahan tanah yang diharapkan dapat membantu dan meningkatkan pertumbuhan dan produksi tanaman seperti aerasi yang baik, perakaran baik dan penyerapan unsur hara yang baik, sehingga pertumbuhan tanaman tidak terhambat dan produksi dapat meningkat <ref type="bibr" target="#b12">(Setyawati, 2017)</ref>.</p><p>Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap peubah berat gabah per plot yang dimana nilai tertinggi terdapat pada perlakuan</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tabel 6</head><p>Rata-rata berat gabah per plot dan berat gabah pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistem olah tanah (T)</head><p>Berat gabah plot -1 (g plot</p><p>-1 ) Berat gabah (t ha -1 ) T0 (tanpa olah tanah) 988.53b 3.295b T1 (olah tanah satu kali) 1129.05ab 3.763ab T2 (olah tanah dua kali) 1270.40a 4.234a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1110.0a 3.700a M1 (mikoriza 10 g tanaman -1 ) 1163.3a 3.877a M2 (mikoroza 15 g tanaman -1 ) 1114.7a 3.715a</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>tingkat inveksi akar berbanding lurus dengan dosis mikoriza, semakin banyak dosis mikoriza maka semakin tinggi akar tanaman terinveksi. Sejalan dengan hasil<ref type="bibr" target="#b3">Leovini et al. (2014)</ref> persentase infeksi akar tanaman tebu oleh JMA pada perlakuan takaran kompos 20 ton/ha lebih tinggi dibandingkan pada perlakuan takaran kompos 10 ton/ ha.</figDesc></figure>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABSTRAK</head><p>Warna kulit buah jeruk siam saat dipanen umumnya hijau. Teknologi degreening menggunakan gas etilen dapat memperbaiki warna kulit jeruk tropika menjadi jingga. Degreening merupakan proses perombakan pigmen hijau (klorofil) pada kulit jeruk secara kimiawi dan membentuk warna jingga (karotenoid) tanpa mempengaruhi kualitas internal buah. Penelitian bertujuan mengkaji pengaruh konsentrasi dan durasi pemaparan etilen untuk menstimulasi pigmen jingga dan pengaruhnya terhadap sifat fisikokimia jeruk siam Banyuwangi. Degreening jeruk menggunakan etilen 0, 100, dan 200 ppm diinjeksikan ke dalam box degreening yang berisi jeruk 2.8 kg dan dipaparkan pada cooling chamber dengan suhu 18 0 C selama 24, 48, dan 72 jam. Pengamatan dilakukan setiap dua hari: (a) pengamatan non-destruktif dengan menggunakan color reader untuk mengetahui perubahan warna; (b) pengamatan destruktif dengan mengukur kekerasan, kandungan klorofil dan karotenoid, Padatan Terlarut Total (PTT), Asam Tertitrasi Total (ATT) dan vitamin C untuk mengetahui perubahan fisikokimia jeruk. Hasil penelitian menunjukkan perubahan warna kulit buah mulai terjadi pada hari ke 4 setelah perlakuan degreening. Konsentrasi etilen terbaik adalah 200 ppm dengan durasi pemaparan 48 jam yaitu dapat meningkatkan kualitas warna buah jeruk siam dari hijau menjadi jingga kekuningan dan mampu mengubah nilai Citrus Colour Index (CCI) dari -1.60 (hijau) menjadi 6.50 (jingga kekuningan), tanpa pengaruh negatif terhadap kualitas fisikokimia buah.</p><p>Kata kunci: cooling chamber, citrus color index, jeruk tropika, karotenoid, klorofil 1 Departemen Agronomi dan Hortikultura, Fakultas Pertanian, Institut Pertanian Bogor (Bogor Agricultural University) Jl. Meranti Kampus Darmaga, Bogor 16680 Indonesia. Telp/ Faks. 62-251-8629353 email: kettysuketi@yahoo.com (*penulis korespondensi)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PENDAHULUAN</head><p>Jeruk siam merupakan buah yang potensial untuk dikembangkan sebagai upaya pemenuhan permintaan konsumen. Sekitar 70 sampai 80% jenis jeruk yang dikembangkan petani Indonesia merupakan jeruk siam <ref type="bibr">(Dimyati, 2015)</ref>. Jeruk siam digemari karena memiliki rasa yang manis dan mengandung vitamin C yang cukup tinggi. Jeruk siam memiliki permukaan kulit yang halus dan mengkilap. Pada tahun 2010, volume jeruk yang diimpor Indonesia mencapai 204 148 ton, sedangkan volume jeruk yang diekspor hanya 1 400 ton dengan produksi normal mencapai 1 937 773 ton <ref type="bibr">(BPS, 2011)</ref>. Mutu buah merupakan hal penting terutama untuk pemasaran luar negeri. Secara visual, mutu jeruk lokal masih tergolong rendah karena kulit buah umumnya berwarna hijau kekuningan dan tidak seragam walaupun telah matang <ref type="bibr" target="#b9">(Ladaniya, 2008)</ref>. Menurut Poerwanto dan Susila (2014) kulit buah jeruk yang berwarna jingga mempunyai daya tarik yang lebih tinggi dibandingkan dengan kulit buah yang berwarna hijau.</p><p>Pembentukan warna kulit buah jeruk dipengaruhi oleh suhu rendah dan perubahan suhu pada saat proses pematangan <ref type="bibr" target="#b9">(Ladaniya, 2008;</ref><ref type="bibr" target="#b7">Jomori et al., 2010)</ref>. Suhu siang yang lebih tinggi (30 0 C) dapat menghambat perkembangan warna, walaupun suhu malam sudah cukup rendah, suhu udara di bawah 13 0 C menyebabkan perombakan klorofil dan pembentukan karotenid. Hasil penelitian kombinasi perlakuan degreening (18 0 C) dan suhu simpan dengan suhu ruang menunjukkan hasil yang berbeda nyata pada perubahan warna dengan nilai Citrus colour index tertinggi pada tiga varietas jeruk Keprok <ref type="bibr" target="#b17">(Muthmainnah et al., 2014)</ref>.</p><p>Teknologi yang banyak dilakukan untuk meningkatkan warna kulit buah jeruk tropika adalah degreening <ref type="bibr" target="#b7">(Jomori et al., 2010)</ref>. Degreening merupakan proses perombakan pigmen hijau (klorofil) pada kulit jeruk secara kimiawi dan sekaligus membentuk warna kuning jingga (karatenoid) pada kulit jeruk. Proses ini tidak berpengaruh terhadap bagian dalam jeruk seperti gula, asam dan jus <ref type="bibr" target="#b19">(Pantastico, 1993)</ref>. Proses degreening telah banyak dilakukan untuk menghasilkan warna kulit buah jeruk yang lebih menarik. Hasil penelitian sebelumnya melaporkan bahwa, degreening dengan etilen atau ethrel mengubah warna kulit buah jeruk dari warna hijau menjadi kuning <ref type="bibr" target="#b18">(Napitupulu et al., 1990)</ref>, sementara konsumen lebih menyukai buah jeruk dengan kulit buah yang berwarna jingga seragam karena buah jeruk berwarna kuning dianggap telah hampir busuk.</p><p>Peranan etilen dalam pewarnaan kulit buah jeruk terbagi menjadi 2 kategori yaitu proses degreening dan pembentukan karotenoid. Aplikasi etilen dapat menstimulasi pembentukan karotenoid seperti cryptoxanthin, β-citraurin, dan violaxanthin. Proses terbentuknya pigmen tersebut dipengaruhi oleh kondisi suhu. Degreening pada suhu ruang 28 sampai 29 0 C menghambat pembentukan zat warna β-citraurin sehingga seringkali jeruk yang dihasilkan berwarna kuning. Degreening pada suhu rendah 18 sampai 20 0 C dapat membentuk zat warna β-citraurin dan criptoxanthin secara bersamaan sehingga dapat menghasilkan warna jingga <ref type="bibr">(Stewart dan Wheaton, 1972)</ref>.</p><p>Keefektifan degreening dipengaruhi beberapa faktor diantaranya etilen, suhu, dan kultivar buah <ref type="bibr" target="#b27">(Sdiri et al., 2012)</ref>. Penggunaan etilen sebagai zat perangsang metabolik untuk mencapai warna eksternal buah dipengaruhi oleh konsentrasi dan durasi pemaparan <ref type="bibr" target="#b13">(Martínez et al., 2008)</ref>. Durasi pemaparan yang tepat akan menghasilkan warna jingga seragam pada kulit buah <ref type="bibr" target="#b27">(Sdiri et al., 2012)</ref>. Oleh karena itu, penerapan perlakuan degreening pada buah jeruk siam diharapkan dapat memperbaiki warna eksternal buah sehingga dapat bersaing dengan jeruk impor. Penelitian ini bertujuan mengkaji konsentrasi dan durasi pemaparan etilen yang terbaik dalam proses degreening untuk membentuk warna jingga pada kulit buah jeruk siam (Citrus nobilis).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BAHAN DAN METODE</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bahan dan Alat</head><p>Penelitian ini dilaksanakan di Laborartorium Pusat Kajian Hortikultura Tropika (PKHT) Institut Pertanian Bogor pada tanggal 30 Mei sampai 2 Juli 2014. Bahan yang digunakan adalah buah jeruk siam yang diperoleh dari petani di Banyuwangi, gas etilen, larutan NaOH 0.1 N dan indikator phenol ptialin (PP) untuk titrasi asam, larutan iodin 0.01 N dan indikator amilum 1%. Alat yang digunakan adalah wadah degreening, cooling chamber, syringe, septum, selang plastik, timbangan digital, lilin, color reader, hardness tester, refraktometer, gelas ukur, erlenmeyer, pipet tetes, alat pemeras, buret, corong dan kamera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metode Penelitian</head><p>Metode degreening dilakukan dalam wadah tertutup yang berisi jeruk dengan berat 2.8 kg. Wadah dimasukkan ke cooling chamber pada suhu 18 0 C sebelum diinjeksikan. Injeksi gas etilen kedalam wadah dilakukan dengan metode multiple shot (setiap 24 jam) dengan durasi pemaparan sesuai perlakuan, setelah durasi pemaparan tercapai jeruk dikeluarkan kemudian disimpan pada suhu ruang (28 0 C).</p><p>Pengamatan dilakukan dengan mengukur perubahan warna pada kulit dan perubahan sifat fisikokimia buah jeruk setiap dua hari. Perubahan warna kulit buah jeruk diukur dengan Minolta color reader. Hasil pengukuran dinyatakan dalam citrus color index (CCI) <ref type="bibr" target="#b6">(Jimenez et al., 1981)</ref> dengan rumus CCI = (1000a*)/L* x b*. Range Citrus Color Index (CCI): CCI&lt;=-5 (hijau gelap), -5&lt;CCI&lt;=0 (hijau), 0&lt;CCI&lt;=3 (hijau kekuningan), 3&lt;CCI&lt;=5 (kuning kehijauan), 5&lt;CCI&lt;=7 (jingga kekuningan), 7&lt;CCI&lt;=10 (jingga), dan CCI&gt;10 (jingga gelap). Hasil pengukuran nilai a* dan b* juga dikonversikan ke dalam satuan kromatik derajat hue <ref type="bibr" target="#b10">(Lee, 2000;</ref><ref type="bibr" target="#b12">Manera et al., 2013)</ref> dengan rumus o hue yaitu tan -1 (b*/a*). Kandungan total klorofil dan karotenoid diukur menggunakan metode spektofotometri <ref type="bibr" target="#b0">(Andarwulan et al., 2011)</ref>. Perubahan sifat fisikokimia yang diamati yaitu kekerasan buah, kandungan vitamin C, asam tertitrasi total (ATT) dan padatan terlarut total (PTT).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rancangan Percobaan</head><p>Penelitian ini menggunakan metode Rancangan Acak Lengkap Faktorial yang terdiri atas dua perlakuan yaitu konsentrasi etilen dan durasi pemaparan etilen. Konsentrasi etilen terdiri atas tiga taraf yaitu 0 ppm (E0), 100 ppm (E1) dan 200 ppm (E2). Durasi pemaparan terdiri atas tiga taraf yaitu 24 jam etilen + 48 jam tanpa etilen (D1), 48 jam etilen + 24 jam tanpa etilen (D2), dan 72 jam etilen (D3), sehingga terdapat 9 kombinasi perlakuan yang diulang sebanyak 3 kali dan terdapat 27 unit percobaan. Setiap unit percobaan menggunakan 20 buah jeruk, sehingga jumlah keseluruhan buah 790 buah jeruk. Data yang diperoleh kemudian dianalisis menggunakan analisis ragam pada taraf nyata 5%. Data yang berbeda nyata diuji lanjut dengan duncan multiple range test (DMRT) pada taraf 5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HASIL DAN PEMBAHASAN Karakteristik Jeruk Siam Banyuwangi sebelum Degreening</head><p>Jeruk siam Banyuwangi dipanen pada umur 28 minggu setelah antesis (MSA) dengan diameter rata-rata 64.</p><p>3 mm, sehingga tergolong dalam grade B yaitu dengan diameter 61 sampai 70 mm menurut Standar Nasional Indonesia. Hasil analisis mutu awal buah jeruk siam Banyuwangi sebelum degreening disajikan pada Tabel 1. Pengukuran mutu awal buah jeruk siam Banyuwangi menggunakan tiga ulangan. Hasil pengukuran menunjukkan bahwa warna jeruk siam Banyuwangi cenderung berwarna hijau dengan nilai rata-rata a* 3.29, b* 24.26. Derajat kecerahan (L*) jeruk siam Banyuwangi cukup rendah yaitu 40.58, CCI -1.06, o hue 97.68 dan memiliki skor 1 yang secara fisik berwarna hijau. Tabel 1. Karakteristik jeruk siam sebelum degreening Komponen Rerata Komponen Rerata Derajat kecerahan (L*) 40.58 o hue 97.68 Derajat warna hijau (a*) -3.29 Kekerasan (Kg/detik) 0.73 Derajat warna kuning (b*) 24.26 PTT ( o Brix) 10.38 CCI -1.06 ATT (%) 0.58 Skor 1 Vitamin C (mg/100g) 37.70 Diameter (mm) 64.3</p><p>Rata-rata tingkat kekerasan buah jeruk siam Banyuwangi adalah 0.73 kg/detik yang menunjukkan bahwa buah jeruk masih memiliki tekstur yang keras. Kandungan ratarata padatan terlarut total yaitu 10.38 o brix. Hal ini menggambarkan kandungan gula buah jeruk cukup tinggi dan menyebabkan buah jeruk memiliki rasa manis. Menurut <ref type="bibr" target="#b9">Ladaniya (2008)</ref> standar kematangan jeruk untuk daerah tropika yaitu memiliki nilai o brix berkisar antara 9 sampai 10 dan masih berwarna hijau pada saat matang fisiologis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Karakteristik Warna Buah setelah Degreening</head><p>Warna merupakan penentu utama kualitas buah jeruk siam. Warna kulit buah yang jingga seragam lebih disukai oleh konsumen. Teknologi degreening dengan aplikasi etilen pada penelitian ini dapat menstimulasi perubahan warna kulit buah jeruk siam dari hijau menjadi jingga kekuningan. Perubahan warna kulit pada buah mulai terjadi pada 4 hari setelah degreening (HSD) dan mencapai warna optimum pada 12 HSD (Tabel 2).</p><p>Konsentrasi etilen berpengaruh nyata terhadap nilai CCI, o hue, total klorofil serta kandungan karotenoid buah jeruk siam Banyuwangi. Nilai CCI buah jeruk siam mengalami peningkatan seiring dengan tingginya konsentrasi etilen. Jeruk dengan aplikasi etilen 100 dan 200 ppm mengalami peningkatan CCI yang lebih tinggi yaitu 5.02 dan 5.39 dengan warna yang dihasilkan berdasarkan range CCI adalah jingga kekuningan (Tabel 1), sedangkan buah jeruk tanpa aplikasi etilen memiliki nilai CCI terendah dengan warna yang dihasilkan adalah hijau semburat kuning. Aplikasi etilen dapat mempercepat peningkatan nilai CCI buah jeruk siam Banyuwangi yang menandakan buah mengarah kewarna jingga. Hal tersebut sejalan dengan <ref type="bibr" target="#b9">Ladaniya (2008)</ref> yang menyatakan, degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid.</p><p>Warna kulit buah jeruk siam mencapai optimum pada 12 HSD (Tabel 2). Konsentrasi etilen 200 ppm menghasilkan nilai o hue dan kandungan klorofil total terendah yang menunjukkan buah mengarah ke warna jingga.</p><p>Etilen berfungsi merangsang degradasi klorofil dan membentuk karotenoid pada kulit buah jeruk. Warna kulit buah tampak jingga kekuningan disebabkan karena hancurnya klorofil dan terakumulasinya karotenoid pada kulit buah. Degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid.</p><p>Konsentrasi etilen 200 ppm dengan durasi 48 jam menghasilkan warna paling optimum yaitu jingga kekuningan meskipun perubahan warna buah kulit berjalan lambat. Lambatnya degradasi klorofil diduga karena buah tidak dipaparkan langsung pada suhu ruang setelah proses degreening. Selain itu, perubahan warna yang lambat diduga karena suhu degreening yang kurang optimum. Hasil penelitian <ref type="bibr" target="#b15">Mayuoni et al. (2011)</ref>, jeruk mandarin Michal menunjukkan perubahan warna menjadi jingga seragam pada suhu 20 0 C selama pemaparan 48 jam. Hasil yang sama diperoleh pada penelitian <ref type="bibr" target="#b23">Ramadhani et al. (2015)</ref> menyatakan bahwa degreening menggunakan etilen pada suhu 20 0 C selama 48 jam menghasilkan warna jingga cerah pada kulit buah jeruk siam Banyuwangi. Menurut <ref type="bibr" target="#b27">Sdiri et al. (2012)</ref> keefektifan degreening dipengaruhi beberapa faktor, diantaranya etilen, suhu, dan kultivar buah.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pengaruh Degrening terhadap Citrus Color Index (CCI)</head><p>Kombinasi perlakuan konsentrasi etilen dan durasi pemaparan etilen memiliki respon yang berbeda terhadap perubahan warna buah jeruk siam Banyuwangi (Gambar 1). CCI merupakan salah satu parameter yang digunakan untuk mengukur indeks warna buah jeruk. Semakin tinggi nilai CCI maka buah mengarah ke warna jingga.</p><p>Buah jeruk tanpa etilen mengalami sedikit perubahan warna yaitu dengan nilai CCI maksimum 4.62 pada durasi pemaparan etilen 48 jam yang menghasilkan warna hijau semburat kuning pada kulit buah jeruk siam Banyuwangi. Jeruk tanpa perlakuan etilen menunjukkan peningkatan nilai CCI yang lambat, berbeda dengan jeruk yang diberi perlakuan etilen yang menghasilkan warna jingga kekuningan pada kulit jeruk siam Banyuwangi.</p><p>Tabel 2. Perubahan warna kulit buah jeruk siam Banyuwangi pada 12 HSD Perlakuan CCI o Hue Klorofil Karotenoid (µg/g) (µg/g) Konsentrasi etilen (ppm) 0 4.43b 74.60b 0.018a 0.04b 100 5.02a 74.33b 0.006a 0.05a 200 5.39a 73.08a 0.003b 0.06a Durasi pemaparan (jam) 24 3.79b 75.81 0.015a 0.054 48 5.50a 74.93 0.007b 0.051 72 5.58a 74.28 0.005b 0.047 Interaksi tn tn tn tn</p><p>Keterangan: Angka rataan yang diikuti huruf yang sama pada kolom yang sama tidak berbeda nyata berdasarkan Uji DMRT pada taraf 5%.</p><p>Gambar 1. Pola perubahan nilai CCI buah jeruk siam Banyuwangi setelah degreening</p><p>Nilai CCI tertinggi adalah 6.4 diperoleh pada perlakuan konsentrasi etilen 200 ppm pada durasi 48 jam dan 72 jam yang menghasilkan jeruk siam dengan warna kulit jingga kekuningan, namun jeruk siam dengan pemaparan etilen 72 jam lebih cepat mengalami busuk dibandingkan dengan perlakuan lain sehingga durasi pemaparan etilen 48 jam ditetapkan sebagai durasi pemaparan etilen terbaik. Degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid. Menurut <ref type="bibr" target="#b9">Ladaniya (2008)</ref> durasi pemaparan etilen juga dapat mempengaruhi perkembangan warna kulit buah jeruk.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pengaruh Degreening terhadap Perubahan Nilai °Hue</head><p>Nilai o hue diperoleh dari hasil pengukuran a* dan b* yang dikonversi ke dalam satuan kromatik derajat hue ( o hue). Degreening menggunakan etilen nyata menurunkan nilai o hue pada buah jeruk siam. Nilai o hue jeruk siam sebelum perlakuan sebesar 97.68 kemudian menurun dengan adanya perlakuan degreening menjadi 73.91 yang menunjukkan adanya perubahan warna dari warna hijau menjadi jingga kekuningan. Konsentrasi etilen 100 ppm dan 200 ppm sama baiknya dalam menurunkan nilai o hue kulit buah jeruk siam. Hal tersebut sejalan dengan hasil penelitian sebelumnya yang menyatakan bahwa terjadi penurunan nilai o hue pada kulit buah jeruk siam setelah degreening menggunakan etilen <ref type="bibr" target="#b2">(Arzam et al., 2015;</ref><ref type="bibr" target="#b23">Ramadhani et al., 2015)</ref>. Durasi pemaparan etilen 24 jam, 48 jam dan 72 jam dalam degreening sama baiknya dalam menurunkan nilai o hue buah jeruk siam Banyuwangi, namun pada durasi pemaparan 72 jam buah jeruk mengalami pembusukan lebih cepat sehingga umur simpan menjadi lebih pendek.</p><p>Menurut <ref type="bibr">Tanaka dan Tanaka (2006)</ref>, etilen mempercepat degradasi klorofil dan mensintesis karotenoid sehingga warna hijau pada jeruk siam Banyuwangi dengan perlakuan 100 dan 200 ppm lebih cepat hilang dan digantikan oleh warna jingga kekuningan. Menurut <ref type="bibr" target="#b1">Anggraini (2015)</ref>, hilangnya klorofil pada kulit buah diakibatkan meningkatnya aktifitas klorofilase yang menguraikan klorofil menjadi bagian fitol dan inti profirin sehingga kulit jeruk tidak berwarna hijau lagi. Selain itu, struktur internal kloroplas terpecah selama degreening dengan etilen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pengaruh Degreening terhadap Klorofil dan Karotenoid Total</head><p>Kandungan klorofil dan karotenoid total berperan penting dalam pewarnaan buah. Perubahan warna dari hijau menjadi kuning atau jingga berhubungan dengan berkurangnya kandungan klorofil dan bertambahnya karotenoid. Kandungan klorofil dan karotenoid total kulit buah jeruk siam Banyuwangi disajikan pada Gambar 3 dan 4.</p><p>Kandungan klorofil total menurun secara bertahap selama penyimpanan. Pemberian etilen mempercepat penurunan klorofil total kulit jeruk. Kandungan klorofil total terendah diperoleh pada konsentrasi etilen 200 ppm dengan durasi pemaparan 48 jam sebesar 0.0013 mg/g. Kandungan klorofil total tertinggi diperoleh pada perlakuan tanpa etilen dan durasi pemaparan etilen 24 jam pada suhu degreening 18 0 C yaitu sebesar 0.020 mg/g. Selama perkembangan buah jeruk, warna berubah menjadi jingga kekuningan berhubungan dengan berkurangnya kandungan klorofil total akibat degradasi. Menurut <ref type="bibr" target="#b20">Peng et al. (2013)</ref>, degradasi klorofil meningkat dengan adanya aplikasi degreening dengan etilen. Kandungan klorofil total dapat pula dipengaruhi oleh biosintesis klorofil, interkonversi klorofil a dan b dan juga degradasi klorofil <ref type="bibr">(Tanaka dan Tanaka, 2006)</ref>. Menurunnya kandungan klorofil pada buah dengan perlakuan etilen disebabkan oleh peningkatan aktivitas chlorophyllase dan penurunan ukuran dan jumlah kloroplas pada kulit <ref type="bibr" target="#b4">(Barmore, 1975;</ref><ref type="bibr" target="#b25">Shimokawa et al., 1998)</ref>. Peningkatan chlorophyllase setelah proses degreening akan mempercepat degradasi klorofil.</p><p>Gambar 2. Penurunan nilai hue buah jeruk siam Banyuwangi selama penyimpanan pada perlakuan (a) konsentrasi etilen dan (b) durasi pemaparan etilen Gambar 3. Perubahan kandungan klorofil total kulit jeruk siam Banyuwangi pada berbagai konsentrasi dan durasi pemaparan etilen, HSD=hari setelah degreening.</p><p>Jeruk adalah sumber karotenoid yang kompleks dengan jumlah karotenoid terbesar ditemukan pada buah <ref type="bibr" target="#b9">(Ladaniya, 2008)</ref>. Selama pemaparan etilen, terjadi perombakan klorofil yang diikuti dengan pembentukan karotenoid pada kulit buah jeruk. Karotenoid total cenderung meningkat setelah degreening dan selama penyimpanan. Nilai kandungan karotenoid total tertinggi diperoleh pada konsentrasi etilen 200 ppm dengan durasi pemaparan etilen 48 jam pada suhu 18 0 C yaitu sebesar 0.08 mg/g. <ref type="bibr" target="#b14">Matsumoto et al. (2009)</ref>, menyatakan bahwa perlakuan degreening menggunakan etilen dapat meningkatkan nilai karotenoid pada kulit jeruk Satsuma. <ref type="bibr">Stewart dan Wheaton (1972)</ref> melaporkan terjadinya peningkatan warna pada jeruk yang diberikan perlakuan etilen disebabkan oleh akumulasi dari karotenoid yang lebih spesifik seperti cryptoxanthin dan apocarotenoid C30 βcitraurin, violaxanthin. Pada jeruk Ponkan akumulasi β-cryptoxanthin dan β-citraurin pada kulit buah menghasilkan warna jingga sedangkan violaxanthin menghasilkan warna kuning <ref type="bibr" target="#b32">(Zhou et al., 2010)</ref>. Perubahan warna kulit jeruk menjadi jingga disebabkan karena terjadinya sintesis karotenoid yang bersifat nonphotosintectic yaitu β-citraurin yang merupakan pembentuk warna jingga kemerahan pada kulit jeruk mandarin, akumulasi senyawa ini ditentukan oleh ketersediaan prekusor berupa karotenoid yang bersifat photosintetic seperti zeaxanthin dan βcryptoxanthin <ref type="bibr" target="#b8">(Kato et al., 2004;</ref><ref type="bibr" target="#b24">Rodrigo et al., 2013;</ref><ref type="bibr" target="#b11">Ma et al., 2013)</ref>. Gambar 4. Perubahan kandungan karotenoid total kulit jeruk siam Banyuwangi pada berbagai konsentrasi dan durasi pemaparan etilen 0.00 0.05 0.10 0.15 0.20 0.25 0 4 12 Klorofil total mg/g HSD 0 ppm 24 jam 100 ppm 24 jam 100 ppm 24 jam 0 ppm 48 jam 100 ppm 48 jam 200 ppm 48 jam 0 ppm 72 jam 100 ppm 72 jam 200 ppm 72 jam 0.00 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0 4 12 Karotenoid total mg/g HSD 0 ppm 24 jam 100 ppm 24 jam 100 ppm 24 jam 0 ppm 48 jam 100 ppm 48 jam 200 ppm 48 jam 0 ppm 72 jam 100 ppm 72 jam 200 ppm 72 jam Tabel 5. Sifat fisikokimia buah jeruk siam Banyuwangi pada berbagai kosentrasi dan durasi pemaparan etilen pada 12 HSD Perlakuan Kekerasan PTT ATT Vitamin C (N) ( o Brix) (mg/100g) (mg/100g) Konsentrasi Etilen (ppm) -0 ppm -100 ppm -200 ppm 0.63 0.62 0.64 10.30 11.19 8.56 4.54 4.44 4.14 45.14 43.37 34.86 Durasi -24 jam etilen + 48 jam tanpa etilen -48 jam etilen + 24 jam tanpa etilen -72 jam etilen 0.64 0.64 0.61 10.27 8.57 11.21 4.50 4.64 3.98 48.50 34.32 40.45 Interaksi tn tn tn tn</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pengaruh Degreening terhadap Perubahan Fisikokimia</head><p>Sifat fisikokimia jeruk berhubungan dengan proses pematangan jeruk, baik yang berhubungan dengen proses dalam jaringan kulit, maupun proses pematangan internal dalam daging buah <ref type="bibr" target="#b27">(Sdiri et al., 2012)</ref>. Konsentrasi etilen dan durasi pemaparan etilen serta interaksi antar kedua perlakuan tidak berpengaruh nyata terhadap kandungan padatan terlarut total (PTT), asam tertitrasi total (ATT), vitamin C dan tingkat kekerasan buah jeruk siam Banyuwangi (Tabel 5). Pada penelitian sebelumnya telah dilaporkan bahwa pemberian etilen exogeneous menunjukkan perubahan fisik dan biokimia yang mirip dengan buah yang tidak beri perlakuan <ref type="bibr" target="#b27">(Sdiri et al., 2012;</ref><ref type="bibr" target="#b30">Tietel et al., 2010)</ref>.</p><p>Kandungan PTT buah jeruk meningkat selama penyimpanan dengan kisaran nilai PTT 8.56-11.27 o brix pada 12 HSD, meskipun peningkatannya tidak berbeda nyata baik pada jeruk dengan maupun tanpa perlakuan etilen (Tabel 5). Hasil tersebut sejalan dengan penelitian <ref type="bibr" target="#b15">Mayuoni et al. (2011)</ref>, perlakuan etilen dapat meningkatkan kandungan PTT buah jeruk. Menurut <ref type="bibr" target="#b31">Winarno (2002)</ref> kenaikan PTT terjadi karena karbohidrat terhidrolisis menjadi senyawa glukosa dan fruktosa, sedangkan penurunan PTT disebabkan gula sederhana mengalami perubahan menjadi alkohol, aldehid, dan asam.</p><p>Kandungan ATT buah jeruk siam Banyuwangi berkisar antara 3.98 sampai 4.64 mg/100g. Nilai kandungan ATT cenderung menurun tetapi tidak untuk semua perlakuan. Kandungan ATT menurun pada buah yang diberikan perlakuan etilen, walaupun secara statistik tidak berbeda nyata dengan buah tanpa perlakuan etilen. <ref type="bibr" target="#b13">Martínez-Jávega et al. (2008)</ref> melaporkan bahwa kandungan ATT buah jeruk mengalami sedikit penurunan setelah proses degreening. Penurunan kandungan ATT disebabkan oleh penggunaan asam organik dalam siklus Kreb untuk memproduksi energi dan terjadinya konversi asam organik membentuk gula <ref type="bibr">(Sulistyaningrum dan Susanto, 2004)</ref>.</p><p>Vitamin C merupakan faktor kualitas nutrisi terpenting pada buah jeruk. Kandungan vitamin C dalam buah dapat dipengaruhi oleh berbagai faktor diantaranya perbedaan genotipe, kondisi iklim tempat tumbuh buah, perlakuan selama di kebun, kematangan dan metode pemanenan, serta prosedur penanganan pascapanen. Hasil analisis statistik menunjukkan bahwa tidak ada pengaruh yang nyata antara jeruk dengan perlakuan degreening dengan jeruk tanpa perlakuan etilen atau kontrol. Kandungan vitamin C buah jeruk siam berkisar antara 34.32 sampai 48.50 mg/100g pada akhir penyimpanan (12 HSD). Hal ini sesuai dengan penelitian <ref type="bibr" target="#b9">Ladaniya (2008)</ref> yang menyatakan jeruk umumnya mengandung 40 sampai 70 mg vitamin C/100g. Menurut <ref type="bibr" target="#b15">Mayuoni et al. (2011)</ref> tidak ada perubahan nilai kandungan vitamin C yang berarti pada jeruk Satsuma kontrol (tanpa perlakuan etilen) maupun yang diberi perlakuan degreening.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KESIMPULAN</head><p>Konsentrasi etilen 200 ppm dengan durasi pemaparan 48 jam merupakan perlakuan terbaik dalam proses degreening buah jeruk siam yang menghasilkan warna</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,99.25,271.21,367.50,209.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,70.90,459.34,432.00,165.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nian Rimayanti Hasimi, Roedhy Poerwanto, dan Ketty Suketi</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Degreening Buah Jeruk Siam …..</p></note>
 		</body>
 		<back>
-			<div type="annex">
-<div xmlns="http://www.tei-c.org/ns/1.0"><p>Respons fisiologis dan produktivitas padi (Oryza sativa L) JURNAL AGRIUM Journal of Agricultural Research mikoriza 10 g tanaman -1 (M1) yaitu 1163,3 gram. Sedangkan berat gabah per plot terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 1110 g. Begitupun juga perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap peubah berat gabah t ha -1 yang dimana nilai tertinggi terdapat pada perlakuan mikoriza 10 g tanaman -1 (M1) yaitu 3,877 t ha -1 , sedangkan berat berat gabah ton per hektar terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 3,700 t ha -1 . Hal ini mungkin karena tanah di lahan penelitian subur, ketersediaan unsur hara seperti nitrogen, fosfor, dan kalium sudah mencukupi untuk mendukung pertumbuhan tanaman. Mikoriza berperan dalam meningkatkan penyerapan hara, namun jika unsur hara sudah tersedia dalam jumlah yang cukup, aplikasi mikoriza tambahan tidak akan memberikan peningkatan hasil yang signifikan.</p></div>
-<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kesimpulan</head><p>Perlakuan sistem olah tanah mampu menigkatkan luas daun pada umur 50 HST, shoot root ratio 40 dan 50 HST, LAB 4 (Panen -50 HST), LTR 1 (30 -20 HST), berat gabah per plot, dan hasil gabah ton/hektar mencapai 4,23 t ha -1 . Pemberian pupuk hayati mikoriza 15 gr/tanaman mampu meningkatkan jumlah klorfil daun tingkat inveksi akar, serta kombinasi antara sistem olah tanah dan pemberian pupuk hayati mikoriza memberikan pengaruh sangat baik pada peubah parameter jumlah kelorofil daun.</p></div>			</div>
 			<div type="references">
 
 				<listBibl>
 
 <biblStruct xml:id="b0">
-	<analytic>
-		<title level="a" type="main">Pengaruh Bakteri Pelarut Fosfat (BPF) dan pupuk fosfor terhadap pertumbuhan tanaman padi (Oryza sativa L.) yang ditanam secara SRI modifikasi</title>
-		<author>
-			<persName><forename type="first">M</forename><surname>Afriani</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Effendi</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Murniati</surname></persName>
-		</author>
-		<idno type="DOI">10.32528/agritrop.v19i2.5814</idno>
-		<ptr target="https://doi.org/10.32528/agritrop.v19i2.5814" />
-	</analytic>
 	<monogr>
-		<title level="j">Jurnal Ilmu-Ilmu Pertanian</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Andarwulan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kusnandar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herawati</surname></persName>
+		</author>
+		<title level="m">Analisis Pangan. Jakarta, Dian Rakyat</title>
 		<imprint>
-			<biblScope unit="volume">19</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="84" to="89" />
-			<date type="published" when="2021">2021</date>
+			<date type="published" when="2011">2011</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b1">
 	<analytic>
-		<title level="a" type="main">Karakter morfologi akar sebagai indikator kekurangan air pada tanaman</title>
+		<title level="a" type="main">Studi degreening pada jeruk cultivar keprok madu Terigas Kalimantan Barat</title>
 		<author>
-			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Ai</surname></persName>
+			<persName><forename type="first">R</forename><surname>Anggraini</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">P</forename><surname>Torey</surname></persName>
+			<persName><forename type="first">R</forename><surname>Hasbullah</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sutrisno</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Bios Logos</title>
+		<title level="j">J. Penelitian Pascapanen Pertanian</title>
 		<imprint>
-			<biblScope unit="volume">3</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="32" to="39" />
-			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="3" to="44" />
+			<date type="published" when="2015">2015</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Precooling dan konsentrasi etilen dalam degreening untuk membentuk warna jingga kulit buah jeruk siam</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Arzam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hidayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poerwanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Purwanto</surname></persName>
+		</author>
+	</analytic>
 	<monogr>
-		<title level="m" type="main">Luas panen dan produksi padi di Indonesia</title>
-		<author>
-			<persName><forename type="first">Badan</forename><surname>Pusat</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">Statistik</forename></persName>
-		</author>
-		<ptr target="https://www.bps.go.id/publication/2021/07/12/b21ea2ed9524b784187be1ed/luas-panen-dan-produksi-padi-di-indonesia-2020.html" />
+		<title level="j">J. Hort</title>
 		<imprint>
-			<date type="published" when="2020">2021. 2020</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="257" to="265" />
+			<date type="published" when="2015">2015</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b3">
 	<monogr>
-		<title level="m" type="main">Pengaruh pemberian Jamur Mikoriza Arbuskular, jenis pupuk fosfat dan takaran kompos terhadap pertumbuhan bibit tebu (Saccharum officinarum L.) pada media pasir pantai</title>
 		<author>
-			<persName><forename type="first">H</forename><surname>Leovini</surname></persName>
+			<persName><forename type="first">Badan</forename><surname>Pusat</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">D</forename><surname>Kastono</surname></persName>
+			<persName><forename type="first">Statistik</forename></persName>
 		</author>
-		<author>
-			<persName><forename type="first">J</forename><surname>Widada</surname></persName>
-		</author>
+		<title level="m">Produksi Buah-buahan di Indonesia 2005-2011</title>
+		<meeting><address><addrLine>Jakarta (ID)</addrLine></address></meeting>
 		<imprint>
-			<date type="published" when="2014">2014</date>
-			<publisher>Vegetalika</publisher>
-			<biblScope unit="volume">3</biblScope>
-			<biblScope unit="page" from="102" to="115" />
+			<date type="published" when="2011">2011</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b4">
 	<analytic>
-		<title level="a" type="main">Pengaruh media tanam organik dan anorganik terhadap pertumbuhan seledri (Apium graveolens L) dengan sistem hidroponik DFT</title>
+		<title level="a" type="main">Effect of ethylene on chlorophyllase activity and chlorophyll content in calamondin rind tissue</title>
 		<author>
-			<persName><forename type="first">N</forename><surname>Muhiddin</surname></persName>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Barmore</surname></persName>
 		</author>
-		<author>
-			<persName><surname>Lahming</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">N</forename><surname>Lestari</surname></persName>
-		</author>
-		<idno type="DOI">10.26858/jptp.v9i2.663</idno>
-		<ptr target="https://doi.org/10.26858/jptp.v9i2.663" />
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Pendidikan Teknologi Pertanian</title>
+		<title level="j">HortScience</title>
 		<imprint>
-			<biblScope unit="volume">9</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="155" to="162" />
-			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="595" to="596" />
+			<date type="published" when="1975">1975</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b5">
-	<analytic>
-		<title level="a" type="main">Laju asimilasi bersih dan laju tumbuh relatif varietas padi toleran kekeringan pada sistem sawah</title>
-		<author>
-			<persName><forename type="first">M</forename><surname>Maisura</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Chozin</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">I</forename><surname>Lubis</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Junaedi</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Ehara</surname></persName>
-		</author>
-		<idno type="DOI">10.29103/agrium.v12i1.376</idno>
-		<ptr target="https://doi.org/10.29103/agrium.v12i1.376" />
-	</analytic>
 	<monogr>
-		<title level="j">Jurnal Agrium</title>
+		<title level="m" type="main">Prospek dan arah pengembangan agribisnis jeruk. Badan Penelitian dan Pengembangan Pertanian</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimyati</surname></persName>
+		</author>
 		<imprint>
-			<biblScope unit="page" from="12" to="13" />
-			<date type="published" when="2017">2017</date>
+			<date type="published" when="2005">2005</date>
+			<publisher>Kementrian Pertanian Republik Indonesia</publisher>
+			<pubPlace>Jakarta</pubPlace>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b6">
 	<analytic>
-		<title level="a" type="main">Evaluasi plasma nutfah padi gogo (Upland rice) berdasarkan karakter perkembangan perakaran dan fisiologi tanaman</title>
+		<title level="a" type="main">Determination of a color index for citrus fruit degreening</title>
 		<author>
-			<persName><forename type="first">L</forename><surname>Nazirah</surname></persName>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Jimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cuquerella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Javega</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Agrium</title>
+		<title level="j">Proc. Int. Soc. Citriculture</title>
 		<imprint>
-			<biblScope unit="volume">15</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="39" to="47" />
-			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="750" to="753" />
+			<date type="published" when="1981">1981</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b7">
 	<analytic>
-		<title level="a" type="main">Eksplorasi Mikoriza Vascular Arbuscular (MVA) indigenous pada tanah Regosol di Pamekasan, Madura</title>
+		<title level="a" type="main">Degreening of &apos;Murcott&apos; tangor with ethepon treatments</title>
 		<author>
-			<persName><forename type="first">S</forename><surname>Nurhalimah</surname></persName>
+			<persName><forename type="first">M</forename><forename type="middle">L L</forename><surname>Jomori</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">N</forename><surname>Sri</surname></persName>
+			<persName><forename type="first">I</forename><surname>Sestari</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">M</forename><surname>Anton</surname></persName>
+			<persName><forename type="first">F</forename><forename type="middle">A M</forename><surname>Terra</surname></persName>
 		</author>
-		<idno type="DOI">10.29103/agrium.v22i4.25773</idno>
-		<ptr target="https://doi.org/10.29103/agrium.v22i4.25773" />
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Chiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Klauge</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Sains dan Seni Pomits</title>
+		<title level="m">Proc. IV International Postharvest Symposium</title>
+		<meeting>IV International Postharvest Symposium</meeting>
 		<imprint>
-			<biblScope unit="volume">3</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="30" to="35" />
-			<date type="published" when="2014">2014</date>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">877</biblScope>
+			<biblScope unit="page" from="815" to="820" />
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b8">
 	<analytic>
-		<title level="a" type="main">Ini penyebab mengapa saat ini Indonesia sulit swasembada pangan</title>
+		<title level="a" type="main">Accumulation of carotenoid and expression of carotenoid biosynthetic genes during maturation in citrus fruit</title>
 		<author>
-			<persName><forename type="first">&amp;</forename><surname>Nazirah</surname></persName>
-			<affiliation>
-				<orgName type="collaboration">Y.</orgName>
-			</affiliation>
+			<persName><forename type="first">M</forename><surname>Kato</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Jurnal</forename><surname>Pranata</surname></persName>
-			<affiliation>
-				<orgName type="collaboration">Y.</orgName>
-			</affiliation>
+			<persName><forename type="first">Y</forename><surname>Ikoma</surname></persName>
 		</author>
 		<author>
-			<persName><surname>Agrium</surname></persName>
-			<affiliation>
-				<orgName type="collaboration">Y.</orgName>
-			</affiliation>
+			<persName><forename type="first">H</forename><surname>Matsumoto</surname></persName>
 		</author>
-		<ptr target="http://kalimantan.bisnis.com/read/20180610/408/586674/ini-penyebab-mengapa-saat-ini-indonesiasulit-swasembada-pangan" />
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hyodo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yano</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Journal of Agricultural Research Petriella</title>
+		<title level="j">J. Plant Physiol</title>
 		<imprint>
-			<date type="published" when="2016">2016, 10 Juni</date>
-			<pubPlace>Bisnis Kalimantan</pubPlace>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="824" to="837" />
+			<date type="published" when="2004">2004</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b9">
-	<analytic>
-		<title level="a" type="main">Pengaruh sistem olah tanah dan pemupukan nitrogen jangka panjang terhadap jumlah spora Mikoriza Vesikular Arbuskular dan infeksi akar tanaman padi gogo varietas Inpago-8 pada musim tanam ke-46</title>
-		<author>
-			<persName><forename type="first">L</forename><surname>Ratnawati</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">S</forename><surname>Yusnaini</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">M</forename><surname>Utomo</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">A</forename><surname>Niswati</surname></persName>
-		</author>
-		<idno type="DOI">10.23960/jat.v4i2.1867</idno>
-		<ptr target="https://doi.org/10.23960/jat" />
-	</analytic>
 	<monogr>
-		<title level="j">Jurnal Agrotek Tropika</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ladaniya</surname></persName>
+		</author>
+		<title level="m">Citrus Fruit: Biology, Technology, and Evaluation</title>
+		<meeting><address><addrLine>San Diego</addrLine></address></meeting>
 		<imprint>
-			<biblScope unit="volume">4</biblScope>
-			<biblScope unit="issue">2</biblScope>
-			<biblScope unit="page" from="164" to="171" />
-			<date type="published" when="1867">2016. 4i2.1867</date>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2008">2008</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b10">
 	<analytic>
-		<title level="a" type="main">Pengaruh pemberian kompos Azolla pinnata terhadap pertumbuhan dan hasil beberapa varietas terung (Solanum melongena L.)</title>
+		<title level="a" type="main">Objective measurement of red grapefruit juice color</title>
 		<author>
-			<persName><forename type="first">M</forename><surname>Rezki</surname></persName>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
 		</author>
-		<author>
-			<persName><forename type="first">U</forename><surname>Usnawiyah</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">N</forename><surname>Nilahayati</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">L</forename><surname>Nazirah</surname></persName>
-		</author>
-		<author>
-			<persName><forename type="first">H</forename><surname>Hafifah</surname></persName>
-		</author>
-		<idno type="DOI">10.29103/jimatek.v2i1.12043</idno>
-		<ptr target="https://doi.org/10.29103/jimatek.v2i1.12043" />
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Ilmiah Mahasiswa Agroekoteknologi</title>
+		<title level="j">J. Agric. Food Chem</title>
 		<imprint>
-			<biblScope unit="volume">2</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="24" to="28" />
-			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1507" to="15011" />
+			<date type="published" when="2000">2000</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b11">
 	<analytic>
-		<title level="a" type="main">Peningkatan kesuburan tanah dan produktivitas sebagai hasil pengolahan lahan di Dusun Ngadilegi</title>
+		<title level="a" type="main">Enzymatic formation of β-citraurin from βcryptoxanthin dan zeaxanthin by carotenoid leavage dioxygenase in the flavedo of cs fruit</title>
 		<author>
-			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Rizki</surname></persName>
+			<persName><forename type="first">G</forename><surname>Ma</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Wicaksono</surname></persName>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">F</forename><surname>Wijayanti</surname></persName>
+			<persName><forename type="first">A</forename><surname>Matsuta</surname></persName>
 		</author>
-		<idno type="DOI">https://www.google.com/search?q=10.47681/jipm-nalanda.v2i1.732</idno>
-		<ptr target="https://doi.org/10.47681/jipm-nalanda.v2i1.732" />
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kazuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yahata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wahyudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Motohashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kato</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Pandaan. JIPM: Jurnal Informasi Pengabdian Masyarakat</title>
+		<title level="j">J. Plant Physiol</title>
 		<imprint>
-			<biblScope unit="volume">2</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="1" to="9" />
-			<date type="published" when="2024">2024</date>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="682" to="695" />
+			<date type="published" when="2013">2013</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b12">
-	<monogr>
-		<title level="m" type="main">Pengaruh sistem olah tanah dan gulma terhadap pertumbuhan dan hasil tanaman jagung hibrida</title>
+	<analytic>
+		<title level="a" type="main">Relation between temperature and the beginning of peel color change in grapefruit (Citrus paradisii Macf</title>
 		<author>
-			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Setyawati</surname></persName>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Manera</surname></persName>
 		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brotons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Porras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci. Hort</title>
 		<imprint>
-			<date type="published" when="2017">2017</date>
-			<publisher>Skripsi Universitas PGRI Yogyakarta</publisher>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="292" to="299" />
+			<date type="published" when="2013">2013</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b13">
 	<analytic>
-		<title level="a" type="main">Karakter agronomi beberapa padi lokal Aceh</title>
+		<title level="a" type="main">Respons of new clementines to degreening treatment</title>
 		<author>
-			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Setyowati</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Martínez-Jávega</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">L</forename><surname>Irawan</surname></persName>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Monterde</surname></persName>
 		</author>
 		<author>
-			<persName><surname>Marlina</surname></persName>
+			<persName><forename type="middle">A</forename><surname>Navarro</surname></persName>
 		</author>
-		<idno type="DOI">10.35308/jal.v4i1.632</idno>
-		<ptr target="https://doi.org/10.35308/jal.v4i1.632" />
+		<author>
+			<persName><surname>Salvador</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Agrotek Lestari</title>
+		<title level="j">Proc. Int. Soc. Citriculture</title>
 		<imprint>
-			<biblScope unit="volume">5</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="36" to="50" />
-			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1342" to="1346" />
+			<date type="published" when="2008">2008</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b14">
 	<analytic>
-		<title level="a" type="main">Eksplorasi dan identifikasi fungi mikoriza arbuskular pada perakaran tanaman pisang di Desa Pinabetengan</title>
+		<title level="a" type="main">Effect of postharvest temperature and ethylene on carotenoid accumulation in the flavedo and juice sacs of Satsuma mandarin (Citrus unshiu Marc.) fruit</title>
 		<author>
-			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Suwignya</surname></persName>
+			<persName><forename type="first">H</forename><surname>Matsumoto</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Pelealu</surname></persName>
+			<persName><forename type="first">Y</forename><surname>Ikoma</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Tallei</surname></persName>
+			<persName><forename type="first">M</forename><surname>Kato</surname></persName>
 		</author>
-		<idno type="DOI">10.35799/jbl.v13i3.49247</idno>
-		<ptr target="https://doi.org/10.35799/jbl.v13i3.49247" />
+		<author>
+			<persName><forename type="first">N</forename><surname>Nakajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hasegawa</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Bios Logos</title>
+		<title level="j">J Agric. Food Chem</title>
 		<imprint>
-			<biblScope unit="volume">13</biblScope>
-			<biblScope unit="issue">3</biblScope>
-			<biblScope unit="page" from="150" to="157" />
-			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="4724" to="4732" />
+			<date type="published" when="2009">2009</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b15">
 	<analytic>
-		<title level="a" type="main">Pengaruh inokulasi Jamur Mikoriza Arbuskular dan aplikasi fosfat terhadap pertumbuhan padi gogo</title>
+		<title level="a" type="main">Effects of ethylene degreening on the transcriptome of mandarin flesh</title>
 		<author>
-			<persName><forename type="first">B</forename><forename type="middle">P K</forename><surname>Yudha</surname></persName>
+			<persName><forename type="first">L</forename><surname>Mayuoni</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">B</forename><surname>Hermiyanto</surname></persName>
+			<persName><forename type="first">M</forename><surname>Sharabi-Schwager</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">R</forename><surname>Soedrajad</surname></persName>
+			<persName><forename type="first">E</forename><surname>Feldmesser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porat</surname></persName>
 		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Berkala Ilmiah Pertanian</title>
+		<title level="j">J. Postharvest Biol. Tech</title>
 		<imprint>
-			<biblScope unit="volume">1</biblScope>
-			<biblScope unit="issue">1</biblScope>
-			<biblScope unit="page" from="1" to="5" />
-			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2011">2011</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct xml:id="b16">
 	<analytic>
-		<title level="a" type="main">Pertumbuhan dan hasil beberapa kultivar tanaman padi gogo (Oryza sativa L.) pada beberapa sistem olah tanah</title>
+		<title level="a" type="main">Does ethylene degreening affect internal quality of citrus fruit?</title>
 		<author>
-			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Zahra</surname></persName>
+			<persName><forename type="first">Nian</forename><surname>Rimayanti Hasimi</surname></persName>
 		</author>
 		<author>
-			<persName><surname>Rosmaiti</surname></persName>
+			<persName><forename type="first">Roedhy</forename><surname>Poerwanto</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Y</forename><surname>Marnita</surname></persName>
+			<persName><forename type="first">Ketty</forename><surname>Dan</surname></persName>
 		</author>
-		<idno type="DOI">10.33059/jupas.v11i1.9264</idno>
-		<ptr target="https://doi.org/10.33059/jupas.v11i1.9264" />
+		<author>
+			<persName><forename type="first">L</forename><surname>Suketi Mayuoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tietel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porat</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
-		<title level="j">Jurnal Penelitian Agrosamudra</title>
+		<title level="j">J. Postharvest Biol. Tech</title>
 		<imprint>
-			<biblScope unit="volume">11</biblScope>
-			<biblScope unit="page" from="39" to="48" />
-			<date type="published" when="2024">2024</date>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="50" to="58" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Perubahan warna kulit buah tiga varietas jeruk Keprok dengan perlakuan degreening dan suhu penyimpanan</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Muthmainnah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poerwanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Efendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hort. Indonesia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="20" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Pengaruh penggunaan ethrel terhadap mutu jeruk siem madu Brastagi selama penyimpanan</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Napitupulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Simatupang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karo-Karo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simanjuntak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sembiring</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Buletin Pascapanen Hortikultura</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="7" to="12" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Fisiologi Pasca Panen. Yogyakarta, Penerjemah Kamarayani</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Pantastico</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<publisher>Gadjah Mada University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Chlorophyll a/b binding protein plays a key role in natural and ethyleneinduced degreening of ponkan (Citrus reticulate Blanco)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci Hortic</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poerwanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Susila</surname></persName>
+		</author>
+		<title level="m">Teknologi Hortikultura</title>
+		<meeting><address><addrLine>Bogor</addrLine></address></meeting>
+		<imprint>
+			<publisher>IPB Press</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Degreening of citrus fruit. Tree Forest</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci Biotech</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="71" to="76" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Pengaruh durasi pemaparan dan suhu degreening untuk membentuk warna jingga jeruk siam Banyuwangi</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ramadhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Purwanto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poerwanto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hort</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="277" to="286" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A novel carotenoid cleavage activity involved in the biosynthesis of citrus fruit-specific apocarotenoid pigments</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rodrigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alquezar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carmona</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Botany</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="14" to="22" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Ethylene-enhanced chlorophyllase activity during degreening of Citrus unshiu Marc</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shimade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yaeo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Hortic</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Carotenoids in citrus: their accumulationinduced by ethylene</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Wheaton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agric. Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="448" to="449" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">New degreening treatments to improve the quality of citrus fruit combining different periods with and without ethylene exposure</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sdiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Monterde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Benabda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salvador</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.postharvbio.2011.08.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Postharvest Biol. Tech</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="32" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Kualitas dan daya simpan buah jeruk Fremont (Citrus reticulata var. Fremont) yang dipanen dari tingkat ketinggian lahan yang berbeda</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Sulistyaningrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Susanto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agron Indonesia</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="21" to="27" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Chlorophyll metabolism</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. P. Bio</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="245" to="255" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Improving taste and peel color of early-season Satsuma mandarins by combining high-temperature conditioning and degreening treatmens</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tietel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Batia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lewinsohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fallik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Postharvest Biol. Tech</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Fisiologi Lepas Panen Produk Hortikultura</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Winarno</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Brio Press</publisher>
+			<pubPlace>Bogor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Preferential accumulation of orange-colored carotenoids in Ponkan (Citrus reticulata) fruit peel following postharvest application of ethylene or ethephon</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci. Hort</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="229" to="235" />
+			<date type="published" when="2010">2010</date>
 		</imprint>
 	</monogr>
 </biblStruct>

@@ -1,206 +1,110 @@
-Respons fisiologis dan produktivitas padi (Oryza sativa L) pada kombinasi sistem olah tanah dan pemberian mikoriza Physiological response and productivity of rice (Oryza sativa L.) in a combination of tillage and mycorrhizal application
+Degreening Buah Jeruk Siam (Citrus nobilis) pada Beberapa Konsentrasi dan Durasi Pemaparan Etilen Degreening Siam Tangerine Fruit (Citrus nobilis) in Ethylene Concentrations and Exposure Durations
 
-Authors: Jurnal Agrium, Laila Nazirah, Aris Pranata, M Afriani, A Effendi, SY Murniati, NS Ai, P Torey, Badan Pusat, Statistik, H Leovini, D Kastono, J Widada, N Muhiddin, Lahming, N Lestari, M Maisura, MA Chozin, I Lubis, A Junaedi, H Ehara, L Nazirah, S Nurhalimah, N Sri, M Anton, & Nazirah, Jurnal Pranata, Agrium, L Ratnawati, S Yusnaini, M Utomo, A Niswati, M Rezki, U Usnawiyah, N Nilahayati, L Nazirah, H Hafifah, FC Rizki, PR Wicaksono, F Wijayanti, HG Setyawati, MJ Setyowati, L Irawan, Marlina, IA Suwignya, JJ Pelealu, TE Tallei, BP K Yudha, B Hermiyanto, R Soedrajad, FA Zahra, Rosmaiti, Y Marnita
+Authors: NianRimayanti Hasimi, Roedhy Poerwanto, Ketty Suketi, Diterima 18 Maret, / Disetujui, N Andarwulan, F Kusnandar, D Herawati, R Anggraini, R Hasbullah, Sutrisno, TS Arzam, I Hidayati, R Poerwanto, YA Purwanto, Badan Pusat, Statistik, CR Barmore, A Dimyati, CM Jimenez, J Cuquerella, MJ Javega, ML L Jomori, I Sestari, FA M Terra, DG Chiou, RA Klauge, M Kato, Y Ikoma, H Matsumoto, M Sugiura, H Hyodo, M Yano, MS Ladaniya, HS Lee, G Ma, L Zhang, A Matsuta, K Matsutani, M Kazuki, M Yahata, A Wahyudi, R Motohashi, M Kato, FJ Manera, JM Brotons, A Conesa, I Porras, JM Martínez-Jávega, AP Monterde, A Navarro, Salvador, H Matsumoto, Y Ikoma, M Kato, N Nakajima, Y Hasegawa, L Mayuoni, M Sharabi-Schwager, E Feldmesser, R Porat, Nian Rimayanti Hasimi, Roedhy Poerwanto, Ketty Dan, L Suketi Mayuoni, Z Tietel, BS Patil, R Porat, H Muthmainnah, R Poerwanto, D Efendi, B Napitupulu, B Simatupang, A Karo-Karo, S Simanjuntak, Sembiring, EB Pantastico, G Peng, XL Xie, Q Jiang, S Song, CJ Xu, R Poerwanto, AD Susila, R Porat, N Ramadhani, YA Purwanto, R Poerwanto, MJ Rodrigo, B Alquezar, E Alos, V Medina, L Carmona, K Shimokawa, S Shimade, K Yaeo, I Stewart, TA Wheaton, S Sdiri, P Navarro, A Monterde, J Benabda, A Salvador, RD Sulistyaningrum, S Susanto, A Tanaka, R Tanaka, Z Tietel, W Batia, E Lewinsohn, E Fallik, R Porat, FG Winarno, YJ Zhou, CD Sun, LL Zhang, X Dai, CJ Xu, KS Chen
 
-Abstract: Kebutuhan terhadap peningkatan produktivitas padi (Oryza sativa L) terus bertambah seiring dengan pertumbuhan penduduk, konversi lahan, dan dampak perubahan iklim. Upaya pengelolaan budidaya padi yang efisien dan berkelanjutan menjadi sangat penting, terutama melalui pengelolaan tanah dan pemupukan. Tujuan penelitian ini untuk menguji pengaruh sistem olah tanah dan pupuk hayati mikoriza serta kombinasi keduanya pada karakter fisiologi dan hasil padi. Penelitian ini di lakukan di Desa Paloh Lada, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh pada bulan Agustus-Desember 2024, menggunakan rancangan split plot design (rancangan petak terpisah) dengan dua faktor dengan 3 kali ulangan. Faktor pertama sebagai petak utama adalah olah tanah (T) yang terdiri dari 3 taraf perlakuan yaitu T0 (tanpa pengolahan Tanah), T1 (satu kali pengolahan), T2 (dua kali kali pengolahan). Faktor kedua sebagai anak petak adalah pemberian mikroriza (M) yaitu M0 (0g tanaman -1 ), M1 (10g tanaman -1 ), M2 (15g tanaman -1 ). Hasil penelitian sistem olah tanah memberikan pengaruh yang berbeda nyata pada laju asimilasi bersih, laju tumbuh relatif, berat gabah per plot, dan hasil gabah ton/hektar. Pemberian pupuk hayati mikoriza memberikan berbeda nyata terhadap jumlah klorofil daun, tingkat inveksi akar. Kombinasi perlakuan sistem olah tanah dan pupuk hayati mikoriza memberikan pengaruh berbeda sangat nyata terhadap jumlah klorofil daun. Kombinasi terbaik terdapat pada T1M2 (olah tanah dua kali dan mikoriza 15g tanaman -1 ).
+Abstract: Siam tangerine peel is green when harvested. Degreening technology by ethylene can improve the citrus peel color becomes uniformly orange. Degreening is a process to break down green pigment (chlorophyll) on citrus peel chemically and form the orange color (carotene) without affecting internal quality of fruit. The purpose of this research was to determine the effect of ethylene concentration and ethylene exposure duration to bring out the color on Siam tangerine from Banyuwangi. Ethylene 0, 100, 200 ppm was injected into the box containing 2.8 kg citrus and was exposed to the cooling chamber with a temperature 18 0 C for 24 hours ethylene + 48 hours without ethylene, 48 hours ethylene + 24 hour without ethylene and 72 hours ethylene. Ethylene exposure was conducted using multiple shots method. After exposure, tangerines were put at room temperature condition. Observations were conducted every two days: (a) non-destructive observation conducted using color reader to determine the color changes; (b) destructive observations for measuring chlorophyll and carotenoids content and physico-chemical changes i.e. the hardness, soluble solid content, titratable acidity and vitamin C. The results showed that the best combination was 200 ppm ethylene concentration for 48 hours ethylene exposure. This degreening technique altered the Citrus Colour Index (CCI) value from -1.60 to be 6.50, changed the tangerines into a bright orange. Degreening did not give negative impact on internal quality.
 
-Keywords: Padi, fisiologi, olah tanah, mikoriza, kombinasi, pertumbuhan Rice, physiology, tillage, mycorrhizal, combination, growth
+Keywords: carotenoid, chlorophyll, citrus color index, cooling chamber, tropical citrus
 
-https://doi.org/10.29103/agrium.v22i4. 25773 Nazirah & Pranata
+ABSTRAK
 
-JURNAL AGRIUM Journal of Agricultural Research
+Warna kulit buah jeruk siam saat dipanen umumnya hijau. Teknologi degreening menggunakan gas etilen dapat memperbaiki warna kulit jeruk tropika menjadi jingga. Degreening merupakan proses perombakan pigmen hijau (klorofil) pada kulit jeruk secara kimiawi dan membentuk warna jingga (karotenoid) tanpa mempengaruhi kualitas internal buah. Penelitian bertujuan mengkaji pengaruh konsentrasi dan durasi pemaparan etilen untuk menstimulasi pigmen jingga dan pengaruhnya terhadap sifat fisikokimia jeruk siam Banyuwangi. Degreening jeruk menggunakan etilen 0, 100, dan 200 ppm diinjeksikan ke dalam box degreening yang berisi jeruk 2.8 kg dan dipaparkan pada cooling chamber dengan suhu 18 0 C selama 24, 48, dan 72 jam. Pengamatan dilakukan setiap dua hari: (a) pengamatan non-destruktif dengan menggunakan color reader untuk mengetahui perubahan warna; (b) pengamatan destruktif dengan mengukur kekerasan, kandungan klorofil dan karotenoid, Padatan Terlarut Total (PTT), Asam Tertitrasi Total (ATT) dan vitamin C untuk mengetahui perubahan fisikokimia jeruk. Hasil penelitian menunjukkan perubahan warna kulit buah mulai terjadi pada hari ke 4 setelah perlakuan degreening. Konsentrasi etilen terbaik adalah 200 ppm dengan durasi pemaparan 48 jam yaitu dapat meningkatkan kualitas warna buah jeruk siam dari hijau menjadi jingga kekuningan dan mampu mengubah nilai Citrus Colour Index (CCI) dari -1.60 (hijau) menjadi 6.50 (jingga kekuningan), tanpa pengaruh negatif terhadap kualitas fisikokimia buah.
 
-Pendahuluan
+Kata kunci: cooling chamber, citrus color index, jeruk tropika, karotenoid, klorofil 1 Departemen Agronomi dan Hortikultura, Fakultas Pertanian, Institut Pertanian Bogor (Bogor Agricultural University) Jl. Meranti Kampus Darmaga, Bogor 16680 Indonesia. Telp/ Faks. 62-251-8629353 email: kettysuketi@yahoo.com (*penulis korespondensi)
 
-Padi (Oryza sativa L.) adalah tanaman penghasil beras yang menjadi sumber karbohidrat utama bagi masyarakat Indonesia. Kebutuhan beras dari tahun ke tahun terus meningkat karena jumlah penduduk Indonesia yang terus bertambah, namun hal tersebut tidak diimbangi dengan produksi padi yang cukup (Amiroh, 2018). Hal tersebut yang menyebabkan saat ini Indonesia sulit untuk swasembada pangan sehingga diperlukan upaya peningkatan produksi padi secara nasional agar kebutuhan beras dalam negeri terpenuhi (Petriella, 2016). Menurut Badan Pusat Statistik (2022), Produksi padi nasional pada tahun 2022 mencapai sekitar 54,75 juta ton sedangkan untuk produksi padi tahun 2021 mencapai sekitar 54,42 juta ton yang menandakan terjadi kenaiakan produksi sebanyak 333,68 ribu ton atau 0,61 persen, namun untuk provinsi aceh produksi padi mencapai sekitar 1,53 juta ton atau mengalami penurunan sekitar 101,5 ribu ton (6,21%) di bandingkan dengan produksi padi pada tahun 2021 yang mencapai sekitar 1,63 juta ton. Prasetia et al. (2018) menyatakan dalam hasil penelitian yang telah dilakukan bahwa sistem olah tanah (T) nyata mempengaruhi kadar air tanah pada titik layu permanen dan air tersedia pada kedalaman tanah 20-40 cm dan mampu meningkatkan porositas tanah, C-organik tanah dan air tersedia, sertamenurunkan kerapatan isi dan layu permanen. Sementara Kusumastuti et al. (2018) menyatakan berdasrkan hasil penelitian disimpulkan bahwa sistem olah tanah konservasi jangka Panjang tahun ke-29 pada perlakuan tanpa olah tanah (TOT) berpengaruh terhadap sifat kimia tanah pada ketersediaan unsur hara P (10,173) dan K(1,77). Nazirah (2018) menyatakan bahwa pemberian mikoriza terhadap tanaman padi mampu meningkatkan infeksiakar terhadap jamur mikoriza dibandingkan padi yang tidak diberi mikorizasehingga penyerapan hara lebih optimal dan pertumbuhan dan perkembangan tanaman menjadi lebih cepat. Fungi mikoriza pada umumnya dapat ditemukan pada sepesies tanaman tingkat tinggi yang tumbuh pada berbagai tipe habitat dan iklim. Dari uraian di atas penelitian dilakukan untuk melihat respons fisiologis dan produktivitas padi pada kombinasi sistem olah tanah dan mikoriza.
+PENDAHULUAN
 
-Respons fisiologis dan produktivitas padi (Oryza sativa L)
+Jeruk siam merupakan buah yang potensial untuk dikembangkan sebagai upaya pemenuhan permintaan konsumen. Sekitar 70 sampai 80% jenis jeruk yang dikembangkan petani Indonesia merupakan jeruk siam (Dimyati, 2015). Jeruk siam digemari karena memiliki rasa yang manis dan mengandung vitamin C yang cukup tinggi. Jeruk siam memiliki permukaan kulit yang halus dan mengkilap. Pada tahun 2010, volume jeruk yang diimpor Indonesia mencapai 204 148 ton, sedangkan volume jeruk yang diekspor hanya 1 400 ton dengan produksi normal mencapai 1 937 773 ton (BPS, 2011). Mutu buah merupakan hal penting terutama untuk pemasaran luar negeri. Secara visual, mutu jeruk lokal masih tergolong rendah karena kulit buah umumnya berwarna hijau kekuningan dan tidak seragam walaupun telah matang (Ladaniya, 2008). Menurut Poerwanto dan Susila (2014) kulit buah jeruk yang berwarna jingga mempunyai daya tarik yang lebih tinggi dibandingkan dengan kulit buah yang berwarna hijau.
 
-JURNAL AGRIUM
+Pembentukan warna kulit buah jeruk dipengaruhi oleh suhu rendah dan perubahan suhu pada saat proses pematangan (Ladaniya, 2008;Jomori et al., 2010). Suhu siang yang lebih tinggi (30 0 C) dapat menghambat perkembangan warna, walaupun suhu malam sudah cukup rendah, suhu udara di bawah 13 0 C menyebabkan perombakan klorofil dan pembentukan karotenid. Hasil penelitian kombinasi perlakuan degreening (18 0 C) dan suhu simpan dengan suhu ruang menunjukkan hasil yang berbeda nyata pada perubahan warna dengan nilai Citrus colour index tertinggi pada tiga varietas jeruk Keprok (Muthmainnah et al., 2014).
 
-Journal of Agricultural Research
+Teknologi yang banyak dilakukan untuk meningkatkan warna kulit buah jeruk tropika adalah degreening (Jomori et al., 2010). Degreening merupakan proses perombakan pigmen hijau (klorofil) pada kulit jeruk secara kimiawi dan sekaligus membentuk warna kuning jingga (karatenoid) pada kulit jeruk. Proses ini tidak berpengaruh terhadap bagian dalam jeruk seperti gula, asam dan jus (Pantastico, 1993). Proses degreening telah banyak dilakukan untuk menghasilkan warna kulit buah jeruk yang lebih menarik. Hasil penelitian sebelumnya melaporkan bahwa, degreening dengan etilen atau ethrel mengubah warna kulit buah jeruk dari warna hijau menjadi kuning (Napitupulu et al., 1990), sementara konsumen lebih menyukai buah jeruk dengan kulit buah yang berwarna jingga seragam karena buah jeruk berwarna kuning dianggap telah hampir busuk.
 
-Metode penelitian
+Peranan etilen dalam pewarnaan kulit buah jeruk terbagi menjadi 2 kategori yaitu proses degreening dan pembentukan karotenoid. Aplikasi etilen dapat menstimulasi pembentukan karotenoid seperti cryptoxanthin, β-citraurin, dan violaxanthin. Proses terbentuknya pigmen tersebut dipengaruhi oleh kondisi suhu. Degreening pada suhu ruang 28 sampai 29 0 C menghambat pembentukan zat warna β-citraurin sehingga seringkali jeruk yang dihasilkan berwarna kuning. Degreening pada suhu rendah 18 sampai 20 0 C dapat membentuk zat warna β-citraurin dan criptoxanthin secara bersamaan sehingga dapat menghasilkan warna jingga (Stewart dan Wheaton, 1972).
 
-Waktu dan tempat
+Keefektifan degreening dipengaruhi beberapa faktor diantaranya etilen, suhu, dan kultivar buah (Sdiri et al., 2012). Penggunaan etilen sebagai zat perangsang metabolik untuk mencapai warna eksternal buah dipengaruhi oleh konsentrasi dan durasi pemaparan (Martínez et al., 2008). Durasi pemaparan yang tepat akan menghasilkan warna jingga seragam pada kulit buah (Sdiri et al., 2012). Oleh karena itu, penerapan perlakuan degreening pada buah jeruk siam diharapkan dapat memperbaiki warna eksternal buah sehingga dapat bersaing dengan jeruk impor. Penelitian ini bertujuan mengkaji konsentrasi dan durasi pemaparan etilen yang terbaik dalam proses degreening untuk membentuk warna jingga pada kulit buah jeruk siam (Citrus nobilis).
 
-Penelitian dilaksanakan di Desa Paloh Lada, Kecamatan Muara Batu, Kabupaten Aceh Utara dan Laboratorium Agroekoteknologi, Fakultas Pertanian, Universitas Malikussaleh, pada bulan Agustus sampai Desember 2024.
+BAHAN DAN METODE
 
-Alat dan bahan
+Bahan dan Alat
 
-Bahan yang digunakan dalam penelitian ini adalah benih padi lokal Aceh galur Sigupai, pupuk hayati mikoriza, curater pupuk NPK, dan pupuk kandang sapi. Alat yang digunakan adalah cangkul, parang, meteran, karung, ember, timbangan digital, pengaris, selang, ember, kamera, klorofil meter.
+Penelitian ini dilaksanakan di Laborartorium Pusat Kajian Hortikultura Tropika (PKHT) Institut Pertanian Bogor pada tanggal 30 Mei sampai 2 Juli 2014. Bahan yang digunakan adalah buah jeruk siam yang diperoleh dari petani di Banyuwangi, gas etilen, larutan NaOH 0.1 N dan indikator phenol ptialin (PP) untuk titrasi asam, larutan iodin 0.01 N dan indikator amilum 1%. Alat yang digunakan adalah wadah degreening, cooling chamber, syringe, septum, selang plastik, timbangan digital, lilin, color reader, hardness tester, refraktometer, gelas ukur, erlenmeyer, pipet tetes, alat pemeras, buret, corong dan kamera.
 
-Metode
+Metode Penelitian
 
-Penelitian ini dilakukan dalam percobaan di lapangan menggunakan rancangan split plot design (rancangan petak terpisah) terdiri dari 2 faktor yaitu: petak utama adalah olah tanah (T) terdiri T0: Tanpa pengolahan tanah. T1: Pengolahan satu kali, T2: Pengolahan dua kali faktor sebagai anak petak adalah mikroriza (M), M0: 0g tanaman -1 . M1: 10 g tanaman -1 , M2: 15 g tanaman -1 . Dengan demikian terdapat 9 kombinasi perlakuan. Setiap perlakuan terdiri dari 3 ulangan, sehingga di dapatkan 27 unit percobaan. Analasis data dilakukan dengan analisis variants yang kemudian dilanjutkan dengan uji lanjut taraf 5%.
+Metode degreening dilakukan dalam wadah tertutup yang berisi jeruk dengan berat 2.8 kg. Wadah dimasukkan ke cooling chamber pada suhu 18 0 C sebelum diinjeksikan. Injeksi gas etilen kedalam wadah dilakukan dengan metode multiple shot (setiap 24 jam) dengan durasi pemaparan sesuai perlakuan, setelah durasi pemaparan tercapai jeruk dikeluarkan kemudian disimpan pada suhu ruang (28 0 C).
 
-Pelaksanaan penelitian
+Pengamatan dilakukan dengan mengukur perubahan warna pada kulit dan perubahan sifat fisikokimia buah jeruk setiap dua hari. Perubahan warna kulit buah jeruk diukur dengan Minolta color reader. Hasil pengukuran dinyatakan dalam citrus color index (CCI) (Jimenez et al., 1981) dengan rumus CCI = (1000a*)/L* x b*. Range Citrus Color Index (CCI): CCI<=-5 (hijau gelap), -5<CCI<=0 (hijau), 0<CCI<=3 (hijau kekuningan), 3<CCI<=5 (kuning kehijauan), 5<CCI<=7 (jingga kekuningan), 7<CCI<=10 (jingga), dan CCI>10 (jingga gelap). Hasil pengukuran nilai a* dan b* juga dikonversikan ke dalam satuan kromatik derajat hue (Lee, 2000;Manera et al., 2013) dengan rumus o hue yaitu tan -1 (b*/a*). Kandungan total klorofil dan karotenoid diukur menggunakan metode spektofotometri (Andarwulan et al., 2011). Perubahan sifat fisikokimia yang diamati yaitu kekerasan buah, kandungan vitamin C, asam tertitrasi total (ATT) dan padatan terlarut total (PTT).
 
-Persiapan lahan
+Rancangan Percobaan
 
-Dua minggu sebelum padi ditanam terlebih dahulu dilakukan pengolahan tanah sesuai dengan perlakuan.
+Penelitian ini menggunakan metode Rancangan Acak Lengkap Faktorial yang terdiri atas dua perlakuan yaitu konsentrasi etilen dan durasi pemaparan etilen. Konsentrasi etilen terdiri atas tiga taraf yaitu 0 ppm (E0), 100 ppm (E1) dan 200 ppm (E2). Durasi pemaparan terdiri atas tiga taraf yaitu 24 jam etilen + 48 jam tanpa etilen (D1), 48 jam etilen + 24 jam tanpa etilen (D2), dan 72 jam etilen (D3), sehingga terdapat 9 kombinasi perlakuan yang diulang sebanyak 3 kali dan terdapat 27 unit percobaan. Setiap unit percobaan menggunakan 20 buah jeruk, sehingga jumlah keseluruhan buah 790 buah jeruk. Data yang diperoleh kemudian dianalisis menggunakan analisis ragam pada taraf nyata 5%. Data yang berbeda nyata diuji lanjut dengan duncan multiple range test (DMRT) pada taraf 5%.
 
-Persiapan benih
+HASIL DAN PEMBAHASAN Karakteristik Jeruk Siam Banyuwangi sebelum Degreening
 
-Benih yang digunakan dalam penelitian ini adalah benih padi galur aceh, terlebih dahulu direndam dalam ember yang berisi air dan garam selama 5 menit, kemudian dicuci bersih lalu direndam dengan fungisida Antracol selama 30 menit. Selanjutnya dilakukan perendaman selama 24 jam. Selanjutnya benih dimasukkan kedalam karung diperam guna untuk proses perkecambah selama 2x24 jam hingga benih tumbuh.
+Jeruk siam Banyuwangi dipanen pada umur 28 minggu setelah antesis (MSA) dengan diameter rata-rata 64.
 
-Pemberian mikoriza
+3 mm, sehingga tergolong dalam grade B yaitu dengan diameter 61 sampai 70 mm menurut Standar Nasional Indonesia. Hasil analisis mutu awal buah jeruk siam Banyuwangi sebelum degreening disajikan pada Tabel 1. Pengukuran mutu awal buah jeruk siam Banyuwangi menggunakan tiga ulangan. Hasil pengukuran menunjukkan bahwa warna jeruk siam Banyuwangi cenderung berwarna hijau dengan nilai rata-rata a* 3.29, b* 24.26. Derajat kecerahan (L*) jeruk siam Banyuwangi cukup rendah yaitu 40.58, CCI -1.06, o hue 97.68 dan memiliki skor 1 yang secara fisik berwarna hijau. Tabel 1. Karakteristik jeruk siam sebelum degreening Komponen Rerata Komponen Rerata Derajat kecerahan (L*) 40.58 o hue 97.68 Derajat warna hijau (a*) -3.29 Kekerasan (Kg/detik) 0.73 Derajat warna kuning (b*) 24.26 PTT ( o Brix) 10.38 CCI -1.06 ATT (%) 0.58 Skor 1 Vitamin C (mg/100g) 37.70 Diameter (mm) 64.3
 
-Pemberian mikoriza dilakukan bersamaan dengan penanaman. dengan menempatkan mikoriza langsung ke lubang tanam sedalam ±2-3 cm lalu taburkan mikoriza sesuai dengan perlakuan ke dasar lubang, kemudian letakkan benih padi di atasnya dan tutup dengan tanah gembur kembali.
+Rata-rata tingkat kekerasan buah jeruk siam Banyuwangi adalah 0.73 kg/detik yang menunjukkan bahwa buah jeruk masih memiliki tekstur yang keras. Kandungan ratarata padatan terlarut total yaitu 10.38 o brix. Hal ini menggambarkan kandungan gula buah jeruk cukup tinggi dan menyebabkan buah jeruk memiliki rasa manis. Menurut Ladaniya (2008) standar kematangan jeruk untuk daerah tropika yaitu memiliki nilai o brix berkisar antara 9 sampai 10 dan masih berwarna hijau pada saat matang fisiologis.
 
-Penanaman
+Karakteristik Warna Buah setelah Degreening
 
-Penanaman padi dilakukan langsung kelahan dengan ukuran plot 2 m x 1,5 m sebanyak 27 plot percobaan dengan jarak tanam 30 cm x 30 cm.
+Warna merupakan penentu utama kualitas buah jeruk siam. Warna kulit buah yang jingga seragam lebih disukai oleh konsumen. Teknologi degreening dengan aplikasi etilen pada penelitian ini dapat menstimulasi perubahan warna kulit buah jeruk siam dari hijau menjadi jingga kekuningan. Perubahan warna kulit pada buah mulai terjadi pada 4 hari setelah degreening (HSD) dan mencapai warna optimum pada 12 HSD (Tabel 2).
 
-Pemupukan
+Konsentrasi etilen berpengaruh nyata terhadap nilai CCI, o hue, total klorofil serta kandungan karotenoid buah jeruk siam Banyuwangi. Nilai CCI buah jeruk siam mengalami peningkatan seiring dengan tingginya konsentrasi etilen. Jeruk dengan aplikasi etilen 100 dan 200 ppm mengalami peningkatan CCI yang lebih tinggi yaitu 5.02 dan 5.39 dengan warna yang dihasilkan berdasarkan range CCI adalah jingga kekuningan (Tabel 1), sedangkan buah jeruk tanpa aplikasi etilen memiliki nilai CCI terendah dengan warna yang dihasilkan adalah hijau semburat kuning. Aplikasi etilen dapat mempercepat peningkatan nilai CCI buah jeruk siam Banyuwangi yang menandakan buah mengarah kewarna jingga. Hal tersebut sejalan dengan Ladaniya (2008) yang menyatakan, degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid.
 
-Pupuk kandang sapi diberikan 2 minggu sebelum tanam dengan dosis 10 t ha -1 pupuk majemuk phonska+urea, diberikan dengan dosis 300 kg ha -1 + urea 200 kg ha -1 (dosis anjuran standar). Pupuk phonska diberikan satu kali saat penanaman.
+Warna kulit buah jeruk siam mencapai optimum pada 12 HSD (Tabel 2). Konsentrasi etilen 200 ppm menghasilkan nilai o hue dan kandungan klorofil total terendah yang menunjukkan buah mengarah ke warna jingga.
 
-https://doi.org/10.29103/agrium.v22i4.25773 Nazirah & Pranata JURNAL AGRIUM Journal of Agricultural Research
+Etilen berfungsi merangsang degradasi klorofil dan membentuk karotenoid pada kulit buah jeruk. Warna kulit buah tampak jingga kekuningan disebabkan karena hancurnya klorofil dan terakumulasinya karotenoid pada kulit buah. Degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid.
 
-Pemeliharaan
+Konsentrasi etilen 200 ppm dengan durasi 48 jam menghasilkan warna paling optimum yaitu jingga kekuningan meskipun perubahan warna buah kulit berjalan lambat. Lambatnya degradasi klorofil diduga karena buah tidak dipaparkan langsung pada suhu ruang setelah proses degreening. Selain itu, perubahan warna yang lambat diduga karena suhu degreening yang kurang optimum. Hasil penelitian Mayuoni et al. (2011), jeruk mandarin Michal menunjukkan perubahan warna menjadi jingga seragam pada suhu 20 0 C selama pemaparan 48 jam. Hasil yang sama diperoleh pada penelitian Ramadhani et al. (2015) menyatakan bahwa degreening menggunakan etilen pada suhu 20 0 C selama 48 jam menghasilkan warna jingga cerah pada kulit buah jeruk siam Banyuwangi. Menurut Sdiri et al. (2012) keefektifan degreening dipengaruhi beberapa faktor, diantaranya etilen, suhu, dan kultivar buah.
 
-Penyiraman dilakukan pada pagi dan sore hari. menggunakan gembor, Jika hujan tidak dilakukan penyiraman. Pengedalian gulma dilakukan secara mekanik yaitu dengan pencabutan gulma diarea petak penelitian.
+Pengaruh Degrening terhadap Citrus Color Index (CCI)
 
-Peubah pengamatan
+Kombinasi perlakuan konsentrasi etilen dan durasi pemaparan etilen memiliki respon yang berbeda terhadap perubahan warna buah jeruk siam Banyuwangi (Gambar 1). CCI merupakan salah satu parameter yang digunakan untuk mengukur indeks warna buah jeruk. Semakin tinggi nilai CCI maka buah mengarah ke warna jingga.
 
-Jumlah klorofil daun
+Buah jeruk tanpa etilen mengalami sedikit perubahan warna yaitu dengan nilai CCI maksimum 4.62 pada durasi pemaparan etilen 48 jam yang menghasilkan warna hijau semburat kuning pada kulit buah jeruk siam Banyuwangi. Jeruk tanpa perlakuan etilen menunjukkan peningkatan nilai CCI yang lambat, berbeda dengan jeruk yang diberi perlakuan etilen yang menghasilkan warna jingga kekuningan pada kulit jeruk siam Banyuwangi.
 
-Pengamatan jumlah klorofil daun dilakukan pada fase generatif yaitu daun ketiga dari pucuk menggunakan alat chlorophyll meter .
+Tabel 2. Perubahan warna kulit buah jeruk siam Banyuwangi pada 12 HSD Perlakuan CCI o Hue Klorofil Karotenoid (µg/g) (µg/g) Konsentrasi etilen (ppm) 0 4.43b 74.60b 0.018a 0.04b 100 5.02a 74.33b 0.006a 0.05a 200 5.39a 73.08a 0.003b 0.06a Durasi pemaparan (jam) 24 3.79b 75.81 0.015a 0.054 48 5.50a 74.93 0.007b 0.051 72 5.58a 74.28 0.005b 0.047 Interaksi tn tn tn tn
 
-Laju asimilasi bersih
+Keterangan: Angka rataan yang diikuti huruf yang sama pada kolom yang sama tidak berbeda nyata berdasarkan Uji DMRT pada taraf 5%.
 
-Laju asimilasi bersih (net asimilation rate) atau laju asimilasi netto adalah laju peningkatan bobot kering tanaman pada saat tertentu (t) tiap satuan luas (l), yang dinyatakan secara sistematik: Keterangan: L1: Luas daun awal (cm), L2: Luas daun akhir (cm), W1: Berat berangkasan kering awal (g), W2: Berat berangkas kering akhir (g), T: Waktu.
+Gambar 1. Pola perubahan nilai CCI buah jeruk siam Banyuwangi setelah degreening
 
-Laju tumbuh relatif
+Nilai CCI tertinggi adalah 6.4 diperoleh pada perlakuan konsentrasi etilen 200 ppm pada durasi 48 jam dan 72 jam yang menghasilkan jeruk siam dengan warna kulit jingga kekuningan, namun jeruk siam dengan pemaparan etilen 72 jam lebih cepat mengalami busuk dibandingkan dengan perlakuan lain sehingga durasi pemaparan etilen 48 jam ditetapkan sebagai durasi pemaparan etilen terbaik. Degreening menggunakan etilen dapat mempercepat perombakan klorofil dan mempercepat perkembangan warna buah dengan meningkatkan sintesis karotenoid. Menurut Ladaniya (2008) durasi pemaparan etilen juga dapat mempengaruhi perkembangan warna kulit buah jeruk.
 
-Laju tumbuh relatif (relative growth rate) menunjukkan peningkatan berat kering dalam suatu interval waktu dalam hubungannya dengan berat asal. dengan rumus: Keterangan: LTR: Laju pertumbuhan relatif (g/minggu), W1: Berat berangkasan kering awal (g), W2 : Berat berangkasan kering akhir (g), T: Waktu (minggu).
+Pengaruh Degreening terhadap Perubahan Nilai °Hue
 
-Infeksi akar
+Nilai o hue diperoleh dari hasil pengukuran a* dan b* yang dikonversi ke dalam satuan kromatik derajat hue ( o hue). Degreening menggunakan etilen nyata menurunkan nilai o hue pada buah jeruk siam. Nilai o hue jeruk siam sebelum perlakuan sebesar 97.68 kemudian menurun dengan adanya perlakuan degreening menjadi 73.91 yang menunjukkan adanya perubahan warna dari warna hijau menjadi jingga kekuningan. Konsentrasi etilen 100 ppm dan 200 ppm sama baiknya dalam menurunkan nilai o hue kulit buah jeruk siam. Hal tersebut sejalan dengan hasil penelitian sebelumnya yang menyatakan bahwa terjadi penurunan nilai o hue pada kulit buah jeruk siam setelah degreening menggunakan etilen (Arzam et al., 2015;Ramadhani et al., 2015). Durasi pemaparan etilen 24 jam, 48 jam dan 72 jam dalam degreening sama baiknya dalam menurunkan nilai o hue buah jeruk siam Banyuwangi, namun pada durasi pemaparan 72 jam buah jeruk mengalami pembusukan lebih cepat sehingga umur simpan menjadi lebih pendek.
 
-Infeksi akar dilakukan pada umur 40 HST pengamatan dilaboratorium, dengan metode pewarnaan,pada akar (root staining). Segmen akar yang telah diwarnai kemudian diamati dibawah miskroskop pada pembesaran 400×.
+Menurut Tanaka dan Tanaka (2006), etilen mempercepat degradasi klorofil dan mensintesis karotenoid sehingga warna hijau pada jeruk siam Banyuwangi dengan perlakuan 100 dan 200 ppm lebih cepat hilang dan digantikan oleh warna jingga kekuningan. Menurut Anggraini (2015), hilangnya klorofil pada kulit buah diakibatkan meningkatnya aktifitas klorofilase yang menguraikan klorofil menjadi bagian fitol dan inti profirin sehingga kulit jeruk tidak berwarna hijau lagi. Selain itu, struktur internal kloroplas terpecah selama degreening dengan etilen.
 
-Untuk menghitung infeksi fungi mikoriza arbuskula dapat dirumuskan sebagai berikut: Tingkat infeksi akar diklasifikasikan menurut the Institute of Mycorrhizal Research and Development, USDA Forest Service, Athena, Georgia (Setiadi et al., 1992) sebagai berikut; tingkat infeksi akar dapat dikelompokkan ke dalam lima kelas, yaitu kelas 1 apabila persentase infeksi kisaran 0-5% (sangat rendah) kelas 2 infeksi 6-25% (rendah) Kelas 3 infeksi 26-50% (sedang). Kelas 4 infeksi 51-75% (tinggi) serta Kelas 5 mencapai 76-100% (sangat tinggi).
+Pengaruh Degreening terhadap Klorofil dan Karotenoid Total
 
-Respons fisiologis dan produktivitas padi (Oryza sativa L) JURNAL AGRIUM Journal of Agricultural Research
+Kandungan klorofil dan karotenoid total berperan penting dalam pewarnaan buah. Perubahan warna dari hijau menjadi kuning atau jingga berhubungan dengan berkurangnya kandungan klorofil dan bertambahnya karotenoid. Kandungan klorofil dan karotenoid total kulit buah jeruk siam Banyuwangi disajikan pada Gambar 3 dan 4.
 
-Komponen hasil
+Kandungan klorofil total menurun secara bertahap selama penyimpanan. Pemberian etilen mempercepat penurunan klorofil total kulit jeruk. Kandungan klorofil total terendah diperoleh pada konsentrasi etilen 200 ppm dengan durasi pemaparan 48 jam sebesar 0.0013 mg/g. Kandungan klorofil total tertinggi diperoleh pada perlakuan tanpa etilen dan durasi pemaparan etilen 24 jam pada suhu degreening 18 0 C yaitu sebesar 0.020 mg/g. Selama perkembangan buah jeruk, warna berubah menjadi jingga kekuningan berhubungan dengan berkurangnya kandungan klorofil total akibat degradasi. Menurut Peng et al. (2013), degradasi klorofil meningkat dengan adanya aplikasi degreening dengan etilen. Kandungan klorofil total dapat pula dipengaruhi oleh biosintesis klorofil, interkonversi klorofil a dan b dan juga degradasi klorofil (Tanaka dan Tanaka, 2006). Menurunnya kandungan klorofil pada buah dengan perlakuan etilen disebabkan oleh peningkatan aktivitas chlorophyllase dan penurunan ukuran dan jumlah kloroplas pada kulit (Barmore, 1975;Shimokawa et al., 1998). Peningkatan chlorophyllase setelah proses degreening akan mempercepat degradasi klorofil.
 
-Meliputi: 1000 butir gabah (g): Bobot per 1000 butir gabah tiap bedengan diperoleh dengan menimbang gabah bernas sebanyak 1000 biji.
+Gambar 2. Penurunan nilai hue buah jeruk siam Banyuwangi selama penyimpanan pada perlakuan (a) konsentrasi etilen dan (b) durasi pemaparan etilen Gambar 3. Perubahan kandungan klorofil total kulit jeruk siam Banyuwangi pada berbagai konsentrasi dan durasi pemaparan etilen, HSD=hari setelah degreening.
 
-1. Berat gabah per plot: Diambil dari gabah yang dipanen dari setiap petak dan diukur kadar air 14 %.
+Jeruk adalah sumber karotenoid yang kompleks dengan jumlah karotenoid terbesar ditemukan pada buah (Ladaniya, 2008). Selama pemaparan etilen, terjadi perombakan klorofil yang diikuti dengan pembentukan karotenoid pada kulit buah jeruk. Karotenoid total cenderung meningkat setelah degreening dan selama penyimpanan. Nilai kandungan karotenoid total tertinggi diperoleh pada konsentrasi etilen 200 ppm dengan durasi pemaparan etilen 48 jam pada suhu 18 0 C yaitu sebesar 0.08 mg/g. Matsumoto et al. (2009), menyatakan bahwa perlakuan degreening menggunakan etilen dapat meningkatkan nilai karotenoid pada kulit jeruk Satsuma. Stewart dan Wheaton (1972) melaporkan terjadinya peningkatan warna pada jeruk yang diberikan perlakuan etilen disebabkan oleh akumulasi dari karotenoid yang lebih spesifik seperti cryptoxanthin dan apocarotenoid C30 βcitraurin, violaxanthin. Pada jeruk Ponkan akumulasi β-cryptoxanthin dan β-citraurin pada kulit buah menghasilkan warna jingga sedangkan violaxanthin menghasilkan warna kuning (Zhou et al., 2010). Perubahan warna kulit jeruk menjadi jingga disebabkan karena terjadinya sintesis karotenoid yang bersifat nonphotosintectic yaitu β-citraurin yang merupakan pembentuk warna jingga kemerahan pada kulit jeruk mandarin, akumulasi senyawa ini ditentukan oleh ketersediaan prekusor berupa karotenoid yang bersifat photosintetic seperti zeaxanthin dan βcryptoxanthin (Kato et al., 2004;Rodrigo et al., 2013;Ma et al., 2013). Gambar 4. Perubahan kandungan karotenoid total kulit jeruk siam Banyuwangi pada berbagai konsentrasi dan durasi pemaparan etilen 0.00 0.05 0.10 0.15 0.20 0.25 0 4 12 Klorofil total mg/g HSD 0 ppm 24 jam 100 ppm 24 jam 100 ppm 24 jam 0 ppm 48 jam 100 ppm 48 jam 200 ppm 48 jam 0 ppm 72 jam 100 ppm 72 jam 200 ppm 72 jam 0.00 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0 4 12 Karotenoid total mg/g HSD 0 ppm 24 jam 100 ppm 24 jam 100 ppm 24 jam 0 ppm 48 jam 100 ppm 48 jam 200 ppm 48 jam 0 ppm 72 jam 100 ppm 72 jam 200 ppm 72 jam Tabel 5. Sifat fisikokimia buah jeruk siam Banyuwangi pada berbagai kosentrasi dan durasi pemaparan etilen pada 12 HSD Perlakuan Kekerasan PTT ATT Vitamin C (N) ( o Brix) (mg/100g) (mg/100g) Konsentrasi Etilen (ppm) -0 ppm -100 ppm -200 ppm 0.63 0.62 0.64 10.30 11.19 8.56 4.54 4.44 4.14 45.14 43.37 34.86 Durasi -24 jam etilen + 48 jam tanpa etilen -48 jam etilen + 24 jam tanpa etilen -72 jam etilen 0.64 0.64 0.61 10.27 8.57 11.21 4.50 4.64 3.98 48.50 34.32 40.45 Interaksi tn tn tn tn
 
-2. Hasil gabah (t ha -1 ): Berat gabah bernas/isi yang telah dibersihkan dan dijemur hingga kadar air 14 persen, (menggunakan alat moisture meter).
+Pengaruh Degreening terhadap Perubahan Fisikokimia
 
-Hasil dan pembahasan
+Sifat fisikokimia jeruk berhubungan dengan proses pematangan jeruk, baik yang berhubungan dengen proses dalam jaringan kulit, maupun proses pematangan internal dalam daging buah (Sdiri et al., 2012). Konsentrasi etilen dan durasi pemaparan etilen serta interaksi antar kedua perlakuan tidak berpengaruh nyata terhadap kandungan padatan terlarut total (PTT), asam tertitrasi total (ATT), vitamin C dan tingkat kekerasan buah jeruk siam Banyuwangi (Tabel 5). Pada penelitian sebelumnya telah dilaporkan bahwa pemberian etilen exogeneous menunjukkan perubahan fisik dan biokimia yang mirip dengan buah yang tidak beri perlakuan (Sdiri et al., 2012;Tietel et al., 2010).
 
-Jumlah klorofil daun
+Kandungan PTT buah jeruk meningkat selama penyimpanan dengan kisaran nilai PTT 8.56-11.27 o brix pada 12 HSD, meskipun peningkatannya tidak berbeda nyata baik pada jeruk dengan maupun tanpa perlakuan etilen (Tabel 5). Hasil tersebut sejalan dengan penelitian Mayuoni et al. (2011), perlakuan etilen dapat meningkatkan kandungan PTT buah jeruk. Menurut Winarno (2002) kenaikan PTT terjadi karena karbohidrat terhidrolisis menjadi senyawa glukosa dan fruktosa, sedangkan penurunan PTT disebabkan gula sederhana mengalami perubahan menjadi alkohol, aldehid, dan asam.
 
-Hasil analisis ragam peubah jumlah klorofil daun menunjukan bahwa sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) berbeda nyata terhadap jumlah klorofil daun. Hasil uji lanjut terhadap jumlah klorofil daun padi di sajikan pada Tabel 1.
+Kandungan ATT buah jeruk siam Banyuwangi berkisar antara 3.98 sampai 4.64 mg/100g. Nilai kandungan ATT cenderung menurun tetapi tidak untuk semua perlakuan. Kandungan ATT menurun pada buah yang diberikan perlakuan etilen, walaupun secara statistik tidak berbeda nyata dengan buah tanpa perlakuan etilen. Martínez-Jávega et al. (2008) melaporkan bahwa kandungan ATT buah jeruk mengalami sedikit penurunan setelah proses degreening. Penurunan kandungan ATT disebabkan oleh penggunaan asam organik dalam siklus Kreb untuk memproduksi energi dan terjadinya konversi asam organik membentuk gula (Sulistyaningrum dan Susanto, 2004).
 
-Berdasarkan Tabel 1 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap peubah jumlah klorofil. Hal ini diduga perlakuan olah tanah saja tidak dapat mempengaruhi peningkatan jumlah klorofil daun pada tanaman. Muhiddin et al. (2023) menyatakan media tanam yang baik akan mempengaruhi kadar klorofil tanaman, semakin bagus media tanam maka pertumbuhan tanaman akan semakin efektif dan mampu menghasilkan zat klorofil yang maksimum. Selain itu peningkatan jumlah klorofil dapat juga dipengaruhi oleh kandungan nitrogen dalam tanah (Rezki & Nazirah, 2023).
+Vitamin C merupakan faktor kualitas nutrisi terpenting pada buah jeruk. Kandungan vitamin C dalam buah dapat dipengaruhi oleh berbagai faktor diantaranya perbedaan genotipe, kondisi iklim tempat tumbuh buah, perlakuan selama di kebun, kematangan dan metode pemanenan, serta prosedur penanganan pascapanen. Hasil analisis statistik menunjukkan bahwa tidak ada pengaruh yang nyata antara jeruk dengan perlakuan degreening dengan jeruk tanpa perlakuan etilen atau kontrol. Kandungan vitamin C buah jeruk siam berkisar antara 34.32 sampai 48.50 mg/100g pada akhir penyimpanan (12 HSD). Hal ini sesuai dengan penelitian Ladaniya (2008) yang menyatakan jeruk umumnya mengandung 40 sampai 70 mg vitamin C/100g. Menurut Mayuoni et al. (2011) tidak ada perubahan nilai kandungan vitamin C yang berarti pada jeruk Satsuma kontrol (tanpa perlakuan etilen) maupun yang diberi perlakuan degreening.
 
-Perlakuan pupuk hayati mikoriza menunjukan berbeda nyata terhadap peubah jumlah klorofil daun yang dimana nilai tertinggi terdapat pada perlakuan mikoriza
+KESIMPULAN
 
-Tabel 1
+Konsentrasi etilen 200 ppm dengan durasi pemaparan 48 jam merupakan perlakuan terbaik dalam proses degreening buah jeruk siam yang menghasilkan warna
 
-Rata-rata jumlah klorofil daun pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%. cci (chlorophyl content index).
+Nian Rimayanti Hasimi, Roedhy Poerwanto, dan Ketty Suketi
 
-Sistem olah tanah (T)
-
-Jumlah klorofil daun (cci)
-
-T0 (tanpa olah tanah) 23.200a T1 (olah tanah satu kali) 24.300a T2 (olah tanah dua kali) 25.144a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 23.111a M1 (mikoriza 10 g tanaman -1 ) 24.088ab M2 (mikoroza 15 g tanaman -1 ) 25.444a https://doi.org/10.29103/agrium.v22i4.25773 Nazirah & Pranata
-
-JURNAL AGRIUM
-
-Journal of Agricultural Research 15 g tanaman -1 (M2) yaitu 25,444 cci. Sedangkan jumlah klorofil terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 23.111 cci. Hal ini diduga mikoriza membantu akar tanaman dalam penyerapan unsur makro dan mikro, seperti unsur hara N, P, dan K (Suwignya et al., 2023).
-
-Laju asimilasi bersih (LAB)
-
-Hasil analisis sidik ragam pada peubahlaju asimilasi bersih tanaman padi menunjukan pengaruh tunggal sistem olah tanahmenunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3 namun menunjukkan berbeda nyata pada LAB 4 dan pupuk hayati mikoriza menunjukan tidak berbeda nyata pada LAB 1, LAB 2, LAB 3, dan LAB 4. Hasil uji lajut terhadap laju asimilasi bersih telah disajikan pada Tabel 2.
-
-Berdasarkan Tabel 2 terlihat bahwa peubah laju asimilasi bersihpada perlakuan sistem olah tanah (T) pada LAB 4 menunjukkan nilai tertinggi pada tanpa olah tanah (T0) yaitu 0,181 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 0,154. Laju asimilasi bersih merupakan ukuran kemapuan tanaman dalam melakukan fotosistesis dalam menghasilkan bahan kering tanamanan. Ulva et al. ( 2019) menyatakan bahwa laju fotosintesis dapat dipengaruhi oleh luas daun, nilai ILD yang tinggi akan meningkatkan laju fotosintesis sehingga fotosintat yang tersedia juga meningkat, fotosintat digunakan tanaman untuk memenuhi nutrisi dan disalurkan ke bagian-bagian tanaman untuk melakukan pertumbuhan yang optimal. Sementara itu Maisura et al. (2017) menyatakan bahwa terhambatnya perluasan daun dapat berdampak pada menurunya kapasistas daun untuk menyerap cahaya.
-
-Pada perlakuan pupuk hayati mikoriza LAB 4 menunjukan nilai tertinggi pada mikoriza 0 g tanman -1 (M0) yaitu 0,178 dan nilai terendah terdapat pada mikoriza 10 g tanaman -1 (M1) yaitu 0,161. Hal ini diduga karena kondisi lahan penelitian lahan yang telah tersedia unsur hara fosfor (P) dalam jumlah cukup, sehingga tanaman tidak terlalu bergantung pada mikoriza, sehingga pengaruhnya terhadap LAB menjadi kecil. Begitu pula dengan air, saat kebutuhan air tanaman telah terpenuhi, peran mikoriza
-
-Tabel 2
-
-Rata-rata laju asimilasi bersih pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.
-
-Sistem olah tanah (T) Laju asimilasi bersih (LAB) g m⁻²
-
-hari⁻¹ LAB 1 LAB 2 LAB 3 LAB 4 T0 (tanpa olah tanah) 0.275a 1.256a 0.392a 0.181a T1 (olah tanah satu kali) 0.261a 1.222a 0.439a 0.154b T2 (olah tanah dua kali) 0.286a 1.279a 0.409a 0.178a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 0.264a 1.246a 0.397a 0.178a M1 (mikoriza 10 g tanaman -1 ) 0.273a 1.253a 0.426a 0.161a M2 (mikoroza 15 g tanaman -1 ) 0.285a 1.257a 0.418a 0.174a Respons fisiologis dan produktivitas padi (Oryza sativa L)
-
-dalam meningkatkan efisiensi penyerapan air tidak lagi signifikan terhadap peningkatan LAB. Ketersediaan fosfor sangat penting karena memiliki peran lebih besar dalam meningkatkan laju asimilasi bersih dibandingkan dengan unsur hara lainnya (Afriani et al., 2021).
-
-Laju tumbuh relatif (LTR)
-
-Hasil analisis sidik ragam pada peubah laju tumbuh relatif tanaman padi menunjukan pengaruh tunggal sistem olah tanah menunjukan berbeda nyata pada LTR 1 namun tidak berbeda nyata pada LTR 2, LTR 3, dan LTR 4 dan pupuk hayati mikoriza menunjukkan tidak berbeda nyata pada LTR 1, LTR 2, LTR 3, dan LTR 4. Hasil uji lajut terhadap laju tumbuh relatif telah di sajikan pada Tabel 3.
-
-Berdasarkan Tabel 3 telihat bahwa peubah laju tumbuh relative pada perlakuan sistem olah tanah (T) pada LTR 1 menunjukkan nilai tertinggi pada olah tanah dua kali (T2) yaitu 1,291 dan nilai terendah terdapat pada olah tanah satu kali (T1) yaitu 1,150, berdasarkan hasil dapat dilihat perlakuan olah tanah baik oalah tanah satu kali dan olah tanah dua kali terlihat memiliki nilai tertinggi di bandingkan perlakuan tanpa olah tanah. Hal ini diduga pelakuan olah tanah membuat tanah menjadi gembur sehingga membuat tanaman dapat tumbuh dengan baik. Sesuai dengan Tafonao et al. ( 2022) menyatakan pengolahan tanah akan mengakibatkan perbaikan struktur tanah menjadi lebih gembur dan remah sehingga akar tanaman mudah menembus dan menyerap unsur hara yang berada didalam tanah sehingga mampu meningkatkan pertumbuhan tanaman.
-
-Pada perlakuan pupuk hayati mikoriza (M) LTR 1 menunjukkan nilai tertinggi pada pemberian mikoriza 15 g tanaman -1 (M2) yaitu 1,278 dan nilai terendah terdapat pada mikoriza 0 g tanaman -1 (M0) yaitu 1,129. Dari hasil penelitian diketahuai bahwa perlakuan mikoriza cenderung memiliki nilai yang lebih tinggi terhadap laju tumbuh relative tanaman padi. Hal ini diduga pemberian mikoriza dapat meningkatkan kemampuan tanaman dalam menyerap unsur hara dan air serta mampu menyediakan unsur hara yang awalnya tidak tersedia menjadi tersedia bagi tanaman. Sejalan dengan
-
-Tabel 3
-
-Rata-rata laju tumbuh relatif pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.
-
-Sistem olah tanah (T) Laju tumbuh relatif (LTR) g H₂O m⁻²
-
-jam⁻¹ LTR 1 LTR 2 LTR 3 LTR 4 T0 (tanpa olah tanah) 1.243ab 2.792a 2.792a 1.413a T1 (olah tanah satu kali) 1.150b 2.979a 2.979a 1.395a T2 (olah tanah dua kali) 1.291a 2.859a 2.831a 1.509a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1.129b 2.764a 2.764a 1.431a M1 (mikoriza 10 g tanaman -1 ) 1.217ab 2.938a 2.938a 1.451a M2 (mikoroza 15 g tanaman -1 ) 1.287a 2.929a 2.900a 1.436a https://doi.org/10.29103/agrium.v22i4.25773 Nazirah & Pranata JURNAL AGRIUM Journal of Agricultural Research Mahmudi et al. (2022) yang menyatakan kemampuan mikoriza dalam mendukung pertumbuhan tanaman dengan membantu penyerapan air hingga ke dalam partikel tanah.
-
-Derajat inveksi akar
-
-Hasil analisis ragam peubah tingkat inveksi akar menunjukkan bahwa interaksi antara sistem olah tanah (T) terhadap pupuk hayati mikoriza (M) tidak berbeda nyata,dan pada sistem olah tanah (T) tidak berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) menunjukkan sangat berbeda nyata terhadap tingkat inveksi akar tanaman. Hasil uji lanjut terhadap tingkat inveksi akar tanaman padi disajikan pada Table 4.
-
-Berdasarkan Tabel 4 dapat dilihat bahwa perlakuan sistem olah tanah tidak berpengaruh nyata terhadap peubah tingkat inveksi akar dimana nilai tertinggi terdapat pada perlakuan tanpa olah tanah (T0) yaitu 62,222% sedangkan tingkat inveksi akar terendah terdapat pada perlakuan olah tanah satu kali (T1) yaitu 56,667%. Hal tersebut diduga karena pada lahan penelitian tanah nya tidak banyak mengandung sepora mikoriza, sehingga hanya dengan pengolahan tanah saja tidak banyak akar-akar tanaman yang terinveksi oleh jamur mikoriza, Ratnawati et al. (2016) menyatakan kondisi lingkungan dan sifat-sifat tanah mempengaruhi perkembangan dan pertumbuhan MVA. Sementara itu menurut Nurhalima et al. ( 2014) MVA akan berkembang pada kelembaban dan kadar air yang stabil, tidak terlalu tinggi dan tidak terlalu rendah. Namun pada kondisi kadar air berkisar antar 53,17-70,61% masih cukup untuk MVA menginfeksi akar tanaman padi gogo.
-
-Pada perlakuan pupuk hayati mikoriza menunjukan berbeda sangat nyata terhadap peubah tingkat inveksi akar yang dimana nilai tertinggi terdapat pada perlakuan mikoriza 15 g tanaman -1 (M2) yaitu 90,000%. Sedangkan tingkat inveksi akar terendah terdapat pada perlakuan mikoriza 0 g/tanaman (M0) yaitu 8,889%. Hal ini diduga
-
-Tabel 4
-
-Rata-rata tingkat inveksi akar pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.
-
-Sistem olah tanah (T)
-
-Tingkat infeksi akar (%)
-
-Jumlah malai padi
-
-Hasil analisis ragam peubah jumlah malai padi menunjukan bahwa perlakuan sistem olah tanah (T) tidak berbeda nyata, dan pada pupuk hayati mikoriza (M) menunjukkan tidak berbeda nyata terhadap jumlah malai padi . Hasil uji lanjut terhadap jumlah malai padi di sajikan pada Tabel 5.
-
-Berdasarkan Tabel 5 terlihat bahwa perlakaun sistem olah tanah tidak berbeda nyata terhadap parameter jumlah malai padidimana nilai tertinggi terdapat pada perlakuan olah tanah satu kali (T1) yaitu 4,466 sedangkan jumlah malai padi terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3.988 . Hal tersebut diduga karena kemungkinan disebabkan oleh kurangnya ketersediaan unsur hara dalam tanah, sehingga tidak mampu mendorong peningkatan jumlah malai secara berarti. Sesuai hasil penelitian yang dilakukan oleh Fatimah et al. ( 2024) budidaya tanaman padi gogo dengan cara pengolahan tanah sempurna menghasilkan rataan jumlah anakan tertinggi. Hal tersebut dipengaruhi oleh kondisi agregat dan struktur tanah yang sesuai untuk pertumbuhan tanaman.
-
-Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap parameter jumlah malai padi yang dengan nilai tertinggi terdapat pada perlakuan mikoriza 15 g taanman -1 (M2) yaitu 4,311. Sedangkan jumlah malai padi terendah terdapat pada perlakuan mikoriza 0 g tanaman -1 (M0) yaitu 4,222. Namun jika dilihat dari hasil analisis sidik ragam perlakuan M1 dan M2 menunjukan nilai lebih tinggi dibandingkan M0. Hal ini diduga dosis yang diberikan belum cukup sehingga perbedaan nya hanya sedikit. Aswad et al. ( 2023) menyatakan dalam hasil penelitianya dosis mikoriza sebanyak 30 g memberikan pengaruh terbaik terhadap jumlah
-
-Tabel 5
-
-Rata-rata jumlah malai padi pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.
-
-Sistem olah tanah (T)
-
-Jumlah malai padi
-
-T0 (tanpa olah tanah) 3.988a T1 (olah tanah satu kali) 4.466a T2 (olah tanah dua kali) 4.366a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 4.222a M1 (mikoriza 10 g tanaman -1 ) 4.288a M2 (mikoroza 15 g tanaman -1 ) 4.311a https://doi.org/10.29103/agrium.v22i4.25773 Nazirah & Pranata
-
-komponen Produksi jumlah malai, Jumlah gabah, gabah berisi dengan rata-rata yang lebih baik dibandingkan dengan tanaman yang tidak diberi perlakuan mikoriza dengan dosis 30 g tanaman -1 dapat membantu meningkatkan penyerapan hara dan memperbaiki struktur tanah sehingga pertumbuhan organ generatif cukup baik.
-
-Berat gabah per plot dan berat gabah ton/ ha
-
-Hasil analisis ragam peubah berat gabah per plot dan berat gabah ton/ha menunjukan sistem olah tanah (T) berbeda nyata, sedangkan pada pupuk hayati mikoriza (M) tidak berbeda nyata terhadap berat gabah per plot tanaman. Hasil uji lanjut terhadap berat gabah per plot di sajikan pada Tabel 6.
-
-Berdasarkan Tabel 6 dapat dilihat bahwa perlakaun sistem olah tanah tidak berpengaruh nyata terhadap peubah berat gabah per plot dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 1279,40 gram, berat gabah per plot terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 988,53 gram. Perlakuan sistem olah tanah (T) menunjukan berbeda nyata terhadap peubah berat gabah ton/ha dimana nilai tertinggi terdapat pada perlakuan olah tanah dua kali (T2) yaitu 4,234 t ha -1 . Berat gabah t ha -1 terendah terdapat pada perlakuan tanpa olah tanah (T0) yaitu 3,295 t ha -1 . Hal ini diduga karena pengolahan tanah yang gembur membuat penyerapan air dan unsur hara oleh akar menjadi optimal pada masa pengisian bulir padi, Fatimah et al. ( 2024) menyatakan olah tanah maksimum memberikan hasil produksi yang baik. Pengolahan tanah yang dilakukan secara benar dan tepat dapat mempengaruhi pertumbuhan dan produksi tanaman, karena adanya pengolahan tanah yang diharapkan dapat membantu dan meningkatkan pertumbuhan dan produksi tanaman seperti aerasi yang baik, perakaran baik dan penyerapan unsur hara yang baik, sehingga pertumbuhan tanaman tidak terhambat dan produksi dapat meningkat (Setyawati, 2017).
-
-Pada perlakuan pupuk hayati mikoriza menunjukan tidak berbeda nyata terhadap peubah berat gabah per plot yang dimana nilai tertinggi terdapat pada perlakuan
-
-Tabel 6
-
-Rata-rata berat gabah per plot dan berat gabah pada karakter fisiologi dan hasil padi pada sistem olah tanah dan pupuk hayati mikoriza. Angka yang diikuti oleh huruf yang sama pada kolom yang sama menunjukkan tidak berbeda nyata berdasarkan uji DMRT taraf 5%.
-
-Sistem olah tanah (T)
-
-Berat gabah plot -1 (g plot
-
--1 ) Berat gabah (t ha -1 ) T0 (tanpa olah tanah) 988.53b 3.295b T1 (olah tanah satu kali) 1129.05ab 3.763ab T2 (olah tanah dua kali) 1270.40a 4.234a Dosis pupuk mikoriza (M) M0 (mikoriza 0 g tanaman -1 ) 1110.0a 3.700a M1 (mikoriza 10 g tanaman -1 ) 1163.3a 3.877a M2 (mikoroza 15 g tanaman -1 ) 1114.7a 3.715a
+Degreening Buah Jeruk Siam …..
 =====================================

@@ -317,13 +317,14 @@ async def upload_documents_bulk(
     Upload and process multiple PDF documents at once.
     
     Each document will be:
-    1. Stored in MinIO
-    2. Processed by GROBID for metadata extraction
-    3. Split into chunks with embeddings for semantic search
+    1. Validated and stored in MinIO (instant)
+    2. Processed in background by Celery worker (GROBID, LLM, embeddings)
     
-    Returns a list of results for each uploaded document.
+    Returns immediately with document IDs and processing_status='processing'.
+    Use GET /documents/{id}/status to poll for completion.
     """
     doc_type = DocumentType(type.value)
+    storage = MinIOStorage()
     results = []
     total_files = len(files)
     
@@ -331,41 +332,37 @@ async def upload_documents_bulk(
         file_result = {
             "filename": file.filename,
             "status": "pending",
-            "document": None,
+            "document_id": None,
             "error": None
         }
         
         try:
-            async def progress_callback(progress: int, message: str):
-                if client_id:
-                    overall_progress = int(((index + (progress / 100)) / total_files) * 100)
-                    await manager.send_personal_message(
-                        {
-                            "status": "processing",
-                            "current_file": file.filename,
-                            "file_index": index + 1,
-                            "total_files": total_files,
-                            "file_progress": progress,
-                            "overall_progress": overall_progress,
-                            "message": message
-                        },
-                        client_id
-                    )
+            # Validate
+            FileValidator.validate_pdf(file)
+            file_content = await file.read()
+            FileValidator.validate_size(file_content)
             
-            document = await process_document(
-                file=file,
-                db=db,
-                document_type=doc_type,
+            # Upload to MinIO
+            file_path = storage.upload_file(file_content, file.filename)
+            
+            # Create document record
+            document = Document(
+                title=f"Sedang diproses... ({file.filename})",
+                file_path=file_path,
+                type=doc_type,
                 is_private=is_private,
-                progress_callback=progress_callback
+                format="application/pdf",
+                processing_status="processing",
             )
+            db.add(document)
+            db.commit()
+            db.refresh(document)
             
-            chunk_count = db.query(func.count(DocumentChunk.id)).filter(
-                DocumentChunk.document_id == document.id
-            ).scalar() or 0
+            # Dispatch Celery task
+            process_document_task.delay(document.id, file_path)
             
-            file_result["status"] = "success"
-            file_result["document"] = _build_document_response(document, chunk_count)
+            file_result["status"] = "processing"
+            file_result["document_id"] = document.id
             
         except Exception as e:
             file_result["status"] = "error"
@@ -376,10 +373,10 @@ async def upload_documents_bulk(
     if client_id:
         await manager.send_personal_message(
             {
-                "status": "complete",
-                "overall_progress": 100,
-                "message": f"Completed processing {total_files} files",
-                "success_count": sum(1 for r in results if r["status"] == "success"),
+                "status": "processing",
+                "message": f"Uploaded {total_files} files, processing in background...",
+                "total_files": total_files,
+                "success_count": sum(1 for r in results if r["status"] == "processing"),
                 "error_count": sum(1 for r in results if r["status"] == "error")
             },
             client_id
@@ -387,7 +384,7 @@ async def upload_documents_bulk(
     
     return {
         "total": total_files,
-        "success_count": sum(1 for r in results if r["status"] == "success"),
+        "processing_count": sum(1 for r in results if r["status"] == "processing"),
         "error_count": sum(1 for r in results if r["status"] == "error"),
         "results": results
     }
