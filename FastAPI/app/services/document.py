@@ -688,6 +688,8 @@ class DocumentBuilder:
             source=metadata["source"],
             language=metadata["language"],
             relation=metadata["relation"],
+            coverage=metadata.get("coverage"),
+            rights=metadata.get("rights"),
             doi=metadata["doi"],
             abstract=metadata["abstract"],
             citation_count=metadata["citation_count"],

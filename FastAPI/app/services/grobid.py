@@ -26,30 +26,6 @@ async def extract_header(file_bytes: bytes) -> dict:
             headers={'Accept': 'application/xml'},
             timeout=60
         )
-        
-        with open("grobid_header_response.txt", "w", encoding="utf-8") as f:
-            f.write("==grobid header \n")
-            f.write(response.text + "\n")
-            f.write("=====================================\n")
-        return { 
-            "length": len(response.text),
-            "header": response.text}
-
-#         build_context = """
-# Dari informasi dibawah ini, extract semua metadatanya, terutama dublin core metadata
-# """
-#         llm_response = await generate_response(build_context + '\n\n' + response.text)
-
-#         with open("llm_response.txt", "w", encoding="utf-8") as f:
-#             f.write("==respinse \n")
-#             f.write(llm_response + "\n")
-#             f.write("=====================================\n")
-
-#         print('==reponse llm grobid')
-#         print(llm_response)
-#         print('=====================================')
-#         print(build_context + '\n\n' + response.text)
-#         return
 
     except requests.exceptions.ConnectionError:
         raise HTTPException(
@@ -129,17 +105,37 @@ async def extract_header(file_bytes: bytes) -> dict:
     abstract_nodes = root.xpath("//tei:profileDesc/tei:abstract//text()", namespaces=ns)
     keyword_nodes = root.xpath("//tei:keywords//tei:term/text()", namespaces=ns)
     
+    # Extract identifiers (DOI, arXiv, etc.)
+    all_idno = root.xpath("//tei:idno/text()", namespaces=ns)
+    identifier = doi_nodes[0] if doi_nodes else (all_idno[0].strip() if all_idno else None)
+    
+    # Extract rights/license
+    rights = None
+    license_nodes = root.xpath("//tei:availability/@status", namespaces=ns)
+    if license_nodes:
+        rights = license_nodes[0]
+    license_text = root.xpath("//tei:availability//tei:licence/@target", namespaces=ns)
+    if license_text:
+        rights = license_text[0]
+    if not rights:
+        license_p = root.xpath("//tei:availability//tei:p/text()", namespaces=ns)
+        if license_p:
+            rights = license_p[0].strip()
+    
     print(f"GROBID: Extracted title = '{title}'")
+    print(f"GROBID: DOI = {doi_nodes[0] if doi_nodes else None}, identifier = {identifier}, rights = {rights}")
     
     return {
         "title": title,
         "authors": authors,
         "doi": doi_nodes[0] if doi_nodes else None,
+        "identifier": identifier,
         "publication_date": date_nodes[0] if date_nodes else None,
         "publisher": publisher_nodes[0] if publisher_nodes else None,
         "journal": journal_nodes[0] if journal_nodes else None,
         "abstract": " ".join(abstract_nodes).strip() if abstract_nodes else None,
-        "keywords": keyword_nodes if keyword_nodes else []
+        "keywords": keyword_nodes if keyword_nodes else [],
+        "rights": rights
     }
 
 
@@ -320,6 +316,9 @@ def format_for_database(metadata: dict, references: list[str] = None) -> dict:
         if title.lower() in ["untitled", "title", "untitled document", ""]:
             title = None
     
+    # Identifier: prefer explicit identifier, fallback to DOI
+    identifier = metadata.get("identifier") or metadata.get("doi")
+    
     return {
         "title": title or 'Untitled',
         "creator": creator,
@@ -329,10 +328,12 @@ def format_for_database(metadata: dict, references: list[str] = None) -> dict:
         "contributor": contributor,
         "date": parsed_date,
         "format": "application/pdf",
-        "identifier": metadata.get("doi"),
+        "identifier": identifier,
         "source": metadata.get("journal"),
         "language": "en",
         "relation": ", ".join(references[:10]) if references else None,
+        "coverage": metadata.get("coverage"),
+        "rights": metadata.get("rights"),
         "doi": metadata.get("doi"),
         "abstract": metadata.get("abstract"),
         "citation_count": len(references)

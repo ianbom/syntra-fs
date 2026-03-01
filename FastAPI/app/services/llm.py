@@ -13,7 +13,7 @@ async def generate_response(prompt: str, model: str = GENERATION_MODEL) -> str:
     """
     try:
         # Timeout lebih lama untuk model yang lebih besar (5 menit)
-        timeout = httpx.Timeout(300.0, connect=30.0)
+        timeout = httpx.Timeout(500000.0, connect=500000.0)
         async with httpx.AsyncClient(timeout=timeout) as client:
             print(f"🔄 Calling Ollama with model: {model}")
             response = await client.post(

@@ -45,7 +45,8 @@ def _build_extraction_prompt(text_sample: str, existing_metadata: Dict[str, Any]
     
     all_fields = [
         "title", "abstract", "keywords", "creator", "contributor",
-        "publisher", "language", "description", "date", "source", "coverage"
+        "publisher", "language", "description", "date", "source", "coverage",
+        "identifier", "rights", "doi"
     ]
     
     missing_fields = []
@@ -90,7 +91,10 @@ INSTRUKSI WAJIB:
 8. Untuk "description": Buat ringkasan 1-2 kalimat tentang isi dokumen
 9. Untuk "date": Tanggal publikasi dalam format YYYY-MM-DD atau YYYY
 10. Untuk "source": Nama jurnal, konferensi, atau sumber publikasi
-11. Untuk "coverage": Cakupan geografis/temporal penelitian jika disebutkan
+11. Untuk "coverage": Cakupan geografis/temporal penelitian jika disebutkan (contoh: "Kabupaten Mojokerto, Jawa Timur" atau "2019-2021")
+12. Untuk "identifier": Nomor identifikasi unik seperti DOI, ISSN, ISBN, atau URL permanennya
+13. Untuk "rights": Informasi hak cipta atau lisensi (contoh: "CC BY 4.0" atau "Copyright 2021")
+14. Untuk "doi": Nomor DOI jika ditemukan (format: 10.xxxx/xxxx)
 
 ATURAN PENTING:
 - Jawab HANYA dalam format JSON yang valid
@@ -110,7 +114,10 @@ FORMAT RESPONSE (JSON ONLY):
     "description": "...",
     "date": "...",
     "source": "...",
-    "coverage": "..."
+    "coverage": "...",
+    "identifier": "...",
+    "rights": "...",
+    "doi": "..."
 }}"""
 
     return prompt
